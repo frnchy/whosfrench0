@@ -1,0 +1,47 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,DejaVu Sans,66,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,5,3,5,40,40,40,1
+Style: Card,Liberation Serif,80,&H00E8F4FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,60,60,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.20,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}La Terre pleurait.
+Dialogue: 0,0:00:01.22,0:00:02.31,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Et pour la\Npremière fois,
+Dialogue: 0,0:00:02.33,0:00:03.39,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}ses larmes\Nmontèrent
+Dialogue: 0,0:00:03.41,0:00:04.27,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}jusqu'au ciel.
+Dialogue: 0,0:00:05.67,0:00:06.79,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Une vieille\Nfemme leva
+Dialogue: 0,0:00:06.81,0:00:07.81,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}les mains et\Nmurmura :
+Dialogue: 0,0:00:07.83,0:00:09.64,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}« Portez notre cause
+Dialogue: 0,0:00:09.66,0:00:10.60,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}devant le\NTrès-Haut. »
+Dialogue: 0,0:00:10.62,0:00:13.74,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Elle n'avait plus rien\Nd'autre à donner.
+Dialogue: 0,0:00:15.99,0:00:17.53,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Alors quatre\Narchanges
+Dialogue: 0,0:00:17.55,0:00:18.57,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}regardèrent vers la
+Dialogue: 0,0:00:18.59,0:00:19.38,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Terre :
+Dialogue: 0,0:00:19.40,0:00:21.70,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Michel, Gabriel,\NRaphaël et Uriel.
+Dialogue: 0,0:00:26.00,0:00:27.00,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Ils virent le sang
+Dialogue: 0,0:00:27.02,0:00:29.25,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}répandu et\Ntoute l'injustice.
+Dialogue: 0,0:00:29.27,0:00:30.77,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Michel, le\Nguerrier du ciel,
+Dialogue: 0,0:00:30.79,0:00:32.35,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}ne put retenir\Nune larme.
+Dialogue: 0,0:00:37.63,0:00:38.59,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Ils dirent :
+Dialogue: 0,0:00:38.61,0:00:39.30,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}« Tu sais tout,
+Dialogue: 0,0:00:39.32,0:00:40.18,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Seigneur.
+Dialogue: 0,0:00:40.20,0:00:42.12,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Tu vois ce qu'Azazel\Na enseigné,
+Dialogue: 0,0:00:42.14,0:00:43.87,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}et ce que\NShemihaza a fait. »
+Dialogue: 0,0:00:49.98,0:00:51.16,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Puis il y eut\Nun silence.
+Dialogue: 0,0:00:51.18,0:00:52.85,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Le genre de\Nsilence où
+Dialogue: 0,0:00:52.87,0:00:54.80,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}personne n'ose\Nparler en premier.
+Dialogue: 0,0:00:54.82,0:00:55.66,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Même au ciel.
+Dialogue: 0,0:01:04.35,0:01:06.70,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Alors le Très-Haut\Nrépondit.
+Dialogue: 0,0:01:06.72,0:01:08.40,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Et sa réponse\Nallait ébranler
+Dialogue: 0,0:01:08.42,0:01:09.54,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}le ciel et la Terre.
+Dialogue: 0,0:01:18.97,0:01:20.95,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Le ciel avait besoin\Nd'un messager.
+Dialogue: 0,0:01:20.97,0:01:22.18,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Un homme juste…
+Dialogue: 0,0:01:22.20,0:01:23.46,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}nommé Hénoch.
+Dialogue: 0,0:01:28.81,0:01:31.61,Card,,0,0,0,,{\pos(540,960)\fad(1000,0)}{\fs58\fsp6}ÉPISODE 5{\fs20}\N\N{\fs88\fsp1}Hénoch le messager
