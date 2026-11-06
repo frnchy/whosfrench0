@@ -49,7 +49,7 @@ shots:
   name: hook_one_family
   target: 4
   clip: assets/ep08/clips/01_hook_one_family.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_212124_3d30a629-0e3f-48de-a945-f8c9e57580aa.mp4
   still: assets/ep08/stills/01.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210232_9f2bd5a0-02fd-4c8b-abdd-a3052239587d.png
   narration: assets/ep08/narration/shot_01.mp3
@@ -62,7 +62,7 @@ shots:
   name: uriel_sent
   target: 10
   clip: assets/ep08/clips/02_uriel_sent.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_212124_20efc504-3d1d-486b-bae9-8b28c3d4bd96.mp4
   still: assets/ep08/stills/02.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210232_039db43a-c025-4268-ba1d-d4fc2f517226.png
   narration: assets/ep08/narration/shot_02.mp3
@@ -88,7 +88,7 @@ shots:
   name: the_end
   target: 12
   clip: assets/ep08/clips/04_the_end.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_212124_21fda09a-f294-4fee-af29-e55da05e3afc.mp4
   still: assets/ep08/stills/04.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210347_af6874a2-8b10-40a6-ae52-01a88ba04c8e.png
   narration: assets/ep08/narration/shot_04.mp3
@@ -101,7 +101,7 @@ shots:
   name: deluge
   target: 12
   clip: assets/ep08/clips/05_deluge.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_212125_23a42d9c-2901-4ff8-8c51-05fc5359c2b0.mp4
   still: assets/ep08/stills/05.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210259_bcfc7217-4ed5-46dd-a0c6-e5dd4248bbf1.png
   narration: assets/ep08/narration/shot_05.mp3
@@ -140,7 +140,7 @@ shots:
   name: season_end
   target: 12
   clip: assets/ep08/clips/08_season_end.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_212619_64712229-2fe9-40d7-b81f-0f0e7f83df7a.mp4
   still: assets/ep08/stills/08.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210346_03547dd0-e528-42c5-a8c8-5a7f057c4525.png
   narration: assets/ep08/narration/shot_08.mp3
