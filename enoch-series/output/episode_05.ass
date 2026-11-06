@@ -1,0 +1,46 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,DejaVu Sans,66,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,5,3,5,40,40,40,1
+Style: Card,Liberation Serif,80,&H00E8F4FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,60,60,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.35,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Il était un homme.
+Dialogue: 0,0:00:01.37,0:00:03.06,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Mais il marchait\Navec les anges.
+Dialogue: 0,0:00:03.08,0:00:04.73,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Son nom\Nétait Hénoch.
+Dialogue: 0,0:00:06.31,0:00:07.57,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Un jour, Hénoch\Ndisparut.
+Dialogue: 0,0:00:07.59,0:00:11.04,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Ses voisins le\Ncherchèrent partout.
+Dialogue: 0,0:00:11.06,0:00:12.84,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Ils n'avaient pas\Npensé à regarder…
+Dialogue: 0,0:00:12.86,0:00:13.65,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}dans le ciel.
+Dialogue: 0,0:00:16.04,0:00:19.18,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Il demeurait avec\Nles Veilleurs saints.
+Dialogue: 0,0:00:19.20,0:00:21.14,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Et pour la première\Nfois de sa vie,
+Dialogue: 0,0:00:21.16,0:00:23.00,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}il se sentit\Nvraiment chez lui.
+Dialogue: 0,0:00:26.00,0:00:27.08,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Ils lui dirent :
+Dialogue: 0,0:00:27.10,0:00:28.85,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}« Va dire aux\NVeilleurs déchus :
+Dialogue: 0,0:00:28.87,0:00:31.51,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}vous n'aurez ni\Npaix ni pardon. »
+Dialogue: 0,0:00:31.53,0:00:32.81,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Une mission simple.
+Dialogue: 0,0:00:32.83,0:00:33.90,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}En apparence.
+Dialogue: 0,0:00:37.86,0:00:39.02,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Hénoch, un\Nsimple scribe,
+Dialogue: 0,0:00:39.04,0:00:40.08,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}se tint devant\NAzazel.
+Dialogue: 0,0:00:40.10,0:00:42.33,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Ses mains\Ntremblaient.
+Dialogue: 0,0:00:42.35,0:00:43.68,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Pas sa voix.
+Dialogue: 0,0:00:43.70,0:00:44.75,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}« Tu n'auras\Npas de paix. »
+Dialogue: 0,0:00:50.29,0:00:51.57,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Et les puissants\NVeilleurs,
+Dialogue: 0,0:00:51.59,0:00:53.47,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}qui avaient fait\Ntrembler la Terre,
+Dialogue: 0,0:00:53.49,0:00:55.33,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}supplièrent un vieil\Nhomme d'écrire
+Dialogue: 0,0:00:55.35,0:00:56.46,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}une prière pour eux.
+Dialogue: 0,0:01:04.44,0:01:06.33,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Hénoch s'assit près\Ndes eaux de Dan,
+Dialogue: 0,0:01:06.35,0:01:08.33,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}au pied du\Nmont Hermon.
+Dialogue: 0,0:01:08.35,0:01:09.87,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Il lut leur requête…
+Dialogue: 0,0:01:09.89,0:01:10.73,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}et s'endormit.
+Dialogue: 0,0:01:19.22,0:01:20.07,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Dans son sommeil,
+Dialogue: 0,0:01:20.09,0:01:22.32,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}des visions\Ndescendirent sur lui.
+Dialogue: 0,0:01:22.34,0:01:24.21,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Et la réponse du\Nciel fut terrible.
+Dialogue: 0,0:01:29.26,0:01:32.06,Card,,0,0,0,,{\pos(540,960)\fad(1000,0)}{\fs58\fsp6}ÉPISODE 6{\fs20}\N\N{\fs88\fsp1}Azazel enchaîné
