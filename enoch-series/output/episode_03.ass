@@ -1,0 +1,43 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,DejaVu Sans,66,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,5,3,5,40,40,40,1
+Style: Card,Liberation Serif,80,&H00E8F4FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,60,60,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,-1:59:59.95,0:00:01.40,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Ils étaient nés\Nde l'union du
+Dialogue: 0,0:00:01.42,0:00:03.15,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}ciel et de la terre.
+Dialogue: 0,0:00:03.17,0:00:04.97,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Et la Terre ne pouvait\Npas les porter.
+Dialogue: 0,0:00:07.04,0:00:09.72,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Une mère serra son\Nenfant contre elle.
+Dialogue: 0,0:00:09.74,0:00:11.98,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Il était déjà trop\Nlourd pour ses bras…
+Dialogue: 0,0:00:12.00,0:00:13.25,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}et elle l'aimait\Nquand même.
+Dialogue: 0,0:00:16.74,0:00:19.69,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Ils grandirent plus\Nhaut que les arbres.
+Dialogue: 0,0:00:19.71,0:00:21.16,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Trouver une porte\Nassez grande
+Dialogue: 0,0:00:21.18,0:00:22.57,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}devint vite\Nun problème.
+Dialogue: 0,0:00:26.34,0:00:27.40,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Ils dévorèrent les
+Dialogue: 0,0:00:27.42,0:00:29.55,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}récoltes des\Nhommes.
+Dialogue: 0,0:00:29.57,0:00:31.64,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Un seul repas\Nde géant,
+Dialogue: 0,0:00:31.66,0:00:34.14,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}et c'était tout l'hiver\Nqui disparaissait.
+Dialogue: 0,0:00:39.11,0:00:39.96,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Quand les\Nhommes ne
+Dialogue: 0,0:00:39.98,0:00:41.05,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}purent plus\Nles nourrir,
+Dialogue: 0,0:00:41.07,0:00:41.65,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}les géants se
+Dialogue: 0,0:00:41.67,0:00:43.01,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}retournèrent\Ncontre eux.
+Dialogue: 0,0:00:50.38,0:00:51.51,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Les oiseaux,\Nles bêtes,
+Dialogue: 0,0:00:51.53,0:00:52.58,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}les poissons…
+Dialogue: 0,0:00:52.60,0:00:55.02,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}même les\Nserpents fuyaient.
+Dialogue: 0,0:00:55.04,0:00:56.17,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Et quand un\Nserpent a peur,
+Dialogue: 0,0:00:56.19,0:00:57.42,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}c'est mauvais signe.
+Dialogue: 0,0:01:04.53,0:01:06.83,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Les mères cachaient\Nleurs enfants.
+Dialogue: 0,0:01:06.85,0:01:09.56,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Les pères n'osaient\Nplus dormir.
+Dialogue: 0,0:01:09.58,0:01:11.67,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Et la Terre elle-même\Ncommença à gémir.
+Dialogue: 0,0:01:19.84,0:01:21.05,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Son cri monta\Njusqu'aux
+Dialogue: 0,0:01:21.07,0:01:21.83,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}portes du ciel…
+Dialogue: 0,0:01:21.85,0:01:23.92,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}et quelqu'un\Nl'entendit.
+Dialogue: 0,0:01:29.60,0:01:32.40,Card,,0,0,0,,{\pos(540,960)\fad(1000,0)}{\fs58\fsp6}ÉPISODE 4{\fs20}\N\N{\fs88\fsp1}Le cri de la Terre
