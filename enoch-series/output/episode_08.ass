@@ -1,0 +1,44 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,DejaVu Sans,66,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,5,3,5,40,40,40,1
+Style: Card,Liberation Serif,80,&H00E8F4FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,60,60,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.43,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Une seule famille\Nallait survivre.
+Dialogue: 0,0:00:02.45,0:00:04.27,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Et elle ne le\Nsavait pas encore.
+Dialogue: 0,0:00:06.54,0:00:08.51,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Le Très-Haut\Nenvoya Uriel auprès
+Dialogue: 0,0:00:08.53,0:00:09.64,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}du fils de Lamech,
+Dialogue: 0,0:00:09.66,0:00:11.71,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}un homme juste\Nnommé Noé.
+Dialogue: 0,0:00:15.48,0:00:17.02,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Un ange, au\Nmilieu de la nuit,
+Dialogue: 0,0:00:17.04,0:00:19.01,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}sur le seuil\Nde sa porte.
+Dialogue: 0,0:00:19.03,0:00:21.44,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Noé se demanda\Ns'il rêvait encore.
+Dialogue: 0,0:00:21.46,0:00:22.88,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}« Cache-toi »,\Ndit l'ange.
+Dialogue: 0,0:00:25.88,0:00:27.35,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}« La fin approche.
+Dialogue: 0,0:00:27.37,0:00:29.20,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Toute la Terre\Nva périr. »
+Dialogue: 0,0:00:29.22,0:00:30.72,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Noé pensa\Nà sa femme,
+Dialogue: 0,0:00:30.74,0:00:30.72,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}à ses fils…
+Dialogue: 0,0:00:30.74,0:00:32.90,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}et serra les poings.
+Dialogue: 0,0:00:38.36,0:00:40.31,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}« Un déluge va venir\Nsur toute la Terre,
+Dialogue: 0,0:00:40.33,0:00:42.50,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}et tout ce qui s'y\Ntrouve sera détruit. »
+Dialogue: 0,0:00:48.87,0:00:50.66,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}« Je t'apprendrai\Ncomment échapper,
+Dialogue: 0,0:00:50.68,0:00:51.25,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}afin que ta
+Dialogue: 0,0:00:51.27,0:00:53.61,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}descendance\Ndemeure. »
+Dialogue: 0,0:00:53.63,0:00:53.80,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Noé,
+Dialogue: 0,0:00:53.82,0:00:56.49,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}qui n'avait jamais\Nconstruit de bateau,
+Dialogue: 0,0:00:56.51,0:00:58.22,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}prit une grande\Ninspiration.
+Dialogue: 0,0:01:04.56,0:01:05.98,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Noé leva les yeux.
+Dialogue: 0,0:01:06.00,0:01:07.20,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Le ciel\Ns'assombrissait…
+Dialogue: 0,0:01:07.22,0:01:08.94,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}et la première\Ngoutte tomba.
+Dialogue: 0,0:01:18.41,0:01:19.72,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Ainsi s'achève\Nl'histoire
+Dialogue: 0,0:01:19.74,0:01:21.39,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}des Veilleurs.
+Dialogue: 0,0:01:21.41,0:01:22.84,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Mais le Livre\Nd'Hénoch n'a pas
+Dialogue: 0,0:01:22.86,0:01:24.64,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}encore livré tous\Nses secrets.
+Dialogue: 0,0:01:28.81,0:01:31.61,Card,,0,0,0,,{\pos(540,960)\fad(1000,0)}{\fs58\fsp6}SAISON 2{\fs20}\N\N{\fs88\fsp1}Les Paraboles
