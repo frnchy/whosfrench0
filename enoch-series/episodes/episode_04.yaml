@@ -101,7 +101,7 @@ shots:
   name: plea
   target: 12
   clip: assets/ep04/clips/05_plea.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205855_49dd5a5b-8689-4d1c-a6df-e37d964006d6.mp4
   still: assets/ep04/stills/05.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205326_4e391c41-526d-4854-b2bf-6d8d1c174fd9.png
   narration: assets/ep04/narration/shot_05.mp3
@@ -114,7 +114,7 @@ shots:
   name: souls_cry
   target: 14
   clip: assets/ep04/clips/06_souls_cry.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205854_3597a8b7-e6dc-4ec5-bff7-fe4983bca860.mp4
   still: assets/ep04/stills/06.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205325_c265ff37-587e-4c1c-95e6-112543657931.png
   narration: assets/ep04/narration/shot_06.mp3
@@ -127,7 +127,7 @@ shots:
   name: the_answer
   target: 16
   clip: assets/ep04/clips/07_the_answer.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205854_ebe2280a-2108-4801-ac29-ee7c57325d02.mp4
   still: assets/ep04/stills/07.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205324_ca6d1eab-de7d-4e02-8e91-0884b32f9599.png
   narration: assets/ep04/narration/shot_07.mp3
@@ -140,7 +140,7 @@ shots:
   name: a_messenger
   target: 12
   clip: assets/ep04/clips/08_a_messenger.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205854_2a0c98c7-270a-4aac-a12f-d73d6b6d5032.mp4
   still: assets/ep04/stills/08.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205651_4d7beb55-e4e1-40d2-b258-442c11efe41e.png
   narration: assets/ep04/narration/shot_08.mp3
