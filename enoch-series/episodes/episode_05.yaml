@@ -49,7 +49,7 @@ shots:
   name: hook_enoch
   target: 4
   clip: assets/ep05/clips/01_hook_enoch.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210000_362c8dc9-c94a-4c98-bade-95620a023080.mp4
   still: assets/ep05/stills/01.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205650_2a3e09d1-2a1c-45cd-a253-7d045dccdcbf.png
   narration: assets/ep05/narration/shot_01.mp3
@@ -62,7 +62,7 @@ shots:
   name: taken
   target: 10
   clip: assets/ep05/clips/02_taken.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210046_b598c581-05fc-45cc-b8a9-f23f74f7469d.mp4
   still: assets/ep05/stills/02.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205650_1dc5c00b-6ed5-4c15-b413-60d95204e5e3.png
   narration: assets/ep05/narration/shot_02.mp3
@@ -75,7 +75,7 @@ shots:
   name: holy_watchers
   target: 10
   clip: assets/ep05/clips/03_holy_watchers.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210046_3c271253-4516-4c89-9f07-64ff59455a4a.mp4
   still: assets/ep05/stills/03.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205651_6039fe83-bc65-4754-a19a-e3d7c58c8613.png
   narration: assets/ep05/narration/shot_03.mp3
@@ -88,7 +88,7 @@ shots:
   name: mission
   target: 12
   clip: assets/ep05/clips/04_mission.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210344_dd4ca8be-fab1-4458-a928-33dcb03740be.mp4
   still: assets/ep05/stills/04.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205811_0cdf3aef-43d4-46d4-b9d2-bc50aa091f48.png
   narration: assets/ep05/narration/shot_04.mp3
@@ -101,7 +101,7 @@ shots:
   name: before_azazel
   target: 12
   clip: assets/ep05/clips/05_before_azazel.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210344_d312aead-ddda-4196-b830-a439f7e99575.mp4
   still: assets/ep05/stills/05.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205811_11b20803-229d-408b-9e3b-e21215ed2ed1.png
   narration: assets/ep05/narration/shot_05.mp3
