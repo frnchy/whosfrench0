@@ -114,7 +114,7 @@ shots:
   name: they_tremble
   target: 14
   clip: assets/ep05/clips/06_they_tremble.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210446_cd8ea7f8-d4b8-4d78-af30-7cbfab77442d.mp4
   still: assets/ep05/stills/06.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205811_945f6adb-f3a5-45ea-99b1-a6edcab5d0a8.png
   narration: assets/ep05/narration/shot_06.mp3
@@ -127,7 +127,7 @@ shots:
   name: waters_of_dan
   target: 16
   clip: assets/ep05/clips/07_waters_of_dan.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210445_3cf6a748-6244-42e4-86c0-a493d3128e83.mp4
   still: assets/ep05/stills/07.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205812_d73e7496-c8a6-4a1a-81c0-c54c83caf4e5.png
   narration: assets/ep05/narration/shot_07.mp3
@@ -140,7 +140,7 @@ shots:
   name: visions
   target: 12
   clip: assets/ep05/clips/08_visions.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210445_39ea2bf2-ae80-401f-91b8-2665a93c548f.mp4
   still: assets/ep05/stills/08.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205912_b308769e-c3e4-4fe8-a545-1dbf23f76290.png
   narration: assets/ep05/narration/shot_08.mp3

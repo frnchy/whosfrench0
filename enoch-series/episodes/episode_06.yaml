@@ -51,7 +51,7 @@ shots:
   name: hook_chains
   target: 4
   clip: assets/ep06/clips/01_hook_chains.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210846_7f38278f-e607-44b5-bd20-2ff1c08c17b5.mp4
   still: assets/ep06/stills/01.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205913_25d6a699-fac1-471a-b9fa-61ac47bd9b86.png
   narration: assets/ep06/narration/shot_01.mp3
@@ -77,7 +77,7 @@ shots:
   name: dudael
   target: 10
   clip: assets/ep06/clips/03_dudael.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210846_b8b957f4-0deb-44d8-8ebd-5e455d8d0fa5.mp4
   still: assets/ep06/stills/03.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205913_4bb318aa-d773-4b42-9545-e2aec1ef42f2.png
   narration: assets/ep06/narration/shot_03.mp3
@@ -90,7 +90,7 @@ shots:
   name: cast_down
   target: 12
   clip: assets/ep06/clips/04_cast_down.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210847_94518067-2743-40e1-8886-68b6831ce7f3.mp4
   still: assets/ep06/stills/04.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205948_ec85e977-cc1c-47e6-8a64-87caa61e29f8.png
   narration: assets/ep06/narration/shot_04.mp3
