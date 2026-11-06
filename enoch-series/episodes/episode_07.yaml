@@ -48,7 +48,7 @@ shots:
   name: hook_ascent
   target: 4
   clip: assets/ep07/clips/01_hook_ascent.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_211219_f6adbf59-6b3d-419a-90cd-5a5dea4bbc0e.mp4
   still: assets/ep07/stills/01.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210043_4340d2de-e5ca-492b-9924-e630399041b2.png
   narration: assets/ep07/narration/shot_01.mp3
@@ -74,7 +74,7 @@ shots:
   name: throne
   target: 10
   clip: assets/ep07/clips/03_throne.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_211627_b6c15c8d-a4ed-4039-8527-1f906d83491d.mp4
   still: assets/ep07/stills/03.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210043_c8bc6d1e-ffce-45ea-a83c-f3439999d42e.png
   narration: assets/ep07/narration/shot_03.mp3
@@ -113,7 +113,7 @@ shots:
   name: seven_mountains
   target: 14
   clip: assets/ep07/clips/06_seven_mountains.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_211627_3a7281e7-1f64-46c2-9120-b3716aa913f1.mp4
   still: assets/ep07/stills/06.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210118_d259733e-ec8a-4907-b334-78fb3f491874.png
   narration: assets/ep07/narration/shot_06.mp3

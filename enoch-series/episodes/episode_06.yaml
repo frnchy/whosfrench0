@@ -64,7 +64,7 @@ shots:
   name: command
   target: 10
   clip: assets/ep06/clips/02_command.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210849_b0e3761f-e830-4851-bdad-6da8e34cdeb9.mp4
   still: assets/ep06/stills/02.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205913_7d258e14-f487-4a80-9b9c-00c63ead36f5.png
   narration: assets/ep06/narration/shot_02.mp3
@@ -103,7 +103,7 @@ shots:
   name: darkness
   target: 12
   clip: assets/ep06/clips/05_darkness.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_211220_248bac64-7c76-4b0f-a40c-413749d83e7d.mp4
   still: assets/ep06/stills/05.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205948_43c1b9c9-62d0-4dce-9ffe-f38b1ec0a1a8.png
   narration: assets/ep06/narration/shot_05.mp3
@@ -116,7 +116,7 @@ shots:
   name: judgment
   target: 14
   clip: assets/ep06/clips/06_judgment.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_211221_d0fa0a04-bcda-4665-9cf0-a1e3d81cba8c.mp4
   still: assets/ep06/stills/06.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205948_e6d8d323-cfb5-48e9-9b30-ed1e058b8f59.png
   narration: assets/ep06/narration/shot_06.mp3
@@ -129,7 +129,7 @@ shots:
   name: shemihaza_bound
   target: 16
   clip: assets/ep06/clips/07_shemihaza_bound.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_211220_b13f82fc-74df-4a6d-b3e1-0919b84fdd93.mp4
   still: assets/ep06/stills/07.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205949_e79c2691-40a1-49c4-92b2-b3a445fe8860.png
   narration: assets/ep06/narration/shot_07.mp3
@@ -142,7 +142,7 @@ shots:
   name: enoch_lifted
   target: 12
   clip: assets/ep06/clips/08_enoch_lifted.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_211220_f03f7619-57c7-4f4f-bf60-eea7609564e5.mp4
   still: assets/ep06/stills/08.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210044_4c9553fd-c1b7-401a-bdfc-a62cbd69d681.png
   narration: assets/ep06/narration/shot_08.mp3

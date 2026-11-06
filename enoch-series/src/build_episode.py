@@ -317,7 +317,7 @@ def build_subs(shots: list[dict], cfg: dict, total: float, card_start: float) ->
         cues = chunk_text(s["text"], font)
         base = s["start"] + s["voice_offset"]
         for lines, (a, b) in zip(cues, cue_times(ROOT / s["narration"], cues)):
-            events.append([base + a - 0.05, base + b + 0.15, lines])
+            events.append([max(0.0, base + a - 0.05), base + b + 0.15, lines])
     # no overlap; hold short gaps
     for i in range(len(events) - 1):
         nxt = events[i + 1][0]
