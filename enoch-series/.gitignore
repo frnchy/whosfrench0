@@ -7,3 +7,4 @@ assets/stills/
 assets/ep*/clips/
 assets/ep*/stills/
 build_*.log
+rebuild_*.log

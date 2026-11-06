@@ -61,7 +61,7 @@ shots:
   name: crystal_wall
   target: 10
   clip: assets/ep07/clips/02_crystal_wall.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_211627_4d9df7fb-3e5c-4183-956c-e30222e424de.mp4
   still: assets/ep07/stills/02.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210042_a8ed2338-6940-4038-93b2-bac98fcc81eb.png
   narration: assets/ep07/narration/shot_02.mp3
@@ -87,7 +87,7 @@ shots:
   name: great_glory
   target: 12
   clip: assets/ep07/clips/04_great_glory.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_211628_602764bd-573e-47a0-b1b7-60fba73ed956.mp4
   still: assets/ep07/stills/04.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210118_6982a6eb-895c-4546-9c24-e8d2f4e7bbbe.png
   narration: assets/ep07/narration/shot_04.mp3
@@ -100,7 +100,7 @@ shots:
   name: ends_of_earth
   target: 12
   clip: assets/ep07/clips/05_ends_of_earth.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_211628_10aa0e8f-decf-48d1-85a9-817a524ea9f0.mp4
   still: assets/ep07/stills/05.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210118_b585318e-959c-4211-b32e-ea8271be734b.png
   narration: assets/ep07/narration/shot_05.mp3
@@ -126,7 +126,7 @@ shots:
   name: prison_of_stars
   target: 16
   clip: assets/ep07/clips/07_prison_of_stars.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_211628_154dc7e8-fcfc-4841-affc-04c0db1b470c.mp4
   still: assets/ep07/stills/07.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210118_09bed004-9cdf-460e-a661-d44c1440b8a4.png
   narration: assets/ep07/narration/shot_07.mp3
@@ -139,7 +139,7 @@ shots:
   name: angel_warns
   target: 12
   clip: assets/ep07/clips/08_angel_warns.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_212124_c0841392-e064-47c2-8358-fcabde83757a.mp4
   still: assets/ep07/stills/08.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210231_bdecbdf5-557a-4dae-a451-3a360aa43731.png
   narration: assets/ep07/narration/shot_08.mp3

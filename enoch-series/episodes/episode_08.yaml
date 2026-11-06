@@ -75,7 +75,7 @@ shots:
   name: hide
   target: 10
   clip: assets/ep08/clips/03_hide.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_212124_f9da9b33-1011-423e-be82-ee68d56acae9.mp4
   still: assets/ep08/stills/03.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210231_710bddc5-807d-4c58-9a20-8b6a5e4b1bfd.png
   narration: assets/ep08/narration/shot_03.mp3
@@ -114,7 +114,7 @@ shots:
   name: escape
   target: 14
   clip: assets/ep08/clips/06_escape.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_212124_d31f95e2-743c-4382-be57-674fe22b140f.mp4
   still: assets/ep08/stills/06.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210347_0f81519a-2cef-4a32-b227-8b38c7e1d0fa.png
   narration: assets/ep08/narration/shot_06.mp3
@@ -127,7 +127,7 @@ shots:
   name: first_drop
   target: 16
   clip: assets/ep08/clips/07_first_drop.mp4
-  clip_url: ''
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_212124_a59ab5e9-20ff-4844-a3c9-dfd186926795.mp4
   still: assets/ep08/stills/07.png
   still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210346_6e0341d7-661e-4bc0-9980-91f1ac5d93d4.png
   narration: assets/ep08/narration/shot_07.mp3
