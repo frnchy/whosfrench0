@@ -97,6 +97,10 @@ def plan(cfg: dict) -> list[dict]:
 def render_shot(s: dict, t: dict, idx: int) -> Path:
     out = TMP / f"shot_{idx:02d}.mp4"
     clip = ROOT / s["clip"]
+    stamp = TMP / f"shot_{idx:02d}.key"
+    key = f"{clip.stat().st_mtime}|{s['dur']}|{t.get('extend_source')}|{t['max_slowdown']}"
+    if out.exists() and stamp.exists() and stamp.read_text() == key:
+        return out   # cached: same clip, same length, same settings
     cd = duration(clip)
     d = s["dur"]
     max_len = cd / t["max_slowdown"]
@@ -106,8 +110,9 @@ def render_shot(s: dict, t: dict, idx: int) -> Path:
     if d <= max_len + 1e-3:
         factor = d / cd
         vf = (f"setpts={factor:.5f}*PTS,{interp}," if factor > 1.02 else f"fps={FPS},") + \
-             f"{cover},trim=duration={d},setpts=PTS-STARTPTS"
+             f"{cover},tpad=stop_mode=clone:stop_duration=1,trim=duration={d},setpts=PTS-STARTPTS"
         run(["ffmpeg", "-v", "error", "-y", "-i", str(clip), "-vf", vf, "-an", *enc(), str(out)])
+        stamp.write_text(key)
         return out
 
     # clip slowed to the max, then Ken Burns on a frame, dissolved in
@@ -135,6 +140,7 @@ def render_shot(s: dict, t: dict, idx: int) -> Path:
     run(["ffmpeg", "-v", "error", "-y", "-i", str(part1), "-i", str(part2), "-filter_complex",
          f"[0:v][1:v]xfade=transition=fade:duration={xf}:offset={p1 - xf:.3f},"
          f"trim=duration={d},setpts=PTS-STARTPTS[v]", "-map", "[v]", *enc(), str(out)])
+    stamp.write_text(key)
     return out
 
 
@@ -395,19 +401,19 @@ def main(cfg_path: str) -> int:
     fo = t["end_fade_to_black"]
     for i in range(n):
         extra = f",fade=t=out:st={shots[i]['dur'] - fo:.3f}:d={fo}" if i == n - 1 else ""
-        fc.append(f"[{i}:v]settb=AVTB,fps={FPS},format=yuv420p{extra}[s{i}]")
+        fc.append(f"[{i}:v]fps={FPS},settb=1/{FPS},format=yuv420p{extra}[s{i}]")
     cur, length = "s0", shots[0]["dur"]
     for i in range(1, n):
         xf = shots[i]["xf_in"]
         if xf <= 0:
-            fc.append(f"[{cur}][s{i}]concat=n=2:v=1:a=0[j{i}]")
+            fc.append(f"[{cur}][s{i}]concat=n=2:v=1:a=0,settb=1/{FPS}[j{i}]")
             length += shots[i]["dur"]
         else:
-            fc.append(f"[{cur}][s{i}]xfade=transition=fade:duration={xf}:offset={length - xf:.3f}[j{i}]")
+            fc.append(f"[{cur}][s{i}]xfade=transition=fade:duration={xf}:offset={length - xf:.3f},settb=1/{FPS}[j{i}]")
             length += shots[i]["dur"] - xf
         cur = f"j{i}"
     # end card background
-    fc.append(f"color=c=black:s={W}x{H}:r={FPS}:d={card_d},format=yuv420p[card]")
+    fc.append(f"color=c=black:s={W}x{H}:r={FPS}:d={card_d},format=yuv420p,settb=1/{FPS}[card]")
     fc.append(f"[{cur}][card]concat=n=2:v=1:a=0[body]")
     grade = ("eq=contrast=1.07:brightness=-0.012:saturation=0.93,"
              "colorbalance=rs=0.015:bs=-0.02:rh=0.025:bh=-0.03,"

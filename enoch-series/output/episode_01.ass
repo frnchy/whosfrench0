@@ -1,0 +1,46 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,DejaVu Sans,66,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,5,3,5,40,40,40,1
+Style: Card,Liberation Serif,80,&H00E8F4FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,60,60,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.03,0:00:01.23,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Avant le Déluge…
+Dialogue: 0,0:00:01.63,0:00:02.97,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}des êtres\Nvenus du ciel
+Dialogue: 0,0:00:02.99,0:00:04.43,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}sont descendus\Nsur Terre.
+Dialogue: 0,0:00:05.13,0:00:06.41,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Et ils n'auraient\Njamais dû.
+Dialogue: 0,0:00:08.08,0:00:09.18,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Au temps de Jared,
+Dialogue: 0,0:00:09.20,0:00:11.24,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}les hommes se\Nmultipliaient
+Dialogue: 0,0:00:11.26,0:00:12.14,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}sur la Terre.
+Dialogue: 0,0:00:12.96,0:00:14.18,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Et leurs filles étaient
+Dialogue: 0,0:00:14.20,0:00:15.48,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}d'une grande\Nbeauté.
+Dialogue: 0,0:00:18.82,0:00:19.40,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Dans les cieux,
+Dialogue: 0,0:00:19.42,0:00:21.00,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}des anges les\Nobservaient.
+Dialogue: 0,0:00:21.02,0:00:22.46,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}On les appelait\Nles Veilleurs.
+Dialogue: 0,0:00:28.73,0:00:30.21,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Leur chef,\NShemihaza,
+Dialogue: 0,0:00:30.23,0:00:31.31,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}prit la parole :
+Dialogue: 0,0:00:31.33,0:00:32.43,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}« Choisissons\Ndes épouses
+Dialogue: 0,0:00:32.45,0:00:33.33,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}parmi les humains. »
+Dialogue: 0,0:00:40.52,0:00:41.58,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Mais il avait peur.
+Dialogue: 0,0:00:41.94,0:00:43.10,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}« Je crains\Nd'être le seul à
+Dialogue: 0,0:00:43.12,0:00:44.50,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}payer pour ce\Ngrand péché. »
+Dialogue: 0,0:00:52.11,0:00:54.35,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Alors tous jurèrent\Nensemble,
+Dialogue: 0,0:00:54.37,0:00:56.37,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}et ils se lièrent par\Nune malédiction :
+Dialogue: 0,0:00:56.85,0:00:58.17,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}personne ne\Nreculerait.
+Dialogue: 0,0:01:06.07,0:01:07.19,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Ils étaient\Ndeux cents.
+Dialogue: 0,0:01:07.79,0:01:09.15,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Ils descendirent\Nsur le
+Dialogue: 0,0:01:09.17,0:01:10.39,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}sommet du\Nmont Hermon…
+Dialogue: 0,0:01:10.95,0:01:11.69,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Et la Terre allait
+Dialogue: 0,0:01:11.71,0:01:12.91,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}changer pour\Ntoujours.
+Dialogue: 0,0:01:21.11,0:01:21.95,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Mais ce qu'ils\Nallaient
+Dialogue: 0,0:01:21.97,0:01:23.17,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}enseigner aux\Nhommes…
+Dialogue: 0,0:01:23.65,0:01:24.85,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}était bien plus\Ndangereux
+Dialogue: 0,0:01:24.87,0:01:25.81,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}que leur serment.
+Dialogue: 0,0:01:30.98,0:01:33.78,Card,,0,0,0,,{\pos(540,960)\fad(1000,0)}{\fs58\fsp6}ÉPISODE 2{\fs20}\N\N{\fs88\fsp1}Les secrets interdits
