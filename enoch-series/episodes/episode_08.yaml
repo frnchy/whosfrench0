@@ -1,0 +1,151 @@
+# Le Livre d'Hénoch, saison 1 « Les Veilleurs », épisode 8 : L'annonce du Déluge
+# Original French adaptation of 1 Enoch (public-domain source text).
+# clip_url / still_url are filled in after generating on Higgsfield.
+
+episode:
+  id: episode_08
+  series: Le Livre d'Hénoch
+  title: L'annonce du Déluge
+  language: fr
+  output: output/episode_08.mp4
+  srt: output/episode_08.srt
+  caption_file: output/caption_08.txt
+  caption: 'Que dit vraiment le Livre d''Hénoch ? 👁️ Partie 8 #livredhenoch #anges #bible #histoire'
+voice:
+  elevenlabs_voice_id: 3BZLNrQEzQVYs6kPOW4S
+  elevenlabs_model: eleven_multilingual_v2
+  edge_voice: fr-FR-HenriNeural
+  edge_rate: -10%
+  edge_pitch: -6Hz
+music:
+  file: assets/audio/music.mp3
+  gain_db: -19
+  fade_in: 1.5
+  fade_out: 3.0
+timing:
+  pad_after_voice: 0.6
+  lead_in: 0.5
+  crossfade: 0.4
+  max_slowdown: 0.6
+  use_target_as_minimum: true
+  end_fade_to_black: 0.8
+  extend_source: last_frame
+end_card:
+  text: 'Saison 2 : Les Paraboles'
+  duration: 3.0
+  fade_in: 1.0
+generation:
+  image_model: gpt_image_2_6
+  video_model: kling3_0
+  video_mode: std
+  duration: 5
+  aspect_ratio: '9:16'
+  sound: 'off'
+characters:
+  archanges: assets/characters/archanges_reference.png
+  noe: assets/characters/noe_reference.png
+shots:
+- id: 1
+  name: hook_one_family
+  target: 4
+  clip: assets/ep08/clips/01_hook_one_family.mp4
+  clip_url: ''
+  still: assets/ep08/stills/01.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210232_9f2bd5a0-02fd-4c8b-abdd-a3052239587d.png
+  narration: assets/ep08/narration/shot_01.mp3
+  text: Une seule famille allait survivre. Et elle ne le savait pas encore.
+  character: noe
+  image_prompt: A small family gathered around a fire at night outside a wooden house, unaware, enormous dark storm clouds building far behind them. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Slow push-in on the family as lightning silently lights the distant clouds.
+  transition_in: none
+- id: 2
+  name: uriel_sent
+  target: 10
+  clip: assets/ep08/clips/02_uriel_sent.mp4
+  clip_url: ''
+  still: assets/ep08/stills/02.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210232_039db43a-c025-4268-ba1d-d4fc2f517226.png
+  narration: assets/ep08/narration/shot_02.mp3
+  text: Le Très-Haut envoya Uriel auprès du fils de Lamech, un homme juste nommé Noé.
+  character: archanges
+  image_prompt: The archangel Uriel descending through the night sky in a column of flame-colored light toward a lone house on a plain. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Uriel descends toward the camera, light spreads across the plain.
+  transition_in: cut
+- id: 3
+  name: hide
+  target: 10
+  clip: assets/ep08/clips/03_hide.mp4
+  clip_url: ''
+  still: assets/ep08/stills/03.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210231_710bddc5-807d-4c58-9a20-8b6a5e4b1bfd.png
+  narration: assets/ep08/narration/shot_03.mp3
+  text: Un ange, au milieu de la nuit, sur le seuil de sa porte. Noé se demanda s'il rêvait encore. « Cache-toi », dit l'ange.
+  character: noe
+  image_prompt: Noah sitting up in bed in a dark room, rubbing his eyes in disbelief, the archangel Uriel's glowing silhouette standing in the doorway holding a flame. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Noah rubs his eyes and sits up, the light in the doorway grows brighter.
+  transition_in: dissolve
+- id: 4
+  name: the_end
+  target: 12
+  clip: assets/ep08/clips/04_the_end.mp4
+  clip_url: ''
+  still: assets/ep08/stills/04.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210347_af6874a2-8b10-40a6-ae52-01a88ba04c8e.png
+  narration: assets/ep08/narration/shot_04.mp3
+  text: « La fin approche. Toute la Terre va périr. » Noé pensa à sa femme, à ses fils… et serra les poings.
+  character: noe
+  image_prompt: Noah looking at his sleeping wife and sons by lamplight, fists clenched, face full of love and dread. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Noah looks from his sleeping family, clenches his fists, the lamp flickers.
+  transition_in: dissolve
+- id: 5
+  name: deluge
+  target: 12
+  clip: assets/ep08/clips/05_deluge.mp4
+  clip_url: ''
+  still: assets/ep08/stills/05.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210259_bcfc7217-4ed5-46dd-a0c6-e5dd4248bbf1.png
+  narration: assets/ep08/narration/shot_05.mp3
+  text: « Un déluge va venir sur toute la Terre, et tout ce qui s'y trouve sera détruit. »
+  character: null
+  image_prompt: A vision of a colossal wall of water and storm swallowing mountains and cities, seen from high above, apocalyptic scale. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The wall of water advances, clouds churn, slow aerial pull-back.
+  transition_in: dissolve
+- id: 6
+  name: escape
+  target: 14
+  clip: assets/ep08/clips/06_escape.mp4
+  clip_url: ''
+  still: assets/ep08/stills/06.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210347_0f81519a-2cef-4a32-b227-8b38c7e1d0fa.png
+  narration: assets/ep08/narration/shot_06.mp3
+  text: « Je t'apprendrai comment échapper, afin que ta descendance demeure. » Noé, qui n'avait jamais construit de bateau, prit une grande inspiration.
+  character: noe
+  image_prompt: Noah at a workbench by lamplight staring at a huge plan of a boat drawn on wood, scratching his head, taking a deep breath, the angel's light over his shoulder, timber stacked around. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Noah scratches his head, then takes a deep breath and picks up a tool, the lamp flickers.
+  transition_in: dissolve
+- id: 7
+  name: first_drop
+  target: 16
+  clip: assets/ep08/clips/07_first_drop.mp4
+  clip_url: ''
+  still: assets/ep08/stills/07.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210346_6e0341d7-661e-4bc0-9980-91f1ac5d93d4.png
+  narration: assets/ep08/narration/shot_07.mp3
+  text: Noé leva les yeux. Le ciel s'assombrissait… et la première goutte tomba.
+  character: noe
+  image_prompt: Noah outdoors looking up at a darkening sky, a single raindrop falling toward his face, the ark frame unfinished behind him. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: A raindrop falls in slow motion, Noah blinks, thunder flash.
+  transition_in: dissolve
+- id: 8
+  name: season_end
+  target: 12
+  clip: assets/ep08/clips/08_season_end.mp4
+  clip_url: ''
+  still: assets/ep08/stills/08.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210346_03547dd0-e528-42c5-a8c8-5a7f057c4525.png
+  narration: assets/ep08/narration/shot_08.mp3
+  text: Ainsi s'achève l'histoire des Veilleurs. Mais le Livre d'Hénoch n'a pas encore livré tous ses secrets.
+  character: null
+  image_prompt: An ancient scroll of the Book of Enoch lying on a stone table in candlelight, wind turning its edge, golden eyes faintly glowing in the shadows behind. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The scroll edge lifts in the wind, candle flickers, golden eyes slowly open in the dark.
+  transition_in: dissolve

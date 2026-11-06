@@ -1,0 +1,150 @@
+# Le Livre d'Hénoch, saison 1 « Les Veilleurs », épisode 7 : Le voyage d'Hénoch
+# Original French adaptation of 1 Enoch (public-domain source text).
+# clip_url / still_url are filled in after generating on Higgsfield.
+
+episode:
+  id: episode_07
+  series: Le Livre d'Hénoch
+  title: Le voyage d'Hénoch
+  language: fr
+  output: output/episode_07.mp4
+  srt: output/episode_07.srt
+  caption_file: output/caption_07.txt
+  caption: 'Que dit vraiment le Livre d''Hénoch ? 👁️ Partie 7 #livredhenoch #anges #bible #histoire'
+voice:
+  elevenlabs_voice_id: 3BZLNrQEzQVYs6kPOW4S
+  elevenlabs_model: eleven_multilingual_v2
+  edge_voice: fr-FR-HenriNeural
+  edge_rate: -10%
+  edge_pitch: -6Hz
+music:
+  file: assets/audio/music.mp3
+  gain_db: -19
+  fade_in: 1.5
+  fade_out: 3.0
+timing:
+  pad_after_voice: 0.6
+  lead_in: 0.5
+  crossfade: 0.4
+  max_slowdown: 0.6
+  use_target_as_minimum: true
+  end_fade_to_black: 0.8
+  extend_source: last_frame
+end_card:
+  text: 'Épisode 8 : L''annonce du Déluge'
+  duration: 3.0
+  fade_in: 1.0
+generation:
+  image_model: gpt_image_2_6
+  video_model: kling3_0
+  video_mode: std
+  duration: 5
+  aspect_ratio: '9:16'
+  sound: 'off'
+characters:
+  henoch: assets/characters/henoch_reference.png
+shots:
+- id: 1
+  name: hook_ascent
+  target: 4
+  clip: assets/ep07/clips/01_hook_ascent.mp4
+  clip_url: ''
+  still: assets/ep07/stills/01.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210043_4340d2de-e5ca-492b-9924-e630399041b2.png
+  narration: assets/ep07/narration/shot_01.mp3
+  text: Les nuées l'appelèrent. Les vents le soulevèrent. Et Hénoch fut emporté dans le ciel. Sans avoir eu le temps de prévenir sa famille.
+  character: henoch
+  image_prompt: Enoch being swept up through spiralling clouds and lightning toward a blinding light, robe and beard blown wildly, a surprised expression, his sandal falling off, seen from below. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Enoch rises through the clouds, his sandal falls toward the camera, light flares.
+  transition_in: none
+- id: 2
+  name: crystal_wall
+  target: 10
+  clip: assets/ep07/clips/02_crystal_wall.mp4
+  clip_url: ''
+  still: assets/ep07/stills/02.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210042_a8ed2338-6940-4038-93b2-bac98fcc81eb.png
+  narration: assets/ep07/narration/shot_02.mp3
+  text: Il vit un mur de cristal entouré de flammes. Hénoch avait vu beaucoup de choses. Jamais rien de tel.
+  character: null
+  image_prompt: An immense wall of crystal surrounded by tongues of fire, a colossal palace of light behind it, Enoch tiny in the foreground. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Slow push toward the crystal wall, flames dance along it.
+  transition_in: cut
+- id: 3
+  name: throne
+  target: 10
+  clip: assets/ep07/clips/03_throne.mp4
+  clip_url: ''
+  still: assets/ep07/stills/03.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210043_c8bc6d1e-ffce-45ea-a83c-f3439999d42e.png
+  narration: assets/ep07/narration/shot_03.mp3
+  text: Au centre, un trône semblable au cristal. Et de dessous le trône sortaient des fleuves de feu.
+  character: null
+  image_prompt: A lofty throne of crystal in a vast hall, rivers of fire flowing out from beneath it, angels surrounding it, no visible figure on it, only light. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Rivers of fire flow toward the camera, slow crane up toward the throne.
+  transition_in: dissolve
+- id: 4
+  name: great_glory
+  target: 12
+  clip: assets/ep07/clips/04_great_glory.mp4
+  clip_url: ''
+  still: assets/ep07/stills/04.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210118_6982a6eb-895c-4546-9c24-e8d2f4e7bbbe.png
+  narration: assets/ep07/narration/shot_04.mp3
+  text: Celui qui siégeait là était plus éclatant que le soleil. Hénoch tomba face contre terre. Il tremblait… et pourtant, il n'avait jamais été aussi en paix.
+  character: henoch
+  image_prompt: Enoch prostrate on a crystal floor, face down, overwhelming white-gold light pouring over him from above. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The light swells until it almost whites out the frame, Enoch trembles.
+  transition_in: dissolve
+- id: 5
+  name: ends_of_earth
+  target: 12
+  clip: assets/ep07/clips/05_ends_of_earth.mp4
+  clip_url: ''
+  still: assets/ep07/stills/05.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210118_b585318e-959c-4211-b32e-ea8271be734b.png
+  narration: assets/ep07/narration/shot_05.mp3
+  text: Puis les anges le conduisirent aux extrémités de la Terre. Le plus long voyage de l'histoire. Et sans carte.
+  character: henoch
+  image_prompt: Enoch and a radiant angel standing at the edge of the world where an endless ocean falls into darkness, stars below the horizon. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Slow move past them toward the edge, water pours into darkness.
+  transition_in: dissolve
+- id: 6
+  name: seven_mountains
+  target: 14
+  clip: assets/ep07/clips/06_seven_mountains.mp4
+  clip_url: ''
+  still: assets/ep07/stills/06.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210118_d259733e-ec8a-4907-b334-78fb3f491874.png
+  narration: assets/ep07/narration/shot_06.mp3
+  text: Il vit sept montagnes de pierres précieuses, plus belles que tout ce qu'on pouvait imaginer. Azazel aurait adoré.
+  character: null
+  image_prompt: Seven mountains made of glowing precious stones, sapphire, ruby, emerald, the central one shaped like a throne, Enoch small and amazed before them under a starry sky. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Slow aerial glide between the jewelled mountains, light glints.
+  transition_in: dissolve
+- id: 7
+  name: prison_of_stars
+  target: 16
+  clip: assets/ep07/clips/07_prison_of_stars.mp4
+  clip_url: ''
+  still: assets/ep07/stills/07.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210118_09bed004-9cdf-460e-a661-d44c1440b8a4.png
+  narration: assets/ep07/narration/shot_07.mp3
+  text: 'Puis il vit un lieu terrible : une prison où brûlaient sept étoiles, enchaînées comme de grandes montagnes.'
+  character: null
+  image_prompt: A dark abyss where seven enormous burning stars are bound in chains like great mountains, fire and smoke, terrifying scale. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The chained stars burn and strain, sparks rise, slow push-in.
+  transition_in: dissolve
+- id: 8
+  name: angel_warns
+  target: 12
+  clip: assets/ep07/clips/08_angel_warns.mp4
+  clip_url: ''
+  still: assets/ep07/stills/08.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210231_bdecbdf5-557a-4dae-a451-3a360aa43731.png
+  narration: assets/ep07/narration/shot_08.mp3
+  text: 'L''ange lui dit : « Ici seront enfermés les anges, jusqu''au jour de leur jugement. » Hénoch pensa à ceux qu''il avait connus.'
+  character: henoch
+  image_prompt: Close-up of Enoch's face lit by the fire of the abyss, a tear running down his cheek, the guiding angel's hand on his shoulder. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Firelight flickers, a tear rolls down Enoch's cheek, the angel's hand tightens on his shoulder.
+  transition_in: dissolve

@@ -97,6 +97,8 @@ def plan(cfg: dict) -> list[dict]:
 def render_shot(s: dict, t: dict, idx: int) -> Path:
     out = TMP / f"shot_{idx:02d}.mp4"
     clip = ROOT / s["clip"]
+    if not clip.exists():
+        return render_still_shot(s, idx, out)
     stamp = TMP / f"shot_{idx:02d}.key"
     key = f"{clip.stat().st_mtime}|{s['dur']}|{t.get('extend_source')}|{t['max_slowdown']}"
     if out.exists() and stamp.exists() and stamp.read_text() == key:
@@ -141,6 +143,20 @@ def render_shot(s: dict, t: dict, idx: int) -> Path:
          f"[0:v][1:v]xfade=transition=fade:duration={xf}:offset={p1 - xf:.3f},"
          f"trim=duration={d},setpts=PTS-STARTPTS[v]", "-map", "[v]", *enc(), str(out)])
     stamp.write_text(key)
+    return out
+
+
+def render_still_shot(s: dict, idx: int, out: Path) -> Path:
+    """No clip for this shot: slow Ken Burns push-in on its still for the whole shot."""
+    img = ROOT / s["still"]
+    if not img.exists():
+        raise SystemExit(f"shot {idx}: neither {s['clip']} nor {s['still']} exists")
+    n = int(math.ceil(s["dur"] * FPS))
+    kb = (f"scale={W * 2}:{H * 2}:force_original_aspect_ratio=increase:flags=lanczos,crop={W * 2}:{H * 2},"
+          f"zoompan=z='1+0.08*on/{n}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+          f":d={n}:s={W}x{H}:fps={FPS},setsar=1")
+    run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-i", str(img), "-vf", kb,
+         "-frames:v", str(n), *enc(), str(out)])
     return out
 
 
@@ -354,11 +370,14 @@ def main(cfg_path: str) -> int:
     cfg = yaml.safe_load(open(ROOT / cfg_path if not Path(cfg_path).is_absolute() else cfg_path,
                               encoding="utf-8"))
     t = cfg["timing"]
-    TMP.mkdir(exist_ok=True)
+    global TMP
+    TMP = ROOT / "build" / cfg["episode"]["id"]
+    TMP.mkdir(parents=True, exist_ok=True)
 
-    missing = [p for s in cfg["shots"] for p in [s["clip"]] if not (ROOT / p).exists()]
+    missing = [s["clip"] for s in cfg["shots"]
+               if not (ROOT / s["clip"]).exists() and not (ROOT / s["still"]).exists()]
     if missing:
-        print("Missing clips - run src/download_assets.py or download them from higgsfield.ai:")
+        print("Missing clips and stills - run src/download_assets.py or download them from higgsfield.ai:")
         for m in missing:
             print("  -", m)
         return 1

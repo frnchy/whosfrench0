@@ -4,3 +4,6 @@ __pycache__/
 *.part
 assets/clips/
 assets/stills/
+assets/ep*/clips/
+assets/ep*/stills/
+build_*.log

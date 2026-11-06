@@ -1,0 +1,151 @@
+# Le Livre d'Hénoch, saison 1 « Les Veilleurs », épisode 4 : Le cri de la Terre
+# Original French adaptation of 1 Enoch (public-domain source text).
+# clip_url / still_url are filled in after generating on Higgsfield.
+
+episode:
+  id: episode_04
+  series: Le Livre d'Hénoch
+  title: Le cri de la Terre
+  language: fr
+  output: output/episode_04.mp4
+  srt: output/episode_04.srt
+  caption_file: output/caption_04.txt
+  caption: 'Que dit vraiment le Livre d''Hénoch ? 👁️ Partie 4 #livredhenoch #anges #bible #histoire'
+voice:
+  elevenlabs_voice_id: 3BZLNrQEzQVYs6kPOW4S
+  elevenlabs_model: eleven_multilingual_v2
+  edge_voice: fr-FR-HenriNeural
+  edge_rate: -10%
+  edge_pitch: -6Hz
+music:
+  file: assets/audio/music.mp3
+  gain_db: -19
+  fade_in: 1.5
+  fade_out: 3.0
+timing:
+  pad_after_voice: 0.6
+  lead_in: 0.5
+  crossfade: 0.4
+  max_slowdown: 0.6
+  use_target_as_minimum: true
+  end_fade_to_black: 0.8
+  extend_source: last_frame
+end_card:
+  text: 'Épisode 5 : Hénoch le messager'
+  duration: 3.0
+  fade_in: 1.0
+generation:
+  image_model: gpt_image_2_6
+  video_model: kling3_0
+  video_mode: std
+  duration: 5
+  aspect_ratio: '9:16'
+  sound: 'off'
+characters:
+  archanges: assets/characters/archanges_reference.png
+  henoch: assets/characters/henoch_reference.png
+shots:
+- id: 1
+  name: hook_tears
+  target: 4
+  clip: assets/ep04/clips/01_hook_tears.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205656_993253b8-341a-4ffb-ae44-a3ec1d96d38c.mp4
+  still: assets/ep04/stills/01.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205136_435a72ea-d540-494f-b6a5-20bd8bff9f33.png
+  narration: assets/ep04/narration/shot_01.mp3
+  text: La Terre pleurait. Et pour la première fois, ses larmes montèrent jusqu'au ciel.
+  character: null
+  image_prompt: Glowing droplets of light rising upward from a dark ruined landscape into the night sky like reversed rain. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Droplets of light float upward past the camera, slow tilt up toward the sky.
+  transition_in: none
+- id: 2
+  name: prayers
+  target: 10
+  clip: assets/ep04/clips/02_prayers.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205656_d5af284c-9c70-4332-b830-9eb6466a76ee.mp4
+  still: assets/ep04/stills/02.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205137_cfd48b02-7301-478a-aa35-8ea9e243e39c.png
+  narration: assets/ep04/narration/shot_02.mp3
+  text: 'Une vieille femme leva les mains et murmura : « Portez notre cause devant le Très-Haut. » Elle n''avait plus rien d''autre à donner.'
+  character: null
+  image_prompt: An old woman kneeling in ashes with trembling raised hands toward a stormy sky, tears on her cheeks, a faint light from above on her face. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Her hands tremble, ash drifts, light from above grows on her face, slow push-in.
+  transition_in: cut
+- id: 3
+  name: four_archangels
+  target: 10
+  clip: assets/ep04/clips/03_four_archangels.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205656_97733844-cf7f-4614-b019-c3b10027aa2a.mp4
+  still: assets/ep04/stills/03.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205137_b8b91aa2-07a2-4454-ae22-9c36532843be.png
+  narration: assets/ep04/narration/shot_03.mp3
+  text: 'Alors quatre archanges regardèrent vers la Terre : Michel, Gabriel, Raphaël et Uriel.'
+  character: archanges
+  image_prompt: The four archangels Michael, Gabriel, Raphael and Uriel standing on a cloud edge looking down at the earth far below, wings spread, radiant. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Slow orbit behind the archangels revealing the earth below, wings stir.
+  transition_in: dissolve
+- id: 4
+  name: they_saw
+  target: 12
+  clip: assets/ep04/clips/04_they_saw.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205656_759e8fb7-4f05-45f5-b53c-3fc0a3ed704b.mp4
+  still: assets/ep04/stills/04.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205324_a2c4ba49-d1dd-4452-a40e-dc0feefb9fa8.png
+  narration: assets/ep04/narration/shot_04.mp3
+  text: Ils virent le sang répandu et toute l'injustice. Michel, le guerrier du ciel, ne put retenir une larme.
+  character: archanges
+  image_prompt: Close-up of the archangel Michael's stern face, a single tear of light on his cheek, the reflection of a burning world in his eyes. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Very slow push-in on his eyes, the tear of light slides down, reflected fires flicker.
+  transition_in: dissolve
+- id: 5
+  name: plea
+  target: 12
+  clip: assets/ep04/clips/05_plea.mp4
+  clip_url: ''
+  still: assets/ep04/stills/05.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205326_4e391c41-526d-4854-b2bf-6d8d1c174fd9.png
+  narration: assets/ep04/narration/shot_05.mp3
+  text: 'Ils dirent : « Tu sais tout, Seigneur. Tu vois ce qu''Azazel a enseigné, et ce que Shemihaza a fait. »'
+  character: archanges
+  image_prompt: The four archangels kneeling before a blinding white light in a vast celestial hall of crystal and fire, seen from behind. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Slow dolly forward between the kneeling archangels toward the light.
+  transition_in: dissolve
+- id: 6
+  name: souls_cry
+  target: 14
+  clip: assets/ep04/clips/06_souls_cry.mp4
+  clip_url: ''
+  still: assets/ep04/stills/06.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205325_c265ff37-587e-4c1c-95e6-112543657931.png
+  narration: assets/ep04/narration/shot_06.mp3
+  text: Puis il y eut un silence. Le genre de silence où personne n'ose parler en premier. Même au ciel.
+  character: null
+  image_prompt: The four archangels standing in a vast silent celestial hall, glancing sideways at one another, nobody daring to speak first, subtle awkward moment, soft light. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The archangels exchange slow sideways glances in silence, nobody moves first, subtle.
+  transition_in: dissolve
+- id: 7
+  name: the_answer
+  target: 16
+  clip: assets/ep04/clips/07_the_answer.mp4
+  clip_url: ''
+  still: assets/ep04/stills/07.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205324_ca6d1eab-de7d-4e02-8e91-0884b32f9599.png
+  narration: assets/ep04/narration/shot_07.mp3
+  text: Alors le Très-Haut répondit. Et sa réponse allait ébranler le ciel et la Terre.
+  character: null
+  image_prompt: A shockwave of white-gold light bursting from a throne of fire high in the heavens, clouds blown outward, archangels shielding their faces. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The light bursts outward, clouds rush past the camera, a slow-motion shockwave.
+  transition_in: dissolve
+- id: 8
+  name: a_messenger
+  target: 12
+  clip: assets/ep04/clips/08_a_messenger.mp4
+  clip_url: ''
+  still: assets/ep04/stills/08.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205651_4d7beb55-e4e1-40d2-b258-442c11efe41e.png
+  narration: assets/ep04/narration/shot_08.mp3
+  text: Le ciel avait besoin d'un messager. Un homme juste… nommé Hénoch.
+  character: henoch
+  image_prompt: An old man in a linen robe walking alone up a mountain path at dawn, a shaft of heavenly light falling on him from the clouds, seen from behind. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Slow follow behind the man as the light intensifies around him.
+  transition_in: dissolve

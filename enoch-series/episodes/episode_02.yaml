@@ -1,0 +1,151 @@
+# Le Livre d'Hénoch, saison 1 « Les Veilleurs », épisode 2 : Les secrets interdits
+# Original French adaptation of 1 Enoch (public-domain source text).
+# clip_url / still_url are filled in after generating on Higgsfield.
+
+episode:
+  id: episode_02
+  series: Le Livre d'Hénoch
+  title: Les secrets interdits
+  language: fr
+  output: output/episode_02.mp4
+  srt: output/episode_02.srt
+  caption_file: output/caption_02.txt
+  caption: 'Que dit vraiment le Livre d''Hénoch ? 👁️ Partie 2 #livredhenoch #anges #bible #histoire'
+voice:
+  elevenlabs_voice_id: 3BZLNrQEzQVYs6kPOW4S
+  elevenlabs_model: eleven_multilingual_v2
+  edge_voice: fr-FR-HenriNeural
+  edge_rate: -10%
+  edge_pitch: -6Hz
+music:
+  file: assets/audio/music.mp3
+  gain_db: -19
+  fade_in: 1.5
+  fade_out: 3.0
+timing:
+  pad_after_voice: 0.6
+  lead_in: 0.5
+  crossfade: 0.4
+  max_slowdown: 0.6
+  use_target_as_minimum: true
+  end_fade_to_black: 0.8
+  extend_source: last_frame
+end_card:
+  text: 'Épisode 3 : La naissance des géants'
+  duration: 3.0
+  fade_in: 1.0
+generation:
+  image_model: gpt_image_2_6
+  video_model: kling3_0
+  video_mode: std
+  duration: 5
+  aspect_ratio: '9:16'
+  sound: 'off'
+characters:
+  azazel: assets/characters/azazel_reference.png
+  shemihaza: assets/stills/shemihaza_reference.png
+shots:
+- id: 1
+  name: hook_forge_eyes
+  target: 4
+  clip: assets/ep02/clips/01_hook_forge_eyes.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204947_c791905e-76ed-475d-915e-60d5736b58e9.mp4
+  still: assets/ep02/stills/01.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204732_f9fe6f71-1cfc-4884-bfcd-d1555f9b0819.png
+  narration: assets/ep02/narration/shot_01.mp3
+  text: Ils n'étaient pas venus les mains vides. Ils apportaient des secrets que l'homme n'aurait jamais dû connaître.
+  character: azazel
+  image_prompt: Extreme close-up of Azazel's burning amber eyes, molten metal and sparks reflected in them, darkness around. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Slow push-in on the eyes, sparks drifting past the lens, eyes narrow slightly.
+  transition_in: none
+- id: 2
+  name: forge
+  target: 10
+  clip: assets/ep02/clips/02_forge.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204947_ea89b442-b639-4b93-b408-8a440650be92.mp4
+  still: assets/ep02/stills/02.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204644_fec4c06f-ddd1-45ab-a4be-e9540d2c1a65.png
+  narration: assets/ep02/narration/shot_02.mp3
+  text: Azazel enseigna aux hommes à forger des épées, des boucliers et des cuirasses. Le premier cours de forge de l'histoire. Sans consignes de sécurité.
+  character: azazel
+  image_prompt: Azazel standing in an ancient stone forge guiding a human blacksmith hammering a glowing sword blade, shields and breastplates on the walls, sparks. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The hammer strikes the glowing blade, sparks burst, Azazel leans in watching, slow orbit.
+  transition_in: cut
+- id: 3
+  name: metals
+  target: 10
+  clip: assets/ep02/clips/03_metals.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204950_040f6087-df5a-44f8-a80d-ea93aaba0814.mp4
+  still: assets/ep02/stills/03.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204732_4a2905e4-8c6e-46d4-a4ef-971f9afeb3d9.png
+  narration: assets/ep02/narration/shot_03.mp3
+  text: 'Il leur montra l''or et l''argent cachés dans la terre. Et les hommes découvrirent un sentiment nouveau : l''envie.'
+  character: azazel
+  image_prompt: Inside a dark cave, Azazel's hand touches the rock wall and veins of gold, silver and copper ignite and glow through the stone, awed men holding torches. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Glowing veins spread across the rock from his hand, torchlight flickers, camera tilts up.
+  transition_in: dissolve
+- id: 4
+  name: ornaments
+  target: 12
+  clip: assets/ep02/clips/04_ornaments.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204949_76ce2a0f-64bc-4f9a-ae40-919eb93586a4.mp4
+  still: assets/ep02/stills/04.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204732_904405c8-7fe0-47b5-bf01-bf818d218f6c.png
+  narration: assets/ep02/narration/shot_04.mp3
+  text: Aux femmes, il apprit les bracelets, les pierres précieuses et le fard pour les yeux. Le même jour que les épées. Rien ne pouvait mal tourner.
+  character: null
+  image_prompt: Ancient women in a lamp-lit chamber trying gold bracelets and jeweled necklaces, one lining her eyes with dark kohl, precious gemstones spilling from a bowl, an angel's dark wing at the edge of frame. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Gentle dolly forward, gems glint, a woman turns her head toward the camera revealing kohl-lined eyes.
+  transition_in: dissolve
+- id: 5
+  name: stars
+  target: 12
+  clip: assets/ep02/clips/05_stars.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204946_0b4d1c93-401d-4669-ba98-176835f98f2e.mp4
+  still: assets/ep02/stills/05.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204732_684cc352-6f93-49e8-aee0-8fc7bd652d09.png
+  narration: assets/ep02/narration/shot_05.mp3
+  text: Shemihaza enseigna les enchantements et les racines. D'autres révélèrent les signes des étoiles, de la lune et du soleil.
+  character: shemihaza
+  image_prompt: Shemihaza and other winged Watchers on a hilltop at night drawing glowing constellations, moon phases and sun paths in the sky with light, humans seated below with roots and herbs in their hands. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Lines of light trace constellations across the sky, slow crane up, humans look up.
+  transition_in: dissolve
+- id: 6
+  name: forbidden_knowledge
+  target: 14
+  clip: assets/ep02/clips/06_forbidden_knowledge.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204946_278b2597-8363-44e9-bec5-95cbe74f9fa8.mp4
+  still: assets/ep02/stills/06.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204645_8bca10f3-f896-47e9-9c36-8d126509d353.png
+  narration: assets/ep02/narration/shot_06.mp3
+  text: Un berger leva les yeux vers le ciel qu'il avait toujours aimé… et pour la première fois, il en eut peur.
+  character: null
+  image_prompt: A lone young shepherd on a hillside at night holding his staff, looking up at a sky filled with glowing angelic star-charts, his face shifting from wonder to fear, sheep around him. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Stars and glowing charts shimmer overhead, his expression turns from wonder to fear, slow push-in.
+  transition_in: dissolve
+- id: 7
+  name: corruption
+  target: 16
+  clip: assets/ep02/clips/07_corruption.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205328_650b811a-b317-4517-af14-e57251aebd5a.mp4
+  still: assets/ep02/stills/07.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205003_c051b941-61a5-44e4-8fed-e58f1f1582ea.png
+  narration: assets/ep02/narration/shot_07.mp3
+  text: L'impiété grandit sur la Terre. Les voisins devinrent des rivaux, et les frères, des ennemis.
+  character: null
+  image_prompt: An ancient village at dusk, two brothers facing each other with new bronze swords, neighbors watching from doorways, smoke rising, tension. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The brothers raise their swords slightly, smoke drifts, neighbors step back, slow push-in.
+  transition_in: dissolve
+- id: 8
+  name: giant_shadow
+  target: 12
+  clip: assets/ep02/clips/08_giant_shadow.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204947_bb11a61a-63e3-461f-a8ad-f183359a46c8.mp4
+  still: assets/ep02/stills/08.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204644_71a0ce6b-5350-4481-a742-859340df4161.png
+  narration: assets/ep02/narration/shot_08.mp3
+  text: Mais le pire restait à venir. Car des unions des Veilleurs… allaient naître des géants.
+  character: null
+  image_prompt: The enormous silhouette of a giant rising behind the hills over the village at twilight, tiny houses in the foreground, ominous red-gold sky. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The giant silhouette slowly rises behind the hills, camera holds, then a slow push-in.
+  transition_in: dissolve

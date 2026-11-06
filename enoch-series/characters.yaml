@@ -1,0 +1,26 @@
+# Character reference portraits: generate once, reuse as image reference in every shot.
+shemihaza:
+  file: assets/stills/shemihaza_reference.png
+  url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_183243_2960dcda-ceb0-4092-9254-3ddcfe57a3ae.png
+  prompt: (existing)
+  higgsfield_media: 456813d0-d9ef-4cad-934b-13b3368520c1
+azazel:
+  file: assets/characters/azazel_reference.png
+  url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204531_2a9d82fc-8822-4a5a-a17b-04145dafabf4.png
+  prompt: 'Character reference portrait of Azazel, fallen Watcher angel: tall, lean, sharp angular face, dark bronze skin, short black hair with ember-red streaks, burning amber eyes, smoke-dark wings with charred copper-tipped feathers, black and copper blacksmith-warrior armor, heavy chains of gold at his wrists, forge glow on his face. Waist-up, neutral dark background. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.'
+  higgsfield_media: 2a9d82fc-8822-4a5a-a17b-04145dafabf4
+henoch:
+  file: assets/characters/henoch_reference.png
+  url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204531_b6ad7e52-3525-49c7-95d6-b6026cb6cbcb.png
+  prompt: 'Character reference portrait of Enoch, the righteous scribe: man around 60, kind but intense face, long grey-white beard, deep-set brown eyes, simple undyed linen robe with a blue woven sash, leather satchel of clay tablets and a reed stylus, soft heavenly light on his face. Waist-up, neutral dark background. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.'
+  higgsfield_media: b6ad7e52-3525-49c7-95d6-b6026cb6cbcb
+archanges:
+  file: assets/characters/archanges_reference.png
+  url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204533_772d2f7b-ca0d-4c5a-83cf-e1a45b0e304a.png
+  prompt: 'Reference image of the four archangels Michael, Gabriel, Raphael and Uriel standing side by side: radiant white-gold armor, immense luminous white wings, Michael with a sword, Gabriel with a horn, Raphael with a staff, Uriel with a flame in his palm, calm stern faces, light behind them. Full body. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.'
+  higgsfield_media: 772d2f7b-ca0d-4c5a-83cf-e1a45b0e304a
+noe:
+  file: assets/characters/noe_reference.png
+  url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204532_8271e9bd-062c-47e6-8a09-2044662c3404.png
+  prompt: 'Character reference portrait of Noah, son of Lamech: man around 50, weathered strong face, dark brown beard with grey, earnest dark eyes, rough wool cloak over a tunic, hands of a craftsman. Waist-up, neutral dark background. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.'
+  higgsfield_media: 8271e9bd-062c-47e6-8a09-2044662c3404

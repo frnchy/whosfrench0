@@ -1,0 +1,151 @@
+# Le Livre d'Hénoch, saison 1 « Les Veilleurs », épisode 5 : Hénoch le messager
+# Original French adaptation of 1 Enoch (public-domain source text).
+# clip_url / still_url are filled in after generating on Higgsfield.
+
+episode:
+  id: episode_05
+  series: Le Livre d'Hénoch
+  title: Hénoch le messager
+  language: fr
+  output: output/episode_05.mp4
+  srt: output/episode_05.srt
+  caption_file: output/caption_05.txt
+  caption: 'Que dit vraiment le Livre d''Hénoch ? 👁️ Partie 5 #livredhenoch #anges #bible #histoire'
+voice:
+  elevenlabs_voice_id: 3BZLNrQEzQVYs6kPOW4S
+  elevenlabs_model: eleven_multilingual_v2
+  edge_voice: fr-FR-HenriNeural
+  edge_rate: -10%
+  edge_pitch: -6Hz
+music:
+  file: assets/audio/music.mp3
+  gain_db: -19
+  fade_in: 1.5
+  fade_out: 3.0
+timing:
+  pad_after_voice: 0.6
+  lead_in: 0.5
+  crossfade: 0.4
+  max_slowdown: 0.6
+  use_target_as_minimum: true
+  end_fade_to_black: 0.8
+  extend_source: last_frame
+end_card:
+  text: 'Épisode 6 : Azazel enchaîné'
+  duration: 3.0
+  fade_in: 1.0
+generation:
+  image_model: gpt_image_2_6
+  video_model: kling3_0
+  video_mode: std
+  duration: 5
+  aspect_ratio: '9:16'
+  sound: 'off'
+characters:
+  azazel: assets/characters/azazel_reference.png
+  henoch: assets/characters/henoch_reference.png
+shots:
+- id: 1
+  name: hook_enoch
+  target: 4
+  clip: assets/ep05/clips/01_hook_enoch.mp4
+  clip_url: ''
+  still: assets/ep05/stills/01.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205650_2a3e09d1-2a1c-45cd-a253-7d045dccdcbf.png
+  narration: assets/ep05/narration/shot_01.mp3
+  text: Il était un homme. Mais il marchait avec les anges. Son nom était Hénoch.
+  character: henoch
+  image_prompt: Enoch's face in profile, eyes closed, soft heavenly light, faint silhouettes of angel wings behind him. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Enoch slowly opens his eyes, light grows on his face, slow push-in.
+  transition_in: none
+- id: 2
+  name: taken
+  target: 10
+  clip: assets/ep05/clips/02_taken.mp4
+  clip_url: ''
+  still: assets/ep05/stills/02.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205650_1dc5c00b-6ed5-4c15-b413-60d95204e5e3.png
+  narration: assets/ep05/narration/shot_02.mp3
+  text: Un jour, Hénoch disparut. Ses voisins le cherchèrent partout. Ils n'avaient pas pensé à regarder… dans le ciel.
+  character: null
+  image_prompt: 'Villagers searching for Enoch everywhere: looking under baskets, behind a well, calling his name, while far above in the clouds a tiny glowing figure is visible, gentle humor. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.'
+  motion_prompt: Villagers lift baskets and peer around calling out, the camera slowly tilts up to the glowing figure in the clouds.
+  transition_in: cut
+- id: 3
+  name: holy_watchers
+  target: 10
+  clip: assets/ep05/clips/03_holy_watchers.mp4
+  clip_url: ''
+  still: assets/ep05/stills/03.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205651_6039fe83-bc65-4754-a19a-e3d7c58c8613.png
+  narration: assets/ep05/narration/shot_03.mp3
+  text: Il demeurait avec les Veilleurs saints. Et pour la première fois de sa vie, il se sentit vraiment chez lui.
+  character: henoch
+  image_prompt: Enoch sitting peacefully among radiant white-robed angels in a celestial garden of light, smiling with tears of joy, writing on a tablet. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Angels' wings shift gently, Enoch smiles and wipes a tear, slow lateral move.
+  transition_in: dissolve
+- id: 4
+  name: mission
+  target: 12
+  clip: assets/ep05/clips/04_mission.mp4
+  clip_url: ''
+  still: assets/ep05/stills/04.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205811_0cdf3aef-43d4-46d4-b9d2-bc50aa091f48.png
+  narration: assets/ep05/narration/shot_04.mp3
+  text: 'Ils lui dirent : « Va dire aux Veilleurs déchus : vous n''aurez ni paix ni pardon. » Une mission simple. En apparence.'
+  character: henoch
+  image_prompt: A tall shining angel placing a hand on Enoch's shoulder and pointing down toward a dark earth below the clouds. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The angel's arm extends, clouds part below revealing the earth, slow push-in.
+  transition_in: dissolve
+- id: 5
+  name: before_azazel
+  target: 12
+  clip: assets/ep05/clips/05_before_azazel.mp4
+  clip_url: ''
+  still: assets/ep05/stills/05.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205811_11b20803-229d-408b-9e3b-e21215ed2ed1.png
+  narration: assets/ep05/narration/shot_05.mp3
+  text: Hénoch, un simple scribe, se tint devant Azazel. Ses mains tremblaient. Pas sa voix. « Tu n'auras pas de paix. »
+  character: azazel
+  image_prompt: Enoch, a frail old scribe, standing before the towering fallen angel Azazel in a dark rocky place lit by forge-red light, hands trembling around a clay tablet, face resolute. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Slow orbit around the two figures, Enoch's hands tremble, Azazel's wings flare slightly.
+  transition_in: dissolve
+- id: 6
+  name: they_tremble
+  target: 14
+  clip: assets/ep05/clips/06_they_tremble.mp4
+  clip_url: ''
+  still: assets/ep05/stills/06.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205811_945f6adb-f3a5-45ea-99b1-a6edcab5d0a8.png
+  narration: assets/ep05/narration/shot_06.mp3
+  text: Et les puissants Veilleurs, qui avaient fait trembler la Terre, supplièrent un vieil homme d'écrire une prière pour eux.
+  character: henoch
+  image_prompt: Fallen Watchers with lowered heads and folded dark wings kneeling around Enoch as he writes on a clay tablet by lamplight. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Lamp flickers, Enoch's stylus moves, camera slowly rises above the circle.
+  transition_in: dissolve
+- id: 7
+  name: waters_of_dan
+  target: 16
+  clip: assets/ep05/clips/07_waters_of_dan.mp4
+  clip_url: ''
+  still: assets/ep05/stills/07.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205812_d73e7496-c8a6-4a1a-81c0-c54c83caf4e5.png
+  narration: assets/ep05/narration/shot_07.mp3
+  text: Hénoch s'assit près des eaux de Dan, au pied du mont Hermon. Il lut leur requête… et s'endormit.
+  character: henoch
+  image_prompt: Enoch sitting by a calm river at dusk beneath snowy Mount Hermon, tablet on his lap, eyes closing, fireflies. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Water ripples, fireflies drift, slow push-in as his head lowers.
+  transition_in: dissolve
+- id: 8
+  name: visions
+  target: 12
+  clip: assets/ep05/clips/08_visions.mp4
+  clip_url: ''
+  still: assets/ep05/stills/08.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205912_b308769e-c3e4-4fe8-a545-1dbf23f76290.png
+  narration: assets/ep05/narration/shot_08.mp3
+  text: Dans son sommeil, des visions descendirent sur lui. Et la réponse du ciel fut terrible.
+  character: null
+  image_prompt: Swirling clouds of fire and light descending toward the sleeping Enoch, shapes of wings and a distant throne forming in the clouds. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The clouds of light spiral down toward him, light flashes, the camera rises.
+  transition_in: dissolve

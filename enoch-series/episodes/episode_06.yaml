@@ -1,0 +1,153 @@
+# Le Livre d'Hénoch, saison 1 « Les Veilleurs », épisode 6 : Azazel enchaîné
+# Original French adaptation of 1 Enoch (public-domain source text).
+# clip_url / still_url are filled in after generating on Higgsfield.
+
+episode:
+  id: episode_06
+  series: Le Livre d'Hénoch
+  title: Azazel enchaîné
+  language: fr
+  output: output/episode_06.mp4
+  srt: output/episode_06.srt
+  caption_file: output/caption_06.txt
+  caption: 'Que dit vraiment le Livre d''Hénoch ? 👁️ Partie 6 #livredhenoch #anges #bible #histoire'
+voice:
+  elevenlabs_voice_id: 3BZLNrQEzQVYs6kPOW4S
+  elevenlabs_model: eleven_multilingual_v2
+  edge_voice: fr-FR-HenriNeural
+  edge_rate: -10%
+  edge_pitch: -6Hz
+music:
+  file: assets/audio/music.mp3
+  gain_db: -19
+  fade_in: 1.5
+  fade_out: 3.0
+timing:
+  pad_after_voice: 0.6
+  lead_in: 0.5
+  crossfade: 0.4
+  max_slowdown: 0.6
+  use_target_as_minimum: true
+  end_fade_to_black: 0.8
+  extend_source: last_frame
+end_card:
+  text: 'Épisode 7 : Le voyage d''Hénoch'
+  duration: 3.0
+  fade_in: 1.0
+generation:
+  image_model: gpt_image_2_6
+  video_model: kling3_0
+  video_mode: std
+  duration: 5
+  aspect_ratio: '9:16'
+  sound: 'off'
+characters:
+  archanges: assets/characters/archanges_reference.png
+  azazel: assets/characters/azazel_reference.png
+  henoch: assets/characters/henoch_reference.png
+  shemihaza: assets/stills/shemihaza_reference.png
+shots:
+- id: 1
+  name: hook_chains
+  target: 4
+  clip: assets/ep06/clips/01_hook_chains.mp4
+  clip_url: ''
+  still: assets/ep06/stills/01.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205913_25d6a699-fac1-471a-b9fa-61ac47bd9b86.png
+  narration: assets/ep06/narration/shot_01.mp3
+  text: Il avait appris aux hommes à forger des chaînes. Il n'avait pas imaginé qu'un jour, elles seraient pour lui.
+  character: azazel
+  image_prompt: Close-up of heavenly chains closing around Azazel's wrists, the same kind of links he once forged, sparks, his clenched fist. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The chains snap shut, sparks burst, slow push-in on the fist.
+  transition_in: none
+- id: 2
+  name: command
+  target: 10
+  clip: assets/ep06/clips/02_command.mp4
+  clip_url: ''
+  still: assets/ep06/stills/02.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205913_7d258e14-f487-4a80-9b9c-00c63ead36f5.png
+  narration: assets/ep06/narration/shot_02.mp3
+  text: 'Le Seigneur dit à Raphaël : « Lie Azazel, pieds et mains. » Raphaël, l''ange qui guérit, reçut la mission la plus dure.'
+  character: archanges
+  image_prompt: The archangel Raphael, gentle healer, receiving glowing chains from a beam of light, sorrow on his face, staff in his other hand. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Light descends into his hands forming the chains, Raphael closes his eyes in sorrow.
+  transition_in: cut
+- id: 3
+  name: dudael
+  target: 10
+  clip: assets/ep06/clips/03_dudael.mp4
+  clip_url: ''
+  still: assets/ep06/stills/03.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205913_4bb318aa-d773-4b42-9545-e2aec1ef42f2.png
+  narration: assets/ep06/narration/shot_03.mp3
+  text: Raphaël descendit dans le désert de Dudaël et y ouvrit une fosse.
+  character: archanges
+  image_prompt: Raphael landing in a vast desolate desert at night, striking the ground with his staff, a deep dark chasm opening in the sand. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The ground splits open, sand pours into the chasm, wide slow move.
+  transition_in: dissolve
+- id: 4
+  name: cast_down
+  target: 12
+  clip: assets/ep06/clips/04_cast_down.mp4
+  clip_url: ''
+  still: assets/ep06/stills/04.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205948_ec85e977-cc1c-47e6-8a64-87caa61e29f8.png
+  narration: assets/ep06/narration/shot_04.mp3
+  text: Il y jeta Azazel, et le couvrit de pierres rudes et tranchantes. Pas de forge, cette fois. Seulement le silence.
+  character: null
+  image_prompt: Azazel bound in glowing chains falling into a dark pit, jagged rough rocks tumbling after him, seen from above. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Azazel falls away from the camera into darkness, rocks cascade after him.
+  transition_in: dissolve
+- id: 5
+  name: darkness
+  target: 12
+  clip: assets/ep06/clips/05_darkness.mp4
+  clip_url: ''
+  still: assets/ep06/stills/05.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205948_43c1b9c9-62d0-4dce-9ffe-f38b1ec0a1a8.png
+  narration: assets/ep06/narration/shot_05.mp3
+  text: « Couvre son visage de ténèbres. Qu'il y demeure, et qu'il ne voie plus jamais la lumière. »
+  character: azazel
+  image_prompt: Azazel's face in the darkness of the pit, the last thin line of light above him disappearing as stones close the opening. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The line of light narrows and vanishes, his eyes the last glow.
+  transition_in: dissolve
+- id: 6
+  name: judgment
+  target: 14
+  clip: assets/ep06/clips/06_judgment.mp4
+  clip_url: ''
+  still: assets/ep06/stills/06.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205948_e6d8d323-cfb5-48e9-9b30-ed1e058b8f59.png
+  narration: assets/ep06/narration/shot_06.mp3
+  text: Au grand jour du jugement, il sera jeté dans le feu. Et la Terre, enfin, pourra guérir.
+  character: null
+  image_prompt: A dawn breaking over a wounded land, first green shoots appearing in cracked earth, distant smoke clearing, hopeful light. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Sunlight spreads across the land, green shoots unfurl, slow aerial glide.
+  transition_in: dissolve
+- id: 7
+  name: shemihaza_bound
+  target: 16
+  clip: assets/ep06/clips/07_shemihaza_bound.mp4
+  clip_url: ''
+  still: assets/ep06/stills/07.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205949_e79c2691-40a1-49c4-92b2-b3a445fe8860.png
+  narration: assets/ep06/narration/shot_07.mp3
+  text: Puis Michel lia Shemihaza sous les collines de la Terre, pour soixante-dix générations. Shemihaza avait eu raison d'avoir peur.
+  character: shemihaza
+  image_prompt: The archangel Michael binding Shemihaza with chains of light in a valley beneath dark hills, other fallen Watchers chained around them. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Chains tighten, Shemihaza lowers his head, the camera pulls back to reveal the valley.
+  transition_in: dissolve
+- id: 8
+  name: enoch_lifted
+  target: 12
+  clip: assets/ep06/clips/08_enoch_lifted.mp4
+  clip_url: ''
+  still: assets/ep06/stills/08.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_210044_4c9553fd-c1b7-401a-bdfc-a62cbd69d681.png
+  narration: assets/ep06/narration/shot_08.mp3
+  text: Les Veilleurs étaient enchaînés. Mais Hénoch, lui, allait voir ce que nul homme n'avait jamais vu.
+  character: henoch
+  image_prompt: Enoch standing on a mountaintop as swirling winds and clouds lift him into the air toward a radiant sky. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Winds swirl, Enoch rises slowly, camera tilts up with him.
+  transition_in: dissolve

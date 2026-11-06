@@ -1,0 +1,149 @@
+# Le Livre d'Hénoch, saison 1 « Les Veilleurs », épisode 3 : La naissance des géants
+# Original French adaptation of 1 Enoch (public-domain source text).
+# clip_url / still_url are filled in after generating on Higgsfield.
+
+episode:
+  id: episode_03
+  series: Le Livre d'Hénoch
+  title: La naissance des géants
+  language: fr
+  output: output/episode_03.mp4
+  srt: output/episode_03.srt
+  caption_file: output/caption_03.txt
+  caption: 'Que dit vraiment le Livre d''Hénoch ? 👁️ Partie 3 #livredhenoch #anges #bible #histoire'
+voice:
+  elevenlabs_voice_id: 3BZLNrQEzQVYs6kPOW4S
+  elevenlabs_model: eleven_multilingual_v2
+  edge_voice: fr-FR-HenriNeural
+  edge_rate: -10%
+  edge_pitch: -6Hz
+music:
+  file: assets/audio/music.mp3
+  gain_db: -19
+  fade_in: 1.5
+  fade_out: 3.0
+timing:
+  pad_after_voice: 0.6
+  lead_in: 0.5
+  crossfade: 0.4
+  max_slowdown: 0.6
+  use_target_as_minimum: true
+  end_fade_to_black: 0.8
+  extend_source: last_frame
+end_card:
+  text: 'Épisode 4 : Le cri de la Terre'
+  duration: 3.0
+  fade_in: 1.0
+generation:
+  image_model: gpt_image_2_6
+  video_model: kling3_0
+  video_mode: std
+  duration: 5
+  aspect_ratio: '9:16'
+  sound: 'off'
+characters: {}
+shots:
+- id: 1
+  name: hook_giant_eye
+  target: 4
+  clip: assets/ep03/clips/01_hook_giant_eye.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205118_7128cc6a-bbeb-4140-8037-a41a47d639d5.mp4
+  still: assets/ep03/stills/01.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205002_8839a244-11b2-4ce4-9900-35b8b4ac3091.png
+  narration: assets/ep03/narration/shot_01.mp3
+  text: Ils étaient nés de l'union du ciel et de la terre. Et la Terre ne pouvait pas les porter.
+  character: null
+  image_prompt: A colossal face half-hidden in storm clouds above a mountain range, one huge glowing eye opening, scale emphasized by tiny birds. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The giant eye opens slowly, clouds roll across the face, lightning flickers.
+  transition_in: none
+- id: 2
+  name: birth
+  target: 10
+  clip: assets/ep03/clips/02_birth.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205118_d68120da-ddea-4c75-b7bf-7236b8171219.mp4
+  still: assets/ep03/stills/02.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204644_02327531-192a-4923-9500-23ab5fcf4316.png
+  narration: assets/ep03/narration/shot_02.mp3
+  text: Une mère serra son enfant contre elle. Il était déjà trop lourd pour ses bras… et elle l'aimait quand même.
+  character: null
+  image_prompt: A young mother in a lamp-lit tent holding an unusually large glowing infant, an angel's white wing sheltering them, awe and fear on her face. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Lamp flame flickers, the infant's glow pulses softly, slow push-in on the mother's face.
+  transition_in: cut
+- id: 3
+  name: growing
+  target: 10
+  clip: assets/ep03/clips/03_growing.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205118_cddd1a3c-73de-4abe-8a30-6f92b1aa41a6.mp4
+  still: assets/ep03/stills/03.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204844_049b77aa-ef95-4355-ba14-82ce1c912aa0.png
+  narration: assets/ep03/narration/shot_03.mp3
+  text: Ils grandirent plus haut que les arbres. Trouver une porte assez grande devint vite un problème.
+  character: null
+  image_prompt: A friendly-looking young giant crouching awkwardly to peer through the tiny doorway of a mud-brick house, villagers staring up, light comedic moment, cedar trees behind. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The giant slowly lowers his head to peer through the doorway, villagers lean back, gentle humor.
+  transition_in: dissolve
+- id: 4
+  name: hunger
+  target: 12
+  clip: assets/ep03/clips/04_hunger.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205118_4b4cb32a-b359-41c1-ba11-a2c3db350b7d.mp4
+  still: assets/ep03/stills/04.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204845_713be61e-2171-492b-a1c4-d783b48e2eab.png
+  narration: assets/ep03/narration/shot_04.mp3
+  text: Ils dévorèrent les récoltes des hommes. Un seul repas de géant, et c'était tout l'hiver qui disparaissait.
+  character: null
+  image_prompt: A giant crouched over a broken granary scooping grain, villagers watching helplessly from a distance, empty baskets, dusty golden light. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Grain pours through the giant's fingers, dust drifts, slow lateral move across the villagers.
+  transition_in: dissolve
+- id: 5
+  name: turning
+  target: 12
+  clip: assets/ep03/clips/05_turning.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205119_bdcab965-8cc6-44f9-8339-b12b2d729254.mp4
+  still: assets/ep03/stills/05.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205003_06a7894b-7abe-416b-aa4c-bab64f4f243d.png
+  narration: assets/ep03/narration/shot_05.mp3
+  text: Quand les hommes ne purent plus les nourrir, les géants se retournèrent contre eux.
+  character: null
+  image_prompt: A giant turning his head toward a crowd of fleeing villagers, his shadow falling over them, dramatic low angle, no gore. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The giant slowly turns his head toward the camera, villagers run, shadow sweeps across them.
+  transition_in: dissolve
+- id: 6
+  name: creatures
+  target: 14
+  clip: assets/ep03/clips/06_creatures.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205119_56b4788c-a281-4420-abcd-722219618858.mp4
+  still: assets/ep03/stills/06.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204845_81424438-4084-4ff7-8d5c-1922dddfc6af.png
+  narration: assets/ep03/narration/shot_06.mp3
+  text: Les oiseaux, les bêtes, les poissons… même les serpents fuyaient. Et quand un serpent a peur, c'est mauvais signe.
+  character: null
+  image_prompt: 'A river valley in chaos: birds fleeing into a darkened sky, beasts running, a large serpent slithering away in a hurry in the foreground, giant footprints filled with water, no gore. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.'
+  motion_prompt: Birds burst into the sky, animals run, the serpent hurries out of frame.
+  transition_in: dissolve
+- id: 7
+  name: bleeding_earth
+  target: 16
+  clip: assets/ep03/clips/07_bleeding_earth.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205656_641a0107-5b21-4cc9-9869-40337cdb0b65.mp4
+  still: assets/ep03/stills/07.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205136_19521e80-78d7-48aa-bd81-e96ecef55566.png
+  narration: assets/ep03/narration/shot_07.mp3
+  text: Les mères cachaient leurs enfants. Les pères n'osaient plus dormir. Et la Terre elle-même commença à gémir.
+  character: null
+  image_prompt: Inside a dark house, a mother hiding her two children behind her under a blanket, a father awake by the door holding a lamp, the ground trembling, emotional. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: The lamp flame trembles, dust falls from the ceiling, the mother pulls the children closer.
+  transition_in: dissolve
+- id: 8
+  name: cry_rising
+  target: 12
+  clip: assets/ep03/clips/08_cry_rising.mp4
+  clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_205327_5b1bdc6e-a8c9-4fdd-87fe-cae4aee8b27f.mp4
+  still: assets/ep03/stills/08.png
+  still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_204845_54e0161d-3336-41bd-a496-9eead7d9a19b.png
+  narration: assets/ep03/narration/shot_08.mp3
+  text: Son cri monta jusqu'aux portes du ciel… et quelqu'un l'entendit.
+  character: null
+  image_prompt: A pillar of pale light rising from the dark earth up through storm clouds to colossal glowing gates in the heavens. Epic cinematic biblical-era illustration, photoreal, dramatic chiaroscuro, warm gold light against deep shadow, ancient Near East setting, film still, 9:16 vertical, no text, no letters, no logos.
+  motion_prompt: Camera follows the pillar of light upward until the gates glow brighter.
+  transition_in: dissolve

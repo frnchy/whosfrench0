@@ -37,16 +37,23 @@ def fetch(url: str, dest: Path) -> str | None:
 def main(cfg_path: str) -> int:
     cfg = yaml.safe_load(open(cfg_path, encoding="utf-8"))
     jobs = []
+    pending = []
     for s in cfg["shots"]:
-        jobs.append((s["clip_url"], ROOT / s["clip"]))
-        if s.get("still_url"):
-            jobs.append((s["still_url"], ROOT / s["still"]))
+        for key, path in (("clip_url", "clip"), ("still_url", "still")):
+            if s.get(key):
+                jobs.append((s[key], ROOT / s[path]))
+            elif not (ROOT / s[path]).exists():
+                pending.append(s[path])
     m = cfg.get("music", {})
     if m.get("url"):
         jobs.append((m["url"], ROOT / m["file"]))
     for x in cfg.get("extra_assets", []):
         jobs.append((x["url"], ROOT / x["file"]))
 
+    if pending:
+        print("Not generated yet (no URL in the YAML):")
+        for p in pending:
+            print("  -", p)
     failed = [err for url, dest in jobs if (err := fetch(url, dest))]
     if failed:
         print("\nCould not download these files. Download them manually from higgsfield.ai")
