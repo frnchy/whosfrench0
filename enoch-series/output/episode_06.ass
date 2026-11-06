@@ -1,0 +1,46 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,DejaVu Sans,66,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,5,3,5,40,40,40,1
+Style: Card,Liberation Serif,80,&H00E8F4FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,60,60,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.26,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Il avait appris\Naux hommes
+Dialogue: 0,0:00:01.28,0:00:02.98,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}à forger des chaînes.
+Dialogue: 0,0:00:03.00,0:00:04.48,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Il n'avait pas\Nimaginé qu'un jour,
+Dialogue: 0,0:00:04.50,0:00:05.91,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}elles seraient\Npour lui.
+Dialogue: 0,0:00:07.62,0:00:09.37,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Le Seigneur\Ndit à Raphaël :
+Dialogue: 0,0:00:09.39,0:00:10.67,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}« Lie Azazel,\Npieds et mains. »
+Dialogue: 0,0:00:10.69,0:00:13.01,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Raphaël, l'ange\Nqui guérit,
+Dialogue: 0,0:00:13.03,0:00:14.89,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}reçut la mission\Nla plus dure.
+Dialogue: 0,0:00:18.37,0:00:20.35,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Raphaël descendit\Ndans le désert de
+Dialogue: 0,0:00:20.37,0:00:22.10,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Dudaël et y\Nouvrit une fosse.
+Dialogue: 0,0:00:27.41,0:00:28.24,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Il y jeta Azazel,
+Dialogue: 0,0:00:28.26,0:00:29.09,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}et le couvrit de
+Dialogue: 0,0:00:29.11,0:00:31.86,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}pierres rudes\Net tranchantes.
+Dialogue: 0,0:00:31.88,0:00:32.32,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Pas de forge,
+Dialogue: 0,0:00:32.34,0:00:33.45,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}cette fois.
+Dialogue: 0,0:00:33.47,0:00:34.80,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Seulement le silence.
+Dialogue: 0,0:00:39.72,0:00:41.88,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}« Couvre son\Nvisage de ténèbres.
+Dialogue: 0,0:00:41.90,0:00:42.49,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Qu'il y demeure,
+Dialogue: 0,0:00:42.51,0:00:44.65,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}et qu'il ne voie plus\Njamais la lumière. »
+Dialogue: 0,0:00:51.80,0:00:53.26,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Au grand jour\Ndu jugement,
+Dialogue: 0,0:00:53.28,0:00:54.95,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}il sera jeté\Ndans le feu.
+Dialogue: 0,0:00:54.97,0:00:55.67,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Et la Terre,
+Dialogue: 0,0:00:55.69,0:00:57.08,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}enfin, pourra guérir.
+Dialogue: 0,0:01:04.80,0:01:06.58,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Puis Michel lia\NShemihaza sous
+Dialogue: 0,0:01:06.60,0:01:08.67,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}les collines\Nde la Terre,
+Dialogue: 0,0:01:08.69,0:01:11.69,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}pour soixante-dix\Ngénérations.
+Dialogue: 0,0:01:11.71,0:01:14.13,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Shemihaza avait eu\Nraison d'avoir peur.
+Dialogue: 0,0:01:20.06,0:01:22.91,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Les Veilleurs\Nétaient enchaînés.
+Dialogue: 0,0:01:22.93,0:01:23.80,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Mais Hénoch, lui,
+Dialogue: 0,0:01:23.82,0:01:25.02,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}allait voir ce que nul
+Dialogue: 0,0:01:25.04,0:01:26.53,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}homme n'avait\Njamais vu.
+Dialogue: 0,0:01:30.51,0:01:33.31,Card,,0,0,0,,{\pos(540,960)\fad(1000,0)}{\fs58\fsp6}ÉPISODE 7{\fs20}\N\N{\fs88\fsp1}Le voyage d'Hénoch
