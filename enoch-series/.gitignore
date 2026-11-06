@@ -1,0 +1,6 @@
+build/
+build.log
+__pycache__/
+*.part
+assets/clips/
+assets/stills/

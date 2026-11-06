@@ -1,0 +1,145 @@
+# Le Livre d'Hénoch — Saison 1 « Les Veilleurs »
+# Épisode 1 : Le serment du mont Hermon
+# Original French adaptation of 1 Enoch ch. 6–7 (public-domain source text).
+#
+# To make a new episode: copy this file, change the shots / urls / texts, then run
+#   python src/download_assets.py episodes/episode_02.yaml
+#   python src/tts.py              episodes/episode_02.yaml
+#   python src/build_episode.py    episodes/episode_02.yaml
+
+episode:
+  id: episode_01
+  series: "Le Livre d'Hénoch"
+  title: "Le serment du mont Hermon"
+  language: fr
+  output: output/episode_01.mp4
+  srt: output/episode_01.srt
+  caption_file: output/caption.txt
+  caption: "Que dit vraiment le Livre d'Hénoch ? 👁️ Partie 1 #livredhenoch #anges #bible #histoire"
+
+voice:
+  # ElevenLabs voice used for this series (deep, calm French documentary narrator).
+  elevenlabs_voice_id: 3BZLNrQEzQVYs6kPOW4S   # "Justin Doré - Documentary Narrator"
+  elevenlabs_model: eleven_multilingual_v2
+  # Fallback when no ELEVENLABS_API_KEY and no narration file exists yet
+  edge_voice: fr-FR-HenriNeural
+  edge_rate: "-10%"
+  edge_pitch: "-6Hz"
+
+music:
+  file: assets/audio/music.mp3
+  # Generated with Higgsfield (ElevenLabs Music v2.5, instrumental, 100 s)
+  url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_200830_13d0aed2-e380-426e-b3b3-12aa488845f3.mp3
+  prompt: "Dark epic cinematic orchestral, deep choir, tension, ancient atmosphere, slow build"
+  gain_db: -19
+  fade_in: 1.5
+  fade_out: 3.0
+
+timing:
+  pad_after_voice: 0.6     # shot = narration + pad (minimum)
+  lead_in: 0.5             # silence before the voice starts (not on shot 1)
+  crossfade: 0.4
+  max_slowdown: 0.6        # never play a clip slower than 0.6x
+  use_target_as_minimum: true   # also respect each shot's target length from the script
+  end_fade_to_black: 0.8
+  # Ken Burns extension image: last_frame (seamless with the clip) or still (start frame)
+  extend_source: last_frame
+
+end_card:
+  text: "Épisode 2 : Les secrets interdits"
+  duration: 3.0
+  fade_in: 1.0
+
+shots:
+  - id: 1
+    name: hook_eyes
+    target: 4
+    clip: assets/clips/01_hook_eyes.mp4
+    clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_183544_276f6007-1aef-45cd-9579-37494a92c4d2.mp4
+    still: assets/stills/01.png
+    still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_183244_b62a0222-00e1-419a-822d-5d2958cf50d8.png
+    narration: assets/audio/narration/shot_01.mp3
+    text: "Avant le Déluge… des êtres venus du ciel sont descendus sur Terre. Et ils n'auraient jamais dû."
+    visual: Golden eyes opening in darkness
+    transition_in: none
+  - id: 2
+    name: village
+    target: 10
+    clip: assets/clips/02_village.mp4
+    clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_183558_02a0953f-c067-4637-9c50-de7e8813c81c.mp4
+    still: assets/stills/02.png
+    still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_183310_da025470-860e-44d4-91c9-92cb2966cd28.png
+    narration: assets/audio/narration/shot_02.mp3
+    text: "Au temps de Jared, les hommes se multipliaient sur la Terre. Et leurs filles étaient d'une grande beauté."
+    visual: Ancient village at dusk
+    transition_in: cut          # hard cut from the hook
+  - id: 3
+    name: watchers
+    target: 10
+    clip: assets/clips/03_watchers.mp4
+    clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_183558_7783d983-dedc-4dc3-84e4-7ec8e30beabb.mp4
+    still: assets/stills/03.png
+    still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_183310_45bd144b-15ef-48b7-8c3b-a457ce602b91.png
+    narration: assets/audio/narration/shot_03.mp3
+    text: "Dans les cieux, des anges les observaient. On les appelait les Veilleurs."
+    visual: Angels on clouds looking down
+    transition_in: dissolve
+  - id: 4
+    name: shemihaza_speaks
+    target: 12
+    clip: assets/clips/04_shemihaza_speaks.mp4
+    clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_183600_26e9724c-5397-4c0f-aa26-34d86b712038.mp4
+    still: assets/stills/04.png
+    still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_183337_4138cf08-73f2-4978-8a9a-d79ec714f3c1.png
+    narration: assets/audio/narration/shot_04.mp3
+    text: "Leur chef, Shemihaza, prit la parole : « Choisissons des épouses parmi les humains. »"
+    visual: Shemihaza addressing the angels
+    transition_in: dissolve
+  - id: 5
+    name: shemihaza_fear
+    target: 12
+    clip: assets/clips/05_shemihaza_fear.mp4
+    clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_183559_b7846442-641e-4d61-8aea-5d807afc3d7d.mp4
+    still: assets/stills/05.png
+    still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_183338_52b0b27e-5838-4a79-9a7b-6c7e6782f740.png
+    narration: assets/audio/narration/shot_05.mp3
+    text: "Mais il avait peur. « Je crains d'être le seul à payer pour ce grand péché. »"
+    visual: Close-up, troubled Shemihaza
+    transition_in: dissolve
+  - id: 6
+    name: oath
+    target: 14
+    clip: assets/clips/06_oath.mp4
+    clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_183600_6a77478b-7ba2-4025-a7a0-257b7580ff88.mp4
+    still: assets/stills/06.png
+    still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_183244_b157d47d-cd3b-4d2e-9d07-8ae6339c42f5.png
+    narration: assets/audio/narration/shot_06.mp3
+    text: "Alors tous jurèrent ensemble, et ils se lièrent par une malédiction : personne ne reculerait."
+    visual: Circle of angels, ring of fire
+    transition_in: dissolve
+  - id: 7
+    name: mount_hermon
+    target: 16
+    clip: assets/clips/07_mount_hermon.mp4
+    clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_183544_2646fbc6-6246-4a88-9328-ed003b972ae5.mp4
+    still: assets/stills/07.png
+    still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_182846_a3cd8258-c2da-403e-a225-5d571928166e.png
+    narration: assets/audio/narration/shot_07.mp3
+    text: "Ils étaient deux cents. Ils descendirent sur le sommet du mont Hermon… Et la Terre allait changer pour toujours."
+    visual: Light descending on the mountain
+    transition_in: dissolve
+  - id: 8
+    name: sword_cliffhanger
+    target: 12
+    clip: assets/clips/08_sword_cliffhanger.mp4
+    clip_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_183544_8a2400bd-d5ae-41ea-80c0-9ad63301d272.mp4
+    still: assets/stills/08.png
+    still_url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_183244_8f8f6d79-f83f-4d30-af00-7d807f96d33d.png
+    narration: assets/audio/narration/shot_08.mp3
+    text: "Mais ce qu'ils allaient enseigner aux hommes… était bien plus dangereux que leur serment."
+    visual: Angel hand giving a sword to a human
+    transition_in: dissolve
+
+extra_assets:
+  - file: assets/stills/shemihaza_reference.png
+    url: https://d8j0ntlcm91z4.cloudfront.net/user_3Lgvhsp7lvSmX220rph9KSGByuc/hf_20261106_183243_2960dcda-ceb0-4092-9254-3ddcfe57a3ae.png
