@@ -1,0 +1,51 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,DejaVu Sans,66,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,5,3,5,40,40,40,1
+Style: Card,Liberation Serif,80,&H00E8F4FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,60,60,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.59,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Les nuées\Nl'appelèrent.
+Dialogue: 0,0:00:01.61,0:00:03.10,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Les vents le\Nsoulevèrent.
+Dialogue: 0,0:00:03.12,0:00:05.62,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Et Hénoch fut\Nemporté dans le ciel.
+Dialogue: 0,0:00:05.64,0:00:06.51,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Sans avoir\Neu le temps
+Dialogue: 0,0:00:06.53,0:00:07.92,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}de prévenir\Nsa famille.
+Dialogue: 0,0:00:09.83,0:00:10.56,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Il vit un mur de
+Dialogue: 0,0:00:10.58,0:00:12.62,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}cristal entouré\Nde flammes.
+Dialogue: 0,0:00:12.64,0:00:14.96,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Hénoch avait vu\Nbeaucoup de choses.
+Dialogue: 0,0:00:14.98,0:00:16.27,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Jamais rien de tel.
+Dialogue: 0,0:00:19.39,0:00:22.89,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Au centre, un trône\Nsemblable au cristal.
+Dialogue: 0,0:00:22.91,0:00:23.94,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Et de dessous\Nle trône
+Dialogue: 0,0:00:23.96,0:00:25.92,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}sortaient des\Nfleuves de feu.
+Dialogue: 0,0:00:28.75,0:00:30.20,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Celui qui\Nsiégeait là était
+Dialogue: 0,0:00:30.22,0:00:32.20,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}plus éclatant\Nque le soleil.
+Dialogue: 0,0:00:32.22,0:00:34.30,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Hénoch tomba\Nface contre terre.
+Dialogue: 0,0:00:34.32,0:00:34.30,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Il tremblait…
+Dialogue: 0,0:00:34.32,0:00:36.10,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}et pourtant,
+Dialogue: 0,0:00:36.12,0:00:38.10,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}il n'avait jamais\Nété aussi en paix.
+Dialogue: 0,0:00:41.12,0:00:42.78,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Puis les anges\Nle conduisirent
+Dialogue: 0,0:00:42.80,0:00:44.86,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}aux extrémités\Nde la Terre.
+Dialogue: 0,0:00:44.88,0:00:46.98,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Le plus long voyage\Nde l'histoire.
+Dialogue: 0,0:00:47.00,0:00:47.99,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Et sans carte.
+Dialogue: 0,0:00:53.15,0:00:54.30,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Il vit sept montagnes
+Dialogue: 0,0:00:54.32,0:00:56.29,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}de pierres\Nprécieuses,
+Dialogue: 0,0:00:56.31,0:00:57.13,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}plus belles que tout
+Dialogue: 0,0:00:57.15,0:00:59.01,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}ce qu'on pouvait\Nimaginer.
+Dialogue: 0,0:00:59.03,0:01:00.50,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Azazel aurait adoré.
+Dialogue: 0,0:01:07.45,0:01:09.78,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Puis il vit un\Nlieu terrible :
+Dialogue: 0,0:01:09.80,0:01:10.38,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}une prison où
+Dialogue: 0,0:01:10.40,0:01:12.27,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}brûlaient\Nsept étoiles,
+Dialogue: 0,0:01:12.29,0:01:13.16,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}enchaînées\Ncomme de
+Dialogue: 0,0:01:13.18,0:01:14.44,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}grandes montagnes.
+Dialogue: 0,0:01:21.48,0:01:22.93,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}L'ange lui dit :
+Dialogue: 0,0:01:22.95,0:01:24.98,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}« Ici seront\Nenfermés les anges,
+Dialogue: 0,0:01:25.00,0:01:26.26,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}jusqu'au jour de\Nleur jugement. »
+Dialogue: 0,0:01:26.28,0:01:29.72,Sub,,0,0,0,,{\pos(540,1248)\fad(80,60)}Hénoch pensa à ceux\Nqu'il avait connus.
+Dialogue: 0,0:01:32.47,0:01:35.27,Card,,0,0,0,,{\pos(540,960)\fad(1000,0)}{\fs58\fsp6}ÉPISODE 8{\fs20}\N\N{\fs88\fsp1}L'annonce du Déluge
