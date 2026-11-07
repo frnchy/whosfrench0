@@ -40,7 +40,7 @@ def at(line, word, n=0):
 events = {
  "y365": at(2, "365.24"), "quarter": at(3, "quarter"), "ten": at(4, "ten"), "twelve": at(4, "twelve"),
  "y147": at(5, "147"), "winter": at(5, "winter"), "obey": at(6, "obey"), "scary": at(7, "scary"),
- "closer": at(8, "closer"), "km": at(8, "339,000"), "moon": at(8, "moon"), "sunlight": at(9, "sunlight"),
+ "closer": at(8, "closer"), "km": at(8, "339,000"), "almost": at(8, "almost"), "moon": at(8, "moon"), "sunlight": at(9, "sunlight"),
  "half": at(10, "half"), "forty": at(10, "forty"), "fix": at(11, "fix"), "move": at(12, "move"), "decide": at(12, "decide"),
 }
 events.update({f"line{l['id']}": l["start"] for l in out})

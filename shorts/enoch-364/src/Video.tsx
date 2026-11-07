@@ -135,7 +135,7 @@ export const Video: React.FC<{ showText: boolean }> = ({ showText }) => {
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
       <ThreeCanvas width={width} height={height} gl={{ antialias: true, preserveDrawingBuffer: true }}>
-        <Scene3D fr={fr} markerOpacity={markerOpacity} glow={glow} newTrack={ramp(frame, E.closer - 0.3, E.closer + 0.4)} moonRing={ramp(frame, E.moon - 0.6, E.moon)} />
+        <Scene3D fr={fr} markerOpacity={markerOpacity} glow={glow} newTrack={ramp(frame, E.closer - 0.3, E.closer + 0.4)} moonRing={ramp(frame, E.almost - 0.2, E.almost + 0.4)} />
       </ThreeCanvas>
       <Grain />
       {showText && <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0) 24%, rgba(0,0,0,0) 58%, rgba(0,0,0,0.6) 72%, rgba(0,0,0,0.25) 92%)" }} />}
