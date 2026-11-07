@@ -13,5 +13,5 @@ python3 tools/vo.py                      # video/public/vo/*.wav + video/src/vo_
 python3 tools/mix.py                     # .cache/mix.wav + out/captions.srt
 ffmpeg -v error -y -i .cache/video_silent.mp4 -i .cache/mix.wav -map 0:v -map 1:a \
   -c:v copy -c:a aac -b:a 192k -ar 48000 \
-  -af "loudnorm=I=-14:TP=-1.0:LRA=11" -movflags +faststart -shortest out/whatif_six_final.mp4
+  -af "loudnorm=I=-14:TP=-1.6:LRA=11" -movflags +faststart -shortest out/whatif_six_final.mp4
 echo "done: out/whatif_six_final.mp4"
