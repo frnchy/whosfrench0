@@ -1,0 +1,839 @@
+{
+ "q": {
+  "at": 0.25,
+  "dur": 2.959,
+  "text": "What if everyone turned six... for five seconds?",
+  "heard": "What if everyone turned six... for five seconds?",
+  "words": [
+   {
+    "w": "What",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "if",
+    "s": 0.14,
+    "e": 0.3
+   },
+   {
+    "w": "everyone",
+    "s": 0.3,
+    "e": 0.64
+   },
+   {
+    "w": "turned",
+    "s": 0.64,
+    "e": 0.96
+   },
+   {
+    "w": "six...",
+    "s": 0.96,
+    "e": 1.9
+   },
+   {
+    "w": "for",
+    "s": 1.9,
+    "e": 1.96
+   },
+   {
+    "w": "five",
+    "s": 1.96,
+    "e": 2.24
+   },
+   {
+    "w": "seconds?",
+    "s": 2.24,
+    "e": 2.6
+   }
+  ]
+ },
+ "place": {
+  "at": 3.4,
+  "dur": 1.725,
+  "text": "Times Square. Rush hour.",
+  "heard": "Times Square. Rush hour.",
+  "words": [
+   {
+    "w": "Times",
+    "s": 0.0,
+    "e": 0.3
+   },
+   {
+    "w": "Square.",
+    "s": 0.3,
+    "e": 0.7
+   },
+   {
+    "w": "Rush",
+    "s": 1.02,
+    "e": 1.1
+   },
+   {
+    "w": "hour.",
+    "s": 1.1,
+    "e": 1.38
+   }
+  ]
+ },
+ "avg": {
+  "at": 5.305,
+  "dur": 3.045,
+  "text": "The average American adult? Five foot six.",
+  "heard": "The average American adult? Five foot six.",
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.12
+   },
+   {
+    "w": "average",
+    "s": 0.12,
+    "e": 0.52
+   },
+   {
+    "w": "American",
+    "s": 0.52,
+    "e": 1.02
+   },
+   {
+    "w": "adult?",
+    "s": 1.02,
+    "e": 1.5
+   },
+   {
+    "w": "Five",
+    "s": 1.96,
+    "e": 2.18
+   },
+   {
+    "w": "foot",
+    "s": 2.18,
+    "e": 2.42
+   },
+   {
+    "w": "six.",
+    "s": 2.42,
+    "e": 2.76
+   }
+  ]
+ },
+ "s1": {
+  "at": 8.3,
+  "dur": 2.695,
+  "text": "Second one. Everyone drops twenty inches,",
+  "heard": "Second one. Everyone drops twenty inches.",
+  "words": [
+   {
+    "w": "Second",
+    "s": 0.0,
+    "e": 0.26
+   },
+   {
+    "w": "one.",
+    "s": 0.26,
+    "e": 0.64
+   },
+   {
+    "w": "Everyone",
+    "s": 0.96,
+    "e": 1.22
+   },
+   {
+    "w": "drops",
+    "s": 1.22,
+    "e": 1.64
+   },
+   {
+    "w": "twenty",
+    "s": 1.64,
+    "e": 1.98
+   },
+   {
+    "w": "inches.",
+    "s": 1.98,
+    "e": 2.38
+   }
+  ]
+ },
+ "weight": {
+  "at": 11.025,
+  "dur": 1.824,
+  "text": "and three quarters of their weight.",
+  "heard": "And three quarters of their weight.",
+  "words": [
+   {
+    "w": "And",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "three",
+    "s": 0.18,
+    "e": 0.48
+   },
+   {
+    "w": "quarters",
+    "s": 0.48,
+    "e": 0.84
+   },
+   {
+    "w": "of",
+    "s": 0.84,
+    "e": 1.08
+   },
+   {
+    "w": "their",
+    "s": 1.08,
+    "e": 1.22
+   },
+   {
+    "w": "weight.",
+    "s": 1.22,
+    "e": 1.5
+   }
+  ]
+ },
+ "grip": {
+  "at": 13.079,
+  "dur": 3.09,
+  "text": "Shoes slip off. Grip strength? Down eighty percent.",
+  "heard": "Shoes slip off. Grip strength? Down eighty percent.",
+  "words": [
+   {
+    "w": "Shoes",
+    "s": 0.0,
+    "e": 0.24
+   },
+   {
+    "w": "slip",
+    "s": 0.24,
+    "e": 0.54
+   },
+   {
+    "w": "off.",
+    "s": 0.54,
+    "e": 0.86
+   },
+   {
+    "w": "Grip",
+    "s": 1.16,
+    "e": 1.18
+   },
+   {
+    "w": "strength?",
+    "s": 1.18,
+    "e": 1.6
+   },
+   {
+    "w": "Down",
+    "s": 1.96,
+    "e": 2.08
+   },
+   {
+    "w": "eighty",
+    "s": 2.08,
+    "e": 2.36
+   },
+   {
+    "w": "percent.",
+    "s": 2.36,
+    "e": 2.78
+   }
+  ]
+ },
+ "s2": {
+  "at": 16.3,
+  "dur": 4.326,
+  "text": "Second two. Every seat belt now crosses a six year old's neck.",
+  "heard": "Second two. Every seat belt now crosses a six year old's neck.",
+  "words": [
+   {
+    "w": "Second",
+    "s": 0.0,
+    "e": 0.32
+   },
+   {
+    "w": "two.",
+    "s": 0.32,
+    "e": 0.68
+   },
+   {
+    "w": "Every",
+    "s": 1.26,
+    "e": 1.5
+   },
+   {
+    "w": "seat",
+    "s": 1.5,
+    "e": 1.8
+   },
+   {
+    "w": "belt",
+    "s": 1.8,
+    "e": 2.1
+   },
+   {
+    "w": "now",
+    "s": 2.1,
+    "e": 2.42
+   },
+   {
+    "w": "crosses",
+    "s": 2.42,
+    "e": 2.76
+   },
+   {
+    "w": "a",
+    "s": 2.76,
+    "e": 3.02
+   },
+   {
+    "w": "six",
+    "s": 3.02,
+    "e": 3.28
+   },
+   {
+    "w": "year",
+    "s": 3.28,
+    "e": 3.46
+   },
+   {
+    "w": "old's",
+    "s": 3.46,
+    "e": 3.88
+   },
+   {
+    "w": "neck.",
+    "s": 3.88,
+    "e": 4.12
+   }
+  ]
+ },
+ "belt": {
+  "at": 20.906,
+  "dur": 2.506,
+  "text": "Adult belts fit at four foot nine and up.",
+  "heard": "Adult belts fit at four foot nine and up.",
+  "words": [
+   {
+    "w": "Adult",
+    "s": 0.0,
+    "e": 0.34
+   },
+   {
+    "w": "belts",
+    "s": 0.34,
+    "e": 0.72
+   },
+   {
+    "w": "fit",
+    "s": 0.72,
+    "e": 0.92
+   },
+   {
+    "w": "at",
+    "s": 0.92,
+    "e": 1.06
+   },
+   {
+    "w": "four",
+    "s": 1.06,
+    "e": 1.36
+   },
+   {
+    "w": "foot",
+    "s": 1.36,
+    "e": 1.58
+   },
+   {
+    "w": "nine",
+    "s": 1.58,
+    "e": 1.94
+   },
+   {
+    "w": "and",
+    "s": 1.94,
+    "e": 2.14
+   },
+   {
+    "w": "up.",
+    "s": 2.14,
+    "e": 2.34
+   }
+  ]
+ },
+ "s3": {
+  "at": 24.3,
+  "dur": 2.855,
+  "text": "Second three. Nobody can reach the brake.",
+  "heard": "Second three. Nobody can reach the brake.",
+  "words": [
+   {
+    "w": "Second",
+    "s": 0.0,
+    "e": 0.34
+   },
+   {
+    "w": "three.",
+    "s": 0.34,
+    "e": 0.78
+   },
+   {
+    "w": "Nobody",
+    "s": 1.32,
+    "e": 1.48
+   },
+   {
+    "w": "can",
+    "s": 1.48,
+    "e": 1.86
+   },
+   {
+    "w": "reach",
+    "s": 1.86,
+    "e": 2.12
+   },
+   {
+    "w": "the",
+    "s": 2.12,
+    "e": 2.32
+   },
+   {
+    "w": "brake.",
+    "s": 2.32,
+    "e": 2.58
+   }
+  ]
+ },
+ "roll": {
+  "at": 27.435,
+  "dur": 4.519,
+  "text": "At twenty five miles an hour, that's thirty seven feet... every second.",
+  "heard": "At twenty five miles an hour, that's thirty seven feet... every second.",
+  "words": [
+   {
+    "w": "At",
+    "s": 0.0,
+    "e": 0.18
+   },
+   {
+    "w": "twenty",
+    "s": 0.18,
+    "e": 0.42
+   },
+   {
+    "w": "five",
+    "s": 0.42,
+    "e": 0.8
+   },
+   {
+    "w": "miles",
+    "s": 0.8,
+    "e": 1.14
+   },
+   {
+    "w": "an",
+    "s": 1.14,
+    "e": 1.34
+   },
+   {
+    "w": "hour,",
+    "s": 1.34,
+    "e": 1.66
+   },
+   {
+    "w": "that's",
+    "s": 1.88,
+    "e": 2.06
+   },
+   {
+    "w": "thirty",
+    "s": 2.06,
+    "e": 2.28
+   },
+   {
+    "w": "seven",
+    "s": 2.28,
+    "e": 2.74
+   },
+   {
+    "w": "feet...",
+    "s": 2.74,
+    "e": 3.72
+   },
+   {
+    "w": "every",
+    "s": 3.72,
+    "e": 3.84
+   },
+   {
+    "w": "second.",
+    "s": 3.84,
+    "e": 4.18
+   }
+  ]
+ },
+ "s4": {
+  "at": 32.3,
+  "dur": 3.197,
+  "text": "Second four. Most new cars... brake themselves.",
+  "heard": "Second four. Most new cars... brake themselves.",
+  "words": [
+   {
+    "w": "Second",
+    "s": 0.0,
+    "e": 0.28
+   },
+   {
+    "w": "four.",
+    "s": 0.28,
+    "e": 0.66
+   },
+   {
+    "w": "Most",
+    "s": 0.8,
+    "e": 0.92
+   },
+   {
+    "w": "new",
+    "s": 0.92,
+    "e": 1.16
+   },
+   {
+    "w": "cars...",
+    "s": 1.16,
+    "e": 2.2
+   },
+   {
+    "w": "brake",
+    "s": 2.2,
+    "e": 2.28
+   },
+   {
+    "w": "themselves.",
+    "s": 2.28,
+    "e": 2.78
+   }
+  ]
+ },
+ "aeb": {
+  "at": 35.677,
+  "dur": 2.013,
+  "text": "Automatic emergency braking.",
+  "heard": "Automatic emergency braking.",
+  "words": [
+   {
+    "w": "Automatic",
+    "s": 0.0,
+    "e": 0.58
+   },
+   {
+    "w": "emergency",
+    "s": 0.58,
+    "e": 1.18
+   },
+   {
+    "w": "braking.",
+    "s": 1.18,
+    "e": 1.72
+   }
+  ]
+ },
+ "taxi": {
+  "at": 37.97,
+  "dur": 2.078,
+  "text": "The old taxi? Not so much.",
+  "heard": "The old taxi? Not so much.",
+  "words": [
+   {
+    "w": "The",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "old",
+    "s": 0.14,
+    "e": 0.36
+   },
+   {
+    "w": "taxi?",
+    "s": 0.36,
+    "e": 0.88
+   },
+   {
+    "w": "Not",
+    "s": 1.24,
+    "e": 1.3
+   },
+   {
+    "w": "so",
+    "s": 1.3,
+    "e": 1.52
+   },
+   {
+    "w": "much.",
+    "s": 1.52,
+    "e": 1.8
+   }
+  ]
+ },
+ "s5": {
+  "at": 40.3,
+  "dur": 1.098,
+  "text": "Second five.",
+  "heard": "Second five.",
+  "words": [
+   {
+    "w": "Second",
+    "s": 0.0,
+    "e": 0.36
+   },
+   {
+    "w": "five.",
+    "s": 0.36,
+    "e": 0.76
+   }
+  ]
+ },
+ "airbag": {
+  "at": 42.3,
+  "dur": 2.669,
+  "text": "Its airbag fires... at a six year old.",
+  "heard": "Its airbag fires... at a six year old.",
+  "words": [
+   {
+    "w": "Its",
+    "s": 0.0,
+    "e": 0.14
+   },
+   {
+    "w": "airbag",
+    "s": 0.14,
+    "e": 0.54
+   },
+   {
+    "w": "fires...",
+    "s": 0.54,
+    "e": 1.56
+   },
+   {
+    "w": "at",
+    "s": 1.56,
+    "e": 1.58
+   },
+   {
+    "w": "a",
+    "s": 1.58,
+    "e": 1.7
+   },
+   {
+    "w": "six",
+    "s": 1.7,
+    "e": 1.9
+   },
+   {
+    "w": "year",
+    "s": 1.9,
+    "e": 2.1
+   },
+   {
+    "w": "old.",
+    "s": 2.1,
+    "e": 2.44
+   }
+  ]
+ },
+ "back": {
+  "at": 46.4,
+  "dur": 1.535,
+  "text": "And... everyone's back.",
+  "heard": "And everyone's back.",
+  "words": [
+   {
+    "w": "And",
+    "s": 0.0,
+    "e": 0.3
+   },
+   {
+    "w": "everyone's",
+    "s": 0.3,
+    "e": 0.94
+   },
+   {
+    "w": "back.",
+    "s": 0.94,
+    "e": 1.22
+   }
+  ]
+ },
+ "barefoot": {
+  "at": 48.115,
+  "dur": 1.511,
+  "text": "Barefoot. Pants down.",
+  "heard": "Barefoot. Pants down.",
+  "words": [
+   {
+    "w": "Barefoot.",
+    "s": 0.0,
+    "e": 0.5
+   },
+   {
+    "w": "Pants",
+    "s": 0.72,
+    "e": 0.86
+   },
+   {
+    "w": "down.",
+    "s": 0.86,
+    "e": 1.2
+   }
+  ]
+ },
+ "heads": {
+  "at": 49.806,
+  "dur": 5.383,
+  "text": "Their heads barely shrank. By six, the brain is about ninety percent adult size.",
+  "heard": "Their heads barely shrank. By six, the brain is about ninety percent adult size.",
+  "words": [
+   {
+    "w": "Their",
+    "s": 0.0,
+    "e": 0.12
+   },
+   {
+    "w": "heads",
+    "s": 0.12,
+    "e": 0.38
+   },
+   {
+    "w": "barely",
+    "s": 0.38,
+    "e": 0.74
+   },
+   {
+    "w": "shrank.",
+    "s": 0.74,
+    "e": 1.28
+   },
+   {
+    "w": "By",
+    "s": 1.82,
+    "e": 1.9
+   },
+   {
+    "w": "six,",
+    "s": 1.9,
+    "e": 2.22
+   },
+   {
+    "w": "the",
+    "s": 2.62,
+    "e": 2.68
+   },
+   {
+    "w": "brain",
+    "s": 2.68,
+    "e": 2.98
+   },
+   {
+    "w": "is",
+    "s": 2.98,
+    "e": 3.2
+   },
+   {
+    "w": "about",
+    "s": 3.2,
+    "e": 3.44
+   },
+   {
+    "w": "ninety",
+    "s": 3.44,
+    "e": 3.82
+   },
+   {
+    "w": "percent",
+    "s": 3.82,
+    "e": 4.26
+   },
+   {
+    "w": "adult",
+    "s": 4.26,
+    "e": 4.6
+   },
+   {
+    "w": "size.",
+    "s": 4.6,
+    "e": 5.04
+   }
+  ]
+ },
+ "argue": {
+  "at": 55.6,
+  "dur": 3.96,
+  "text": "Who was in more danger: the kids walking... or the kids driving?",
+  "heard": "Who was in more danger, the kids walking... or the kids driving?",
+  "words": [
+   {
+    "w": "Who",
+    "s": 0.0,
+    "e": 0.1
+   },
+   {
+    "w": "was",
+    "s": 0.1,
+    "e": 0.22
+   },
+   {
+    "w": "in",
+    "s": 0.22,
+    "e": 0.34
+   },
+   {
+    "w": "more",
+    "s": 0.34,
+    "e": 0.54
+   },
+   {
+    "w": "danger,",
+    "s": 0.54,
+    "e": 1.06
+   },
+   {
+    "w": "the",
+    "s": 1.32,
+    "e": 1.4
+   },
+   {
+    "w": "kids",
+    "s": 1.4,
+    "e": 1.62
+   },
+   {
+    "w": "walking...",
+    "s": 1.62,
+    "e": 2.74
+   },
+   {
+    "w": "or",
+    "s": 2.74,
+    "e": 2.78
+   },
+   {
+    "w": "the",
+    "s": 2.78,
+    "e": 2.94
+   },
+   {
+    "w": "kids",
+    "s": 2.94,
+    "e": 3.24
+   },
+   {
+    "w": "driving?",
+    "s": 3.24,
+    "e": 3.66
+   }
+  ]
+ }
+}

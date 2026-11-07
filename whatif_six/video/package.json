@@ -1,0 +1,27 @@
+{
+  "name": "whatif-six",
+  "private": true,
+  "version": "1.0.0",
+  "description": "What if everyone turned 6 for 5 seconds? — 100% code-rendered short",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "still": "remotion still src/index.ts WhatIfSix",
+    "render": "remotion render src/index.ts WhatIfSix ../out/video_silent.mp4 --muted"
+  },
+  "dependencies": {
+    "@fontsource/eb-garamond": "5.2.5",
+    "@fontsource/inter": "5.2.5",
+    "@react-three/fiber": "8.18.0",
+    "@remotion/cli": "4.0.541",
+    "@remotion/three": "4.0.541",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.541",
+    "three": "0.169.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.31",
+    "@types/three": "0.169.0",
+    "typescript": "5.6.3"
+  }
+}

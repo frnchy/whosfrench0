@@ -1,0 +1,122 @@
+{
+  "title": "What if everyone turned 6 for 5 seconds?",
+  "fps": 30,
+  "duration": 60,
+  "tts": {
+    "engine": "kokoro-onnx v1.0",
+    "voice": "am_michael",
+    "speed": 1.0
+  },
+  "beats": {
+    "slowStart": 6.6,
+    "t0": 8.0,
+    "seconds": [
+      8.0,
+      16.0,
+      24.0,
+      32.0,
+      40.0,
+      46.0
+    ],
+    "loopCut": 59.6
+  },
+  "vo": [
+    {
+      "id": "q",
+      "at": 0.25,
+      "text": "What if everyone turned six... for five seconds?"
+    },
+    {
+      "id": "place",
+      "at": 3.4,
+      "text": "Times Square. Rush hour."
+    },
+    {
+      "id": "avg",
+      "at": "+0.3",
+      "text": "The average American adult? Five foot six."
+    },
+    {
+      "id": "s1",
+      "at": 8.3,
+      "text": "Second one. Everyone drops twenty inches,"
+    },
+    {
+      "id": "weight",
+      "at": "+0.15",
+      "text": "and three quarters of their weight."
+    },
+    {
+      "id": "grip",
+      "at": "+0.35",
+      "text": "Shoes slip off. Grip strength? Down eighty percent."
+    },
+    {
+      "id": "s2",
+      "at": 16.3,
+      "text": "Second two. Every seat belt now crosses a six year old's neck."
+    },
+    {
+      "id": "belt",
+      "at": "+0.4",
+      "text": "Adult belts fit at four foot nine and up."
+    },
+    {
+      "id": "s3",
+      "at": 24.3,
+      "text": "Second three. Nobody can reach the brake."
+    },
+    {
+      "id": "roll",
+      "at": "+0.4",
+      "text": "At twenty five miles an hour, that's thirty seven feet... every second."
+    },
+    {
+      "id": "s4",
+      "at": 32.3,
+      "text": "Second four. Most new cars... brake themselves."
+    },
+    {
+      "id": "aeb",
+      "at": "+0.3",
+      "text": "Automatic emergency braking."
+    },
+    {
+      "id": "taxi",
+      "at": "+0.4",
+      "text": "The old taxi? Not so much."
+    },
+    {
+      "id": "s5",
+      "at": 40.3,
+      "text": "Second five."
+    },
+    {
+      "id": "airbag",
+      "at": 42.3,
+      "text": "Its airbag fires... at a six year old."
+    },
+    {
+      "id": "back",
+      "at": 46.4,
+      "text": "And... everyone's back."
+    },
+    {
+      "id": "barefoot",
+      "at": "+0.3",
+      "text": "Barefoot. Pants down."
+    },
+    {
+      "id": "heads",
+      "at": "+0.3",
+      "text": "Their heads barely shrank. By six, the brain is about ninety percent adult size.",
+      "speed": 1.06
+    },
+    {
+      "id": "argue",
+      "at": 55.6,
+      "text": "Who was in more danger: the kids walking... or the kids driving?",
+      "speed": 1.05
+    }
+  ]
+}
