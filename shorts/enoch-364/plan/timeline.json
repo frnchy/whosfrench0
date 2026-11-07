@@ -1,0 +1,787 @@
+{
+ "fps": 30,
+ "duration": 63.176,
+ "lines": [
+  {
+   "id": 1,
+   "speaker": "ENOCH",
+   "text": "The year is completed in 364 days.",
+   "file": "vo/line_01.mp3",
+   "start": 0.0,
+   "duration": 4.441,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.36,
+     "end": 0.44
+    },
+    {
+     "text": "year",
+     "start": 0.56,
+     "end": 0.88
+    },
+    {
+     "text": "is",
+     "start": 0.98,
+     "end": 1.12
+    },
+    {
+     "text": "completed",
+     "start": 1.16,
+     "end": 1.76
+    },
+    {
+     "text": "in",
+     "start": 1.9,
+     "end": 2.08
+    },
+    {
+     "text": "364",
+     "start": 2.36,
+     "end": 3.6
+    },
+    {
+     "text": "days",
+     "start": 3.72,
+     "end": 4.2
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "speaker": "MAYA",
+   "text": "Respectfully? No. Earth takes 365.24 days.",
+   "file": "vo/line_02.mp3",
+   "start": 4.591,
+   "duration": 5.486,
+   "words": [
+    {
+     "text": "Respectfully?",
+     "start": 4.811,
+     "end": 5.611
+    },
+    {
+     "text": "No.",
+     "start": 6.131,
+     "end": 6.371
+    },
+    {
+     "text": "Earth",
+     "start": 6.871,
+     "end": 7.071
+    },
+    {
+     "text": "takes",
+     "start": 7.171,
+     "end": 7.451
+    },
+    {
+     "text": "365.24",
+     "start": 7.651,
+     "end": 9.351
+    },
+    {
+     "text": "days",
+     "start": 9.431,
+     "end": 9.811
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "speaker": "ENOCH",
+   "text": "A mere day and a quarter. What harm can it do?",
+   "file": "vo/line_03.mp3",
+   "start": 10.227,
+   "duration": 3.474,
+   "words": [
+    {
+     "text": "A",
+     "start": 10.507,
+     "end": 10.527
+    },
+    {
+     "text": "mere",
+     "start": 10.667,
+     "end": 10.867
+    },
+    {
+     "text": "day",
+     "start": 11.027,
+     "end": 11.227
+    },
+    {
+     "text": "and",
+     "start": 11.267,
+     "end": 11.347
+    },
+    {
+     "text": "a",
+     "start": 11.387,
+     "end": 11.467
+    },
+    {
+     "text": "quarter.",
+     "start": 11.547,
+     "end": 11.987
+    },
+    {
+     "text": "What",
+     "start": 12.407,
+     "end": 12.567
+    },
+    {
+     "text": "harm",
+     "start": 12.627,
+     "end": 12.827
+    },
+    {
+     "text": "can",
+     "start": 12.927,
+     "end": 13.047
+    },
+    {
+     "text": "it",
+     "start": 13.087,
+     "end": 13.207
+    },
+    {
+     "text": "do?",
+     "start": 13.247,
+     "end": 13.447
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "speaker": "MAYA",
+   "text": "Your calendar slips a day and a quarter every year. In ten years, every feast lands twelve days early.",
+   "file": "vo/line_04.mp3",
+   "start": 13.851,
+   "duration": 7.079,
+   "words": [
+    {
+     "text": "Your",
+     "start": 13.951,
+     "end": 14.051
+    },
+    {
+     "text": "calendar",
+     "start": 14.111,
+     "end": 14.511
+    },
+    {
+     "text": "slips",
+     "start": 14.591,
+     "end": 14.851
+    },
+    {
+     "text": "a",
+     "start": 14.911,
+     "end": 14.931
+    },
+    {
+     "text": "day",
+     "start": 15.091,
+     "end": 15.251
+    },
+    {
+     "text": "and",
+     "start": 15.291,
+     "end": 15.371
+    },
+    {
+     "text": "a",
+     "start": 15.391,
+     "end": 15.471
+    },
+    {
+     "text": "quarter",
+     "start": 15.531,
+     "end": 15.851
+    },
+    {
+     "text": "every",
+     "start": 16.091,
+     "end": 16.371
+    },
+    {
+     "text": "year.",
+     "start": 16.471,
+     "end": 16.711
+    },
+    {
+     "text": "In",
+     "start": 17.311,
+     "end": 17.431
+    },
+    {
+     "text": "ten",
+     "start": 17.491,
+     "end": 17.671
+    },
+    {
+     "text": "years,",
+     "start": 17.731,
+     "end": 18.091
+    },
+    {
+     "text": "every",
+     "start": 18.431,
+     "end": 18.651
+    },
+    {
+     "text": "feast",
+     "start": 18.811,
+     "end": 19.131
+    },
+    {
+     "text": "lands",
+     "start": 19.271,
+     "end": 19.591
+    },
+    {
+     "text": "twelve",
+     "start": 19.651,
+     "end": 19.971
+    },
+    {
+     "text": "days",
+     "start": 20.051,
+     "end": 20.291
+    },
+    {
+     "text": "early",
+     "start": 20.331,
+     "end": 20.671
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "speaker": "MAYA",
+   "text": "After 147 years… midsummer falls in the middle of winter.",
+   "file": "vo/line_05.mp3",
+   "start": 21.08,
+   "duration": 6.348,
+   "words": [
+    {
+     "text": "After",
+     "start": 21.3,
+     "end": 21.58
+    },
+    {
+     "text": "147",
+     "start": 21.8,
+     "end": 23.42
+    },
+    {
+     "text": "years",
+     "start": 23.58,
+     "end": 24.06
+    },
+    {
+     "text": "Midsummer",
+     "start": 24.7,
+     "end": 25.18
+    },
+    {
+     "text": "falls",
+     "start": 25.34,
+     "end": 25.78
+    },
+    {
+     "text": "in",
+     "start": 25.84,
+     "end": 25.92
+    },
+    {
+     "text": "the",
+     "start": 25.96,
+     "end": 26.04
+    },
+    {
+     "text": "middle",
+     "start": 26.18,
+     "end": 26.52
+    },
+    {
+     "text": "of",
+     "start": 26.58,
+     "end": 26.7
+    },
+    {
+     "text": "winter",
+     "start": 26.8,
+     "end": 27.2
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "speaker": "ENOCH",
+   "text": "Then let the Earth obey the calendar.",
+   "file": "vo/line_06.mp3",
+   "start": 27.578,
+   "duration": 2.691,
+   "words": [
+    {
+     "text": "Then",
+     "start": 27.698,
+     "end": 27.898
+    },
+    {
+     "text": "let",
+     "start": 27.958,
+     "end": 28.118
+    },
+    {
+     "text": "the",
+     "start": 28.178,
+     "end": 28.258
+    },
+    {
+     "text": "earth",
+     "start": 28.398,
+     "end": 28.718
+    },
+    {
+     "text": "obey",
+     "start": 28.838,
+     "end": 29.238
+    },
+    {
+     "text": "the",
+     "start": 29.278,
+     "end": 29.378
+    },
+    {
+     "text": "calendar",
+     "start": 29.418,
+     "end": 29.898
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "speaker": "MAYA",
+   "text": "Okay… but that's the scary part.",
+   "file": "vo/line_07.mp3",
+   "start": 30.418,
+   "duration": 3.631,
+   "words": [
+    {
+     "text": "Okay,",
+     "start": 30.718,
+     "end": 31.278
+    },
+    {
+     "text": "but",
+     "start": 31.898,
+     "end": 32.298
+    },
+    {
+     "text": "that's",
+     "start": 32.358,
+     "end": 32.658
+    },
+    {
+     "text": "the",
+     "start": 32.698,
+     "end": 32.758
+    },
+    {
+     "text": "scary",
+     "start": 32.898,
+     "end": 33.238
+    },
+    {
+     "text": "part",
+     "start": 33.378,
+     "end": 33.718
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "speaker": "MAYA",
+   "text": "To finish its orbit a day and a quarter sooner, Earth has to move closer to the Sun. 339,000 kilometers closer. Almost the distance to the Moon.",
+   "file": "vo/line_08.mp3",
+   "start": 34.199,
+   "duration": 11.546,
+   "words": [
+    {
+     "text": "To",
+     "start": 34.319,
+     "end": 34.379
+    },
+    {
+     "text": "finish",
+     "start": 34.479,
+     "end": 34.719
+    },
+    {
+     "text": "its",
+     "start": 34.759,
+     "end": 34.899
+    },
+    {
+     "text": "orbit",
+     "start": 34.979,
+     "end": 35.339
+    },
+    {
+     "text": "a",
+     "start": 35.399,
+     "end": 35.499
+    },
+    {
+     "text": "day",
+     "start": 35.539,
+     "end": 35.679
+    },
+    {
+     "text": "and",
+     "start": 35.699,
+     "end": 35.779
+    },
+    {
+     "text": "a",
+     "start": 35.819,
+     "end": 35.879
+    },
+    {
+     "text": "quarter",
+     "start": 35.939,
+     "end": 36.199
+    },
+    {
+     "text": "sooner,",
+     "start": 36.379,
+     "end": 36.739
+    },
+    {
+     "text": "Earth",
+     "start": 37.219,
+     "end": 37.419
+    },
+    {
+     "text": "has",
+     "start": 37.459,
+     "end": 37.639
+    },
+    {
+     "text": "to",
+     "start": 37.679,
+     "end": 37.759
+    },
+    {
+     "text": "move",
+     "start": 37.799,
+     "end": 37.939
+    },
+    {
+     "text": "closer",
+     "start": 38.079,
+     "end": 38.499
+    },
+    {
+     "text": "to",
+     "start": 38.539,
+     "end": 38.619
+    },
+    {
+     "text": "the",
+     "start": 38.679,
+     "end": 38.719
+    },
+    {
+     "text": "sun,",
+     "start": 38.819,
+     "end": 39.039
+    },
+    {
+     "text": "339,000",
+     "start": 39.899,
+     "end": 41.499
+    },
+    {
+     "text": "kilometers",
+     "start": 41.619,
+     "end": 42.139
+    },
+    {
+     "text": "closer,",
+     "start": 42.219,
+     "end": 42.659
+    },
+    {
+     "text": "almost",
+     "start": 43.879,
+     "end": 44.219
+    },
+    {
+     "text": "the",
+     "start": 44.259,
+     "end": 44.359
+    },
+    {
+     "text": "distance",
+     "start": 44.379,
+     "end": 44.799
+    },
+    {
+     "text": "to",
+     "start": 44.859,
+     "end": 44.939
+    },
+    {
+     "text": "the",
+     "start": 44.979,
+     "end": 45.019
+    },
+    {
+     "text": "moon",
+     "start": 45.119,
+     "end": 45.459
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "speaker": "ENOCH",
+   "text": "And the sunlight?",
+   "file": "vo/line_09.mp3",
+   "start": 45.896,
+   "duration": 1.489,
+   "words": [
+    {
+     "text": "And",
+     "start": 46.096,
+     "end": 46.196
+    },
+    {
+     "text": "the",
+     "start": 46.256,
+     "end": 46.356
+    },
+    {
+     "text": "sunlight?",
+     "start": 46.416,
+     "end": 46.976
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "speaker": "MAYA",
+   "text": "Half a percent stronger. That's about forty percent of all the warming push humans have added since 1750.",
+   "file": "vo/line_10.mp3",
+   "start": 47.534,
+   "duration": 7.314,
+   "words": [
+    {
+     "text": "Half",
+     "start": 47.654,
+     "end": 47.854
+    },
+    {
+     "text": "a",
+     "start": 47.914,
+     "end": 47.994
+    },
+    {
+     "text": "percent",
+     "start": 48.014,
+     "end": 48.414
+    },
+    {
+     "text": "stronger.",
+     "start": 48.594,
+     "end": 49.074
+    },
+    {
+     "text": "That's",
+     "start": 49.654,
+     "end": 49.794
+    },
+    {
+     "text": "about",
+     "start": 49.874,
+     "end": 50.054
+    },
+    {
+     "text": "forty",
+     "start": 50.314,
+     "end": 50.554
+    },
+    {
+     "text": "percent",
+     "start": 50.634,
+     "end": 50.994
+    },
+    {
+     "text": "of",
+     "start": 51.054,
+     "end": 51.254
+    },
+    {
+     "text": "all",
+     "start": 51.334,
+     "end": 51.474
+    },
+    {
+     "text": "the",
+     "start": 51.514,
+     "end": 51.634
+    },
+    {
+     "text": "warming",
+     "start": 51.694,
+     "end": 52.014
+    },
+    {
+     "text": "push",
+     "start": 52.114,
+     "end": 52.314
+    },
+    {
+     "text": "humans",
+     "start": 52.374,
+     "end": 52.714
+    },
+    {
+     "text": "have",
+     "start": 52.734,
+     "end": 52.894
+    },
+    {
+     "text": "added",
+     "start": 52.974,
+     "end": 53.254
+    },
+    {
+     "text": "since",
+     "start": 53.314,
+     "end": 53.534
+    },
+    {
+     "text": "1750.",
+     "start": 53.574,
+     "end": 54.574
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "speaker": "ENOCH",
+   "text": "So… we fix the calendar?",
+   "file": "vo/line_11.mp3",
+   "start": 54.999,
+   "duration": 3.396,
+   "words": [
+    {
+     "text": "So",
+     "start": 55.939,
+     "end": 56.299
+    },
+    {
+     "text": "we",
+     "start": 56.959,
+     "end": 57.119
+    },
+    {
+     "text": "fix",
+     "start": 57.299,
+     "end": 57.519
+    },
+    {
+     "text": "the",
+     "start": 57.539,
+     "end": 57.619
+    },
+    {
+     "text": "calendar?",
+     "start": 57.659,
+     "end": 58.079
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "speaker": "MAYA",
+   "text": "Or we move the planet. You decide.",
+   "file": "vo/line_12.mp3",
+   "start": 58.545,
+   "duration": 3.631,
+   "words": [
+    {
+     "text": "Or",
+     "start": 58.865,
+     "end": 59.245
+    },
+    {
+     "text": "we",
+     "start": 59.545,
+     "end": 59.685
+    },
+    {
+     "text": "move",
+     "start": 59.745,
+     "end": 59.965
+    },
+    {
+     "text": "the",
+     "start": 60.005,
+     "end": 60.125
+    },
+    {
+     "text": "planet",
+     "start": 60.185,
+     "end": 60.805
+    },
+    {
+     "text": "You",
+     "start": 61.345,
+     "end": 61.425
+    },
+    {
+     "text": "decide",
+     "start": 61.465,
+     "end": 61.965
+    }
+   ]
+  }
+ ],
+ "events": {
+  "y365": 7.651,
+  "quarter": 11.547,
+  "ten": 17.491,
+  "twelve": 19.651,
+  "y147": 21.8,
+  "winter": 26.8,
+  "obey": 28.838,
+  "scary": 32.898,
+  "closer": 38.079,
+  "km": 39.899,
+  "moon": 45.119,
+  "sunlight": 46.416,
+  "half": 47.654,
+  "forty": 50.314,
+  "fix": 57.299,
+  "move": 59.745,
+  "decide": 61.465,
+  "line1": 0.0,
+  "line2": 4.591,
+  "line3": 10.227,
+  "line4": 13.851,
+  "line5": 21.08,
+  "line6": 27.578,
+  "line7": 30.418,
+  "line8": 34.199,
+  "line9": 45.896,
+  "line10": 47.534,
+  "line11": 54.999,
+  "line12": 58.545
+ }
+}
