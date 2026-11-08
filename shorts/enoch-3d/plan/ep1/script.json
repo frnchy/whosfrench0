@@ -1,0 +1,77 @@
+{
+ "title": "Le serment du mont Hermon",
+ "ref": "1 Hénoch 6",
+ "question": [
+  "Toi, à leur place…",
+  "tu aurais juré ?"
+ ],
+ "voices": {
+  "HÉNOCH": "3BZLNrQEzQVYs6kPOW4S",
+  "SHEMIHAZA": "GFj5Qf6cNQ3Lgp8VKBwc",
+  "AZAZEL": "papd083UqIoSWdSkh3fG",
+  "ANGE": "5hs4q0PzlPQREPpq7uQ9",
+  "CHOEUR": [
+   "GFj5Qf6cNQ3Lgp8VKBwc",
+   "papd083UqIoSWdSkh3fG",
+   "5hs4q0PzlPQREPpq7uQ9",
+   "qGwq3bbZd3aOEpsBcuc6"
+  ]
+ },
+ "lines": [
+  [
+   "HÉNOCH",
+   "[dramatic] Il y a des milliers d'années, deux cents anges ont regardé la Terre… et ont pris une décision qui allait tout changer."
+  ],
+  [
+   "HÉNOCH",
+   "On les appelait les Veilleurs. Leur mission : surveiller les hommes. Mais à force de regarder… ils ont désiré les filles des hommes."
+  ],
+  [
+   "AZAZEL",
+   "[excited] Choisissons-nous des épouses parmi elles. Et ayons des enfants !"
+  ],
+  [
+   "SHEMIHAZA",
+   "[grave] Je crains que vous ne reculiez… et que je sois le seul à payer pour ce grand péché."
+  ],
+  [
+   "ANGE",
+   "[nervous] Euh… et si on restait simplement au ciel ?"
+  ],
+  [
+   "HÉNOCH",
+   "[whispers] Personne ne lui a répondu."
+  ],
+  [
+   "AZAZEL",
+   "[shouting] Alors jurons tous ! Lions-nous par une malédiction : personne ne reculera !"
+  ],
+  [
+   "HÉNOCH",
+   "Au temps de Jared, ils descendirent sur le sommet du mont Hermon."
+  ],
+  [
+   "SHEMIHAZA",
+   "[commanding] Que la malédiction tombe sur celui qui trahira !"
+  ],
+  [
+   "CHOEUR",
+   "[shouting] Nous le jurons !"
+  ],
+  [
+   "HÉNOCH",
+   "[slowly] Ce jour-là, le ciel a perdu deux cents anges… et la Terre allait en payer le prix."
+  ],
+  [
+   "HÉNOCH",
+   "Toi, à leur place… tu aurais juré ?"
+  ]
+ ],
+ "gaps": {
+  "5": 0.7,
+  "6": 1.1,
+  "8": 1.6,
+  "10": 1.6,
+  "11": 0.5
+ }
+}

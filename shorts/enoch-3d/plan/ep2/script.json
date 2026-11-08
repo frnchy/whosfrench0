@@ -1,0 +1,20 @@
+{
+ "title": "Les secrets interdits", "ref": "1 Hénoch 8", "question": ["Quel secret aurais-tu", "voulu apprendre ?"],
+ "voices": {"HÉNOCH": "3BZLNrQEzQVYs6kPOW4S", "AZAZEL": "papd083UqIoSWdSkh3fG", "FORGERON": "qGwq3bbZd3aOEpsBcuc6", "FEMME": "Y2uuwzlt8SyNkjrPovVI", "KOKABIEL": "mQS95w8LbLFsF6QihxDH"},
+ "gaps": {"4": 0.7, "7": 0.7, "11": 0.4},
+ "lines": [
+  ["HÉNOCH", "[dramatic] Les Veilleurs étaient descendus. Mais ils n'étaient pas venus les mains vides."],
+  ["AZAZEL", "Approche, forgeron. Je vais t'apprendre à faire parler le métal."],
+  ["FORGERON", "[curious] Le métal… parle ?"],
+  ["AZAZEL", "[confident] Épées. Couteaux. Boucliers. Cuirasses. Frappe !"],
+  ["HÉNOCH", "Azazel leur révéla les métaux de la terre et l'art de les travailler."],
+  ["FORGERON", "[nervous] Euh… et la consigne de sécurité, c'est quoi ?"],
+  ["AZAZEL", "[sarcastic] Ne pas te frapper toi-même."],
+  ["HÉNOCH", "Aux femmes, il montra les bracelets, les parures, les pierres précieuses et le fard pour les yeux."],
+  ["FEMME", "[amazed] C'est… magnifique. Tout le monde va me regarder."],
+  ["KOKABIEL", "Et moi, je vous apprendrai le langage des étoiles."],
+  ["HÉNOCH", "[slowly] Mais ces secrets n'étaient pas faits pour les hommes. L'impiété grandit, et les épées se levèrent."],
+  ["HÉNOCH", "[sad] Et quand les hommes périrent… leur cri monta jusqu'au ciel."],
+  ["HÉNOCH", "Toi… quel secret aurais-tu voulu apprendre ?"]
+ ]
+}

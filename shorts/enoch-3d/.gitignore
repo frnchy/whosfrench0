@@ -1,0 +1,14 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore the output video from Git but not videos you import into src/.
+out
+out/*.log
+out/render_*
+out/clean_*
+public/renders
+out/*/render_*.log
+out/*/validate.log
+out/*/final_raw.mp4

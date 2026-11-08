@@ -1,0 +1,753 @@
+{
+ "fps": 30,
+ "duration": 58.12,
+ "frames": 1744,
+ "title": "Les secrets interdits",
+ "ref": "1 Hénoch 8",
+ "question": [
+  "Quel secret aurais-tu",
+  "voulu apprendre ?"
+ ],
+ "lines": [
+  {
+   "id": 1,
+   "speaker": "HÉNOCH",
+   "text": "Les Veilleurs étaient descendus. Mais ils n'étaient pas venus les mains vides.",
+   "file": "ep2/vo/line_01.mp3",
+   "start": 0.4,
+   "duration": 4.32,
+   "words": [
+    {
+     "text": "Les",
+     "start": 0.7,
+     "end": 0.84
+    },
+    {
+     "text": "Veilleurs",
+     "start": 0.88,
+     "end": 1.3
+    },
+    {
+     "text": "étaient",
+     "start": 1.34,
+     "end": 1.54
+    },
+    {
+     "text": "descendus.",
+     "start": 1.58,
+     "end": 2.12
+    },
+    {
+     "text": "Mais",
+     "start": 2.78,
+     "end": 2.92
+    },
+    {
+     "text": "ils",
+     "start": 2.96,
+     "end": 3.06
+    },
+    {
+     "text": "n'étaient",
+     "start": 3.08,
+     "end": 3.38
+    },
+    {
+     "text": "pas",
+     "start": 3.42,
+     "end": 3.54
+    },
+    {
+     "text": "venus",
+     "start": 3.58,
+     "end": 3.82
+    },
+    {
+     "text": "les",
+     "start": 3.86,
+     "end": 3.94
+    },
+    {
+     "text": "mains",
+     "start": 3.98,
+     "end": 4.12
+    },
+    {
+     "text": "vides.",
+     "start": 4.16,
+     "end": 4.48
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "speaker": "AZAZEL",
+   "text": "Approche, forgeron. Je vais t'apprendre à faire parler le métal.",
+   "file": "ep2/vo/line_02.mp3",
+   "start": 4.92,
+   "duration": 3.76,
+   "words": [
+    {
+     "text": "Approche,",
+     "start": 5.0,
+     "end": 5.42
+    },
+    {
+     "text": "forgeron.",
+     "start": 5.66,
+     "end": 6.14
+    },
+    {
+     "text": "Je",
+     "start": 6.66,
+     "end": 6.74
+    },
+    {
+     "text": "vais",
+     "start": 6.78,
+     "end": 6.88
+    },
+    {
+     "text": "t'apprendre",
+     "start": 6.92,
+     "end": 7.38
+    },
+    {
+     "text": "à",
+     "start": 7.42,
+     "end": 7.46
+    },
+    {
+     "text": "faire",
+     "start": 7.5,
+     "end": 7.66
+    },
+    {
+     "text": "parler",
+     "start": 7.7,
+     "end": 7.96
+    },
+    {
+     "text": "le",
+     "start": 7.98,
+     "end": 8.06
+    },
+    {
+     "text": "métal.",
+     "start": 8.1,
+     "end": 8.46
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "speaker": "FORGERON",
+   "text": "Le métal… parle ?",
+   "file": "ep2/vo/line_03.mp3",
+   "start": 8.88,
+   "duration": 2.08,
+   "words": [
+    {
+     "text": "Le",
+     "start": 9.16,
+     "end": 9.24
+    },
+    {
+     "text": "métal…",
+     "start": 9.32,
+     "end": 9.86
+    },
+    {
+     "text": "parle",
+     "start": 10.36,
+     "end": 10.74
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "speaker": "AZAZEL",
+   "text": "Épées. Couteaux. Boucliers. Cuirasses. Frappe !",
+   "file": "ep2/vo/line_04.mp3",
+   "start": 11.16,
+   "duration": 4.32,
+   "words": [
+    {
+     "text": "Épées.",
+     "start": 11.34,
+     "end": 11.66
+    },
+    {
+     "text": "Couteaux.",
+     "start": 12.12,
+     "end": 12.5
+    },
+    {
+     "text": "Boucliers.",
+     "start": 12.96,
+     "end": 13.48
+    },
+    {
+     "text": "Cuirasses.",
+     "start": 13.9,
+     "end": 14.38
+    },
+    {
+     "text": "Frappe",
+     "start": 14.8,
+     "end": 15.14
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "speaker": "HÉNOCH",
+   "text": "Azazel leur révéla les métaux de la terre et l'art de les travailler.",
+   "file": "ep2/vo/line_05.mp3",
+   "start": 16.18,
+   "duration": 4.32,
+   "words": [
+    {
+     "text": "Azazel",
+     "start": 16.26,
+     "end": 16.76
+    },
+    {
+     "text": "leur",
+     "start": 16.94,
+     "end": 17.1
+    },
+    {
+     "text": "révéla",
+     "start": 17.18,
+     "end": 17.56
+    },
+    {
+     "text": "les",
+     "start": 17.6,
+     "end": 17.72
+    },
+    {
+     "text": "métaux",
+     "start": 17.78,
+     "end": 18.06
+    },
+    {
+     "text": "de",
+     "start": 18.1,
+     "end": 18.16
+    },
+    {
+     "text": "la",
+     "start": 18.2,
+     "end": 18.28
+    },
+    {
+     "text": "terre",
+     "start": 18.38,
+     "end": 18.8
+    },
+    {
+     "text": "et",
+     "start": 19.02,
+     "end": 19.12
+    },
+    {
+     "text": "l'art",
+     "start": 19.16,
+     "end": 19.46
+    },
+    {
+     "text": "de",
+     "start": 19.52,
+     "end": 19.58
+    },
+    {
+     "text": "les",
+     "start": 19.62,
+     "end": 19.7
+    },
+    {
+     "text": "travailler.",
+     "start": 19.74,
+     "end": 20.26
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "speaker": "FORGERON",
+   "text": "Euh… et la consigne de sécurité, c'est quoi ?",
+   "file": "ep2/vo/line_06.mp3",
+   "start": 20.7,
+   "duration": 3.28,
+   "words": [
+    {
+     "text": "Euh…",
+     "start": 20.96,
+     "end": 21.3
+    },
+    {
+     "text": "et",
+     "start": 21.72,
+     "end": 21.78
+    },
+    {
+     "text": "la",
+     "start": 21.84,
+     "end": 21.9
+    },
+    {
+     "text": "consigne",
+     "start": 21.96,
+     "end": 22.28
+    },
+    {
+     "text": "de",
+     "start": 22.32,
+     "end": 22.4
+    },
+    {
+     "text": "sécurité,",
+     "start": 22.44,
+     "end": 22.98
+    },
+    {
+     "text": "c'est",
+     "start": 23.38,
+     "end": 23.5
+    },
+    {
+     "text": "quoi",
+     "start": 23.54,
+     "end": 23.7
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "speaker": "AZAZEL",
+   "text": "Ne pas te frapper toi-même.",
+   "file": "ep2/vo/line_07.mp3",
+   "start": 24.18,
+   "duration": 2.08,
+   "words": [
+    {
+     "text": "Ne",
+     "start": 24.52,
+     "end": 24.62
+    },
+    {
+     "text": "pas",
+     "start": 24.76,
+     "end": 24.86
+    },
+    {
+     "text": "te",
+     "start": 24.9,
+     "end": 24.98
+    },
+    {
+     "text": "frapper",
+     "start": 25.04,
+     "end": 25.38
+    },
+    {
+     "text": "toi-même.",
+     "start": 25.42,
+     "end": 25.86
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "speaker": "HÉNOCH",
+   "text": "Aux femmes, il montra les bracelets, les parures, les pierres précieuses et le fard pour les yeux.",
+   "file": "ep2/vo/line_08.mp3",
+   "start": 26.96,
+   "duration": 5.92,
+   "words": [
+    {
+     "text": "Aux",
+     "start": 27.06,
+     "end": 27.18
+    },
+    {
+     "text": "femmes,",
+     "start": 27.24,
+     "end": 27.52
+    },
+    {
+     "text": "il",
+     "start": 27.86,
+     "end": 27.94
+    },
+    {
+     "text": "montra",
+     "start": 28.02,
+     "end": 28.3
+    },
+    {
+     "text": "les",
+     "start": 28.32,
+     "end": 28.42
+    },
+    {
+     "text": "bracelets,",
+     "start": 28.44,
+     "end": 29.06
+    },
+    {
+     "text": "les",
+     "start": 29.34,
+     "end": 29.46
+    },
+    {
+     "text": "parures,",
+     "start": 29.5,
+     "end": 30.08
+    },
+    {
+     "text": "les",
+     "start": 30.34,
+     "end": 30.46
+    },
+    {
+     "text": "pierres",
+     "start": 30.5,
+     "end": 30.7
+    },
+    {
+     "text": "précieuses",
+     "start": 30.72,
+     "end": 31.52
+    },
+    {
+     "text": "et",
+     "start": 31.56,
+     "end": 31.62
+    },
+    {
+     "text": "le",
+     "start": 31.68,
+     "end": 31.74
+    },
+    {
+     "text": "fard",
+     "start": 31.88,
+     "end": 32.14
+    },
+    {
+     "text": "pour",
+     "start": 32.16,
+     "end": 32.28
+    },
+    {
+     "text": "les",
+     "start": 32.32,
+     "end": 32.5
+    },
+    {
+     "text": "yeux.",
+     "start": 32.54,
+     "end": 32.7
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "speaker": "FEMME",
+   "text": "C'est… magnifique. Tout le monde va me regarder.",
+   "file": "ep2/vo/line_09.mp3",
+   "start": 33.08,
+   "duration": 4.0,
+   "words": [
+    {
+     "text": "C'est…",
+     "start": 33.3,
+     "end": 33.52
+    },
+    {
+     "text": "magnifique.",
+     "start": 34.0,
+     "end": 34.86
+    },
+    {
+     "text": "Tout",
+     "start": 35.42,
+     "end": 35.6
+    },
+    {
+     "text": "le",
+     "start": 35.64,
+     "end": 35.68
+    },
+    {
+     "text": "monde",
+     "start": 35.8,
+     "end": 36.02
+    },
+    {
+     "text": "va",
+     "start": 36.06,
+     "end": 36.12
+    },
+    {
+     "text": "me",
+     "start": 36.18,
+     "end": 36.24
+    },
+    {
+     "text": "regarder.",
+     "start": 36.28,
+     "end": 36.74
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "speaker": "KOKABIEL",
+   "text": "Et moi, je vous apprendrai le langage des étoiles.",
+   "file": "ep2/vo/line_10.mp3",
+   "start": 37.28,
+   "duration": 3.04,
+   "words": [
+    {
+     "text": "Et",
+     "start": 37.34,
+     "end": 37.44
+    },
+    {
+     "text": "moi,",
+     "start": 37.48,
+     "end": 37.66
+    },
+    {
+     "text": "je",
+     "start": 38.1,
+     "end": 38.12
+    },
+    {
+     "text": "vous",
+     "start": 38.22,
+     "end": 38.36
+    },
+    {
+     "text": "apprendrai",
+     "start": 38.42,
+     "end": 38.9
+    },
+    {
+     "text": "le",
+     "start": 38.94,
+     "end": 39.04
+    },
+    {
+     "text": "langage",
+     "start": 39.08,
+     "end": 39.5
+    },
+    {
+     "text": "des",
+     "start": 39.54,
+     "end": 39.66
+    },
+    {
+     "text": "étoiles.",
+     "start": 39.7,
+     "end": 40.1
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "speaker": "HÉNOCH",
+   "text": "Mais ces secrets n'étaient pas faits pour les hommes. L'impiété grandit, et les épées se levèrent.",
+   "file": "ep2/vo/line_11.mp3",
+   "start": 40.52,
+   "duration": 7.12,
+   "words": [
+    {
+     "text": "Mais",
+     "start": 40.8,
+     "end": 40.94
+    },
+    {
+     "text": "ces",
+     "start": 41.0,
+     "end": 41.14
+    },
+    {
+     "text": "secrets",
+     "start": 41.22,
+     "end": 41.68
+    },
+    {
+     "text": "n'étaient",
+     "start": 42.06,
+     "end": 42.44
+    },
+    {
+     "text": "pas",
+     "start": 42.48,
+     "end": 42.58
+    },
+    {
+     "text": "faits",
+     "start": 42.74,
+     "end": 42.92
+    },
+    {
+     "text": "pour",
+     "start": 42.98,
+     "end": 43.1
+    },
+    {
+     "text": "les",
+     "start": 43.12,
+     "end": 43.28
+    },
+    {
+     "text": "hommes.",
+     "start": 43.32,
+     "end": 43.56
+    },
+    {
+     "text": "L'impiété",
+     "start": 44.539,
+     "end": 45.1
+    },
+    {
+     "text": "grandit,",
+     "start": 45.14,
+     "end": 45.64
+    },
+    {
+     "text": "et",
+     "start": 46.16,
+     "end": 46.24
+    },
+    {
+     "text": "les",
+     "start": 46.28,
+     "end": 46.42
+    },
+    {
+     "text": "épées",
+     "start": 46.48,
+     "end": 46.76
+    },
+    {
+     "text": "se",
+     "start": 46.84,
+     "end": 46.92
+    },
+    {
+     "text": "levèrent.",
+     "start": 46.96,
+     "end": 47.44
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "speaker": "HÉNOCH",
+   "text": "Et quand les hommes périrent… leur cri monta jusqu'au ciel.",
+   "file": "ep2/vo/line_12.mp3",
+   "start": 48.04,
+   "duration": 4.48,
+   "words": [
+    {
+     "text": "Et",
+     "start": 48.24,
+     "end": 48.36
+    },
+    {
+     "text": "quand",
+     "start": 48.4,
+     "end": 48.56
+    },
+    {
+     "text": "les",
+     "start": 48.6,
+     "end": 48.76
+    },
+    {
+     "text": "hommes",
+     "start": 48.8,
+     "end": 49.02
+    },
+    {
+     "text": "périrent…",
+     "start": 49.06,
+     "end": 49.54
+    },
+    {
+     "text": "leur",
+     "start": 50.64,
+     "end": 50.8
+    },
+    {
+     "text": "cri",
+     "start": 50.9,
+     "end": 51.1
+    },
+    {
+     "text": "monta",
+     "start": 51.2,
+     "end": 51.56
+    },
+    {
+     "text": "jusqu'au",
+     "start": 51.62,
+     "end": 51.92
+    },
+    {
+     "text": "ciel.",
+     "start": 52.04,
+     "end": 52.32
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "speaker": "HÉNOCH",
+   "text": "Toi… quel secret aurais-tu voulu apprendre ?",
+   "file": "ep2/vo/line_13.mp3",
+   "start": 52.72,
+   "duration": 3.2,
+   "words": [
+    {
+     "text": "Toi…",
+     "start": 52.8,
+     "end": 53.04
+    },
+    {
+     "text": "quel",
+     "start": 53.86,
+     "end": 54.0
+    },
+    {
+     "text": "secret",
+     "start": 54.1,
+     "end": 54.5
+    },
+    {
+     "text": "aurais-tu",
+     "start": 54.54,
+     "end": 54.86
+    },
+    {
+     "text": "voulu",
+     "start": 54.92,
+     "end": 55.14
+    },
+    {
+     "text": "apprendre",
+     "start": 55.2,
+     "end": 55.68
+    }
+   ]
+  }
+ ]
+}

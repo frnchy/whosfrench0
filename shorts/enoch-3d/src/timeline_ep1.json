@@ -1,0 +1,838 @@
+{
+ "fps": 30,
+ "duration": 63.315,
+ "frames": 1899,
+ "title": "Le serment du mont Hermon",
+ "ref": "1 Hénoch 6",
+ "question": [
+  "Toi, à leur place…",
+  "tu aurais juré ?"
+ ],
+ "lines": [
+  {
+   "id": 1,
+   "speaker": "HÉNOCH",
+   "text": "Il y a des milliers d'années, deux cents anges ont regardé la Terre… et ont pris une décision qui allait tout changer.",
+   "file": "ep1/vo/line_01.mp3",
+   "start": 0.4,
+   "duration": 6.96,
+   "words": [
+    {
+     "text": "Il",
+     "start": 0.6,
+     "end": 0.68
+    },
+    {
+     "text": "y",
+     "start": 0.76,
+     "end": 0.78
+    },
+    {
+     "text": "a",
+     "start": 0.82,
+     "end": 0.86
+    },
+    {
+     "text": "des",
+     "start": 0.9,
+     "end": 1.04
+    },
+    {
+     "text": "milliers",
+     "start": 1.14,
+     "end": 1.48
+    },
+    {
+     "text": "d'années,",
+     "start": 1.52,
+     "end": 1.84
+    },
+    {
+     "text": "deux",
+     "start": 2.32,
+     "end": 2.44
+    },
+    {
+     "text": "cents",
+     "start": 2.52,
+     "end": 2.76
+    },
+    {
+     "text": "anges",
+     "start": 2.84,
+     "end": 3.02
+    },
+    {
+     "text": "ont",
+     "start": 3.06,
+     "end": 3.14
+    },
+    {
+     "text": "regardé",
+     "start": 3.18,
+     "end": 3.56
+    },
+    {
+     "text": "la",
+     "start": 3.6,
+     "end": 3.72
+    },
+    {
+     "text": "Terre…",
+     "start": 3.76,
+     "end": 4.18
+    },
+    {
+     "text": "et",
+     "start": 4.82,
+     "end": 4.88
+    },
+    {
+     "text": "ont",
+     "start": 4.92,
+     "end": 5.02
+    },
+    {
+     "text": "pris",
+     "start": 5.06,
+     "end": 5.22
+    },
+    {
+     "text": "une",
+     "start": 5.24,
+     "end": 5.36
+    },
+    {
+     "text": "décision",
+     "start": 5.42,
+     "end": 6.0
+    },
+    {
+     "text": "qui",
+     "start": 6.04,
+     "end": 6.14
+    },
+    {
+     "text": "allait",
+     "start": 6.18,
+     "end": 6.48
+    },
+    {
+     "text": "tout",
+     "start": 6.54,
+     "end": 6.7
+    },
+    {
+     "text": "changer.",
+     "start": 6.72,
+     "end": 7.16
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "speaker": "HÉNOCH",
+   "text": "On les appelait les Veilleurs. Leur mission : surveiller les hommes. Mais à force de regarder… ils ont désiré les filles des hommes.",
+   "file": "ep1/vo/line_02.mp3",
+   "start": 7.56,
+   "duration": 9.28,
+   "words": [
+    {
+     "text": "On",
+     "start": 7.62,
+     "end": 7.68
+    },
+    {
+     "text": "les",
+     "start": 7.72,
+     "end": 7.86
+    },
+    {
+     "text": "appelait",
+     "start": 7.92,
+     "end": 8.24
+    },
+    {
+     "text": "les",
+     "start": 8.28,
+     "end": 8.4
+    },
+    {
+     "text": "Veilleurs.",
+     "start": 8.48,
+     "end": 9.02
+    },
+    {
+     "text": "Leur",
+     "start": 9.58,
+     "end": 9.72
+    },
+    {
+     "text": "mission",
+     "start": 9.78,
+     "end": 10.16
+    },
+    {
+     "text": "surveiller",
+     "start": 10.68,
+     "end": 11.1
+    },
+    {
+     "text": "les",
+     "start": 11.14,
+     "end": 11.3
+    },
+    {
+     "text": "hommes.",
+     "start": 11.32,
+     "end": 11.6
+    },
+    {
+     "text": "Mais",
+     "start": 12.22,
+     "end": 12.76
+    },
+    {
+     "text": "à",
+     "start": 12.84,
+     "end": 12.94
+    },
+    {
+     "text": "force",
+     "start": 13.0,
+     "end": 13.3
+    },
+    {
+     "text": "de",
+     "start": 13.34,
+     "end": 13.42
+    },
+    {
+     "text": "regarder…",
+     "start": 13.46,
+     "end": 14.04
+    },
+    {
+     "text": "ils",
+     "start": 14.8,
+     "end": 14.96
+    },
+    {
+     "text": "ont",
+     "start": 14.98,
+     "end": 15.1
+    },
+    {
+     "text": "désiré",
+     "start": 15.16,
+     "end": 15.599
+    },
+    {
+     "text": "les",
+     "start": 15.64,
+     "end": 15.8
+    },
+    {
+     "text": "filles",
+     "start": 15.88,
+     "end": 16.12
+    },
+    {
+     "text": "des",
+     "start": 16.18,
+     "end": 16.34
+    },
+    {
+     "text": "hommes.",
+     "start": 16.38,
+     "end": 16.62
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "speaker": "AZAZEL",
+   "text": "Choisissons-nous des épouses parmi elles. Et ayons des enfants !",
+   "file": "ep1/vo/line_03.mp3",
+   "start": 17.04,
+   "duration": 3.68,
+   "words": [
+    {
+     "text": "Choisissons-nous",
+     "start": 17.2,
+     "end": 17.84
+    },
+    {
+     "text": "des",
+     "start": 17.88,
+     "end": 18.0
+    },
+    {
+     "text": "épouses",
+     "start": 18.06,
+     "end": 18.42
+    },
+    {
+     "text": "parmi",
+     "start": 18.46,
+     "end": 18.72
+    },
+    {
+     "text": "elles.",
+     "start": 18.78,
+     "end": 18.96
+    },
+    {
+     "text": "Et",
+     "start": 19.38,
+     "end": 19.42
+    },
+    {
+     "text": "ayons",
+     "start": 19.56,
+     "end": 19.82
+    },
+    {
+     "text": "des",
+     "start": 19.86,
+     "end": 19.98
+    },
+    {
+     "text": "enfants",
+     "start": 20.04,
+     "end": 20.4
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "speaker": "SHEMIHAZA",
+   "text": "Je crains que vous ne reculiez… et que je sois le seul à payer pour ce grand péché.",
+   "file": "ep1/vo/line_04.mp3",
+   "start": 20.92,
+   "duration": 5.36,
+   "words": [
+    {
+     "text": "Je",
+     "start": 21.2,
+     "end": 21.34
+    },
+    {
+     "text": "crains",
+     "start": 21.4,
+     "end": 21.72
+    },
+    {
+     "text": "que",
+     "start": 21.74,
+     "end": 21.84
+    },
+    {
+     "text": "vous",
+     "start": 21.88,
+     "end": 21.98
+    },
+    {
+     "text": "ne",
+     "start": 22.02,
+     "end": 22.1
+    },
+    {
+     "text": "reculiez…",
+     "start": 22.14,
+     "end": 22.74
+    },
+    {
+     "text": "et",
+     "start": 23.44,
+     "end": 23.5
+    },
+    {
+     "text": "que",
+     "start": 23.54,
+     "end": 23.62
+    },
+    {
+     "text": "je",
+     "start": 23.66,
+     "end": 23.78
+    },
+    {
+     "text": "sois",
+     "start": 23.84,
+     "end": 23.98
+    },
+    {
+     "text": "le",
+     "start": 24.02,
+     "end": 24.14
+    },
+    {
+     "text": "seul",
+     "start": 24.24,
+     "end": 24.46
+    },
+    {
+     "text": "à",
+     "start": 24.52,
+     "end": 24.62
+    },
+    {
+     "text": "payer",
+     "start": 24.66,
+     "end": 24.96
+    },
+    {
+     "text": "pour",
+     "start": 25.06,
+     "end": 25.18
+    },
+    {
+     "text": "ce",
+     "start": 25.26,
+     "end": 25.36
+    },
+    {
+     "text": "grand",
+     "start": 25.42,
+     "end": 25.66
+    },
+    {
+     "text": "péché.",
+     "start": 25.7,
+     "end": 26.06
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "speaker": "ANGE",
+   "text": "Euh… et si on restait simplement au ciel ?",
+   "file": "ep1/vo/line_05.mp3",
+   "start": 26.48,
+   "duration": 3.12,
+   "words": [
+    {
+     "text": "Euh…",
+     "start": 26.8,
+     "end": 27.06
+    },
+    {
+     "text": "et",
+     "start": 27.72,
+     "end": 27.78
+    },
+    {
+     "text": "si",
+     "start": 27.9,
+     "end": 27.96
+    },
+    {
+     "text": "on",
+     "start": 28.0,
+     "end": 28.08
+    },
+    {
+     "text": "restait",
+     "start": 28.12,
+     "end": 28.38
+    },
+    {
+     "text": "simplement",
+     "start": 28.46,
+     "end": 28.84
+    },
+    {
+     "text": "au",
+     "start": 28.88,
+     "end": 28.94
+    },
+    {
+     "text": "ciel",
+     "start": 29.02,
+     "end": 29.22
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "speaker": "HÉNOCH",
+   "text": "Personne ne lui a répondu.",
+   "file": "ep1/vo/line_06.mp3",
+   "start": 30.3,
+   "duration": 1.84,
+   "words": [
+    {
+     "text": "Personne",
+     "start": 30.5,
+     "end": 30.92
+    },
+    {
+     "text": "ne",
+     "start": 30.96,
+     "end": 31.02
+    },
+    {
+     "text": "lui",
+     "start": 31.06,
+     "end": 31.14
+    },
+    {
+     "text": "a",
+     "start": 31.2,
+     "end": 31.24
+    },
+    {
+     "text": "répondu.",
+     "start": 31.3,
+     "end": 31.8
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "speaker": "AZAZEL",
+   "text": "Alors jurons tous ! Lions-nous par une malédiction : personne ne reculera !",
+   "file": "ep1/vo/line_07.mp3",
+   "start": 33.24,
+   "duration": 4.96,
+   "words": [
+    {
+     "text": "Alors",
+     "start": 33.34,
+     "end": 33.58
+    },
+    {
+     "text": "jurons",
+     "start": 33.68,
+     "end": 34.02
+    },
+    {
+     "text": "tous",
+     "start": 34.06,
+     "end": 34.36
+    },
+    {
+     "text": "Lions-nous",
+     "start": 34.9,
+     "end": 35.34
+    },
+    {
+     "text": "par",
+     "start": 35.38,
+     "end": 35.48
+    },
+    {
+     "text": "une",
+     "start": 35.52,
+     "end": 35.64
+    },
+    {
+     "text": "malédiction",
+     "start": 35.66,
+     "end": 36.32
+    },
+    {
+     "text": "personne",
+     "start": 36.76,
+     "end": 37.22
+    },
+    {
+     "text": "ne",
+     "start": 37.259,
+     "end": 37.34
+    },
+    {
+     "text": "reculera",
+     "start": 37.38,
+     "end": 37.86
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "speaker": "HÉNOCH",
+   "text": "Au temps de Jared, ils descendirent sur le sommet du mont Hermon.",
+   "file": "ep1/vo/line_08.mp3",
+   "start": 38.4,
+   "duration": 4.0,
+   "words": [
+    {
+     "text": "Au",
+     "start": 38.48,
+     "end": 38.54
+    },
+    {
+     "text": "temps",
+     "start": 38.62,
+     "end": 38.76
+    },
+    {
+     "text": "de",
+     "start": 38.78,
+     "end": 38.86
+    },
+    {
+     "text": "Jared,",
+     "start": 38.92,
+     "end": 39.34
+    },
+    {
+     "text": "ils",
+     "start": 39.74,
+     "end": 39.88
+    },
+    {
+     "text": "descendirent",
+     "start": 39.92,
+     "end": 40.48
+    },
+    {
+     "text": "sur",
+     "start": 40.54,
+     "end": 40.68
+    },
+    {
+     "text": "le",
+     "start": 40.72,
+     "end": 40.84
+    },
+    {
+     "text": "sommet",
+     "start": 40.9,
+     "end": 41.26
+    },
+    {
+     "text": "du",
+     "start": 41.3,
+     "end": 41.38
+    },
+    {
+     "text": "mont",
+     "start": 41.44,
+     "end": 41.62
+    },
+    {
+     "text": "Hermon.",
+     "start": 41.66,
+     "end": 42.14
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "speaker": "SHEMIHAZA",
+   "text": "Que la malédiction tombe sur celui qui trahira !",
+   "file": "ep1/vo/line_09.mp3",
+   "start": 44.0,
+   "duration": 3.44,
+   "words": [
+    {
+     "text": "Que",
+     "start": 44.1,
+     "end": 44.22
+    },
+    {
+     "text": "la",
+     "start": 44.26,
+     "end": 44.32
+    },
+    {
+     "text": "malédiction",
+     "start": 44.42,
+     "end": 45.08
+    },
+    {
+     "text": "tombe",
+     "start": 45.26,
+     "end": 45.64
+    },
+    {
+     "text": "sur",
+     "start": 45.74,
+     "end": 45.92
+    },
+    {
+     "text": "celui",
+     "start": 45.98,
+     "end": 46.3
+    },
+    {
+     "text": "qui",
+     "start": 46.38,
+     "end": 46.52
+    },
+    {
+     "text": "trahira",
+     "start": 46.54,
+     "end": 47.08
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "speaker": "CHOEUR",
+   "text": "Nous le jurons !",
+   "file": "ep1/vo/line_10.mp3",
+   "start": 47.64,
+   "duration": 1.935,
+   "words": [
+    {
+     "text": "Nous",
+     "start": 47.83,
+     "end": 48.06
+    },
+    {
+     "text": "le",
+     "start": 48.09,
+     "end": 48.24
+    },
+    {
+     "text": "jurons",
+     "start": 48.27,
+     "end": 48.95
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "speaker": "HÉNOCH",
+   "text": "Ce jour-là, le ciel a perdu deux cents anges… et la Terre allait en payer le prix.",
+   "file": "ep1/vo/line_11.mp3",
+   "start": 51.175,
+   "duration": 6.72,
+   "words": [
+    {
+     "text": "Ce",
+     "start": 51.435,
+     "end": 51.535
+    },
+    {
+     "text": "jour-là,",
+     "start": 51.615,
+     "end": 52.035
+    },
+    {
+     "text": "le",
+     "start": 52.775,
+     "end": 52.875
+    },
+    {
+     "text": "ciel",
+     "start": 53.015,
+     "end": 53.255
+    },
+    {
+     "text": "a",
+     "start": 53.295,
+     "end": 53.335
+    },
+    {
+     "text": "perdu",
+     "start": 53.415,
+     "end": 53.795
+    },
+    {
+     "text": "deux",
+     "start": 53.955,
+     "end": 54.095
+    },
+    {
+     "text": "cents",
+     "start": 54.195,
+     "end": 54.455
+    },
+    {
+     "text": "anges…",
+     "start": 54.535,
+     "end": 54.835
+    },
+    {
+     "text": "et",
+     "start": 55.675,
+     "end": 55.755
+    },
+    {
+     "text": "la",
+     "start": 55.795,
+     "end": 55.855
+    },
+    {
+     "text": "Terre",
+     "start": 55.975,
+     "end": 56.355
+    },
+    {
+     "text": "allait",
+     "start": 56.675,
+     "end": 56.835
+    },
+    {
+     "text": "en",
+     "start": 56.875,
+     "end": 56.995
+    },
+    {
+     "text": "payer",
+     "start": 57.035,
+     "end": 57.255
+    },
+    {
+     "text": "le",
+     "start": 57.295,
+     "end": 57.355
+    },
+    {
+     "text": "prix.",
+     "start": 57.435,
+     "end": 57.675
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "speaker": "HÉNOCH",
+   "text": "Toi, à leur place… tu aurais juré ?",
+   "file": "ep1/vo/line_12.mp3",
+   "start": 58.395,
+   "duration": 2.72,
+   "words": [
+    {
+     "text": "Toi,",
+     "start": 58.475,
+     "end": 58.695
+    },
+    {
+     "text": "à",
+     "start": 59.035,
+     "end": 59.075
+    },
+    {
+     "text": "leur",
+     "start": 59.115,
+     "end": 59.235
+    },
+    {
+     "text": "place…",
+     "start": 59.315,
+     "end": 59.695
+    },
+    {
+     "text": "tu",
+     "start": 60.235,
+     "end": 60.315
+    },
+    {
+     "text": "aurais",
+     "start": 60.375,
+     "end": 60.575
+    },
+    {
+     "text": "juré",
+     "start": 60.635,
+     "end": 60.875
+    }
+   ]
+  }
+ ]
+}

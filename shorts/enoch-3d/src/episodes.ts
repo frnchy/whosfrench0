@@ -1,0 +1,34 @@
+import type { EpisodeDef, TL } from "./Episode";
+import { makeEp1 } from "./story/ep1.ts";
+import tl1 from "./timeline_ep1.json";
+import mouth1 from "./mouth_ep1.json";
+import { makeEp2 } from "./story/ep2.ts";
+import tl2 from "./timeline_ep2.json";
+import mouth2 from "./mouth_ep2.json";
+
+const T1 = tl1 as TL;
+const s1 = (k: number) => T1.lines[k - 1].start;
+const e1 = makeEp1(T1, mouth1 as Record<string, number[]>);
+export const EP1: EpisodeDef = {
+  n: 1, tl: T1, frameAt: e1.frameAt, score: "ep1/music/score_a.mp3", scoreVol: 0.32,
+  beds: [["sfx/wind_bed.wav", 0, s1(2) + 4.6, 0.35], ["sfx/wind_bed.wav", s1(11), T1.duration, 0.3]],
+  sfx: [
+    ["sfx/crickets.mp3", s1(6) + 0.2, 0.55], ["sfx/wings.mp3", s1(7) + 0.3, 0.7],
+    ["sfx/meteors.mp3", s1(8) + 0.6, 0.6], ["sfx/meteors.mp3", s1(8) + 1.6, 0.5], ["sfx/meteors.mp3", s1(8) + 2.5, 0.6], ["sfx/rumble.wav", s1(8) + 3.6, 0.6],
+    ["sfx/boom.mp3", s1(9) + 1.0, 0.5], ["sfx/boom.mp3", s1(10) + 0.25, 0.9], ["sfx/rumble.wav", s1(10) + 0.3, 0.9],
+  ],
+  keywords: { anges: "#FFD60A", "deux": "#FFD60A", cents: "#FFD60A", veilleurs: "#E9C46A", désiré: "#FF6B5B", épouses: "#FF6B5B", péché: "#FF6B5B", ciel: "#9FD8FF", jurons: "#FFD60A", malédiction: "#FF6B5B", hermon: "#E9C46A", jared: "#E9C46A", trahira: "#FF6B5B", prix: "#FF6B5B", juré: "#FFD60A" },
+};
+const T2 = tl2 as TL;
+const s2 = (k: number) => T2.lines[k - 1].start;
+const e2 = makeEp2(T2, mouth2 as Record<string, number[]>);
+export const EP2: EpisodeDef = {
+  n: 2, tl: T2, frameAt: e2.frameAt, score: "ep2/music/score.mp3", scoreVol: 0.3,
+  beds: [["sfx/wind_bed.wav", s2(10), s2(13), 0.3]],
+  sfx: [
+    ...T2.lines[3].words.map((w) => ["sfx/anvil.mp3", w.start + 0.05, 0.55] as [string, number, number]),
+    ["sfx/wings.mp3", s2(10) + 0.1, 0.4], ["sfx/rumble.wav", s2(11) + 4.2, 0.5], ["sfx/boom.mp3", s2(11) + 4.4, 0.45], ["sfx/meteors.mp3", s2(12) + 2.4, 0.35],
+  ],
+  keywords: { veilleurs: "#E9C46A", métal: "#F2A65A", épées: "#FF6B5B", couteaux: "#FF6B5B", boucliers: "#FF6B5B", cuirasses: "#FF6B5B", frappe: "#FFD60A", sécurité: "#7EE08A", "toi-même": "#7EE08A", bracelets: "#FFD60A", "précieuses": "#FFD60A", fard: "#F5B7C5", magnifique: "#F5B7C5", étoiles: "#C9A6FF", impiété: "#FF6B5B", périrent: "#FF6B5B", ciel: "#9FD8FF", secret: "#FFD60A" },
+};
+export const EPISODES = [EP1, EP2];
