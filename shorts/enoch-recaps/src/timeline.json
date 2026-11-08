@@ -1,0 +1,3497 @@
+{
+ "fps": 30,
+ "episodes": [
+  {
+   "n": 1,
+   "title": "Le serment du mont Hermon",
+   "ref": "1 Hénoch 6–7",
+   "question": [
+    "Le serment :",
+    "courage ou lâcheté ?"
+   ],
+   "duration": 35.93,
+   "frames": 1078,
+   "lines": [
+    {
+     "id": 1,
+     "speaker": "LÉA",
+     "text": "Hénoch… c'est vrai que des anges sont descendus sur Terre ?",
+     "file": "vo/ep1/line_01.mp3",
+     "start": 0.35,
+     "duration": 3.68,
+     "words": [
+      {
+       "text": "Hénoch…",
+       "start": 0.51,
+       "end": 0.95
+      },
+      {
+       "text": "c'est",
+       "start": 1.45,
+       "end": 1.57
+      },
+      {
+       "text": "vrai",
+       "start": 1.61,
+       "end": 1.77
+      },
+      {
+       "text": "que",
+       "start": 1.85,
+       "end": 2.01
+      },
+      {
+       "text": "des",
+       "start": 2.15,
+       "end": 2.33
+      },
+      {
+       "text": "anges",
+       "start": 2.39,
+       "end": 2.63
+      },
+      {
+       "text": "sont",
+       "start": 2.67,
+       "end": 2.79
+      },
+      {
+       "text": "descendus",
+       "start": 2.83,
+       "end": 3.23
+      },
+      {
+       "text": "sur",
+       "start": 3.27,
+       "end": 3.41
+      },
+      {
+       "text": "Terre",
+       "start": 3.49,
+       "end": 3.71
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "speaker": "HÉNOCH",
+     "text": "Deux cents. On les appelait les Veilleurs. Ils ont vu les filles des hommes… et ils les ont désirées.",
+     "file": "vo/ep1/line_02.mp3",
+     "start": 4.33,
+     "duration": 6.88,
+     "words": [
+      {
+       "text": "Deux",
+       "start": 4.57,
+       "end": 4.71
+      },
+      {
+       "text": "cents.",
+       "start": 4.83,
+       "end": 5.07
+      },
+      {
+       "text": "On",
+       "start": 5.83,
+       "end": 5.89
+      },
+      {
+       "text": "les",
+       "start": 5.93,
+       "end": 6.07
+      },
+      {
+       "text": "appelait",
+       "start": 6.11,
+       "end": 6.45
+      },
+      {
+       "text": "les",
+       "start": 6.49,
+       "end": 6.63
+      },
+      {
+       "text": "Veilleurs.",
+       "start": 6.67,
+       "end": 7.21
+      },
+      {
+       "text": "Ils",
+       "start": 7.81,
+       "end": 7.97
+      },
+      {
+       "text": "ont",
+       "start": 8.01,
+       "end": 8.13
+      },
+      {
+       "text": "vu",
+       "start": 8.17,
+       "end": 8.29
+      },
+      {
+       "text": "les",
+       "start": 8.31,
+       "end": 8.45
+      },
+      {
+       "text": "filles",
+       "start": 8.53,
+       "end": 8.71
+      },
+      {
+       "text": "des",
+       "start": 8.75,
+       "end": 8.93
+      },
+      {
+       "text": "hommes…",
+       "start": 8.95,
+       "end": 9.25
+      },
+      {
+       "text": "et",
+       "start": 9.81,
+       "end": 9.89
+      },
+      {
+       "text": "ils",
+       "start": 9.91,
+       "end": 10.03
+      },
+      {
+       "text": "les",
+       "start": 10.07,
+       "end": 10.25
+      },
+      {
+       "text": "ont",
+       "start": 10.27,
+       "end": 10.41
+      },
+      {
+       "text": "désirées.",
+       "start": 10.45,
+       "end": 11.01
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "speaker": "LÉA",
+     "text": "Et personne ne les a arrêtés ?",
+     "file": "vo/ep1/line_03.mp3",
+     "start": 11.51,
+     "duration": 1.68,
+     "words": [
+      {
+       "text": "Et",
+       "start": 11.57,
+       "end": 11.75
+      },
+      {
+       "text": "personne",
+       "start": 11.79,
+       "end": 12.21
+      },
+      {
+       "text": "ne",
+       "start": 12.25,
+       "end": 12.31
+      },
+      {
+       "text": "les",
+       "start": 12.37,
+       "end": 12.49
+      },
+      {
+       "text": "a",
+       "start": 12.53,
+       "end": 12.59
+      },
+      {
+       "text": "arrêtés",
+       "start": 12.61,
+       "end": 13.01
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "speaker": "HÉNOCH",
+     "text": "Leur chef, Shemihaza, avait peur d'être le seul puni.",
+     "file": "vo/ep1/line_04.mp3",
+     "start": 13.49,
+     "duration": 3.84,
+     "words": [
+      {
+       "text": "Leur",
+       "start": 13.59,
+       "end": 13.73
+      },
+      {
+       "text": "chef,",
+       "start": 13.79,
+       "end": 14.13
+      },
+      {
+       "text": "Shemihaza,",
+       "start": 14.45,
+       "end": 15.05
+      },
+      {
+       "text": "avait",
+       "start": 15.49,
+       "end": 15.73
+      },
+      {
+       "text": "peur",
+       "start": 15.77,
+       "end": 15.97
+      },
+      {
+       "text": "d'être",
+       "start": 16.03,
+       "end": 16.29
+      },
+      {
+       "text": "le",
+       "start": 16.33,
+       "end": 16.39
+      },
+      {
+       "text": "seul",
+       "start": 16.53,
+       "end": 16.71
+      },
+      {
+       "text": "puni.",
+       "start": 16.79,
+       "end": 17.13
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "speaker": "LÉA",
+     "text": "Alors il a fait jurer tout le monde. Malin.",
+     "file": "vo/ep1/line_05.mp3",
+     "start": 17.63,
+     "duration": 3.12,
+     "words": [
+      {
+       "text": "Alors",
+       "start": 17.91,
+       "end": 18.09
+      },
+      {
+       "text": "il",
+       "start": 18.15,
+       "end": 18.21
+      },
+      {
+       "text": "a",
+       "start": 18.25,
+       "end": 18.35
+      },
+      {
+       "text": "fait",
+       "start": 18.39,
+       "end": 18.51
+      },
+      {
+       "text": "jurer",
+       "start": 18.57,
+       "end": 18.79
+      },
+      {
+       "text": "tout",
+       "start": 18.89,
+       "end": 19.03
+      },
+      {
+       "text": "le",
+       "start": 19.07,
+       "end": 19.11
+      },
+      {
+       "text": "monde.",
+       "start": 19.17,
+       "end": 19.49
+      },
+      {
+       "text": "Malin.",
+       "start": 19.99,
+       "end": 20.33
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "speaker": "HÉNOCH",
+     "text": "Sur le mont Hermon, ils se sont liés par une malédiction. Personne ne reculerait.",
+     "file": "vo/ep1/line_06.mp3",
+     "start": 21.05,
+     "duration": 5.36,
+     "words": [
+      {
+       "text": "Sur",
+       "start": 21.19,
+       "end": 21.33
+      },
+      {
+       "text": "le",
+       "start": 21.37,
+       "end": 21.43
+      },
+      {
+       "text": "mont",
+       "start": 21.49,
+       "end": 21.65
+      },
+      {
+       "text": "Hermon,",
+       "start": 21.69,
+       "end": 22.13
+      },
+      {
+       "text": "ils",
+       "start": 22.51,
+       "end": 22.61
+      },
+      {
+       "text": "se",
+       "start": 22.67,
+       "end": 22.73
+      },
+      {
+       "text": "sont",
+       "start": 22.83,
+       "end": 22.99
+      },
+      {
+       "text": "liés",
+       "start": 23.05,
+       "end": 23.39
+      },
+      {
+       "text": "par",
+       "start": 23.41,
+       "end": 23.53
+      },
+      {
+       "text": "une",
+       "start": 23.57,
+       "end": 23.69
+      },
+      {
+       "text": "malédiction.",
+       "start": 23.73,
+       "end": 24.41
+      },
+      {
+       "text": "Personne",
+       "start": 24.93,
+       "end": 25.45
+      },
+      {
+       "text": "ne",
+       "start": 25.51,
+       "end": 25.59
+      },
+      {
+       "text": "reculerait.",
+       "start": 25.65,
+       "end": 26.19
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "speaker": "LÉA",
+     "text": "Et ensuite ?",
+     "file": "vo/ep1/line_07.mp3",
+     "start": 26.71,
+     "duration": 0.96,
+     "words": [
+      {
+       "text": "Et",
+       "start": 26.83,
+       "end": 26.91
+      },
+      {
+       "text": "ensuite",
+       "start": 26.97,
+       "end": 27.41
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "speaker": "HÉNOCH",
+     "text": "Ensuite… ils ont commencé à enseigner.",
+     "file": "vo/ep1/line_08.mp3",
+     "start": 27.97,
+     "duration": 3.76,
+     "words": [
+      {
+       "text": "Ensuite…",
+       "start": 28.19,
+       "end": 28.85
+      },
+      {
+       "text": "ils",
+       "start": 29.55,
+       "end": 29.77
+      },
+      {
+       "text": "ont",
+       "start": 29.79,
+       "end": 29.95
+      },
+      {
+       "text": "commencé",
+       "start": 29.99,
+       "end": 30.65
+      },
+      {
+       "text": "à",
+       "start": 30.71,
+       "end": 30.79
+      },
+      {
+       "text": "enseigner.",
+       "start": 30.83,
+       "end": 31.41
+      }
+     ]
+    }
+   ],
+   "questionAt": 31.93
+  },
+  {
+   "n": 2,
+   "title": "Les secrets interdits",
+   "ref": "1 Hénoch 8",
+   "question": [
+    "Quel secret était",
+    "le plus dangereux ?"
+   ],
+   "duration": 39.13,
+   "frames": 1174,
+   "lines": [
+    {
+     "id": 1,
+     "speaker": "LÉA",
+     "text": "Qu'est-ce qu'ils ont enseigné, au juste ?",
+     "file": "vo/ep2/line_01.mp3",
+     "start": 0.35,
+     "duration": 2.08,
+     "words": [
+      {
+       "text": "Qu'est-ce",
+       "start": 0.45,
+       "end": 0.69
+      },
+      {
+       "text": "qu'ils",
+       "start": 0.71,
+       "end": 0.95
+      },
+      {
+       "text": "ont",
+       "start": 0.99,
+       "end": 1.07
+      },
+      {
+       "text": "enseigné,",
+       "start": 1.09,
+       "end": 1.65
+      },
+      {
+       "text": "au",
+       "start": 1.71,
+       "end": 1.79
+      },
+      {
+       "text": "juste",
+       "start": 1.89,
+       "end": 2.23
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "speaker": "HÉNOCH",
+     "text": "Azazel a appris aux hommes à forger des épées, des boucliers et des cuirasses.",
+     "file": "vo/ep2/line_02.mp3",
+     "start": 2.73,
+     "duration": 5.04,
+     "words": [
+      {
+       "text": "Azazel",
+       "start": 2.85,
+       "end": 3.33
+      },
+      {
+       "text": "a",
+       "start": 3.51,
+       "end": 3.55
+      },
+      {
+       "text": "appris",
+       "start": 3.61,
+       "end": 3.91
+      },
+      {
+       "text": "aux",
+       "start": 3.93,
+       "end": 4.11
+      },
+      {
+       "text": "hommes",
+       "start": 4.13,
+       "end": 4.33
+      },
+      {
+       "text": "à",
+       "start": 4.37,
+       "end": 4.49
+      },
+      {
+       "text": "forger",
+       "start": 4.55,
+       "end": 4.83
+      },
+      {
+       "text": "des",
+       "start": 4.87,
+       "end": 5.03
+      },
+      {
+       "text": "épées,",
+       "start": 5.09,
+       "end": 5.45
+      },
+      {
+       "text": "des",
+       "start": 5.77,
+       "end": 5.89
+      },
+      {
+       "text": "boucliers",
+       "start": 5.93,
+       "end": 6.65
+      },
+      {
+       "text": "et",
+       "start": 6.69,
+       "end": 6.75
+      },
+      {
+       "text": "des",
+       "start": 6.77,
+       "end": 6.89
+      },
+      {
+       "text": "cuirasses.",
+       "start": 6.93,
+       "end": 7.49
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "speaker": "LÉA",
+     "text": "Le premier cours de forge… sans consignes de sécurité.",
+     "file": "vo/ep2/line_03.mp3",
+     "start": 8.07,
+     "duration": 4.8,
+     "words": [
+      {
+       "text": "Le",
+       "start": 9.43,
+       "end": 9.51
+      },
+      {
+       "text": "premier",
+       "start": 9.63,
+       "end": 9.93
+      },
+      {
+       "text": "cours",
+       "start": 10.01,
+       "end": 10.17
+      },
+      {
+       "text": "de",
+       "start": 10.21,
+       "end": 10.27
+      },
+      {
+       "text": "forge…",
+       "start": 10.41,
+       "end": 10.73
+      },
+      {
+       "text": "sans",
+       "start": 11.35,
+       "end": 11.49
+      },
+      {
+       "text": "consignes",
+       "start": 11.53,
+       "end": 11.87
+      },
+      {
+       "text": "de",
+       "start": 11.91,
+       "end": 11.99
+      },
+      {
+       "text": "sécurité.",
+       "start": 12.05,
+       "end": 12.65
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "speaker": "HÉNOCH",
+     "text": "Et aux femmes, les bracelets, les pierres précieuses, le fard pour les yeux.",
+     "file": "vo/ep2/line_04.mp3",
+     "start": 13.17,
+     "duration": 4.8,
+     "words": [
+      {
+       "text": "Et",
+       "start": 13.31,
+       "end": 13.37
+      },
+      {
+       "text": "aux",
+       "start": 13.39,
+       "end": 13.51
+      },
+      {
+       "text": "femmes,",
+       "start": 13.57,
+       "end": 13.87
+      },
+      {
+       "text": "les",
+       "start": 14.25,
+       "end": 14.33
+      },
+      {
+       "text": "bracelets,",
+       "start": 14.37,
+       "end": 14.99
+      },
+      {
+       "text": "les",
+       "start": 15.29,
+       "end": 15.41
+      },
+      {
+       "text": "pierres",
+       "start": 15.45,
+       "end": 15.63
+      },
+      {
+       "text": "précieuses,",
+       "start": 15.67,
+       "end": 16.37
+      },
+      {
+       "text": "le",
+       "start": 16.71,
+       "end": 16.79
+      },
+      {
+       "text": "fard",
+       "start": 16.93,
+       "end": 17.23
+      },
+      {
+       "text": "pour",
+       "start": 17.27,
+       "end": 17.37
+      },
+      {
+       "text": "les",
+       "start": 17.41,
+       "end": 17.57
+      },
+      {
+       "text": "yeux.",
+       "start": 17.61,
+       "end": 17.79
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "speaker": "LÉA",
+     "text": "Les armes et le maquillage, le même jour. Rien ne pouvait mal tourner.",
+     "file": "vo/ep2/line_05.mp3",
+     "start": 18.27,
+     "duration": 4.56,
+     "words": [
+      {
+       "text": "Les",
+       "start": 18.55,
+       "end": 18.77
+      },
+      {
+       "text": "armes",
+       "start": 18.83,
+       "end": 19.009
+      },
+      {
+       "text": "et",
+       "start": 19.03,
+       "end": 19.07
+      },
+      {
+       "text": "le",
+       "start": 19.089,
+       "end": 19.13
+      },
+      {
+       "text": "maquillage,",
+       "start": 19.17,
+       "end": 19.77
+      },
+      {
+       "text": "le",
+       "start": 20.13,
+       "end": 20.21
+      },
+      {
+       "text": "même",
+       "start": 20.37,
+       "end": 20.57
+      },
+      {
+       "text": "jour.",
+       "start": 20.67,
+       "end": 21.01
+      },
+      {
+       "text": "Rien",
+       "start": 21.41,
+       "end": 21.65
+      },
+      {
+       "text": "ne",
+       "start": 21.69,
+       "end": 21.75
+      },
+      {
+       "text": "pouvait",
+       "start": 21.83,
+       "end": 22.05
+      },
+      {
+       "text": "mal",
+       "start": 22.09,
+       "end": 22.27
+      },
+      {
+       "text": "tourner.",
+       "start": 22.29,
+       "end": 22.63
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "speaker": "HÉNOCH",
+     "text": "D'autres ont révélé les enchantements, les racines, les signes des étoiles.",
+     "file": "vo/ep2/line_06.mp3",
+     "start": 23.13,
+     "duration": 4.96,
+     "words": [
+      {
+       "text": "D'autres",
+       "start": 23.29,
+       "end": 23.67
+      },
+      {
+       "text": "ont",
+       "start": 23.73,
+       "end": 23.83
+      },
+      {
+       "text": "révélé",
+       "start": 23.87,
+       "end": 24.21
+      },
+      {
+       "text": "les",
+       "start": 24.25,
+       "end": 24.41
+      },
+      {
+       "text": "enchantements,",
+       "start": 24.43,
+       "end": 25.11
+      },
+      {
+       "text": "les",
+       "start": 25.45,
+       "end": 25.55
+      },
+      {
+       "text": "racines,",
+       "start": 25.59,
+       "end": 26.17
+      },
+      {
+       "text": "les",
+       "start": 26.57,
+       "end": 26.71
+      },
+      {
+       "text": "signes",
+       "start": 26.81,
+       "end": 27.15
+      },
+      {
+       "text": "des",
+       "start": 27.19,
+       "end": 27.31
+      },
+      {
+       "text": "étoiles.",
+       "start": 27.37,
+       "end": 27.83
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "speaker": "LÉA",
+     "text": "Et les hommes étaient prêts ?",
+     "file": "vo/ep2/line_07.mp3",
+     "start": 28.39,
+     "duration": 1.44,
+     "words": [
+      {
+       "text": "Et",
+       "start": 28.51,
+       "end": 28.59
+      },
+      {
+       "text": "les",
+       "start": 28.63,
+       "end": 28.81
+      },
+      {
+       "text": "hommes",
+       "start": 28.83,
+       "end": 29.01
+      },
+      {
+       "text": "étaient",
+       "start": 29.07,
+       "end": 29.25
+      },
+      {
+       "text": "prêts",
+       "start": 29.29,
+       "end": 29.51
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "speaker": "HÉNOCH",
+     "text": "Non. L'impiété a grandi. Les frères sont devenus des ennemis.",
+     "file": "vo/ep2/line_08.mp3",
+     "start": 30.13,
+     "duration": 4.8,
+     "words": [
+      {
+       "text": "Non.",
+       "start": 30.39,
+       "end": 30.55
+      },
+      {
+       "text": "L'impiété",
+       "start": 31.23,
+       "end": 31.81
+      },
+      {
+       "text": "a",
+       "start": 31.85,
+       "end": 31.91
+      },
+      {
+       "text": "grandi.",
+       "start": 31.97,
+       "end": 32.43
+      },
+      {
+       "text": "Les",
+       "start": 33.09,
+       "end": 33.21
+      },
+      {
+       "text": "frères",
+       "start": 33.27,
+       "end": 33.59
+      },
+      {
+       "text": "sont",
+       "start": 33.67,
+       "end": 33.79
+      },
+      {
+       "text": "devenus",
+       "start": 33.83,
+       "end": 34.13
+      },
+      {
+       "text": "des",
+       "start": 34.17,
+       "end": 34.31
+      },
+      {
+       "text": "ennemis.",
+       "start": 34.35,
+       "end": 34.69
+      }
+     ]
+    }
+   ],
+   "questionAt": 35.13
+  },
+  {
+   "n": 3,
+   "title": "La naissance des géants",
+   "ref": "1 Hénoch 7",
+   "question": [
+    "Les géants :",
+    "monstres ou victimes ?"
+   ],
+   "duration": 31.61,
+   "frames": 948,
+   "lines": [
+    {
+     "id": 1,
+     "speaker": "LÉA",
+     "text": "Et les enfants des Veilleurs ?",
+     "file": "vo/ep3/line_01.mp3",
+     "start": 0.35,
+     "duration": 1.44,
+     "words": [
+      {
+       "text": "Et",
+       "start": 0.47,
+       "end": 0.55
+      },
+      {
+       "text": "les",
+       "start": 0.59,
+       "end": 0.71
+      },
+      {
+       "text": "enfants",
+       "start": 0.75,
+       "end": 1.01
+      },
+      {
+       "text": "des",
+       "start": 1.05,
+       "end": 1.15
+      },
+      {
+       "text": "Veilleurs",
+       "start": 1.17,
+       "end": 1.59
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "speaker": "HÉNOCH",
+     "text": "Des géants. Plus hauts que les arbres.",
+     "file": "vo/ep3/line_02.mp3",
+     "start": 2.09,
+     "duration": 3.2,
+     "words": [
+      {
+       "text": "Des",
+       "start": 2.33,
+       "end": 2.45
+      },
+      {
+       "text": "géants.",
+       "start": 2.55,
+       "end": 2.93
+      },
+      {
+       "text": "Plus",
+       "start": 3.61,
+       "end": 3.91
+      },
+      {
+       "text": "hauts",
+       "start": 3.93,
+       "end": 4.17
+      },
+      {
+       "text": "que",
+       "start": 4.19,
+       "end": 4.29
+      },
+      {
+       "text": "les",
+       "start": 4.33,
+       "end": 4.47
+      },
+      {
+       "text": "arbres.",
+       "start": 4.55,
+       "end": 4.89
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "speaker": "LÉA",
+     "text": "Trouver une porte à leur taille, ça devait être compliqué.",
+     "file": "vo/ep3/line_03.mp3",
+     "start": 5.59,
+     "duration": 4.16,
+     "words": [
+      {
+       "text": "Trouver",
+       "start": 6.69,
+       "end": 6.97
+      },
+      {
+       "text": "une",
+       "start": 7.01,
+       "end": 7.11
+      },
+      {
+       "text": "porte",
+       "start": 7.19,
+       "end": 7.39
+      },
+      {
+       "text": "à",
+       "start": 7.43,
+       "end": 7.47
+      },
+      {
+       "text": "leur",
+       "start": 7.51,
+       "end": 7.63
+      },
+      {
+       "text": "taille,",
+       "start": 7.73,
+       "end": 7.99
+      },
+      {
+       "text": "ça",
+       "start": 8.33,
+       "end": 8.43
+      },
+      {
+       "text": "devait",
+       "start": 8.47,
+       "end": 8.61
+      },
+      {
+       "text": "être",
+       "start": 8.65,
+       "end": 8.85
+      },
+      {
+       "text": "compliqué.",
+       "start": 8.89,
+       "end": 9.39
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "speaker": "HÉNOCH",
+     "text": "Ils dévoraient les récoltes des hommes. Et quand il n'y eut plus rien…",
+     "file": "vo/ep3/line_04.mp3",
+     "start": 10.05,
+     "duration": 4.0,
+     "words": [
+      {
+       "text": "Ils",
+       "start": 10.11,
+       "end": 10.29
+      },
+      {
+       "text": "dévoraient",
+       "start": 10.37,
+       "end": 10.81
+      },
+      {
+       "text": "les",
+       "start": 10.85,
+       "end": 10.93
+      },
+      {
+       "text": "récoltes",
+       "start": 10.97,
+       "end": 11.45
+      },
+      {
+       "text": "des",
+       "start": 11.49,
+       "end": 11.65
+      },
+      {
+       "text": "hommes.",
+       "start": 11.67,
+       "end": 11.97
+      },
+      {
+       "text": "Et",
+       "start": 12.55,
+       "end": 12.63
+      },
+      {
+       "text": "quand",
+       "start": 12.67,
+       "end": 12.85
+      },
+      {
+       "text": "il",
+       "start": 12.89,
+       "end": 12.97
+      },
+      {
+       "text": "n'y",
+       "start": 13.01,
+       "end": 13.13
+      },
+      {
+       "text": "eut",
+       "start": 13.17,
+       "end": 13.29
+      },
+      {
+       "text": "plus",
+       "start": 13.33,
+       "end": 13.43
+      },
+      {
+       "text": "rien…",
+       "start": 13.49,
+       "end": 13.77
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "speaker": "LÉA",
+     "text": "…ils se sont retournés contre eux.",
+     "file": "vo/ep3/line_05.mp3",
+     "start": 14.35,
+     "duration": 2.32,
+     "words": [
+      {
+       "text": "…ils",
+       "start": 14.67,
+       "end": 14.79
+      },
+      {
+       "text": "se",
+       "start": 14.89,
+       "end": 14.97
+      },
+      {
+       "text": "sont",
+       "start": 15.03,
+       "end": 15.25
+      },
+      {
+       "text": "retournés",
+       "start": 15.29,
+       "end": 15.73
+      },
+      {
+       "text": "contre",
+       "start": 15.77,
+       "end": 16.03
+      },
+      {
+       "text": "eux.",
+       "start": 16.05,
+       "end": 16.17
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "speaker": "HÉNOCH",
+     "text": "Les oiseaux, les bêtes, les poissons. Rien n'était épargné.",
+     "file": "vo/ep3/line_06.mp3",
+     "start": 16.97,
+     "duration": 4.48,
+     "words": [
+      {
+       "text": "Les",
+       "start": 17.11,
+       "end": 17.25
+      },
+      {
+       "text": "oiseaux,",
+       "start": 17.31,
+       "end": 17.83
+      },
+      {
+       "text": "les",
+       "start": 18.09,
+       "end": 18.21
+      },
+      {
+       "text": "bêtes,",
+       "start": 18.27,
+       "end": 18.73
+      },
+      {
+       "text": "les",
+       "start": 18.95,
+       "end": 19.09
+      },
+      {
+       "text": "poissons.",
+       "start": 19.15,
+       "end": 19.57
+      },
+      {
+       "text": "Rien",
+       "start": 20.21,
+       "end": 20.45
+      },
+      {
+       "text": "n'était",
+       "start": 20.49,
+       "end": 20.77
+      },
+      {
+       "text": "épargné.",
+       "start": 20.81,
+       "end": 21.27
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "speaker": "LÉA",
+     "text": "Et les mères ?",
+     "file": "vo/ep3/line_07.mp3",
+     "start": 21.75,
+     "duration": 1.28,
+     "words": [
+      {
+       "text": "Et",
+       "start": 21.93,
+       "end": 22.05
+      },
+      {
+       "text": "les",
+       "start": 22.07,
+       "end": 22.13
+      },
+      {
+       "text": "mères",
+       "start": 22.25,
+       "end": 22.59
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "speaker": "HÉNOCH",
+     "text": "Elles cachaient leurs enfants. Et la Terre a commencé à crier.",
+     "file": "vo/ep3/line_08.mp3",
+     "start": 23.33,
+     "duration": 4.08,
+     "words": [
+      {
+       "text": "Elles",
+       "start": 23.51,
+       "end": 23.69
+      },
+      {
+       "text": "cachaient",
+       "start": 23.73,
+       "end": 24.07
+      },
+      {
+       "text": "leurs",
+       "start": 24.11,
+       "end": 24.33
+      },
+      {
+       "text": "enfants.",
+       "start": 24.37,
+       "end": 24.77
+      },
+      {
+       "text": "Et",
+       "start": 25.45,
+       "end": 25.51
+      },
+      {
+       "text": "la",
+       "start": 25.55,
+       "end": 25.63
+      },
+      {
+       "text": "Terre",
+       "start": 25.75,
+       "end": 26.01
+      },
+      {
+       "text": "a",
+       "start": 26.05,
+       "end": 26.09
+      },
+      {
+       "text": "commencé",
+       "start": 26.17,
+       "end": 26.63
+      },
+      {
+       "text": "à",
+       "start": 26.67,
+       "end": 26.77
+      },
+      {
+       "text": "crier.",
+       "start": 26.81,
+       "end": 27.23
+      }
+     ]
+    }
+   ],
+   "questionAt": 27.61
+  },
+  {
+   "n": 4,
+   "title": "Le cri de la Terre",
+   "ref": "1 Hénoch 8–9",
+   "question": [
+    "À leur place,",
+    "tu aurais parlé ?"
+   ],
+   "duration": 32.49,
+   "frames": 975,
+   "lines": [
+    {
+     "id": 1,
+     "speaker": "LÉA",
+     "text": "Quelqu'un a entendu ce cri ?",
+     "file": "vo/ep4/line_01.mp3",
+     "start": 0.35,
+     "duration": 1.68,
+     "words": [
+      {
+       "text": "Quelqu'un",
+       "start": 0.47,
+       "end": 0.85
+      },
+      {
+       "text": "a",
+       "start": 0.95,
+       "end": 1.01
+      },
+      {
+       "text": "entendu",
+       "start": 1.03,
+       "end": 1.43
+      },
+      {
+       "text": "ce",
+       "start": 1.47,
+       "end": 1.61
+      },
+      {
+       "text": "cri",
+       "start": 1.65,
+       "end": 1.81
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "speaker": "HÉNOCH",
+     "text": "Quatre archanges : Michel, Gabriel, Raphaël et Uriel.",
+     "file": "vo/ep4/line_02.mp3",
+     "start": 2.33,
+     "duration": 4.96,
+     "words": [
+      {
+       "text": "Quatre",
+       "start": 2.39,
+       "end": 2.59
+      },
+      {
+       "text": "archanges",
+       "start": 2.65,
+       "end": 3.19
+      },
+      {
+       "text": "Michel,",
+       "start": 3.77,
+       "end": 4.25
+      },
+      {
+       "text": "Gabriel,",
+       "start": 4.569,
+       "end": 5.21
+      },
+      {
+       "text": "Raphaël",
+       "start": 5.59,
+       "end": 6.189
+      },
+      {
+       "text": "et",
+       "start": 6.409,
+       "end": 6.469
+      },
+      {
+       "text": "Uriel.",
+       "start": 6.61,
+       "end": 7.069
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "speaker": "LÉA",
+     "text": "Et qu'est-ce qu'ils ont fait ?",
+     "file": "vo/ep4/line_03.mp3",
+     "start": 7.59,
+     "duration": 1.52,
+     "words": [
+      {
+       "text": "Et",
+       "start": 7.71,
+       "end": 7.77
+      },
+      {
+       "text": "qu'est-ce",
+       "start": 7.93,
+       "end": 8.13
+      },
+      {
+       "text": "qu'ils",
+       "start": 8.15,
+       "end": 8.33
+      },
+      {
+       "text": "ont",
+       "start": 8.37,
+       "end": 8.45
+      },
+      {
+       "text": "fait",
+       "start": 8.57,
+       "end": 8.75
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "speaker": "HÉNOCH",
+     "text": "Ils ont porté la plainte des hommes devant le Très-Haut.",
+     "file": "vo/ep4/line_04.mp3",
+     "start": 9.41,
+     "duration": 3.04,
+     "words": [
+      {
+       "text": "Ils",
+       "start": 9.47,
+       "end": 9.63
+      },
+      {
+       "text": "ont",
+       "start": 9.67,
+       "end": 9.79
+      },
+      {
+       "text": "porté",
+       "start": 9.81,
+       "end": 10.09
+      },
+      {
+       "text": "la",
+       "start": 10.15,
+       "end": 10.21
+      },
+      {
+       "text": "plainte",
+       "start": 10.31,
+       "end": 10.63
+      },
+      {
+       "text": "des",
+       "start": 10.71,
+       "end": 10.91
+      },
+      {
+       "text": "hommes",
+       "start": 10.93,
+       "end": 11.21
+      },
+      {
+       "text": "devant",
+       "start": 11.37,
+       "end": 11.61
+      },
+      {
+       "text": "le",
+       "start": 11.65,
+       "end": 11.75
+      },
+      {
+       "text": "Très-Haut.",
+       "start": 11.79,
+       "end": 12.21
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "speaker": "LÉA",
+     "text": "Ils ont osé lui dire : « Tu vois ce qu'Azazel a enseigné » ?",
+     "file": "vo/ep4/line_05.mp3",
+     "start": 12.75,
+     "duration": 3.76,
+     "words": [
+      {
+       "text": "Ils",
+       "start": 12.93,
+       "end": 13.11
+      },
+      {
+       "text": "ont",
+       "start": 13.13,
+       "end": 13.21
+      },
+      {
+       "text": "osé",
+       "start": 13.39,
+       "end": 13.67
+      },
+      {
+       "text": "lui",
+       "start": 13.71,
+       "end": 13.83
+      },
+      {
+       "text": "dire",
+       "start": 13.93,
+       "end": 14.15
+      },
+      {
+       "text": "Tu",
+       "start": 14.67,
+       "end": 14.77
+      },
+      {
+       "text": "vois",
+       "start": 14.85,
+       "end": 15.01
+      },
+      {
+       "text": "ce",
+       "start": 15.07,
+       "end": 15.17
+      },
+      {
+       "text": "qu'Azazel",
+       "start": 15.19,
+       "end": 15.61
+      },
+      {
+       "text": "a",
+       "start": 15.65,
+       "end": 15.67
+      },
+      {
+       "text": "enseigné",
+       "start": 15.71,
+       "end": 16.13
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "speaker": "HÉNOCH",
+     "text": "Puis… le silence. Même au ciel, personne n'osait parler en premier.",
+     "file": "vo/ep4/line_06.mp3",
+     "start": 16.81,
+     "duration": 5.52,
+     "words": [
+      {
+       "text": "Puis…",
+       "start": 16.87,
+       "end": 17.15
+      },
+      {
+       "text": "le",
+       "start": 17.85,
+       "end": 17.91
+      },
+      {
+       "text": "silence.",
+       "start": 18.03,
+       "end": 18.59
+      },
+      {
+       "text": "Même",
+       "start": 19.49,
+       "end": 19.63
+      },
+      {
+       "text": "au",
+       "start": 19.67,
+       "end": 19.73
+      },
+      {
+       "text": "ciel,",
+       "start": 19.83,
+       "end": 20.15
+      },
+      {
+       "text": "personne",
+       "start": 20.57,
+       "end": 21.03
+      },
+      {
+       "text": "n'osait",
+       "start": 21.07,
+       "end": 21.33
+      },
+      {
+       "text": "parler",
+       "start": 21.37,
+       "end": 21.61
+      },
+      {
+       "text": "en",
+       "start": 21.65,
+       "end": 21.73
+      },
+      {
+       "text": "premier.",
+       "start": 21.77,
+       "end": 22.13
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "speaker": "LÉA",
+     "text": "Et la réponse ?",
+     "file": "vo/ep4/line_07.mp3",
+     "start": 22.63,
+     "duration": 1.04,
+     "words": [
+      {
+       "text": "Et",
+       "start": 22.75,
+       "end": 22.83
+      },
+      {
+       "text": "la",
+       "start": 22.87,
+       "end": 22.93
+      },
+      {
+       "text": "réponse",
+       "start": 22.99,
+       "end": 23.49
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "speaker": "HÉNOCH",
+     "text": "Elle allait ébranler le ciel et la Terre. Et il fallait un messager.",
+     "file": "vo/ep4/line_08.mp3",
+     "start": 23.97,
+     "duration": 4.32,
+     "words": [
+      {
+       "text": "Elle",
+       "start": 24.11,
+       "end": 24.23
+      },
+      {
+       "text": "allait",
+       "start": 24.27,
+       "end": 24.53
+      },
+      {
+       "text": "ébranler",
+       "start": 24.61,
+       "end": 25.05
+      },
+      {
+       "text": "le",
+       "start": 25.07,
+       "end": 25.21
+      },
+      {
+       "text": "ciel",
+       "start": 25.31,
+       "end": 25.59
+      },
+      {
+       "text": "et",
+       "start": 25.61,
+       "end": 25.67
+      },
+      {
+       "text": "la",
+       "start": 25.71,
+       "end": 25.77
+      },
+      {
+       "text": "Terre.",
+       "start": 25.85,
+       "end": 26.27
+      },
+      {
+       "text": "Et",
+       "start": 26.81,
+       "end": 26.87
+      },
+      {
+       "text": "il",
+       "start": 26.89,
+       "end": 27.07
+      },
+      {
+       "text": "fallait",
+       "start": 27.13,
+       "end": 27.43
+      },
+      {
+       "text": "un",
+       "start": 27.45,
+       "end": 27.55
+      },
+      {
+       "text": "messager.",
+       "start": 27.59,
+       "end": 28.11
+      }
+     ]
+    }
+   ],
+   "questionAt": 28.49
+  },
+  {
+   "n": 5,
+   "title": "Hénoch le messager",
+   "ref": "1 Hénoch 12–13",
+   "question": [
+    "Toi, tu aurais",
+    "porté le message ?"
+   ],
+   "duration": 30.57,
+   "frames": 917,
+   "lines": [
+    {
+     "id": 1,
+     "speaker": "LÉA",
+     "text": "Le messager… c'était toi ?",
+     "file": "vo/ep5/line_01.mp3",
+     "start": 0.35,
+     "duration": 2.4,
+     "words": [
+      {
+       "text": "Le",
+       "start": 0.59,
+       "end": 0.67
+      },
+      {
+       "text": "messager…",
+       "start": 0.77,
+       "end": 1.35
+      },
+      {
+       "text": "c'était",
+       "start": 1.83,
+       "end": 2.11
+      },
+      {
+       "text": "toi",
+       "start": 2.15,
+       "end": 2.37
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "speaker": "HÉNOCH",
+     "text": "Un jour, j'ai disparu. Mes voisins m'ont cherché partout.",
+     "file": "vo/ep5/line_02.mp3",
+     "start": 3.05,
+     "duration": 3.92,
+     "words": [
+      {
+       "text": "Un",
+       "start": 3.13,
+       "end": 3.21
+      },
+      {
+       "text": "jour,",
+       "start": 3.29,
+       "end": 3.57
+      },
+      {
+       "text": "j'ai",
+       "start": 3.95,
+       "end": 4.09
+      },
+      {
+       "text": "disparu.",
+       "start": 4.13,
+       "end": 4.71
+      },
+      {
+       "text": "Mes",
+       "start": 5.21,
+       "end": 5.31
+      },
+      {
+       "text": "voisins",
+       "start": 5.35,
+       "end": 5.63
+      },
+      {
+       "text": "m'ont",
+       "start": 5.65,
+       "end": 5.77
+      },
+      {
+       "text": "cherché",
+       "start": 5.81,
+       "end": 6.13
+      },
+      {
+       "text": "partout.",
+       "start": 6.29,
+       "end": 6.83
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "speaker": "LÉA",
+     "text": "Sauf dans le ciel.",
+     "file": "vo/ep5/line_03.mp3",
+     "start": 7.27,
+     "duration": 2.24,
+     "words": [
+      {
+       "text": "Sauf",
+       "start": 8.27,
+       "end": 8.49
+      },
+      {
+       "text": "dans",
+       "start": 8.53,
+       "end": 8.65
+      },
+      {
+       "text": "le",
+       "start": 8.69,
+       "end": 8.75
+      },
+      {
+       "text": "ciel.",
+       "start": 8.83,
+       "end": 9.17
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "speaker": "HÉNOCH",
+     "text": "Les Veilleurs saints m'ont envoyé dire aux déchus : ni paix, ni pardon.",
+     "file": "vo/ep5/line_04.mp3",
+     "start": 9.81,
+     "duration": 4.88,
+     "words": [
+      {
+       "text": "Les",
+       "start": 9.93,
+       "end": 10.01
+      },
+      {
+       "text": "Veilleurs",
+       "start": 10.07,
+       "end": 10.37
+      },
+      {
+       "text": "saints",
+       "start": 10.45,
+       "end": 10.75
+      },
+      {
+       "text": "m'ont",
+       "start": 10.79,
+       "end": 10.95
+      },
+      {
+       "text": "envoyé",
+       "start": 10.97,
+       "end": 11.39
+      },
+      {
+       "text": "dire",
+       "start": 11.45,
+       "end": 11.67
+      },
+      {
+       "text": "aux",
+       "start": 11.69,
+       "end": 11.79
+      },
+      {
+       "text": "déchus",
+       "start": 11.83,
+       "end": 12.25
+      },
+      {
+       "text": "ni",
+       "start": 12.99,
+       "end": 13.07
+      },
+      {
+       "text": "paix,",
+       "start": 13.21,
+       "end": 13.41
+      },
+      {
+       "text": "ni",
+       "start": 13.93,
+       "end": 14.01
+      },
+      {
+       "text": "pardon.",
+       "start": 14.11,
+       "end": 14.49
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "speaker": "LÉA",
+     "text": "Et tu es allé voir Azazel ? Toi, un simple scribe ?",
+     "file": "vo/ep5/line_05.mp3",
+     "start": 14.99,
+     "duration": 3.68,
+     "words": [
+      {
+       "text": "Et",
+       "start": 15.11,
+       "end": 15.19
+      },
+      {
+       "text": "tu",
+       "start": 15.23,
+       "end": 15.33
+      },
+      {
+       "text": "es",
+       "start": 15.37,
+       "end": 15.47
+      },
+      {
+       "text": "allé",
+       "start": 15.51,
+       "end": 15.67
+      },
+      {
+       "text": "voir",
+       "start": 15.71,
+       "end": 15.87
+      },
+      {
+       "text": "Azazel",
+       "start": 15.93,
+       "end": 16.37
+      },
+      {
+       "text": "Toi,",
+       "start": 16.87,
+       "end": 17.09
+      },
+      {
+       "text": "un",
+       "start": 17.39,
+       "end": 17.45
+      },
+      {
+       "text": "simple",
+       "start": 17.61,
+       "end": 17.91
+      },
+      {
+       "text": "scribe",
+       "start": 17.99,
+       "end": 18.39
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "speaker": "HÉNOCH",
+     "text": "Mes mains tremblaient. Pas ma voix.",
+     "file": "vo/ep5/line_06.mp3",
+     "start": 18.97,
+     "duration": 2.4,
+     "words": [
+      {
+       "text": "Mes",
+       "start": 19.17,
+       "end": 19.29
+      },
+      {
+       "text": "mains",
+       "start": 19.33,
+       "end": 19.49
+      },
+      {
+       "text": "tremblaient.",
+       "start": 19.53,
+       "end": 19.97
+      },
+      {
+       "text": "Pas",
+       "start": 20.67,
+       "end": 20.77
+      },
+      {
+       "text": "ma",
+       "start": 20.81,
+       "end": 20.93
+      },
+      {
+       "text": "voix.",
+       "start": 20.95,
+       "end": 21.19
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "speaker": "LÉA",
+     "text": "Et eux ?",
+     "file": "vo/ep5/line_07.mp3",
+     "start": 21.67,
+     "duration": 0.72,
+     "words": [
+      {
+       "text": "Et",
+       "start": 21.81,
+       "end": 21.89
+      },
+      {
+       "text": "eux",
+       "start": 21.99,
+       "end": 22.13
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "speaker": "HÉNOCH",
+     "text": "Les puissants Veilleurs m'ont supplié d'écrire une prière pour eux.",
+     "file": "vo/ep5/line_08.mp3",
+     "start": 22.69,
+     "duration": 3.68,
+     "words": [
+      {
+       "text": "Les",
+       "start": 22.81,
+       "end": 22.95
+      },
+      {
+       "text": "puissants",
+       "start": 22.99,
+       "end": 23.39
+      },
+      {
+       "text": "Veilleurs",
+       "start": 23.41,
+       "end": 23.83
+      },
+      {
+       "text": "m'ont",
+       "start": 23.91,
+       "end": 24.09
+      },
+      {
+       "text": "supplié",
+       "start": 24.21,
+       "end": 24.75
+      },
+      {
+       "text": "d'écrire",
+       "start": 24.77,
+       "end": 25.13
+      },
+      {
+       "text": "une",
+       "start": 25.17,
+       "end": 25.29
+      },
+      {
+       "text": "prière",
+       "start": 25.35,
+       "end": 25.79
+      },
+      {
+       "text": "pour",
+       "start": 25.83,
+       "end": 25.99
+      },
+      {
+       "text": "eux.",
+       "start": 26.01,
+       "end": 26.15
+      }
+     ]
+    }
+   ],
+   "questionAt": 26.57
+  },
+  {
+   "n": 6,
+   "title": "Azazel enchaîné",
+   "ref": "1 Hénoch 10",
+   "question": [
+    "Justice",
+    "ou vengeance ?"
+   ],
+   "duration": 31.13,
+   "frames": 934,
+   "lines": [
+    {
+     "id": 1,
+     "speaker": "LÉA",
+     "text": "Qu'est-il arrivé à Azazel ?",
+     "file": "vo/ep6/line_01.mp3",
+     "start": 0.35,
+     "duration": 1.84,
+     "words": [
+      {
+       "text": "Qu'est-il",
+       "start": 0.43,
+       "end": 0.75
+      },
+      {
+       "text": "arrivé",
+       "start": 0.81,
+       "end": 1.21
+      },
+      {
+       "text": "à",
+       "start": 1.25,
+       "end": 1.31
+      },
+      {
+       "text": "Azazel",
+       "start": 1.33,
+       "end": 1.89
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "speaker": "HÉNOCH",
+     "text": "Raphaël l'a lié, pieds et mains, et l'a jeté dans le désert de Dudaël.",
+     "file": "vo/ep6/line_02.mp3",
+     "start": 2.49,
+     "duration": 4.96,
+     "words": [
+      {
+       "text": "Raphaël",
+       "start": 2.71,
+       "end": 3.19
+      },
+      {
+       "text": "l'a",
+       "start": 3.23,
+       "end": 3.35
+      },
+      {
+       "text": "lié,",
+       "start": 3.41,
+       "end": 3.69
+      },
+      {
+       "text": "pieds",
+       "start": 4.11,
+       "end": 4.37
+      },
+      {
+       "text": "et",
+       "start": 4.39,
+       "end": 4.49
+      },
+      {
+       "text": "mains,",
+       "start": 4.53,
+       "end": 4.69
+      },
+      {
+       "text": "et",
+       "start": 5.13,
+       "end": 5.19
+      },
+      {
+       "text": "l'a",
+       "start": 5.21,
+       "end": 5.31
+      },
+      {
+       "text": "jeté",
+       "start": 5.41,
+       "end": 5.73
+      },
+      {
+       "text": "dans",
+       "start": 5.77,
+       "end": 5.87
+      },
+      {
+       "text": "le",
+       "start": 5.91,
+       "end": 5.99
+      },
+      {
+       "text": "désert",
+       "start": 6.03,
+       "end": 6.37
+      },
+      {
+       "text": "de",
+       "start": 6.41,
+       "end": 6.53
+      },
+      {
+       "text": "Dudaël.",
+       "start": 6.55,
+       "end": 7.05
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "speaker": "LÉA",
+     "text": "Lui qui avait appris aux hommes à forger des chaînes…",
+     "file": "vo/ep6/line_03.mp3",
+     "start": 7.75,
+     "duration": 2.88,
+     "words": [
+      {
+       "text": "Lui",
+       "start": 7.87,
+       "end": 8.03
+      },
+      {
+       "text": "qui",
+       "start": 8.15,
+       "end": 8.25
+      },
+      {
+       "text": "avait",
+       "start": 8.31,
+       "end": 8.51
+      },
+      {
+       "text": "appris",
+       "start": 8.57,
+       "end": 8.85
+      },
+      {
+       "text": "aux",
+       "start": 8.87,
+       "end": 9.07
+      },
+      {
+       "text": "hommes",
+       "start": 9.09,
+       "end": 9.29
+      },
+      {
+       "text": "à",
+       "start": 9.35,
+       "end": 9.45
+      },
+      {
+       "text": "forger",
+       "start": 9.49,
+       "end": 9.79
+      },
+      {
+       "text": "des",
+       "start": 9.83,
+       "end": 9.97
+      },
+      {
+       "text": "chaînes…",
+       "start": 10.03,
+       "end": 10.41
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "speaker": "HÉNOCH",
+     "text": "Il a été couvert de pierres rudes et de ténèbres.",
+     "file": "vo/ep6/line_04.mp3",
+     "start": 10.93,
+     "duration": 3.2,
+     "words": [
+      {
+       "text": "Il",
+       "start": 11.03,
+       "end": 11.09
+      },
+      {
+       "text": "a",
+       "start": 11.13,
+       "end": 11.19
+      },
+      {
+       "text": "été",
+       "start": 11.23,
+       "end": 11.45
+      },
+      {
+       "text": "couvert",
+       "start": 11.51,
+       "end": 11.93
+      },
+      {
+       "text": "de",
+       "start": 11.97,
+       "end": 12.09
+      },
+      {
+       "text": "pierres",
+       "start": 12.15,
+       "end": 12.43
+      },
+      {
+       "text": "rudes",
+       "start": 12.51,
+       "end": 12.97
+      },
+      {
+       "text": "et",
+       "start": 13.01,
+       "end": 13.07
+      },
+      {
+       "text": "de",
+       "start": 13.11,
+       "end": 13.19
+      },
+      {
+       "text": "ténèbres.",
+       "start": 13.29,
+       "end": 13.85
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "speaker": "LÉA",
+     "text": "Et Shemihaza ?",
+     "file": "vo/ep6/line_05.mp3",
+     "start": 14.43,
+     "duration": 1.28,
+     "words": [
+      {
+       "text": "Et",
+       "start": 14.57,
+       "end": 14.75
+      },
+      {
+       "text": "Shemihaza",
+       "start": 14.83,
+       "end": 15.43
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "speaker": "HÉNOCH",
+     "text": "Michel l'a lié dans les vallées de la Terre, pour soixante-dix générations.",
+     "file": "vo/ep6/line_06.mp3",
+     "start": 16.01,
+     "duration": 4.48,
+     "words": [
+      {
+       "text": "Michel",
+       "start": 16.11,
+       "end": 16.53
+      },
+      {
+       "text": "l'a",
+       "start": 16.55,
+       "end": 16.67
+      },
+      {
+       "text": "lié",
+       "start": 16.73,
+       "end": 17.05
+      },
+      {
+       "text": "dans",
+       "start": 17.09,
+       "end": 17.19
+      },
+      {
+       "text": "les",
+       "start": 17.23,
+       "end": 17.35
+      },
+      {
+       "text": "vallées",
+       "start": 17.37,
+       "end": 17.61
+      },
+      {
+       "text": "de",
+       "start": 17.65,
+       "end": 17.71
+      },
+      {
+       "text": "la",
+       "start": 17.75,
+       "end": 17.81
+      },
+      {
+       "text": "Terre,",
+       "start": 17.95,
+       "end": 18.33
+      },
+      {
+       "text": "pour",
+       "start": 18.67,
+       "end": 18.85
+      },
+      {
+       "text": "soixante-dix",
+       "start": 18.91,
+       "end": 19.53
+      },
+      {
+       "text": "générations.",
+       "start": 19.57,
+       "end": 20.23
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "speaker": "LÉA",
+     "text": "Il avait eu raison d'avoir peur.",
+     "file": "vo/ep6/line_07.mp3",
+     "start": 20.79,
+     "duration": 2.16,
+     "words": [
+      {
+       "text": "Il",
+       "start": 21.01,
+       "end": 21.09
+      },
+      {
+       "text": "avait",
+       "start": 21.13,
+       "end": 21.35
+      },
+      {
+       "text": "eu",
+       "start": 21.37,
+       "end": 21.47
+      },
+      {
+       "text": "raison",
+       "start": 21.53,
+       "end": 21.87
+      },
+      {
+       "text": "d'avoir",
+       "start": 21.91,
+       "end": 22.21
+      },
+      {
+       "text": "peur.",
+       "start": 22.33,
+       "end": 22.67
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "speaker": "HÉNOCH",
+     "text": "Et la Terre, enfin, a pu commencer à guérir.",
+     "file": "vo/ep6/line_08.mp3",
+     "start": 23.25,
+     "duration": 3.68,
+     "words": [
+      {
+       "text": "Et",
+       "start": 23.51,
+       "end": 23.57
+      },
+      {
+       "text": "la",
+       "start": 23.63,
+       "end": 23.71
+      },
+      {
+       "text": "Terre,",
+       "start": 23.81,
+       "end": 24.21
+      },
+      {
+       "text": "enfin,",
+       "start": 24.51,
+       "end": 24.91
+      },
+      {
+       "text": "a",
+       "start": 25.37,
+       "end": 25.41
+      },
+      {
+       "text": "pu",
+       "start": 25.49,
+       "end": 25.57
+      },
+      {
+       "text": "commencer",
+       "start": 25.65,
+       "end": 26.11
+      },
+      {
+       "text": "à",
+       "start": 26.15,
+       "end": 26.21
+      },
+      {
+       "text": "guérir.",
+       "start": 26.25,
+       "end": 26.73
+      }
+     ]
+    }
+   ],
+   "questionAt": 27.13
+  },
+  {
+   "n": 7,
+   "title": "Le voyage d'Hénoch",
+   "ref": "1 Hénoch 14, 18–24",
+   "question": [
+    "Le trône ou la prison :",
+    "lequel te fait peur ?"
+   ],
+   "duration": 32.49,
+   "frames": 975,
+   "lines": [
+    {
+     "id": 1,
+     "speaker": "LÉA",
+     "text": "Et toi, après tout ça ?",
+     "file": "vo/ep7/line_01.mp3",
+     "start": 0.35,
+     "duration": 1.76,
+     "words": [
+      {
+       "text": "Et",
+       "start": 0.47,
+       "end": 0.57
+      },
+      {
+       "text": "toi,",
+       "start": 0.61,
+       "end": 0.83
+      },
+      {
+       "text": "après",
+       "start": 1.17,
+       "end": 1.39
+      },
+      {
+       "text": "tout",
+       "start": 1.43,
+       "end": 1.53
+      },
+      {
+       "text": "ça",
+       "start": 1.61,
+       "end": 1.73
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "speaker": "HÉNOCH",
+     "text": "Les nuées m'ont appelé. Les vents m'ont soulevé.",
+     "file": "vo/ep7/line_02.mp3",
+     "start": 2.41,
+     "duration": 3.6,
+     "words": [
+      {
+       "text": "Les",
+       "start": 2.53,
+       "end": 2.65
+      },
+      {
+       "text": "nuées",
+       "start": 2.71,
+       "end": 3.07
+      },
+      {
+       "text": "m'ont",
+       "start": 3.11,
+       "end": 3.29
+      },
+      {
+       "text": "appelé.",
+       "start": 3.37,
+       "end": 3.77
+      },
+      {
+       "text": "Les",
+       "start": 4.49,
+       "end": 4.67
+      },
+      {
+       "text": "vents",
+       "start": 4.73,
+       "end": 4.97
+      },
+      {
+       "text": "m'ont",
+       "start": 5.01,
+       "end": 5.19
+      },
+      {
+       "text": "soulevé.",
+       "start": 5.29,
+       "end": 5.77
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "speaker": "LÉA",
+     "text": "Sans prévenir ta famille, j'imagine.",
+     "file": "vo/ep7/line_03.mp3",
+     "start": 6.31,
+     "duration": 2.48,
+     "words": [
+      {
+       "text": "Sans",
+       "start": 6.61,
+       "end": 6.77
+      },
+      {
+       "text": "prévenir",
+       "start": 6.81,
+       "end": 7.15
+      },
+      {
+       "text": "ta",
+       "start": 7.21,
+       "end": 7.35
+      },
+      {
+       "text": "famille,",
+       "start": 7.39,
+       "end": 7.73
+      },
+      {
+       "text": "j'imagine.",
+       "start": 7.93,
+       "end": 8.51
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "speaker": "HÉNOCH",
+     "text": "J'ai vu un mur de cristal entouré de flammes, et un trône d'où coulaient des fleuves de feu.",
+     "file": "vo/ep7/line_04.mp3",
+     "start": 9.09,
+     "duration": 5.76,
+     "words": [
+      {
+       "text": "J'ai",
+       "start": 9.19,
+       "end": 9.33
+      },
+      {
+       "text": "vu",
+       "start": 9.37,
+       "end": 9.51
+      },
+      {
+       "text": "un",
+       "start": 9.55,
+       "end": 9.65
+      },
+      {
+       "text": "mur",
+       "start": 9.71,
+       "end": 9.89
+      },
+      {
+       "text": "de",
+       "start": 9.95,
+       "end": 10.05
+      },
+      {
+       "text": "cristal",
+       "start": 10.09,
+       "end": 10.61
+      },
+      {
+       "text": "entouré",
+       "start": 10.75,
+       "end": 11.13
+      },
+      {
+       "text": "de",
+       "start": 11.17,
+       "end": 11.23
+      },
+      {
+       "text": "flammes,",
+       "start": 11.35,
+       "end": 11.77
+      },
+      {
+       "text": "et",
+       "start": 12.21,
+       "end": 12.27
+      },
+      {
+       "text": "un",
+       "start": 12.31,
+       "end": 12.43
+      },
+      {
+       "text": "trône",
+       "start": 12.49,
+       "end": 12.87
+      },
+      {
+       "text": "d'où",
+       "start": 13.07,
+       "end": 13.23
+      },
+      {
+       "text": "coulaient",
+       "start": 13.29,
+       "end": 13.55
+      },
+      {
+       "text": "des",
+       "start": 13.59,
+       "end": 13.77
+      },
+      {
+       "text": "fleuves",
+       "start": 13.83,
+       "end": 14.15
+      },
+      {
+       "text": "de",
+       "start": 14.21,
+       "end": 14.27
+      },
+      {
+       "text": "feu.",
+       "start": 14.41,
+       "end": 14.61
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "speaker": "LÉA",
+     "text": "Tu avais peur ?",
+     "file": "vo/ep7/line_05.mp3",
+     "start": 15.15,
+     "duration": 1.28,
+     "words": [
+      {
+       "text": "Tu",
+       "start": 15.33,
+       "end": 15.43
+      },
+      {
+       "text": "avais",
+       "start": 15.49,
+       "end": 15.75
+      },
+      {
+       "text": "peur",
+       "start": 15.81,
+       "end": 16.09
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "speaker": "HÉNOCH",
+     "text": "Je tremblais. Et pourtant, je n'avais jamais été aussi en paix.",
+     "file": "vo/ep7/line_06.mp3",
+     "start": 16.73,
+     "duration": 4.48,
+     "words": [
+      {
+       "text": "Je",
+       "start": 16.85,
+       "end": 16.99
+      },
+      {
+       "text": "tremblais.",
+       "start": 17.05,
+       "end": 17.55
+      },
+      {
+       "text": "Et",
+       "start": 18.17,
+       "end": 18.27
+      },
+      {
+       "text": "pourtant,",
+       "start": 18.309,
+       "end": 18.73
+      },
+      {
+       "text": "je",
+       "start": 19.189,
+       "end": 19.249
+      },
+      {
+       "text": "n'avais",
+       "start": 19.29,
+       "end": 19.53
+      },
+      {
+       "text": "jamais",
+       "start": 19.67,
+       "end": 19.97
+      },
+      {
+       "text": "été",
+       "start": 20.03,
+       "end": 20.27
+      },
+      {
+       "text": "aussi",
+       "start": 20.309,
+       "end": 20.59
+      },
+      {
+       "text": "en",
+       "start": 20.629,
+       "end": 20.689
+      },
+      {
+       "text": "paix.",
+       "start": 20.809,
+       "end": 20.99
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "speaker": "LÉA",
+     "text": "Et ensuite ?",
+     "file": "vo/ep7/line_07.mp3",
+     "start": 21.51,
+     "duration": 0.96,
+     "words": [
+      {
+       "text": "Et",
+       "start": 21.63,
+       "end": 21.71
+      },
+      {
+       "text": "ensuite",
+       "start": 21.75,
+       "end": 22.21
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "speaker": "HÉNOCH",
+     "text": "Sept montagnes de pierres précieuses… et une prison où brûlaient sept étoiles.",
+     "file": "vo/ep7/line_08.mp3",
+     "start": 22.77,
+     "duration": 5.52,
+     "words": [
+      {
+       "text": "Sept",
+       "start": 22.97,
+       "end": 23.21
+      },
+      {
+       "text": "montagnes",
+       "start": 23.27,
+       "end": 23.79
+      },
+      {
+       "text": "de",
+       "start": 23.83,
+       "end": 23.89
+      },
+      {
+       "text": "pierres",
+       "start": 23.99,
+       "end": 24.23
+      },
+      {
+       "text": "précieuses…",
+       "start": 24.27,
+       "end": 24.95
+      },
+      {
+       "text": "et",
+       "start": 25.67,
+       "end": 25.75
+      },
+      {
+       "text": "une",
+       "start": 25.77,
+       "end": 25.95
+      },
+      {
+       "text": "prison",
+       "start": 25.99,
+       "end": 26.45
+      },
+      {
+       "text": "où",
+       "start": 26.65,
+       "end": 26.75
+      },
+      {
+       "text": "brûlaient",
+       "start": 26.79,
+       "end": 27.25
+      },
+      {
+       "text": "sept",
+       "start": 27.31,
+       "end": 27.49
+      },
+      {
+       "text": "étoiles.",
+       "start": 27.53,
+       "end": 28.01
+      }
+     ]
+    }
+   ],
+   "questionAt": 28.49
+  },
+  {
+   "n": 8,
+   "title": "L'annonce du Déluge",
+   "ref": "1 Hénoch 10:1–3",
+   "question": [
+    "Tu veux",
+    "la saison 2 ?"
+   ],
+   "duration": 36.01,
+   "frames": 1080,
+   "lines": [
+    {
+     "id": 1,
+     "speaker": "LÉA",
+     "text": "Comment ça se termine ?",
+     "file": "vo/ep8/line_01.mp3",
+     "start": 0.35,
+     "duration": 1.2,
+     "words": [
+      {
+       "text": "Comment",
+       "start": 0.41,
+       "end": 0.65
+      },
+      {
+       "text": "ça",
+       "start": 0.69,
+       "end": 0.77
+      },
+      {
+       "text": "se",
+       "start": 0.81,
+       "end": 0.87
+      },
+      {
+       "text": "termine",
+       "start": 0.91,
+       "end": 1.35
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "speaker": "HÉNOCH",
+     "text": "Le Très-Haut a envoyé Uriel auprès du fils de Lamech. Un homme juste : Noé.",
+     "file": "vo/ep8/line_02.mp3",
+     "start": 1.85,
+     "duration": 5.84,
+     "words": [
+      {
+       "text": "Le",
+       "start": 1.95,
+       "end": 2.03
+      },
+      {
+       "text": "Très-Haut",
+       "start": 2.13,
+       "end": 2.53
+      },
+      {
+       "text": "a",
+       "start": 2.67,
+       "end": 2.75
+      },
+      {
+       "text": "envoyé",
+       "start": 2.79,
+       "end": 3.23
+      },
+      {
+       "text": "Uriel",
+       "start": 3.29,
+       "end": 3.75
+      },
+      {
+       "text": "auprès",
+       "start": 3.89,
+       "end": 4.15
+      },
+      {
+       "text": "du",
+       "start": 4.19,
+       "end": 4.31
+      },
+      {
+       "text": "fils",
+       "start": 4.37,
+       "end": 4.57
+      },
+      {
+       "text": "de",
+       "start": 4.61,
+       "end": 4.69
+      },
+      {
+       "text": "Lamech.",
+       "start": 4.73,
+       "end": 5.17
+      },
+      {
+       "text": "Un",
+       "start": 5.77,
+       "end": 5.87
+      },
+      {
+       "text": "homme",
+       "start": 5.89,
+       "end": 6.05
+      },
+      {
+       "text": "juste",
+       "start": 6.19,
+       "end": 6.57
+      },
+      {
+       "text": "Noé.",
+       "start": 7.17,
+       "end": 7.55
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "speaker": "LÉA",
+     "text": "Un ange au milieu de la nuit… il a dû croire qu'il rêvait.",
+     "file": "vo/ep8/line_03.mp3",
+     "start": 7.99,
+     "duration": 4.88,
+     "words": [
+      {
+       "text": "Un",
+       "start": 9.35,
+       "end": 9.47
+      },
+      {
+       "text": "ange",
+       "start": 9.55,
+       "end": 9.75
+      },
+      {
+       "text": "au",
+       "start": 9.79,
+       "end": 9.85
+      },
+      {
+       "text": "milieu",
+       "start": 9.91,
+       "end": 10.15
+      },
+      {
+       "text": "de",
+       "start": 10.19,
+       "end": 10.23
+      },
+      {
+       "text": "la",
+       "start": 10.27,
+       "end": 10.37
+      },
+      {
+       "text": "nuit…",
+       "start": 10.43,
+       "end": 10.71
+      },
+      {
+       "text": "il",
+       "start": 11.37,
+       "end": 11.45
+      },
+      {
+       "text": "a",
+       "start": 11.49,
+       "end": 11.55
+      },
+      {
+       "text": "dû",
+       "start": 11.57,
+       "end": 11.69
+      },
+      {
+       "text": "croire",
+       "start": 11.71,
+       "end": 11.97
+      },
+      {
+       "text": "qu'il",
+       "start": 11.99,
+       "end": 12.09
+      },
+      {
+       "text": "rêvait.",
+       "start": 12.21,
+       "end": 12.59
+      }
+     ]
+    },
+    {
+     "id": 4,
+     "speaker": "HÉNOCH",
+     "text": "« Cache-toi. La fin approche. Un déluge va venir sur toute la Terre. »",
+     "file": "vo/ep8/line_04.mp3",
+     "start": 13.17,
+     "duration": 4.72,
+     "words": [
+      {
+       "text": "Cache-toi.",
+       "start": 13.29,
+       "end": 13.75
+      },
+      {
+       "text": "La",
+       "start": 14.29,
+       "end": 14.35
+      },
+      {
+       "text": "fin",
+       "start": 14.49,
+       "end": 14.59
+      },
+      {
+       "text": "approche.",
+       "start": 14.65,
+       "end": 15.15
+      },
+      {
+       "text": "Un",
+       "start": 15.73,
+       "end": 15.81
+      },
+      {
+       "text": "déluge",
+       "start": 15.87,
+       "end": 16.21
+      },
+      {
+       "text": "va",
+       "start": 16.25,
+       "end": 16.35
+      },
+      {
+       "text": "venir",
+       "start": 16.39,
+       "end": 16.71
+      },
+      {
+       "text": "sur",
+       "start": 16.77,
+       "end": 16.95
+      },
+      {
+       "text": "toute",
+       "start": 16.99,
+       "end": 17.13
+      },
+      {
+       "text": "la",
+       "start": 17.17,
+       "end": 17.25
+      },
+      {
+       "text": "Terre.",
+       "start": 17.33,
+       "end": 17.65
+      }
+     ]
+    },
+    {
+     "id": 5,
+     "speaker": "LÉA",
+     "text": "Et Noé savait construire un bateau ?",
+     "file": "vo/ep8/line_05.mp3",
+     "start": 18.19,
+     "duration": 2.16,
+     "words": [
+      {
+       "text": "Et",
+       "start": 18.35,
+       "end": 18.49
+      },
+      {
+       "text": "Noé",
+       "start": 18.63,
+       "end": 18.89
+      },
+      {
+       "text": "savait",
+       "start": 19.05,
+       "end": 19.31
+      },
+      {
+       "text": "construire",
+       "start": 19.35,
+       "end": 19.73
+      },
+      {
+       "text": "un",
+       "start": 19.77,
+       "end": 19.83
+      },
+      {
+       "text": "bateau",
+       "start": 19.87,
+       "end": 20.15
+      }
+     ]
+    },
+    {
+     "id": 6,
+     "speaker": "HÉNOCH",
+     "text": "Il a pris une grande inspiration. Et il a appris.",
+     "file": "vo/ep8/line_06.mp3",
+     "start": 20.65,
+     "duration": 3.52,
+     "words": [
+      {
+       "text": "Il",
+       "start": 20.83,
+       "end": 20.91
+      },
+      {
+       "text": "a",
+       "start": 20.95,
+       "end": 20.99
+      },
+      {
+       "text": "pris",
+       "start": 21.07,
+       "end": 21.23
+      },
+      {
+       "text": "une",
+       "start": 21.27,
+       "end": 21.45
+      },
+      {
+       "text": "grande",
+       "start": 21.51,
+       "end": 21.91
+      },
+      {
+       "text": "inspiration.",
+       "start": 21.95,
+       "end": 22.65
+      },
+      {
+       "text": "Et",
+       "start": 23.27,
+       "end": 23.35
+      },
+      {
+       "text": "il",
+       "start": 23.39,
+       "end": 23.49
+      },
+      {
+       "text": "a",
+       "start": 23.53,
+       "end": 23.61
+      },
+      {
+       "text": "appris.",
+       "start": 23.65,
+       "end": 24.03
+      }
+     ]
+    },
+    {
+     "id": 7,
+     "speaker": "LÉA",
+     "text": "Et après ?",
+     "file": "vo/ep8/line_07.mp3",
+     "start": 24.47,
+     "duration": 0.8,
+     "words": [
+      {
+       "text": "Et",
+       "start": 24.59,
+       "end": 24.67
+      },
+      {
+       "text": "après",
+       "start": 24.73,
+       "end": 25.07
+      }
+     ]
+    },
+    {
+     "id": 8,
+     "speaker": "HÉNOCH",
+     "text": "Ainsi s'achève l'histoire des Veilleurs. Mais mon livre n'a pas livré tous ses secrets.",
+     "file": "vo/ep8/line_08.mp3",
+     "start": 25.57,
+     "duration": 6.24,
+     "words": [
+      {
+       "text": "Ainsi",
+       "start": 25.79,
+       "end": 26.19
+      },
+      {
+       "text": "s'achève",
+       "start": 26.33,
+       "end": 26.87
+      },
+      {
+       "text": "l'histoire",
+       "start": 26.91,
+       "end": 27.43
+      },
+      {
+       "text": "des",
+       "start": 27.49,
+       "end": 27.61
+      },
+      {
+       "text": "Veilleurs.",
+       "start": 27.63,
+       "end": 28.19
+      },
+      {
+       "text": "Mais",
+       "start": 29.19,
+       "end": 29.29
+      },
+      {
+       "text": "mon",
+       "start": 29.33,
+       "end": 29.45
+      },
+      {
+       "text": "livre",
+       "start": 29.49,
+       "end": 29.81
+      },
+      {
+       "text": "n'a",
+       "start": 30.09,
+       "end": 30.17
+      },
+      {
+       "text": "pas",
+       "start": 30.31,
+       "end": 30.41
+      },
+      {
+       "text": "livré",
+       "start": 30.45,
+       "end": 30.81
+      },
+      {
+       "text": "tous",
+       "start": 30.85,
+       "end": 30.97
+      },
+      {
+       "text": "ses",
+       "start": 31.01,
+       "end": 31.13
+      },
+      {
+       "text": "secrets.",
+       "start": 31.17,
+       "end": 31.59
+      }
+     ]
+    }
+   ],
+   "questionAt": 32.01
+  }
+ ]
+}
