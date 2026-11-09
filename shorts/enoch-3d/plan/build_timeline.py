@@ -33,7 +33,7 @@ for k, (spk, text) in enumerate(S["lines"], 1):
                   "words": [{"text": w, "start": round(t + s, 3), "end": round(t + e, 3)} for w, (s, e) in zip(words, times)]})
     t += d + GAP_AFTER.get(k, 0.2)
 total = round(t - GAP_AFTER.get(len(S["lines"]), 0.2) + TAIL, 3)
-json.dump({"fps": FPS, "duration": total, "frames": round(total * FPS), "title": S["title"], "ref": S["ref"], "question": S["question"], "lines": lines},
+json.dump({"kicker": S.get("kicker"), "fps": FPS, "duration": total, "frames": round(total * FPS), "title": S["title"], "ref": S["ref"], "question": S["question"], "lines": lines},
           open(R / f"src/timeline_{EP}.json", "w"), ensure_ascii=False, indent=1)
 json.dump(mouth, open(R / f"src/mouth_{EP}.json", "w"))
 print("total", total, "s,", round(total * FPS), "frames"); print([(l["id"], l["start"]) for l in lines])

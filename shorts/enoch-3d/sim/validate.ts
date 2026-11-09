@@ -9,8 +9,9 @@ const EP = process.argv[2] ?? "ep1";
 const rd = (p: string) => JSON.parse(readFileSync(new URL(p, import.meta.url), "utf8"));
 const tl = rd(`../src/timeline_${EP}.json`), mouth = rd(`../src/mouth_${EP}.json`), script = rd(`../plan/${EP}/script.json`);
 const research = readFileSync(new URL(`../plan/${EP}/research.md`, import.meta.url), "utf8");
-const story = EP === "ep1" ? makeEp1(tl, mouth) : (await import("../src/story/ep2.ts")).makeEp2(tl, mouth);
-const H: Record<string, number> = { shem: 2.45, azazel: 2.3, ange: 2.0, watcher: 2.2, woman: 1.62, villager: 1.74, kasdeja: 2.25, smith: 1.8 };
+const story: { frameAt: (f: number) => Frame; shots: [string, string, number, number][]; cuts: number[]; speakerOf: (k: number) => string; offscreen?: number[] } =
+  EP === "ep1" ? makeEp1(tl, mouth) : EP === "ep2" ? (await import("../src/story/ep2.ts")).makeEp2(tl, mouth) : (await import("../src/story/ep3.ts")).makeEp3(tl, mouth);
+const H: Record<string, number> = { max: 1.78, giant: 1350, raphael: 2.35, shem: 2.45, azazel: 2.3, ange: 2.0, watcher: 2.2, woman: 1.62, villager: 1.74, kasdeja: 2.25, smith: 1.8 };
 
 const v: { frame: number | string; what: string }[] = [];
 const fail = (frame: number | string, what: string) => v.push({ frame, what });
@@ -55,7 +56,7 @@ for (let i = 0; i < F.length; i++) {
   if (fr.cam.pos[1] < groundAt(fr.set, fr.cam.pos[0], fr.cam.pos[2]) + 0.25) fail(i, "camera below the ground");
   // 2. the speaker is on screen and lip-syncing during their line
   const line = tl.lines.find((l: { start: number; duration: number; words: { start: number; end: number }[] }) => t >= l.words[0].start && t <= l.words[l.words.length - 1].end);
-  if (line && line.speaker !== "HÉNOCH") {
+  if (line && line.speaker !== "HÉNOCH" && !(story.offscreen ?? []).includes(line.id)) {
     const id = story.speakerOf(line.id), cand = fr.chars.filter((c) => (line.speaker === "CHOEUR" ? c.id.startsWith("c_") : c.id.replace(/^c_/, "") === id));
     const s = (speakFrames[line.id] ??= { on: 0, total: 0, open: 0 }); s.total++;
     const vis = cand.some((c) => { const pp = project(fr.cam, [c.pos[0], c.pos[1] + H[c.kind] * 0.92, c.pos[2]]); return pp.z > 0 && Math.abs(pp.x) < 0.95 && Math.abs(pp.y) < 0.95; });

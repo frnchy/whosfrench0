@@ -12,6 +12,9 @@ export const LOOKS: Record<Kind, Look> = {
   woman: { H: 1.62, skin: "#a97a52", robe: "#b8743f", robe2: "#7c4a2a", accent: "#e3c88c", hair: "#1a1210", hairStyle: "veil", iris: "#2a1a10", build: 0.9 },
   villager: { H: 1.74, skin: "#9c6e48", robe: "#8a7656", robe2: "#5e4a33", accent: "#c9b07a", hair: "#1d140e", hairStyle: "short", beard: "#1d140e", iris: "#2a1a10", build: 1 },
   kasdeja: { H: 2.25, skin: "#b08263", robe: "#d7cbb2", robe2: "#4b3b6b", accent: "#9b7ad1", hair: "#2a1d18", hairStyle: "long", iris: "#c9a6ff", glowEyes: true, wings: "#e9e2d2", build: 1 },
+  max: { H: 1.78, skin: "#c99a74", robe: "#2e3440", robe2: "#c0392b", accent: "#e5e7eb", hair: "#2b1d14", hairStyle: "curly", iris: "#3a2a1a", build: 0.95 },
+  giant: { H: 1350, skin: "#a57656", robe: "#4b3a2a", robe2: "#2f241a", accent: "#7a5a3a", hair: "#1a120c", hairStyle: "long", beard: "#1a120c", iris: "#ffb347", glowEyes: true, build: 1.1 },
+  raphael: { H: 2.35, skin: "#d2a983", robe: "#f4f6fb", robe2: "#3d6fb6", accent: "#e8c35a", hair: "#c9a15a", hairStyle: "long", iris: "#8fd3ff", glowEyes: true, wings: "#fbfbff", build: 1.05 },
   smith: { H: 1.8, skin: "#8f6342", robe: "#5b4634", robe2: "#3a2b1f", accent: "#b38450", hair: "#140d09", hairStyle: "short", beard: "#140d09", iris: "#2a1a10", build: 1.15 },
 };
 
@@ -63,6 +66,8 @@ const Arm: React.FC<{ side: 1 | -1; a: [number, number, number]; skin: THREE.Mat
       <mesh position={[0, -0.165, 0.005]} material={skin} scale={[1, 1.25, 0.8]}><sphereGeometry args={[0.028, 16, 12]} /></mesh>
       {hold === "hammer" && <group position={[0, -0.17, 0]}><mesh material={mat("#5a3b22")} position={[0, 0, 0.1]} rotation={[Math.PI / 2, 0, 0]}><cylinderGeometry args={[0.009, 0.009, 0.22, 8]} /></mesh><mesh material={mat("#4a4a50", { metal: 0.85, rough: 0.35 })} position={[0, 0, 0.21]}><boxGeometry args={[0.045, 0.08, 0.04]} /></mesh></group>}
       {hold === "sword" && <group position={[0, -0.17, 0]}><mesh material={mat("#d4d7de", { metal: 0.95, rough: 0.2 })} position={[0, -0.28, 0]}><boxGeometry args={[0.022, 0.5, 0.006]} /></mesh><mesh material={mat("#b08a3c", { metal: 0.7, rough: 0.35 })} position={[0, -0.03, 0]}><boxGeometry args={[0.1, 0.014, 0.02]} /></mesh></group>}
+      {hold === "phone" && <group position={[0, -0.19, 0.012]} rotation={[0.2, 0, 0]}><mesh material={mat("#111")}><boxGeometry args={[0.04, 0.075, 0.005]} /></mesh><mesh material={mat("#000", { emissive: "#9fd8ff", ei: 1.4 })} position={[0, 0, 0.0028]}><planeGeometry args={[0.035, 0.068]} /></mesh></group>}
+      {hold === "chains" && [0, 1, 2, 3, 4, 5].map((i) => <mesh key={i} material={mat("#c9ccd2", { metal: 0.9, rough: 0.3 })} position={[0, -0.19 - i * 0.028, 0.01]} rotation={[0, i % 2 ? Math.PI / 2 : 0, 0]}><torusGeometry args={[0.012, 0.0035, 6, 14]} /></mesh>)}
       {hold === "bracelet" && <mesh material={mat("#e0b34a", { metal: 0.9, rough: 0.25, emissive: "#ffcc55", ei: 0.35 })} position={[0, -0.14, 0]} rotation={[Math.PI / 2, 0, 0]}><torusGeometry args={[0.026, 0.006, 8, 24]} /></mesh>}
       {hold === "gems" && ["#ff3b6b", "#3bd1ff", "#7dff6a", "#ffd23b"].map((c, i) => <mesh key={c} material={mat(c, { emissive: c, ei: 2.2, rough: 0.1 })} position={[Math.cos(i * 1.6) * 0.022, -0.185 - (i % 2) * 0.01, 0.03 + Math.sin(i * 1.6) * 0.012]}><octahedronGeometry args={[0.013]} /></mesh>)}
     </group>
@@ -123,7 +128,7 @@ export const Character: React.FC<{ c: Char }> = ({ c }) => {
         {(c.kind === "shem" || c.kind === "azazel") && [-1, 1].map((sd) => <mesh key={sd} material={gold} position={[sd * 0.095 * b, 0.775, 0]} scale={[1, 0.55, 1]}><sphereGeometry args={[0.038, 16, 10, 0, Math.PI * 2, 0, Math.PI / 2]} /></mesh>)}
         <mesh material={skin} position={[0, 0.83, 0]}><cylinderGeometry args={[0.026, 0.03, 0.05, 14]} /></mesh>
         <Arm side={-1} a={p.lArm} skin={skin} sleeve={cloth} build={b} hold={c.prop === "bracelet" ? "bracelet" : undefined} />
-        <Arm side={1} a={p.rArm} skin={skin} sleeve={cloth} build={b} hold={c.prop === "hammer" || c.prop === "sword" || c.prop === "gems" ? c.prop : undefined} />
+        <Arm side={1} a={p.rArm} skin={skin} sleeve={cloth} build={b} hold={c.prop === "hammer" || c.prop === "sword" || c.prop === "gems" || c.prop === "phone" || c.prop === "chains" ? c.prop : undefined} />
         <Head L={L} c={c} />
         {L.wings && <mesh material={mat(L.robe2, { rough: 0.8, side: THREE.DoubleSide })} position={[0, 0.42, 0]}><cylinderGeometry args={[0.1 * b, 0.2 * b, 0.76, 40, 1, true, Math.PI * 0.32, Math.PI * 1.36]} /></mesh>}
         {L.wings && <><Wing side={-1} spread={p.wings} color={L.wings} /><Wing side={1} spread={p.wings} color={L.wings} /></>}

@@ -6,14 +6,14 @@ export type Pose = {
   mouth: number; blink: number; brow: number;   // brow: −1 angry … 0 neutral … +1 worried
   gaze: [number, number];                       // eye yaw/pitch inside the head
 };
-export type Kind = "shem" | "azazel" | "ange" | "watcher" | "woman" | "villager" | "kasdeja" | "smith";
+export type Kind = "shem" | "azazel" | "ange" | "watcher" | "woman" | "villager" | "kasdeja" | "smith" | "max" | "giant" | "raphael";
 export type Char = { id: string; kind: Kind; pos: V3; yaw: number; pose: Pose; prop?: string };
 export type Cam = { pos: V3; target: V3; fov: number };
-export type SetName = "heaven" | "mountain" | "village" | "forge";
+export type SetName = "heaven" | "mountain" | "village" | "forge" | "city";
 export type Fx = {
   streaks: number; lightning: number; shock: number; pillar: number; flash: number; crowdRaise: number; crowdLook: number;
   crowd: number; feathers: number; mountainGlow: number; sparks: number; forgeGlow: number;
-  constellation: number; cries: number; fight: number;
+  constellation: number; cries: number; fight: number; pillars?: number; storeLights?: number;
 };
 export type Frame = { t: number; shot: string; set: SetName; cam: Cam; chars: Char[]; fx: Fx };
 

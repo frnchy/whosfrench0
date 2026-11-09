@@ -240,7 +240,7 @@ export const Village: React.FC<{ fx: Fx; t: number; night: boolean }> = ({ fx, t
 
 // Kokabiel's lesson: a constellation drawn star by star (episode 2)
 const STARS: [number, number, number][] = [[-60, 140, -220], [-30, 165, -230], [0, 150, -235], [25, 175, -225], [55, 160, -220], [10, 120, -230], [-20, 105, -228]];
-const Constellation: React.FC<{ k: number }> = ({ k }) => {
+export const Constellation: React.FC<{ k: number }> = ({ k }) => {
   const dot = useMemo(() => radial([[0, "rgba(255,255,255,1)"], [0.25, "rgba(200,170,255,0.8)"], [1, "rgba(0,0,0,0)"]]), []);
   const order = [0, 1, 2, 3, 4, 2, 5, 6, 0];
   const n = Math.max(2, Math.floor(1 + k * (order.length - 1)));
@@ -257,7 +257,7 @@ const Constellation: React.FC<{ k: number }> = ({ k }) => {
   );
 };
 // the cry of the earth rising to heaven (1 Hénoch 8:4): embers of light drifting up from the village
-const Cries: React.FC<{ t: number; k: number }> = ({ t, k }) => {
+export const Cries: React.FC<{ t: number; k: number }> = ({ t, k }) => {
   const seeds = useMemo(() => { const r = rng(91); return Array.from({ length: 140 }, () => [(r() - 0.5) * 40, -12 - r() * 30, r() * 60, 3 + r() * 5]); }, []);
   const dot = useMemo(() => radial([[0, "rgba(255,230,200,1)"], [0.3, "rgba(255,170,90,0.6)"], [1, "rgba(0,0,0,0)"]]), []);
   return <>{seeds.map(([x, z, y0, v], i) => <sprite key={i} position={[x + Math.sin(t + i) * 0.6, ((y0 + t * v) % 70) + 1, z]} scale={[1.8, 1.8, 1]}><spriteMaterial map={dot} transparent opacity={k} depthWrite={false} blending={THREE.AdditiveBlending} /></sprite>)}</>;

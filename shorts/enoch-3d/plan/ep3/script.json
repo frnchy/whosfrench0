@@ -1,0 +1,21 @@
+{
+ "title": "Et si les 200 anges revenaient ce soir ?", "kicker": "LE LIVRE D'HÉNOCH · ET SI…", "ref": "1 Hénoch 6–10", "question": ["Tu aurais suivi", "le cours d'Azazel ?"],
+ "voices": {"HÉNOCH": "3BZLNrQEzQVYs6kPOW4S", "MAX": "Y5gRXpOutKnKQg3SmkiA"},
+ "gaps": {"2": 0.5, "6": 0.4, "9": 0.4, "12": 0.6},
+ "lines": [
+  ["MAX", "[excited] Les gars… ça, c'est pas des météores."],
+  ["HÉNOCH", "[dramatic] Il y a des milliers d'années, deux cents anges sont descendus sur le mont Hermon. Imagine qu'ils reviennent ce soir."],
+  ["HÉNOCH", "Dix minutes plus tard, la vidéo a quarante millions de vues."],
+  ["MAX", "[excited] Ils sont deux cents, ils brillent, et ils ont des ailes. Abonnez-vous !"],
+  ["HÉNOCH", "Le lendemain, Azazel fait ce qu'il a toujours fait : il apprend aux hommes à forger des épées."],
+  ["MAX", "[laughs] Premier tuto forge… zéro consigne de sécurité."],
+  ["HÉNOCH", "Trois jours plus tard, Kokabiel lance l'astrologie… version premium."],
+  ["HÉNOCH", "[slowly] Une semaine après, naissent les géants. Trois mille coudées. Mille trois cent cinquante mètres."],
+  ["MAX", "[nervous] Bon… le supermarché ferme à vingt heures. Il a encore une chance."],
+  ["HÉNOCH", "Un mois plus tard, ils ont dévoré les récoltes… puis tout le reste. Plus aucune livraison."],
+  ["HÉNOCH", "[sad] Un an plus tard, la Terre recommence à crier."],
+  ["HÉNOCH", "[dramatically] Alors, quatre archanges descendent."],
+  ["MAX", "[whispers] Raphaël… ton Uber est arrivé."],
+  ["HÉNOCH", "Heureusement, ce n'est jamais arrivé. Mais toi… tu aurais suivi le cours d'Azazel ?"]
+ ]
+}

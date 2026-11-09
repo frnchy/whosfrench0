@@ -1,0 +1,934 @@
+{
+ "kicker": "LE LIVRE D'HÉNOCH · ET SI…",
+ "fps": 30,
+ "duration": 71.58,
+ "frames": 2147,
+ "title": "Et si les 200 anges revenaient ce soir ?",
+ "ref": "1 Hénoch 6–10",
+ "question": [
+  "Tu aurais suivi",
+  "le cours d'Azazel ?"
+ ],
+ "lines": [
+  {
+   "id": 1,
+   "speaker": "MAX",
+   "text": "Les gars… ça, c'est pas des météores.",
+   "file": "ep3/vo/line_01.mp3",
+   "start": 0.4,
+   "duration": 3.2,
+   "words": [
+    {
+     "text": "Les",
+     "start": 0.54,
+     "end": 0.68
+    },
+    {
+     "text": "gars…",
+     "start": 0.74,
+     "end": 0.98
+    },
+    {
+     "text": "ça,",
+     "start": 1.6,
+     "end": 1.8
+    },
+    {
+     "text": "c'est",
+     "start": 2.04,
+     "end": 2.14
+    },
+    {
+     "text": "pas",
+     "start": 2.34,
+     "end": 2.46
+    },
+    {
+     "text": "des",
+     "start": 2.48,
+     "end": 2.58
+    },
+    {
+     "text": "météores.",
+     "start": 2.62,
+     "end": 3.22
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "speaker": "HÉNOCH",
+   "text": "Il y a des milliers d'années, deux cents anges sont descendus sur le mont Hermon. Imagine qu'ils reviennent ce soir.",
+   "file": "ep3/vo/line_02.mp3",
+   "start": 3.8,
+   "duration": 6.8,
+   "words": [
+    {
+     "text": "Il",
+     "start": 3.98,
+     "end": 4.06
+    },
+    {
+     "text": "y",
+     "start": 4.14,
+     "end": 4.16
+    },
+    {
+     "text": "a",
+     "start": 4.2,
+     "end": 4.24
+    },
+    {
+     "text": "des",
+     "start": 4.28,
+     "end": 4.42
+    },
+    {
+     "text": "milliers",
+     "start": 4.5,
+     "end": 4.88
+    },
+    {
+     "text": "d'années,",
+     "start": 4.92,
+     "end": 5.22
+    },
+    {
+     "text": "deux",
+     "start": 5.7,
+     "end": 5.82
+    },
+    {
+     "text": "cents",
+     "start": 5.92,
+     "end": 6.16
+    },
+    {
+     "text": "anges",
+     "start": 6.22,
+     "end": 6.48
+    },
+    {
+     "text": "sont",
+     "start": 6.54,
+     "end": 6.68
+    },
+    {
+     "text": "descendus",
+     "start": 6.72,
+     "end": 7.2
+    },
+    {
+     "text": "sur",
+     "start": 7.24,
+     "end": 7.38
+    },
+    {
+     "text": "le",
+     "start": 7.42,
+     "end": 7.46
+    },
+    {
+     "text": "mont",
+     "start": 7.54,
+     "end": 7.7
+    },
+    {
+     "text": "Hermon.",
+     "start": 7.74,
+     "end": 8.26
+    },
+    {
+     "text": "Imagine",
+     "start": 8.82,
+     "end": 9.28
+    },
+    {
+     "text": "qu'ils",
+     "start": 9.34,
+     "end": 9.5
+    },
+    {
+     "text": "reviennent",
+     "start": 9.54,
+     "end": 9.86
+    },
+    {
+     "text": "ce",
+     "start": 9.9,
+     "end": 10.02
+    },
+    {
+     "text": "soir.",
+     "start": 10.06,
+     "end": 10.38
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "speaker": "HÉNOCH",
+   "text": "Dix minutes plus tard, la vidéo a quarante millions de vues.",
+   "file": "ep3/vo/line_03.mp3",
+   "start": 11.1,
+   "duration": 3.68,
+   "words": [
+    {
+     "text": "Dix",
+     "start": 11.18,
+     "end": 11.3
+    },
+    {
+     "text": "minutes",
+     "start": 11.34,
+     "end": 11.6
+    },
+    {
+     "text": "plus",
+     "start": 11.64,
+     "end": 11.76
+    },
+    {
+     "text": "tard,",
+     "start": 11.8,
+     "end": 12.14
+    },
+    {
+     "text": "la",
+     "start": 12.5,
+     "end": 12.56
+    },
+    {
+     "text": "vidéo",
+     "start": 12.64,
+     "end": 13.04
+    },
+    {
+     "text": "a",
+     "start": 13.1,
+     "end": 13.26
+    },
+    {
+     "text": "quarante",
+     "start": 13.58,
+     "end": 13.78
+    },
+    {
+     "text": "millions",
+     "start": 13.84,
+     "end": 14.16
+    },
+    {
+     "text": "de",
+     "start": 14.2,
+     "end": 14.28
+    },
+    {
+     "text": "vues.",
+     "start": 14.36,
+     "end": 14.5
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "speaker": "MAX",
+   "text": "Ils sont deux cents, ils brillent, et ils ont des ailes. Abonnez-vous !",
+   "file": "ep3/vo/line_04.mp3",
+   "start": 14.98,
+   "duration": 4.48,
+   "words": [
+    {
+     "text": "Ils",
+     "start": 15.06,
+     "end": 15.18
+    },
+    {
+     "text": "sont",
+     "start": 15.24,
+     "end": 15.5
+    },
+    {
+     "text": "deux",
+     "start": 15.56,
+     "end": 15.76
+    },
+    {
+     "text": "cents,",
+     "start": 15.84,
+     "end": 16.08
+    },
+    {
+     "text": "ils",
+     "start": 16.38,
+     "end": 16.48
+    },
+    {
+     "text": "brillent,",
+     "start": 16.6,
+     "end": 17.22
+    },
+    {
+     "text": "et",
+     "start": 17.26,
+     "end": 17.32
+    },
+    {
+     "text": "ils",
+     "start": 17.34,
+     "end": 17.52
+    },
+    {
+     "text": "ont",
+     "start": 17.54,
+     "end": 17.64
+    },
+    {
+     "text": "des",
+     "start": 17.68,
+     "end": 17.86
+    },
+    {
+     "text": "ailes.",
+     "start": 17.94,
+     "end": 18.2
+    },
+    {
+     "text": "Abonnez-vous",
+     "start": 18.52,
+     "end": 19.08
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "speaker": "HÉNOCH",
+   "text": "Le lendemain, Azazel fait ce qu'il a toujours fait : il apprend aux hommes à forger des épées.",
+   "file": "ep3/vo/line_05.mp3",
+   "start": 19.66,
+   "duration": 5.76,
+   "words": [
+    {
+     "text": "Le",
+     "start": 19.76,
+     "end": 19.84
+    },
+    {
+     "text": "lendemain,",
+     "start": 19.88,
+     "end": 20.36
+    },
+    {
+     "text": "Azazel",
+     "start": 20.78,
+     "end": 21.24
+    },
+    {
+     "text": "fait",
+     "start": 21.38,
+     "end": 21.52
+    },
+    {
+     "text": "ce",
+     "start": 21.56,
+     "end": 21.64
+    },
+    {
+     "text": "qu'il",
+     "start": 21.68,
+     "end": 21.8
+    },
+    {
+     "text": "a",
+     "start": 21.82,
+     "end": 21.94
+    },
+    {
+     "text": "toujours",
+     "start": 21.96,
+     "end": 22.3
+    },
+    {
+     "text": "fait",
+     "start": 22.36,
+     "end": 22.54
+    },
+    {
+     "text": "il",
+     "start": 23.12,
+     "end": 23.2
+    },
+    {
+     "text": "apprend",
+     "start": 23.26,
+     "end": 23.54
+    },
+    {
+     "text": "aux",
+     "start": 23.58,
+     "end": 23.719
+    },
+    {
+     "text": "hommes",
+     "start": 23.74,
+     "end": 24.06
+    },
+    {
+     "text": "à",
+     "start": 24.14,
+     "end": 24.26
+    },
+    {
+     "text": "forger",
+     "start": 24.34,
+     "end": 24.64
+    },
+    {
+     "text": "des",
+     "start": 24.68,
+     "end": 24.82
+    },
+    {
+     "text": "épées.",
+     "start": 24.88,
+     "end": 25.14
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "speaker": "MAX",
+   "text": "Premier tuto forge… zéro consigne de sécurité.",
+   "file": "ep3/vo/line_06.mp3",
+   "start": 25.62,
+   "duration": 4.4,
+   "words": [
+    {
+     "text": "Premier",
+     "start": 26.62,
+     "end": 26.96
+    },
+    {
+     "text": "tuto",
+     "start": 27.02,
+     "end": 27.26
+    },
+    {
+     "text": "forge…",
+     "start": 27.38,
+     "end": 27.72
+    },
+    {
+     "text": "zéro",
+     "start": 28.32,
+     "end": 28.56
+    },
+    {
+     "text": "consigne",
+     "start": 28.64,
+     "end": 28.98
+    },
+    {
+     "text": "de",
+     "start": 29.02,
+     "end": 29.12
+    },
+    {
+     "text": "sécurité.",
+     "start": 29.16,
+     "end": 29.679
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "speaker": "HÉNOCH",
+   "text": "Trois jours plus tard, Kokabiel lance l'astrologie… version premium.",
+   "file": "ep3/vo/line_07.mp3",
+   "start": 30.42,
+   "duration": 4.8,
+   "words": [
+    {
+     "text": "Trois",
+     "start": 30.48,
+     "end": 30.64
+    },
+    {
+     "text": "jours",
+     "start": 30.7,
+     "end": 30.84
+    },
+    {
+     "text": "plus",
+     "start": 30.88,
+     "end": 31.02
+    },
+    {
+     "text": "tard,",
+     "start": 31.06,
+     "end": 31.4
+    },
+    {
+     "text": "Kokabiel",
+     "start": 31.7,
+     "end": 32.24
+    },
+    {
+     "text": "lance",
+     "start": 32.36,
+     "end": 32.62
+    },
+    {
+     "text": "l'astrologie…",
+     "start": 32.66,
+     "end": 33.44
+    },
+    {
+     "text": "version",
+     "start": 34.06,
+     "end": 34.38
+    },
+    {
+     "text": "premium.",
+     "start": 34.479,
+     "end": 34.96
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "speaker": "HÉNOCH",
+   "text": "Une semaine après, naissent les géants. Trois mille coudées. Mille trois cent cinquante mètres.",
+   "file": "ep3/vo/line_08.mp3",
+   "start": 35.42,
+   "duration": 6.64,
+   "words": [
+    {
+     "text": "Une",
+     "start": 35.64,
+     "end": 35.78
+    },
+    {
+     "text": "semaine",
+     "start": 35.86,
+     "end": 36.2
+    },
+    {
+     "text": "après,",
+     "start": 36.24,
+     "end": 36.68
+    },
+    {
+     "text": "naissent",
+     "start": 37.3,
+     "end": 37.6
+    },
+    {
+     "text": "les",
+     "start": 37.66,
+     "end": 37.78
+    },
+    {
+     "text": "géants.",
+     "start": 37.82,
+     "end": 38.2
+    },
+    {
+     "text": "Trois",
+     "start": 39.1,
+     "end": 39.16
+    },
+    {
+     "text": "mille",
+     "start": 39.2,
+     "end": 39.38
+    },
+    {
+     "text": "coudées.",
+     "start": 39.479,
+     "end": 39.8
+    },
+    {
+     "text": "Mille",
+     "start": 40.42,
+     "end": 40.62
+    },
+    {
+     "text": "trois",
+     "start": 40.82,
+     "end": 41.02
+    },
+    {
+     "text": "cent",
+     "start": 41.02,
+     "end": 41.22
+    },
+    {
+     "text": "cinquante",
+     "start": 41.22,
+     "end": 41.46
+    },
+    {
+     "text": "mètres.",
+     "start": 41.52,
+     "end": 41.8
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "speaker": "MAX",
+   "text": "Bon… le supermarché ferme à vingt heures. Il a encore une chance.",
+   "file": "ep3/vo/line_09.mp3",
+   "start": 42.26,
+   "duration": 4.72,
+   "words": [
+    {
+     "text": "Bon…",
+     "start": 42.62,
+     "end": 42.82
+    },
+    {
+     "text": "le",
+     "start": 43.52,
+     "end": 43.64
+    },
+    {
+     "text": "supermarché",
+     "start": 43.78,
+     "end": 44.44
+    },
+    {
+     "text": "ferme",
+     "start": 44.62,
+     "end": 44.82
+    },
+    {
+     "text": "à",
+     "start": 44.86,
+     "end": 44.9
+    },
+    {
+     "text": "vingt",
+     "start": 44.98,
+     "end": 45.16
+    },
+    {
+     "text": "heures.",
+     "start": 45.2,
+     "end": 45.4
+    },
+    {
+     "text": "Il",
+     "start": 45.9,
+     "end": 45.96
+    },
+    {
+     "text": "a",
+     "start": 45.98,
+     "end": 46.04
+    },
+    {
+     "text": "encore",
+     "start": 46.06,
+     "end": 46.279
+    },
+    {
+     "text": "une",
+     "start": 46.319,
+     "end": 46.42
+    },
+    {
+     "text": "chance.",
+     "start": 46.46,
+     "end": 46.74
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "speaker": "HÉNOCH",
+   "text": "Un mois plus tard, ils ont dévoré les récoltes… puis tout le reste. Plus aucune livraison.",
+   "file": "ep3/vo/line_10.mp3",
+   "start": 47.38,
+   "duration": 6.48,
+   "words": [
+    {
+     "text": "Un",
+     "start": 47.5,
+     "end": 47.56
+    },
+    {
+     "text": "mois",
+     "start": 47.6,
+     "end": 47.74
+    },
+    {
+     "text": "plus",
+     "start": 47.76,
+     "end": 47.92
+    },
+    {
+     "text": "tard,",
+     "start": 47.96,
+     "end": 48.28
+    },
+    {
+     "text": "ils",
+     "start": 48.6,
+     "end": 48.78
+    },
+    {
+     "text": "ont",
+     "start": 48.82,
+     "end": 48.92
+    },
+    {
+     "text": "dévoré",
+     "start": 49.02,
+     "end": 49.44
+    },
+    {
+     "text": "les",
+     "start": 49.48,
+     "end": 49.56
+    },
+    {
+     "text": "récoltes…",
+     "start": 49.6,
+     "end": 50.08
+    },
+    {
+     "text": "puis",
+     "start": 50.76,
+     "end": 51.2
+    },
+    {
+     "text": "tout",
+     "start": 51.24,
+     "end": 51.34
+    },
+    {
+     "text": "le",
+     "start": 51.38,
+     "end": 51.42
+    },
+    {
+     "text": "reste.",
+     "start": 51.48,
+     "end": 51.84
+    },
+    {
+     "text": "Plus",
+     "start": 52.38,
+     "end": 52.68
+    },
+    {
+     "text": "aucune",
+     "start": 52.74,
+     "end": 53.08
+    },
+    {
+     "text": "livraison.",
+     "start": 53.08,
+     "end": 53.58
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "speaker": "HÉNOCH",
+   "text": "Un an plus tard, la Terre recommence à crier.",
+   "file": "ep3/vo/line_11.mp3",
+   "start": 54.06,
+   "duration": 3.44,
+   "words": [
+    {
+     "text": "Un",
+     "start": 54.38,
+     "end": 54.46
+    },
+    {
+     "text": "an",
+     "start": 54.5,
+     "end": 54.6
+    },
+    {
+     "text": "plus",
+     "start": 54.68,
+     "end": 54.82
+    },
+    {
+     "text": "tard,",
+     "start": 54.88,
+     "end": 55.18
+    },
+    {
+     "text": "la",
+     "start": 55.72,
+     "end": 55.8
+    },
+    {
+     "text": "Terre",
+     "start": 55.92,
+     "end": 56.22
+    },
+    {
+     "text": "recommence",
+     "start": 56.28,
+     "end": 56.74
+    },
+    {
+     "text": "à",
+     "start": 56.78,
+     "end": 56.84
+    },
+    {
+     "text": "crier.",
+     "start": 56.88,
+     "end": 57.24
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "speaker": "HÉNOCH",
+   "text": "Alors, quatre archanges descendent.",
+   "file": "ep3/vo/line_12.mp3",
+   "start": 57.7,
+   "duration": 2.64,
+   "words": [
+    {
+     "text": "Alors,",
+     "start": 57.96,
+     "end": 58.36
+    },
+    {
+     "text": "quatre",
+     "start": 58.76,
+     "end": 59.02
+    },
+    {
+     "text": "archanges",
+     "start": 59.08,
+     "end": 59.56
+    },
+    {
+     "text": "descendent.",
+     "start": 59.6,
+     "end": 60.12
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "speaker": "MAX",
+   "text": "Raphaël… ton Uber est arrivé.",
+   "file": "ep3/vo/line_13.mp3",
+   "start": 60.94,
+   "duration": 2.8,
+   "words": [
+    {
+     "text": "Raphaël…",
+     "start": 61.16,
+     "end": 61.74
+    },
+    {
+     "text": "ton",
+     "start": 62.24,
+     "end": 62.36
+    },
+    {
+     "text": "Uber",
+     "start": 62.46,
+     "end": 62.78
+    },
+    {
+     "text": "est",
+     "start": 62.82,
+     "end": 62.94
+    },
+    {
+     "text": "arrivé.",
+     "start": 63.0,
+     "end": 63.42
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "speaker": "HÉNOCH",
+   "text": "Heureusement, ce n'est jamais arrivé. Mais toi… tu aurais suivi le cours d'Azazel ?",
+   "file": "ep3/vo/line_14.mp3",
+   "start": 63.94,
+   "duration": 5.44,
+   "words": [
+    {
+     "text": "Heureusement,",
+     "start": 64.04,
+     "end": 64.6
+    },
+    {
+     "text": "ce",
+     "start": 64.94,
+     "end": 65.0
+    },
+    {
+     "text": "n'est",
+     "start": 65.04,
+     "end": 65.14
+    },
+    {
+     "text": "jamais",
+     "start": 65.18,
+     "end": 65.42
+    },
+    {
+     "text": "arrivé.",
+     "start": 65.44,
+     "end": 65.84
+    },
+    {
+     "text": "Mais",
+     "start": 66.46,
+     "end": 66.58
+    },
+    {
+     "text": "toi…",
+     "start": 66.64,
+     "end": 66.86
+    },
+    {
+     "text": "tu",
+     "start": 67.66,
+     "end": 67.74
+    },
+    {
+     "text": "aurais",
+     "start": 67.78,
+     "end": 67.98
+    },
+    {
+     "text": "suivi",
+     "start": 68.02,
+     "end": 68.3
+    },
+    {
+     "text": "le",
+     "start": 68.34,
+     "end": 68.44
+    },
+    {
+     "text": "cours",
+     "start": 68.48,
+     "end": 68.62
+    },
+    {
+     "text": "d'Azazel",
+     "start": 68.64,
+     "end": 69.12
+    }
+   ]
+  }
+ ]
+}

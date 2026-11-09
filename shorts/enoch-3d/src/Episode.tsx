@@ -4,6 +4,7 @@ import { loadFont } from "@remotion/fonts";
 import { Character } from "./three/Character";
 import { CameraRig, Heaven, Mountain, Village } from "./three/Sets";
 import { Forge } from "./three/Forge";
+import { City } from "./three/City";
 import type { Frame } from "./story/common.ts";
 import { EPISODES } from "./episodes";
 
@@ -15,11 +16,11 @@ void Promise.all([
 ]);
 
 type Word = { text: string; start: number; end: number };
-export type TL = { fps: number; duration: number; frames: number; title: string; ref: string; question: string[]; lines: { id: number; speaker: string; text: string; file: string; start: number; duration: number; words: Word[] }[] };
+export type TL = { kicker?: string; fps: number; duration: number; frames: number; title: string; ref: string; question: string[]; lines: { id: number; speaker: string; text: string; file: string; start: number; duration: number; words: Word[] }[] };
 export type Sfx = [string, number, number];  // file, start s, volume
-export type EpisodeDef = { n: number; tl: TL; frameAt: (f: number) => Frame; score: string; scoreVol: number; sfx: Sfx[]; beds: [string, number, number, number][]; keywords: Record<string, string> };
+export type EpisodeDef = { n: number; tl: TL; frameAt: (f: number) => Frame; score: string; scoreVol: number; sfx: Sfx[]; beds: [string, number, number, number][]; keywords: Record<string, string>; overlay?: React.FC };
 
-const SPK_COL: Record<string, string> = { KOKABIEL: "#C9A6FF", "HÉNOCH": "#E9C46A", SHEMIHAZA: "#E8E4DA", AZAZEL: "#FF6B5B", ANGE: "#9FD8FF", CHOEUR: "#FFD60A", KASDEJA: "#C9A6FF", FORGERON: "#F2A65A", "FEMME": "#F5B7C5", "ENFANT": "#8EE08A" };
+const SPK_COL: Record<string, string> = { MAX: "#7EE08A", KOKABIEL: "#C9A6FF", "HÉNOCH": "#E9C46A", SHEMIHAZA: "#E8E4DA", AZAZEL: "#FF6B5B", ANGE: "#9FD8FF", CHOEUR: "#FFD60A", KASDEJA: "#C9A6FF", FORGERON: "#F2A65A", "FEMME": "#F5B7C5", "ENFANT": "#8EE08A" };
 const SPK_NAME: Record<string, string> = { CHOEUR: "LES 200" };
 const s = (t: number) => Math.round(t * 30);
 const clampI = (f: number, a: number, b: number, from: number, to: number) => interpolate(f, [a, b], [from, to], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.bezier(0.33, 0, 0.2, 1) });
@@ -44,7 +45,7 @@ const Captions: React.FC<{ ep: EpisodeDef }> = ({ ep }) => {
   if (!c) return null;
   const k = Math.min(1, (frame - s(c.from)) / 4);
   return (
-    <div style={{ position: "absolute", top: 1270, left: 60, width: 810, textAlign: "center" }}>
+    <div style={{ position: "absolute", top: 860, left: 60, width: 810, textAlign: "center" }}>
       <div style={{ font: "700 28px Inter", letterSpacing: "0.22em", color: SPK_COL[c.speaker] ?? "#fff", marginBottom: 12, textShadow: "0 2px 8px rgba(0,0,0,0.9)" }}>{SPK_NAME[c.speaker] ?? c.speaker}</div>
       <div style={{ font: "900 88px/1.04 Inter", color: "#fff", transform: `scale(${0.82 + 0.18 * k}) rotate(${(1 - k) * -2}deg)`, opacity: k, WebkitTextStroke: "7px #0A0A0A", paintOrder: "stroke fill", textShadow: "0 6px 18px rgba(0,0,0,0.55)" }}>
         {c.words.map((w, i) => <span key={i} style={{ color: ep.keywords[clean(w)] ?? "#fff" }}>{w.replace(/[…«»]/g, "")}{i < c.words.length - 1 ? " " : ""}</span>)}
@@ -64,7 +65,7 @@ const Title: React.FC<{ ep: EpisodeDef }> = ({ ep }) => {
     <div style={{ position: "absolute", top: 380, left: 50, width: 980, textAlign: "center", opacity: o, textShadow: "0 4px 26px rgba(0,0,0,0.95)" }}>
       {opening ? (
         <>
-          <div style={{ font: "700 30px Inter", letterSpacing: "0.32em", color: "#E9C46A" }}>LE LIVRE D'HÉNOCH · ÉPISODE {ep.n}</div>
+          <div style={{ font: "700 30px Inter", letterSpacing: "0.32em", color: "#E9C46A" }}>{ep.tl.kicker ?? `LE LIVRE D'HÉNOCH · ÉPISODE ${ep.n}`}</div>
           <div style={{ font: "600 100px/1.02 'EB Garamond'", color: "#fff", marginTop: 16 }}>{ep.tl.title}</div>
           <div style={{ font: "500 32px Inter", color: "rgba(255,255,255,0.8)", marginTop: 16 }}>{ep.tl.ref} · d'après la trad. R. H. Charles</div>
         </>
@@ -113,6 +114,7 @@ export const World: React.FC<{ fr: Frame }> = ({ fr }) => (
     {fr.set === "mountain" && <Mountain fx={fr.fx} t={fr.t} />}
     {fr.set === "village" && <Village fx={fr.fx} t={fr.t} night={!["B2_pov_village", "H_jewels", "I_woman"].includes(fr.shot)} />}
     {fr.set === "forge" && <Forge fx={fr.fx} t={fr.t} />}
+    {fr.set === "city" && <City fx={fr.fx} t={fr.t} />}
     {fr.chars.map((c) => <Character key={c.id} c={c} />)}
   </>
 );
@@ -139,6 +141,7 @@ export const Final: React.FC<{ n: number }> = ({ n }) => {
     <OffthreadVideo src={staticFile(`renders/ep${ep.n}_clean.mp4`)} />
     <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 60%, rgba(0,0,0,0.55) 72%, rgba(0,0,0,0.2) 92%)" }} />
     <Title ep={ep} />
+    {ep.overlay && <ep.overlay />}
     <Captions ep={ep} />
   </AbsoluteFill>
 );
