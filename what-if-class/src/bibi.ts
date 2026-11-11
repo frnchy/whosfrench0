@@ -55,11 +55,11 @@ function jumper(id: string, look: Look, pos: V3, rotY: number, t: number, seed: 
 }
 
 // ---------- props ----------
-function shell(b: Builder, floor: string, wall: string | null) {
+export function shell(b: Builder, floor: string, wall: string | null) {
   b.part(null, 'floor', 'box', [12, 0.1, 12], [0, -0.05, 0], floor, { flat: true, solid: false });
   if (wall) b.part(null, 'wall', 'box', [12, 5, 0.1], [0, 2.5, -2.3], wall, { flat: true, solid: false });
 }
-function bedroom(b: Builder) {
+export function bedroom(b: Builder) {
   shell(b, '#5c6470', '#78818d');
   b.part(null, 'bedFrame', 'box', [1.3, 0.3, 2.1], [-1.25, 0.15, -1.0], '#6b4a2f');
   b.part(null, 'mattress', 'box', [1.2, 0.14, 2.0], [-1.25, 0.37, -1.0], '#dfe3ea', { solid: false });

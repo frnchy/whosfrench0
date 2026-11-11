@@ -30,11 +30,11 @@ Cartoon parody, 48 s, cut to the user-supplied track (`public/bibi_song.mp3`, be
 
 ## Episode 3: "What if your homeboy turned into a girl?" (captions only)
 
-29 s, `src/homegirl.ts`, same track from the first fast beat after the drop. Build: `node scripts/build-homegirl.mjs`, check: `EP=homegirl npx -y tsx sim/validate.ts`, render: `npx remotion render Homegirl out/homegirl_raw.mp4`.
+45 s, `src/homegirl.ts`, same track from the first fast beat after the drop. Build: `node scripts/build-homegirl.mjs`, check: `EP=homegirl npx -y tsx sim/validate.ts`, render: `npx remotion render Homegirl out/homegirl_raw.mp4`.
 
-## House style for new videos (from episode 3 on)
+## House style for new videos
 
-- Bright, saturated colours only: no grey rooms, no dark vignette (`bright: true` in `src/episodes.ts`).
-- Frame 0 must grab the eye: colour, motion and the hook caption are already on screen.
-- Something changes on **every** beat (camera punch, counter tick, prop, cut) and nothing holds longer than 0.5 s; the build script fails if two beats are further apart than that.
+- Frame 0 must grab the eye: the hook caption and the main character are already on screen.
+- Cuts and gags land on beats of the supplied track.
 - Jokey captions, not factual narration. A seamless loop is not required.
+- (Dropped on request: "bright colours only" and "something new every 0.5 s". `bright: true` in `src/episodes.ts` still exists if wanted.)
