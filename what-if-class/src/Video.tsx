@@ -88,7 +88,7 @@ function sfxList(): Sfx[] {
 }
 const SFX = sfxList();
 
-export const WhatIfVideo: React.FC<{ clean?: boolean; still?: number; title?: boolean; ep?: 'class' | 'bibi' }> = ({ clean, still, title, ep: epId = 'class' }) => {
+export const WhatIfVideo: React.FC<{ clean?: boolean; still?: number; title?: boolean; ep?: keyof typeof EPS }> = ({ clean, still, title, ep: epId = 'class' }) => {
   const ep = EPS[epId];
   const frame = useCurrentFrame();
   const { width, height } = useVideoConfig();
@@ -96,7 +96,7 @@ export const WhatIfVideo: React.FC<{ clean?: boolean; still?: number; title?: bo
   const w = ep.world(t);
   const sk = shake(t, ep);
   const warm = w.warm;
-  const grade = `saturate(${lerp(0.5, 1.2, warm)}) contrast(${lerp(0.95, 1.06, warm)}) brightness(${lerp(0.92, 1.04, warm)})`;
+  const grade = ep.bright ? 'saturate(1.35) brightness(1.06)' : `saturate(${lerp(0.5, 1.2, warm)}) contrast(${lerp(0.95, 1.06, warm)}) brightness(${lerp(0.92, 1.04, warm)})`;
   const flip = onBeat(ev(7, 'attention'));
   const flash = epId !== 'class' ? w.flash ?? 0 : t >= flip && t < flip + 0.1 ? 1 - (t - flip) / 0.1 : 0;
   return (
@@ -107,9 +107,9 @@ export const WhatIfVideo: React.FC<{ clean?: boolean; still?: number; title?: bo
         </AbsoluteFill>
         {w.blur && w.parts.some((p) => p.fg) ? <Scene3D w={w} layer="fg" width={width} height={height} /> : null}
         {/* mood tint: cold blue when sad, warm glow when happy, golden bloom in heaven */}
-        <AbsoluteFill style={{ background: warm < 0.5 ? 'rgba(70,100,140,0.18)' : 'rgba(255,170,80,0.10)', mixBlendMode: 'soft-light' }} />
+        {ep.bright ? null : <AbsoluteFill style={{ background: warm < 0.5 ? 'rgba(70,100,140,0.18)' : 'rgba(255,170,80,0.10)', mixBlendMode: 'soft-light' }} />}
         {w.heaven ? <AbsoluteFill style={{ background: 'radial-gradient(circle at 50% 35%, rgba(255,240,190,0.55), rgba(255,200,120,0) 60%)', mixBlendMode: 'screen' }} /> : null}
-        <AbsoluteFill style={{ background: 'radial-gradient(ellipse at center, rgba(0,0,0,0) 55%, rgba(0,0,0,0.45) 100%)' }} />
+        {ep.bright ? null : <AbsoluteFill style={{ background: 'radial-gradient(ellipse at center, rgba(0,0,0,0) 55%, rgba(0,0,0,0.45) 100%)' }} />}
         <AbsoluteFill style={{ background: '#fff', opacity: flash }} />
       </AbsoluteFill>
       {clean ? null : (
@@ -119,8 +119,8 @@ export const WhatIfVideo: React.FC<{ clean?: boolean; still?: number; title?: bo
           <Caption t={t} ep={ep} />
         </AbsoluteFill>
       )}
-      {still !== undefined ? null : epId === 'bibi' ? (
-        <Audio src={staticFile('bibi_music.wav')} />
+      {still !== undefined ? null : ep.music ? (
+        <Audio src={staticFile(ep.music)} />
       ) : (
         <>
           <Audio src={staticFile('music60.wav')} />

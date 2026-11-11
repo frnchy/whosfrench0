@@ -16,7 +16,7 @@ export type Look = { skin: string; top: string; pants: string; shoe: string; hai
 export type Pose = { mode: 'stand' | 'sit' | 'air' | 'fly'; lift?: number; crouch?: number; lean?: number; head?: V3; armL?: [number, number]; armR?: [number, number]; sway?: number };
 export type Thumb = { u: number; v: number; lift: number };
 export type Hold = { item: 'phone' | 'paper' | 'chalk'; screen?: string; thumb?: Thumb };
-export type Char = { id: string; look: Look; pos: V3; rotY: number; pose: Pose; expr: Expr; gaze: V3; fg?: boolean; hold?: Hold; halo?: boolean; blush?: boolean; acc?: { tie?: string; pirate?: boolean; patch?: boolean; sash?: string } };
+export type Char = { id: string; look: Look; pos: V3; rotY: number; pose: Pose; expr: Expr; gaze: V3; fg?: boolean; hold?: Hold; halo?: boolean; blush?: boolean; acc?: { tie?: string; pirate?: boolean; patch?: boolean; sash?: string; bow?: string } };
 export type Cam = { pos: V3; look: V3; fov: number; up?: V3 };
 export type World = {
   scene: string; t: number; flash?: number; cam: Cam; warm: number; blur: number; bg: string; heaven?: boolean;
@@ -142,6 +142,7 @@ export function buildChar(c: Char, t: number) {
   const A = c.acc ?? {};
   if (A.tie) { b.part(spine, 'shirt', 'box', [0.13, 0.3, 0.02], [0, 0.27, 0.115], '#ffffff', { solid: false }); b.part(spine, 'tie', 'box', [0.05, 0.24, 0.02], [0, 0.25, 0.128], A.tie, { solid: false }); }
   if (A.sash) b.part(spine, 'sash', 'box', [0.1, 0.56, 0.02], [0, 0.21, 0.14], A.sash, { solid: false }, [0, 0, 0.72]);
+  if (A.bow) for (const sd of [-1, 1]) b.part(head, `bow${sd}`, 'box', [0.11, 0.1, 0.06], [0.12 + sd * 0.065, H + 0.1, 0.12], A.bow, { solid: false }, [0, 0, sd * 0.5]);
   if (A.pirate) {
     b.part(head, 'hatBrim', 'box', [0.62, 0.05, 0.56], [0, H + 0.085, 0], '#17171c');
     b.part(head, 'hatCrown', 'box', [0.42, 0.2, 0.34], [0, H + 0.2, 0], '#17171c');
