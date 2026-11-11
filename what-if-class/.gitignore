@@ -5,3 +5,4 @@ out/*_raw.mp4
 out/test*.mp4
 out/*.log
 .DS_Store
+public/music60.wav
