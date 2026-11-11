@@ -20,7 +20,7 @@ function mat(p: Part): THREE.Material {
   const key = `${p.color}|${p.tex ?? ''}|${p.emissive ?? 0}|${p.opacity ?? 1}|${p.add ? 1 : 0}|${p.kind}`;
   let m = mats.get(key);
   if (m) return m;
-  if (p.tex && (p.tex.startsWith('phone') || p.tex.startsWith('sym'))) m = new THREE.MeshBasicMaterial({ map: getTex(p.tex), transparent: p.tex.startsWith('sym'), toneMapped: false, side: THREE.DoubleSide });
+  if (p.tex && p.emissive) m = new THREE.MeshBasicMaterial({ map: getTex(p.tex), transparent: !p.tex.startsWith('phone'), toneMapped: false, side: THREE.DoubleSide });
   else if (p.tex) m = new THREE.MeshStandardMaterial({ map: getTex(p.tex), roughness: 0.85 });
   else if (p.add) m = new THREE.MeshBasicMaterial({ color: p.color, transparent: true, opacity: p.opacity, blending: THREE.AdditiveBlending, depthWrite: false, side: THREE.DoubleSide });
   else if (p.emissive) m = new THREE.MeshStandardMaterial({ color: p.color, emissive: p.color, emissiveIntensity: p.emissive, roughness: 0.5 });

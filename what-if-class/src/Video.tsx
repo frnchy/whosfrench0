@@ -1,7 +1,8 @@
 import { AbsoluteFill, Sequence, continueRender, delayRender, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 import { Audio } from '@remotion/media';
 import { Scene3D } from './Scene3D';
-import { world, TL, FPS, counterAt, onBeat, ev, rnd, clamp, easeOut, lerp } from './world';
+import { TL, FPS, onBeat, ev, rnd, clamp, easeOut, lerp } from './world';
+import { EPS, type Ep } from './episodes';
 
 // Montserrat (OFL), bundled locally: variable font covering weights 800–900
 const fontFamily = 'Montserrat';
@@ -11,12 +12,13 @@ const YELLOW = '#FFD60A';
 const stroke = (px: number): React.CSSProperties => ({ WebkitTextStroke: `${px}px #000`, paintOrder: 'stroke fill' });
 
 // ---------- beat shake: every hard beat nudges the frame a little ----------
-function shake(t: number) {
+function shake(t: number, ep: Ep) {
   let x = 0, y = 0, s = 1;
-  for (const b of TL.beats) {
+  const g = ep.shake(t);
+  for (const b of ep.beats) {
     const dt = t - b.t;
     if (dt < 0 || dt > 0.22) continue;
-    const k = Math.pow(1 - dt / 0.22, 2) * b.s;
+    const k = Math.pow(1 - dt / 0.22, 2) * b.s * g;
     const a = rnd(b.t * 100) * Math.PI * 2;
     x += Math.cos(a) * 7 * k; y += Math.sin(a) * 7 * k; s += 0.012 * k;
   }
@@ -25,15 +27,15 @@ function shake(t: number) {
 
 const fmt = (v: number) => (v < 0 ? '∞' : v.toLocaleString('en-US'));
 
-const Counter: React.FC<{ t: number }> = ({ t }) => {
-  const { value, from, since } = counterAt(t);
+const Counter: React.FC<{ t: number; ep: Ep }> = ({ t, ep }) => {
+  const { value, from, since } = ep.counterAt(t);
   const roll = clamp(since / 0.35);
   const shown = value < 0 ? -1 : Math.round(lerp(from < 0 ? 0 : from, value, easeOut(roll)));
   const pop = since < 0.3 && t > 0.5 ? 1 + 0.35 * Math.sin((since / 0.3) * Math.PI) : 1;
   const big = value < 0 || value - from >= 100;
   return (
     <div style={{ position: 'absolute', left: 60, top: 430, color: '#fff', fontFamily }}>
-      <div style={{ fontWeight: 800, fontSize: 28, letterSpacing: '0.18em', ...stroke(3) }}>THINGS LEARNED</div>
+      <div style={{ fontWeight: 800, fontSize: 28, letterSpacing: '0.18em', ...stroke(3) }}>{ep.label}</div>
       <div style={{ fontWeight: 900, fontSize: shown < 0 ? 230 : shown >= 1e6 ? 118 : 160, lineHeight: 1, fontVariantNumeric: 'tabular-nums', transform: `scale(${pop})`, transformOrigin: 'left center', ...stroke(8), textShadow: '0 6px 0 #000' }}>{fmt(shown)}</div>
       <div style={{ fontWeight: 800, fontSize: 28, letterSpacing: '0.18em', ...stroke(3) }}>SO FAR</div>
       {big && since < 0.6
@@ -46,8 +48,8 @@ const Counter: React.FC<{ t: number }> = ({ t }) => {
   );
 };
 
-const Caption: React.FC<{ t: number }> = ({ t }) => {
-  const cap = TL.lines.flatMap((l) => l.caps).find((c) => t >= c.start && t < c.end);
+const Caption: React.FC<{ t: number; ep: Ep }> = ({ t, ep }) => {
+  const cap = ep.caps.find((c) => t >= c.start && t < c.end);
   if (!cap) return null;
   const f = (t - cap.start) * FPS;
   const scale = f < 3 ? lerp(1.25, 1, f / 3) : 1;
@@ -58,14 +60,12 @@ const Caption: React.FC<{ t: number }> = ({ t }) => {
   );
 };
 
-const Title: React.FC<{ t: number; force?: boolean }> = ({ t, force }) => {
-  const wi = TL.scenes.find((s) => s.id === 'whatif')!;
-  const show = force || t < 3 || (t >= wi.start && t < wi.end);
-  if (!show) return null;
+const Title: React.FC<{ t: number; force?: boolean; ep: Ep }> = ({ t, force, ep }) => {
+  if (!force && !ep.titleAt(t)) return null;
   return (
-    <div style={{ position: 'absolute', top: 175, left: 40, right: 40, textAlign: 'center', fontFamily, fontWeight: 900, fontSize: 70, lineHeight: 1.08, ...stroke(8), textShadow: '0 6px 0 #000' }}>
-      <div style={{ color: '#fff' }}>WHAT IF YOU PAID</div>
-      <div style={{ color: YELLOW }}>ATTENTION IN CLASS?</div>
+    <div style={{ position: 'absolute', top: 175, left: 40, right: 40, textAlign: 'center', fontFamily, fontWeight: 900, fontSize: ep.title[1].length > 19 ? 60 : 70, lineHeight: 1.08, ...stroke(8), textShadow: '0 6px 0 #000' }}>
+      <div style={{ color: '#fff' }}>{ep.title[0]}</div>
+      <div style={{ color: YELLOW }}>{ep.title[1]}</div>
     </div>
   );
 };
@@ -88,16 +88,17 @@ function sfxList(): Sfx[] {
 }
 const SFX = sfxList();
 
-export const WhatIfVideo: React.FC<{ clean?: boolean; still?: number; title?: boolean }> = ({ clean, still, title }) => {
+export const WhatIfVideo: React.FC<{ clean?: boolean; still?: number; title?: boolean; ep?: 'class' | 'bibi' }> = ({ clean, still, title, ep: epId = 'class' }) => {
+  const ep = EPS[epId];
   const frame = useCurrentFrame();
   const { width, height } = useVideoConfig();
   const t = still ?? frame / FPS;
-  const w = world(t);
-  const sk = shake(t);
+  const w = ep.world(t);
+  const sk = shake(t, ep);
   const warm = w.warm;
   const grade = `saturate(${lerp(0.5, 1.2, warm)}) contrast(${lerp(0.95, 1.06, warm)}) brightness(${lerp(0.92, 1.04, warm)})`;
   const flip = onBeat(ev(7, 'attention'));
-  const flash = t >= flip && t < flip + 0.1 ? 1 - (t - flip) / 0.1 : 0;
+  const flash = epId !== 'class' ? w.flash ?? 0 : t >= flip && t < flip + 0.1 ? 1 - (t - flip) / 0.1 : 0;
   return (
     <AbsoluteFill style={{ backgroundColor: '#000', overflow: 'hidden' }}>
       <AbsoluteFill style={{ transform: `translate(${sk.x}px, ${sk.y}px) scale(${sk.s})`, filter: grade }}>
@@ -113,12 +114,14 @@ export const WhatIfVideo: React.FC<{ clean?: boolean; still?: number; title?: bo
       </AbsoluteFill>
       {clean ? null : (
         <AbsoluteFill>
-          <Title t={t} force={title} />
-          <Counter t={t} />
-          <Caption t={t} />
+          <Title t={t} force={title} ep={ep} />
+          <Counter t={t} ep={ep} />
+          <Caption t={t} ep={ep} />
         </AbsoluteFill>
       )}
-      {still === undefined ? (
+      {still !== undefined ? null : epId === 'bibi' ? (
+        <Audio src={staticFile('bibi_music.wav')} />
+      ) : (
         <>
           <Audio src={staticFile('music60.wav')} />
           {TL.lines.map((l) => (
@@ -132,7 +135,7 @@ export const WhatIfVideo: React.FC<{ clean?: boolean; still?: number; title?: bo
             </Sequence>
           ))}
         </>
-      ) : null}
+      )}
     </AbsoluteFill>
   );
 };

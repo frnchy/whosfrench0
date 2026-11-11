@@ -2,7 +2,12 @@
 import * as THREE from 'three';
 import { OBB } from 'three/examples/jsm/math/OBB.js';
 import fs from 'node:fs';
-import { world, FPS, TL, blinkTimes, BUTTONS, DIM, BOARD_Z, obbCorners, type Part, type World } from '../src/world';
+import { FPS, blinkTimes, BUTTONS, DIM, BOARD_Z, obbCorners, type Part, type World } from '../src/world';
+import { EPS } from '../src/episodes';
+
+// EP=bibi validates the second episode
+const EP = (process.env.EP ?? 'class') as keyof typeof EPS;
+const { world } = EPS[EP], TL = { length: EPS[EP].length };
 
 const N = Math.round(TL.length * FPS);
 const [F0, F1] = (process.env.RANGE ?? `0,${TL.length}`).split(',').map((x) => Math.round(+x * FPS));
@@ -116,7 +121,7 @@ const md = [`# Validator report`, ``, `Frames checked: ${stats.frames} (${TL.len
   `| Rule | Threshold | Violations |`, `|---|---|---|`,
   ...[['interpenetration', 'no overlap > 2 cm'], ['handPhone', 'palm ↔ phone back ≤ 2 mm'], ['thumbTap', 'thumb contact ⇔ same key highlighted, same frame'], ['feet', 'shoe bottoms ≤ 2 cm from floor, no slide > 2 mm/frame'], ['seat', 'thigh ↔ seat ≤ 1 cm'], ['rest', 'resting objects ≤ 1 cm'], ['board', 'chalk ↔ board ≤ 2 mm'], ['gaze', 'gaze target on every face'], ['blink', 'blink at least every 6 s']].map(([k, d]) => `| ${k} | ${d} | ${v[k].filter((s) => s !== '…more').length} |`),
   ``, `**Total violations: ${total}**`, ``, ...Object.entries(v).filter(([, x]) => x.length).flatMap(([k, x]) => [`## ${k}`, ...x.map((s) => `- ${s}`), ``])].join('\n');
-fs.writeFileSync('sim/validate-report.md', md + '\n');
+fs.writeFileSync(`sim/validate-report${EP === 'class' ? '' : '-' + EP}.md`, md + '\n');
 console.log(md.split('\n').slice(0, 20).join('\n'));
 for (const [k, x] of Object.entries(v)) if (x.length) console.log(`\n${k}:\n  ` + x.slice(0, 8).join('\n  '));
 process.exit(total ? 1 : 0);

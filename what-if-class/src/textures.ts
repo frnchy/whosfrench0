@@ -8,7 +8,7 @@ export function getTex(key: string): THREE.Texture {
   const hit = cache.get(key);
   if (hit) return hit;
   const [kind, ...a] = key.split(':');
-  const canvas = kind === 'face' ? face(a) : kind === 'phone' ? phone(a) : kind === 'board' ? board(a[0]) : kind === 'paper' ? paper() : sym(a.join(':'));
+  const canvas = kind === 'face' ? face(a) : kind === 'phone' ? phone(a) : kind === 'board' ? board(a[0]) : kind === 'paper' ? paper() : kind === 'skull' ? skull('#17171c', '#f4f1e8') : kind === 'coinface' ? coinface() : kind === 'meme' ? meme(+a[0]) : kind === 'panel' ? panel(a[0]) : kind === 'banner' ? banner(a[0]) : sym(a.join(':'));
   const tex = new THREE.CanvasTexture(canvas);
   tex.colorSpace = THREE.SRGBColorSpace;
   if (kind === 'face') { tex.magFilter = THREE.NearestFilter; tex.minFilter = THREE.NearestFilter; tex.generateMipmaps = false; }
@@ -19,7 +19,7 @@ export function getTex(key: string): THREE.Texture {
 }
 
 // ---------- 16×16 pixel face ----------
-function face([expr, gxs, gys, blink, glasses, blush, skin]: string[]) {
+function face([expr, gxs, gys, blink, glasses, blush, skin, patch]: string[]) {
   const [c, g] = mk(16, 16);
   const px = (x: number, y: number, w: number, h: number, col: string) => { g.fillStyle = col; g.fillRect(x, y, w, h); };
   const dark = '#2a1a14', gx = +gxs, gy = +gys;
@@ -56,6 +56,7 @@ function face([expr, gxs, gys, blink, glasses, blush, skin]: string[]) {
   else px(6, 13, 4, 1, m);
   if (expr === 'cry') { px(3, 9, 1, 5, '#5fc8ff'); px(12, 9, 1, 5, '#5fc8ff'); }
   if (blush === '1' || expr === 'joy') { px(1, 10, 2, 1, '#ff8fa3'); px(13, 10, 2, 1, '#ff8fa3'); }
+  if (patch === '1') { px(0, 4, 16, 1, '#111'); px(9, 4, 6, 6, '#111'); }
   if (glasses === '1') {
     g.strokeStyle = '#1b1b1b'; g.lineWidth = 1;
     g.strokeRect(1.5, 4.5, 6, 5); g.strokeRect(8.5, 4.5, 6, 5); px(7, 6, 2, 1, '#1b1b1b');
@@ -70,6 +71,19 @@ function phone([mode, replays, pressed, ts]: string[]) {
   const [c, g] = mk(W, H);
   const t = +ts;
   g.fillStyle = '#0f1020'; g.fillRect(0, 0, W, H);
+  if (mode === 'calls') {
+    g.fillStyle = '#fff'; g.font = 'bold 30px sans-serif'; g.fillText('06:00', 34, 52);
+    g.fillStyle = '#ff4d4d'; g.font = 'bold 150px sans-serif'; g.textAlign = 'center'; g.fillText(replays, W / 2, 300);
+    g.fillStyle = '#fff'; g.font = 'bold 54px sans-serif'; g.fillText('MISSED CALLS', W / 2, 380);
+    g.textAlign = 'left';
+    ['Mom', 'Office', 'Office (again)', 'Unknown', 'Office (URGENT)', 'Mom (again)', 'A pigeon?'].forEach((n, i) => {
+      g.fillStyle = '#1b1d36'; g.beginPath(); g.roundRect(28, 440 + i * 92, W - 56, 78, 20); g.fill();
+      g.fillStyle = '#ff4d4d'; g.font = 'bold 34px sans-serif'; g.fillText('✆', 50, 492 + i * 92);
+      g.fillStyle = '#fff'; g.font = '32px sans-serif'; g.fillText(n, 100, 490 + i * 92);
+      g.fillStyle = '#9aa0c8'; g.font = '26px sans-serif'; g.fillText(`×${40 + i * 23}`, W - 130, 490 + i * 92);
+    });
+    return c;
+  }
   // status bar
   g.fillStyle = '#fff'; g.font = 'bold 30px sans-serif'; g.fillText('10:47', 34, 52);
   g.fillRect(W - 92, 30, 52, 24); g.fillStyle = '#0f1020'; g.fillRect(W - 88, 34, 30, 16);
@@ -151,5 +165,61 @@ function sym(s: string) {
   g.font = `bold ${s.length > 3 ? 70 : 150}px serif`; g.textAlign = 'center'; g.textBaseline = 'middle';
   g.lineWidth = 10; g.strokeStyle = '#8a4b00'; g.strokeText(s, 128, 132);
   g.fillStyle = '#fff7d6'; g.fillText(s, 128, 132);
+  return c;
+}
+
+// ---------- episode 2 props ----------
+function skullOn(g: CanvasRenderingContext2D, x: number, y: number, u: number, col: string, hole: string) {
+  const px = (a: number, b: number, w: number, h: number, c: string) => { g.fillStyle = c; g.fillRect(x + a * u, y + b * u, w * u, h * u); };
+  px(2, 0, 6, 1, col); px(1, 1, 8, 4, col); px(2, 5, 6, 1, col); px(3, 6, 4, 2, col); // skull
+  px(2, 2, 2, 2, hole); px(6, 2, 2, 2, hole); px(4.5, 4, 1, 1, hole); px(4, 6.6, 0.5, 1.4, hole); px(5.5, 6.6, 0.5, 1.4, hole);
+  px(0, 8, 2, 1, col); px(8, 8, 2, 1, col); px(1, 9, 8, 1, col); px(0, 10, 2, 1, col); px(8, 10, 2, 1, col); // crossbones
+}
+function skull(bg: string, fg: string) {
+  const [c, g] = mk(128, 128);
+  g.fillStyle = bg; g.fillRect(0, 0, 128, 128);
+  skullOn(g, 14, 10, 10, fg, bg);
+  return c;
+}
+function coinface() {
+  const [c, g] = mk(256, 256);
+  g.fillStyle = '#ffc93c'; g.beginPath(); g.arc(128, 128, 126, 0, Math.PI * 2); g.fill();
+  g.strokeStyle = '#b8791a'; g.lineWidth = 12; g.beginPath(); g.arc(128, 128, 108, 0, Math.PI * 2); g.stroke();
+  skullOn(g, 68, 62, 12, '#7a4a05', '#ffc93c');
+  return c;
+}
+const MEMES: [string, string][] = [['ONE DOES NOT SIMPLY', 'OPEN THE CHEST'], ['ADMIN?', 'ADMIN.'], ['MONDAY: MEETINGS', 'FRIDAY: PIRATE'], ['HE HAS', 'THE TOKEN'], ['GRAVITY', 'IS OFF'], ['ARRR', 'ARRR ARRR']];
+function meme(i: number) {
+  const [c, g] = mk(384, 384);
+  g.fillStyle = ['#3d7bd9', '#e85d75', '#f2b134', '#2bb3a3', '#9b5de5', '#ff7b54'][i % 6]; g.fillRect(0, 0, 384, 384);
+  g.imageSmoothingEnabled = false;
+  g.drawImage(face([['joy', 'side', 'shock'][i % 3], '0', '0', '0', '0', '0', '#e6b591', '1']), 92, 104, 200, 200);
+  g.fillStyle = '#d5d8dc'; g.fillRect(84, 92, 216, 26);
+  g.fillStyle = '#17171c'; g.fillRect(64, 70, 256, 26); g.fillRect(112, 14, 160, 60);
+  g.fillStyle = '#1e2a44'; g.fillRect(72, 304, 240, 80);
+  g.textAlign = 'center'; g.lineWidth = 9; g.strokeStyle = '#000'; g.fillStyle = '#fff'; g.lineJoin = 'round';
+  const [top, bot] = MEMES[i % MEMES.length];
+  for (const [txt, y] of [[top, 50], [bot, 366]] as const) { g.font = `900 ${txt.length > 14 ? 30 : 44}px Impact, "Arial Black", sans-serif`; g.strokeText(txt, 192, y); g.fillText(txt, 192, y); }
+  g.strokeStyle = '#fff'; g.lineWidth = 10; g.strokeRect(5, 5, 374, 374);
+  return c;
+}
+function panel(state: string) {
+  const [c, g] = mk(600, 420);
+  g.fillStyle = 'rgba(16,18,40,0.94)'; g.beginPath(); g.roundRect(0, 0, 600, 420, 36); g.fill();
+  g.strokeStyle = '#4ade80'; g.lineWidth = 8; g.stroke();
+  g.fillStyle = '#4ade80'; g.font = 'bold 54px monospace'; g.fillText('> ADMIN PANEL', 34, 78);
+  const rows: [string, boolean, string][] = [['FLY', state !== '0', state !== '0' ? 'ON' : 'OFF'], ['GRAVITY', state !== '2', state === '2' ? 'OFF' : 'ON'], ['SKY', state === '2', state === '2' ? 'PINK' : 'BLUE']];
+  rows.forEach(([k, hot, v], i) => {
+    g.fillStyle = '#fff'; g.font = 'bold 48px monospace'; g.fillText(k, 40, 180 + i * 96);
+    g.fillStyle = hot ? '#ffd60a' : '#3a3f7a'; g.beginPath(); g.roundRect(360, 132 + i * 96, 200, 66, 33); g.fill();
+    g.fillStyle = hot ? '#111' : '#fff'; g.textAlign = 'center'; g.fillText(v, 460, 182 + i * 96); g.textAlign = 'left';
+  });
+  return c;
+}
+function banner(text: string) {
+  const [c, g] = mk(1024, 256);
+  g.fillStyle = '#fff'; g.fillRect(0, 0, 1024, 256);
+  g.fillStyle = '#3d7bd9'; g.fillRect(0, 0, 1024, 34); g.fillRect(0, 222, 1024, 34);
+  g.fillStyle = '#1e2a44'; g.font = '900 110px "Arial Black", Impact, sans-serif'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(text, 512, 132, 960);
   return c;
 }

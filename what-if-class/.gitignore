@@ -2,7 +2,9 @@ node_modules
 out/seq*
 out/stills
 out/*_raw.mp4
+out/seqb
 out/test*.mp4
 out/*.log
 .DS_Store
 public/music60.wav
+public/bibi_music.wav

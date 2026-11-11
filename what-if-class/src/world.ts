@@ -16,10 +16,10 @@ export type Look = { skin: string; top: string; pants: string; shoe: string; hai
 export type Pose = { mode: 'stand' | 'sit' | 'air' | 'fly'; lift?: number; crouch?: number; lean?: number; head?: V3; armL?: [number, number]; armR?: [number, number]; sway?: number };
 export type Thumb = { u: number; v: number; lift: number };
 export type Hold = { item: 'phone' | 'paper' | 'chalk'; screen?: string; thumb?: Thumb };
-export type Char = { id: string; look: Look; pos: V3; rotY: number; pose: Pose; expr: Expr; gaze: V3; fg?: boolean; hold?: Hold; halo?: boolean; blush?: boolean };
+export type Char = { id: string; look: Look; pos: V3; rotY: number; pose: Pose; expr: Expr; gaze: V3; fg?: boolean; hold?: Hold; halo?: boolean; blush?: boolean; acc?: { tie?: string; pirate?: boolean; patch?: boolean; sash?: string } };
 export type Cam = { pos: V3; look: V3; fov: number; up?: V3 };
 export type World = {
-  scene: string; t: number; cam: Cam; warm: number; blur: number; bg: string; heaven?: boolean;
+  scene: string; t: number; flash?: number; cam: Cam; warm: number; blur: number; bg: string; heaven?: boolean;
   parts: Part[]; chars: Char[]; checks: Check[];
 };
 // contact assertions the validator must verify (seat, desk, sill...)
@@ -32,7 +32,7 @@ export const ease = (x: number) => { x = clamp(x); return x * x * (3 - 2 * x); }
 export const easeOut = (x: number) => 1 - Math.pow(1 - clamp(x), 3);
 export const lerp = (a: number, b: number, k: number) => a + (b - a) * k;
 export const lerp3 = (a: V3, b: V3, k: number): V3 => [lerp(a[0], b[0], k), lerp(a[1], b[1], k), lerp(a[2], b[2], k)];
-const mixHex = (a: string, b: string, k: number) => '#' + new THREE.Color(a).lerp(new THREE.Color(b), k).getHexString();
+export const mixHex = (a: string, b: string, k: number) => '#' + new THREE.Color(a).lerp(new THREE.Color(b), k).getHexString();
 
 type Line = (typeof tl.lines)[number];
 const line = (n: number): Line => tl.lines[n - 1];
@@ -69,7 +69,7 @@ export const blinkTimes = (id: string) => {
 export const blinking = (id: string, t: number) => blinkTimes(id).some((b) => t >= b && t < b + 0.12);
 
 // ---------- builder ----------
-class Builder {
+export class Builder {
   metas: { o: THREE.Object3D; p: Omit<Part, 'm'>; size: V3 }[] = [];
   root = new THREE.Object3D();
   constructor(public owner: string, public fg = false) {}
@@ -129,7 +129,7 @@ export function buildChar(c: Char, t: number) {
   const gx = Math.round(clamp(local.x / 0.45, -1, 1)), gy = local.y > 0.3 ? -1 : local.y < -0.3 ? 1 : 0;
   const blink = blinking(c.id, t) ? 1 : 0;
   b.part(head, 'face', 'plane', [0.4, 0.4, 1], [0, 0, DIM.head / 2 + 0.002], L.skin,
-    { tex: `face:${c.expr}:${gx}:${gy}:${blink}:${L.glasses ? 1 : 0}:${c.blush ? 1 : 0}:${L.skin}`, solid: false });
+    { tex: `face:${c.expr}:${gx}:${gy}:${blink}:${L.glasses ? 1 : 0}:${c.blush ? 1 : 0}:${L.skin}:${c.acc?.pirate || c.acc?.patch ? 1 : 0}`, solid: false });
   const H = DIM.head / 2;
   b.part(head, 'hairTop', 'box', [0.46, 0.08, 0.46], [0, H + 0.02, 0], L.hair);
   if (L.style !== 'cap') b.part(head, 'hairBack', 'box', [0.46, L.style === 'long' ? 0.5 : 0.26, 0.07], [0, L.style === 'long' ? -0.04 : 0.09, -H - 0.01], L.hair);
@@ -139,6 +139,14 @@ export function buildChar(c: Char, t: number) {
   if (L.style === 'cap') { b.part(head, 'cap', 'box', [0.47, 0.1, 0.47], [0, H + 0.03, 0], L.hair); b.part(head, 'brim', 'box', [0.4, 0.03, 0.16], [0, H - 0.01, H + 0.07], L.hair); }
   if (L.style === 'long') for (const s of [-1, 1]) b.part(head, `side${s}`, 'box', [0.06, 0.36, 0.4], [s * (H + 0.02), 0.02, -0.03], L.hair);
   if (c.halo) b.part(head, 'halo', 'torus', [0.42, 0.42, 0.42], [0, H + 0.16, 0], '#ffd60a', { emissive: 1.4, solid: false }, [Math.PI / 2, 0, 0]);
+  const A = c.acc ?? {};
+  if (A.tie) { b.part(spine, 'shirt', 'box', [0.13, 0.3, 0.02], [0, 0.27, 0.115], '#ffffff', { solid: false }); b.part(spine, 'tie', 'box', [0.05, 0.24, 0.02], [0, 0.25, 0.128], A.tie, { solid: false }); }
+  if (A.sash) b.part(spine, 'sash', 'box', [0.1, 0.56, 0.02], [0, 0.21, 0.14], A.sash, { solid: false }, [0, 0, 0.72]);
+  if (A.pirate) {
+    b.part(head, 'hatBrim', 'box', [0.62, 0.05, 0.56], [0, H + 0.085, 0], '#17171c');
+    b.part(head, 'hatCrown', 'box', [0.42, 0.2, 0.34], [0, H + 0.2, 0], '#17171c');
+    b.part(head, 'hatSkull', 'plane', [0.17, 0.17, 1], [0, H + 0.2, 0.172], '#fff', { tex: 'skull', solid: false });
+  }
   // arms (right arm is -x: character faces +z)
   const hands: Record<string, THREE.Object3D> = {};
   for (const [s, ang, nm] of [[-1, p.armR ?? [0, 0], 'R'], [1, p.armL ?? [0, 0], 'L']] as const) {
@@ -264,7 +272,7 @@ export function obbCorners(m: number[]) {
   return out;
 }
 const obbMinY = (m: number[]) => Math.min(...obbCorners(m).map((v) => v.y));
-const center = (m: number[]): V3 => [m[12], m[13], m[14]];
+export const center = (m: number[]): V3 => [m[12], m[13], m[14]];
 
 // teacher at the board: slide her along z until the chalk tip touches the board
 function teacherAtBoard(t: number, writing: number, warm: number): Char {
@@ -284,7 +292,7 @@ function teacherAtBoard(t: number, writing: number, warm: number): Char {
   return c;
 }
 
-function bird(b: Builder, id: string, pos: V3, heading: number, t: number, phase: number, color = '#fdfdfd') {
+export function bird(b: Builder, id: string, pos: V3, heading: number, t: number, phase: number, color = '#fdfdfd') {
   const r = b.node(null, pos, [0, heading, 0]);
   b.part(r, `${id}_body`, 'box', [0.1, 0.09, 0.18], [0, 0, 0], color, { solid: false });
   b.part(r, `${id}_head`, 'box', [0.08, 0.08, 0.08], [0, 0.05, 0.1], color, { solid: false });

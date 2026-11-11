@@ -20,3 +20,10 @@ npx remotion studio                # preview
 npx remotion render WhatIf out/final_raw.mp4
 ```
 Rendering here uses the preinstalled headless Chromium with SwiftShader (`remotion.config.ts`); on a normal machine remove `setBrowserExecutable`.
+
+## Episode 2: "What if you were Netanyahu for a week?" (captions only)
+
+Cartoon parody, 48 s, cut to the user-supplied track (`public/bibi_song.mp3`, beat map in `plan/bibi_beat_map.csv`). Small events before the beat drop (20.0 s), big ones after.
+
+- `src/bibi.ts`: scenes, captions, counter; `src/episodes.ts` picks the episode for `Video.tsx`.
+- `node scripts/build-bibi.mjs`, then `EP=bibi npx -y tsx sim/validate.ts`, then `npx remotion render Bibi out/bibi_raw.mp4`.
