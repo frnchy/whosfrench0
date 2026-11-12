@@ -1,0 +1,66 @@
+{
+ "title": "Azazel enchaîné",
+ "ref": "1 Hénoch 10",
+ "question": [
+  "Justice…",
+  "ou vengeance ?"
+ ],
+ "voices": {
+  "HÉNOCH": "3BZLNrQEzQVYs6kPOW4S",
+  "RAPHAËL": "5hs4q0PzlPQREPpq7uQ9",
+  "AZAZEL": "papd083UqIoSWdSkh3fG",
+  "SHEMIHAZA": "GFj5Qf6cNQ3Lgp8VKBwc",
+  "MICHEL": "t2969wgUwHbBoVCZNHRU"
+ },
+ "gaps": {
+  "4": 0.8,
+  "6": 0.6,
+  "10": 0.5
+ },
+ "lines": [
+  [
+   "HÉNOCH",
+   "[dramatic] La prière fut refusée. Et le Très-Haut envoya ses archanges."
+  ],
+  [
+   "RAPHAËL",
+   "[firm] Azazel. Au nom du Très-Haut : pieds et mains liés."
+  ],
+  [
+   "AZAZEL",
+   "[angry] J'ai seulement appris aux hommes à forger !"
+  ],
+  [
+   "RAPHAËL",
+   "[sarcastic] Oui. Notamment des chaînes. Merci pour ça."
+  ],
+  [
+   "HÉNOCH",
+   "Raphaël ouvrit le désert de Dudaël, et l'y jeta."
+  ],
+  [
+   "HÉNOCH",
+   "[slowly] Il le couvrit de pierres rudes et de ténèbres. Qu'il ne voie plus la lumière."
+  ],
+  [
+   "MICHEL",
+   "[commanding] Shemihaza. Toi et les tiens : liés pour soixante-dix générations, dans les vallées de la Terre."
+  ],
+  [
+   "SHEMIHAZA",
+   "[quietly] J'avais dit… que je serais le seul à payer."
+  ],
+  [
+   "MICHEL",
+   "Tu ne seras pas le seul."
+  ],
+  [
+   "HÉNOCH",
+   "[warmly] Et il fut dit à Raphaël : guéris la Terre."
+  ],
+  [
+   "HÉNOCH",
+   "Justice… ou vengeance ? Dis-le-moi."
+  ]
+ ]
+}

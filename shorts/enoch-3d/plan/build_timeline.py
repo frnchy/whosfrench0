@@ -3,7 +3,7 @@ import json, re, subprocess, sys
 from pathlib import Path
 EP = sys.argv[1] if len(sys.argv) > 1 else "ep1"
 P = Path(__file__).parent / EP; R = Path(__file__).parent.parent
-S = json.load(open(P / "script.json")); W = json.load(open(P / "word_times.json"))
+S = json.load(open(P / "script.json")); W = json.load(open(P / "word_times.json")) if (P / "word_times.json").exists() else {}
 FPS = 30
 LEAD = 0.4
 S0 = json.load(open(P / "script.json"))
@@ -17,7 +17,15 @@ def pcm(f):
 lines, mouth, t = [], {}, LEAD
 for k, (spk, text) in enumerate(S["lines"], 1):
     f = f"public/{EP}/vo/line_{k:02d}.mp3"; a = pcm(str(R / f)); d = len(a) / 24000
-    words = tok(text); times = W[str(k)]
+    words = tok(text)
+    wf = P / "words" / f"line_{k:02d}.json"
+    if wf.exists():   # alignment returned for the generated take itself (same tokens as the script, plus [tags] and bare punctuation)
+        al = [x for x in json.load(open(wf))["words"] if x.get("type", "word") == "word" and re.search(r"\w", x["text"]) and not x["text"].startswith("[")]
+        if len(al) != len(words):   # fall back to spreading the script words evenly over the aligned span
+            print(f"  note: line {k}: {len(words)} script words vs {len(al)} aligned; spread evenly"); a0, a1 = al[0]["start"], al[-1]["end"]; st = (a1 - a0) / len(words)
+            times = [[a0 + i * st, a0 + (i + 1) * st - 0.02] for i in range(len(words))]
+        else: times = [[x["start"], x["end"]] for x in al]
+    else: times = W[str(k)]
     assert len(words) == len(times), (k, len(words), len(times))
     # mouth: RMS per video frame, normalised to the line's 95th percentile, gated by the word windows
     hop = 24000 // FPS; env = []

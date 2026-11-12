@@ -1,0 +1,66 @@
+{
+ "title": "Hénoch le messager",
+ "ref": "1 Hénoch 12–13",
+ "question": [
+  "Toi…",
+  "tu aurais écrit leur prière ?"
+ ],
+ "voices": {
+  "HÉNOCH": "3BZLNrQEzQVYs6kPOW4S",
+  "AZAZEL": "papd083UqIoSWdSkh3fG",
+  "SHEMIHAZA": "GFj5Qf6cNQ3Lgp8VKBwc",
+  "MICHEL": "t2969wgUwHbBoVCZNHRU",
+  "SCRIBE": "3BZLNrQEzQVYs6kPOW4S"
+ },
+ "gaps": {
+  "3": 0.5,
+  "7": 0.5,
+  "10": 0.5
+ },
+ "lines": [
+  [
+   "HÉNOCH",
+   "[dramatic] Avant tout cela, j'avais disparu. Aucun homme ne savait où j'étais caché."
+  ],
+  [
+   "MICHEL",
+   "Hénoch, scribe de justice. Va trouver les Veilleurs déchus."
+  ],
+  [
+   "SCRIBE",
+   "[nervous] Moi ? Je… je suis juste scribe."
+  ],
+  [
+   "MICHEL",
+   "[firm] Justement. Dis-leur : il n'y aura pour vous ni paix, ni pardon."
+  ],
+  [
+   "HÉNOCH",
+   "Alors j'allai trouver Azazel."
+  ],
+  [
+   "SCRIBE",
+   "[solemn] Azazel. Tu n'auras pas de paix. Une lourde sentence est prononcée contre toi."
+  ],
+  [
+   "AZAZEL",
+   "[trembling] Écris pour nous. Une prière. Porte-la devant le Seigneur."
+  ],
+  [
+   "HÉNOCH",
+   "Eux, les puissants, n'osaient plus lever les yeux vers le ciel."
+  ],
+  [
+   "SHEMIHAZA",
+   "[quietly] Nous ne pouvons plus lui parler. Toi, il t'écoutera."
+  ],
+  [
+   "HÉNOCH",
+   "[softly] Mes mains tremblaient. Mais j'ai écrit."
+  ],
+  [
+   "HÉNOCH",
+   "Toi… tu aurais écrit leur prière ?"
+  ]
+ ]
+}

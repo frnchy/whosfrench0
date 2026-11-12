@@ -1,0 +1,549 @@
+{
+ "kicker": null,
+ "fps": 30,
+ "duration": 46.8,
+ "frames": 1404,
+ "title": "Le cri de la Terre",
+ "ref": "1 Hénoch 9",
+ "question": [
+  "Toi…",
+  "tu aurais osé parler ?"
+ ],
+ "lines": [
+  {
+   "id": 1,
+   "speaker": "HÉNOCH",
+   "text": "Le cri des hommes monta jusqu'aux portes du ciel.",
+   "file": "ep4/vo/line_01.mp3",
+   "start": 0.4,
+   "duration": 3.36,
+   "words": [
+    {
+     "text": "Le",
+     "start": 0.64,
+     "end": 0.8
+    },
+    {
+     "text": "cri",
+     "start": 0.88,
+     "end": 1.04
+    },
+    {
+     "text": "des",
+     "start": 1.12,
+     "end": 1.28
+    },
+    {
+     "text": "hommes",
+     "start": 1.36,
+     "end": 1.68
+    },
+    {
+     "text": "monta",
+     "start": 1.76,
+     "end": 2.16
+    },
+    {
+     "text": "jusqu'aux",
+     "start": 2.2,
+     "end": 2.56
+    },
+    {
+     "text": "portes",
+     "start": 2.64,
+     "end": 2.96
+    },
+    {
+     "text": "du",
+     "start": 3.04,
+     "end": 3.12
+    },
+    {
+     "text": "ciel.",
+     "start": 3.2,
+     "end": 3.76
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "speaker": "HÉNOCH",
+   "text": "Quatre archanges regardèrent en bas : Michel, Uriel, Raphaël et Gabriel.",
+   "file": "ep4/vo/line_02.mp3",
+   "start": 3.96,
+   "duration": 6.16,
+   "words": [
+    {
+     "text": "Quatre",
+     "start": 3.96,
+     "end": 4.2
+    },
+    {
+     "text": "archanges",
+     "start": 4.36,
+     "end": 4.76
+    },
+    {
+     "text": "regardèrent",
+     "start": 4.88,
+     "end": 5.32
+    },
+    {
+     "text": "en",
+     "start": 5.4,
+     "end": 5.48
+    },
+    {
+     "text": "bas",
+     "start": 5.56,
+     "end": 5.72
+    },
+    {
+     "text": "Michel,",
+     "start": 6.36,
+     "end": 7.24
+    },
+    {
+     "text": "Uriel,",
+     "start": 7.4,
+     "end": 8.2
+    },
+    {
+     "text": "Raphaël",
+     "start": 8.28,
+     "end": 9.08
+    },
+    {
+     "text": "et",
+     "start": 9.12,
+     "end": 9.16
+    },
+    {
+     "text": "Gabriel.",
+     "start": 9.24,
+     "end": 10.2
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "speaker": "MICHEL",
+   "text": "La Terre est remplie de sang.",
+   "file": "ep4/vo/line_03.mp3",
+   "start": 10.32,
+   "duration": 2.8,
+   "words": [
+    {
+     "text": "La",
+     "start": 10.56,
+     "end": 10.64
+    },
+    {
+     "text": "Terre",
+     "start": 10.8,
+     "end": 11.28
+    },
+    {
+     "text": "est",
+     "start": 11.52,
+     "end": 11.68
+    },
+    {
+     "text": "remplie",
+     "start": 11.84,
+     "end": 12.16
+    },
+    {
+     "text": "de",
+     "start": 12.24,
+     "end": 12.32
+    },
+    {
+     "text": "sang.",
+     "start": 12.48,
+     "end": 13.12
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "speaker": "GABRIEL",
+   "text": "Les âmes des hommes crient. Leur plainte monte jusqu'à nous.",
+   "file": "ep4/vo/line_04.mp3",
+   "start": 13.32,
+   "duration": 3.92,
+   "words": [
+    {
+     "text": "Les",
+     "start": 13.32,
+     "end": 13.56
+    },
+    {
+     "text": "âmes",
+     "start": 13.64,
+     "end": 13.8
+    },
+    {
+     "text": "des",
+     "start": 13.88,
+     "end": 14.04
+    },
+    {
+     "text": "hommes",
+     "start": 14.12,
+     "end": 14.36
+    },
+    {
+     "text": "crient.",
+     "start": 14.44,
+     "end": 15.32
+    },
+    {
+     "text": "Leur",
+     "start": 15.36,
+     "end": 15.56
+    },
+    {
+     "text": "plainte",
+     "start": 15.64,
+     "end": 16.04
+    },
+    {
+     "text": "monte",
+     "start": 16.16,
+     "end": 16.44
+    },
+    {
+     "text": "jusqu'à",
+     "start": 16.493,
+     "end": 16.76
+    },
+    {
+     "text": "nous.",
+     "start": 16.84,
+     "end": 17.32
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "speaker": "RAPHAËL",
+   "text": "Bon… qui lui annonce ?",
+   "file": "ep4/vo/line_05.mp3",
+   "start": 17.44,
+   "duration": 2.48,
+   "words": [
+    {
+     "text": "Bon…",
+     "start": 17.76,
+     "end": 18.32
+    },
+    {
+     "text": "qui",
+     "start": 18.72,
+     "end": 18.88
+    },
+    {
+     "text": "lui",
+     "start": 18.92,
+     "end": 19.04
+    },
+    {
+     "text": "annonce",
+     "start": 19.28,
+     "end": 19.52
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "speaker": "HÉNOCH",
+   "text": "Trois archanges regardèrent Michel.",
+   "file": "ep4/vo/line_06.mp3",
+   "start": 20.52,
+   "duration": 2.32,
+   "words": [
+    {
+     "text": "Trois",
+     "start": 20.68,
+     "end": 20.92
+    },
+    {
+     "text": "archanges",
+     "start": 21.0,
+     "end": 21.56
+    },
+    {
+     "text": "regardèrent",
+     "start": 21.64,
+     "end": 22.04
+    },
+    {
+     "text": "Michel.",
+     "start": 22.12,
+     "end": 22.92
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "speaker": "MICHEL",
+   "text": "Évidemment.",
+   "file": "ep4/vo/line_07.mp3",
+   "start": 23.74,
+   "duration": 1.92,
+   "words": [
+    {
+     "text": "Évidemment.",
+     "start": 24.62,
+     "end": 25.66
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "speaker": "MICHEL",
+   "text": "Seigneur des seigneurs, tu vois ce qu'a fait Azazel : il a enseigné toute injustice et révélé les secrets éternels.",
+   "file": "ep4/vo/line_08.mp3",
+   "start": 25.86,
+   "duration": 7.68,
+   "words": [
+    {
+     "text": "Seigneur",
+     "start": 26.1,
+     "end": 26.5
+    },
+    {
+     "text": "des",
+     "start": 26.58,
+     "end": 26.66
+    },
+    {
+     "text": "seigneurs,",
+     "start": 26.74,
+     "end": 27.7
+    },
+    {
+     "text": "tu",
+     "start": 27.78,
+     "end": 27.86
+    },
+    {
+     "text": "vois",
+     "start": 27.94,
+     "end": 28.18
+    },
+    {
+     "text": "ce",
+     "start": 28.22,
+     "end": 28.26
+    },
+    {
+     "text": "qu'a",
+     "start": 28.34,
+     "end": 28.5
+    },
+    {
+     "text": "fait",
+     "start": 28.58,
+     "end": 28.66
+    },
+    {
+     "text": "Azazel",
+     "start": 28.74,
+     "end": 29.22
+    },
+    {
+     "text": "il",
+     "start": 29.807,
+     "end": 29.86
+    },
+    {
+     "text": "a",
+     "start": 29.9,
+     "end": 29.94
+    },
+    {
+     "text": "enseigné",
+     "start": 30.06,
+     "end": 30.5
+    },
+    {
+     "text": "toute",
+     "start": 30.58,
+     "end": 30.74
+    },
+    {
+     "text": "injustice",
+     "start": 30.82,
+     "end": 31.46
+    },
+    {
+     "text": "et",
+     "start": 31.62,
+     "end": 31.78
+    },
+    {
+     "text": "révélé",
+     "start": 31.86,
+     "end": 32.18
+    },
+    {
+     "text": "les",
+     "start": 32.26,
+     "end": 32.34
+    },
+    {
+     "text": "secrets",
+     "start": 32.42,
+     "end": 32.74
+    },
+    {
+     "text": "éternels.",
+     "start": 32.82,
+     "end": 33.62
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "speaker": "URIEL",
+   "text": "Et Shemihaza, à qui tu avais donné l'autorité.",
+   "file": "ep4/vo/line_09.mp3",
+   "start": 33.74,
+   "duration": 2.88,
+   "words": [
+    {
+     "text": "Et",
+     "start": 33.74,
+     "end": 33.9
+    },
+    {
+     "text": "Shemihaza,",
+     "start": 33.94,
+     "end": 34.78
+    },
+    {
+     "text": "à",
+     "start": 34.86,
+     "end": 34.94
+    },
+    {
+     "text": "qui",
+     "start": 35.02,
+     "end": 35.1
+    },
+    {
+     "text": "tu",
+     "start": 35.18,
+     "end": 35.26
+    },
+    {
+     "text": "avais",
+     "start": 35.3,
+     "end": 35.5
+    },
+    {
+     "text": "donné",
+     "start": 35.58,
+     "end": 35.74
+    },
+    {
+     "text": "l'autorité.",
+     "start": 35.78,
+     "end": 36.7
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "speaker": "HÉNOCH",
+   "text": "Le Très-Haut répondit. Et sa réponse allait tout changer.",
+   "file": "ep4/vo/line_10.mp3",
+   "start": 36.82,
+   "duration": 4.96,
+   "words": [
+    {
+     "text": "Le",
+     "start": 37.06,
+     "end": 37.22
+    },
+    {
+     "text": "Très-Haut",
+     "start": 37.3,
+     "end": 37.78
+    },
+    {
+     "text": "répondit.",
+     "start": 37.86,
+     "end": 39.02
+    },
+    {
+     "text": "Et",
+     "start": 39.46,
+     "end": 39.54
+    },
+    {
+     "text": "sa",
+     "start": 39.62,
+     "end": 39.7
+    },
+    {
+     "text": "réponse",
+     "start": 39.78,
+     "end": 40.34
+    },
+    {
+     "text": "allait",
+     "start": 40.58,
+     "end": 40.9
+    },
+    {
+     "text": "tout",
+     "start": 40.98,
+     "end": 41.06
+    },
+    {
+     "text": "changer.",
+     "start": 41.14,
+     "end": 41.86
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "speaker": "HÉNOCH",
+   "text": "Toi… tu aurais osé parler ?",
+   "file": "ep4/vo/line_11.mp3",
+   "start": 42.28,
+   "duration": 2.32,
+   "words": [
+    {
+     "text": "Toi…",
+     "start": 42.28,
+     "end": 43.08
+    },
+    {
+     "text": "tu",
+     "start": 43.16,
+     "end": 43.24
+    },
+    {
+     "text": "aurais",
+     "start": 43.32,
+     "end": 43.56
+    },
+    {
+     "text": "osé",
+     "start": 43.64,
+     "end": 43.96
+    },
+    {
+     "text": "parler",
+     "start": 44.04,
+     "end": 44.36
+    }
+   ]
+  }
+ ]
+}

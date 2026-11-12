@@ -1,0 +1,634 @@
+{
+ "kicker": null,
+ "fps": 30,
+ "duration": 48.3,
+ "frames": 1449,
+ "title": "Le voyage d'Hénoch",
+ "ref": "1 Hénoch 14–21",
+ "question": [
+  "Le trône ou la prison :",
+  "lequel te fait peur ?"
+ ],
+ "lines": [
+  {
+   "id": 1,
+   "speaker": "HÉNOCH",
+   "text": "Dans ma vision, les nuées m'appelèrent, et les vents me soulevèrent.",
+   "file": "ep7/vo/line_01.mp3",
+   "start": 0.4,
+   "duration": 4.64,
+   "words": [
+    {
+     "text": "Dans",
+     "start": 0.64,
+     "end": 0.8
+    },
+    {
+     "text": "ma",
+     "start": 0.88,
+     "end": 0.96
+    },
+    {
+     "text": "vision,",
+     "start": 1.2,
+     "end": 1.76
+    },
+    {
+     "text": "les",
+     "start": 1.84,
+     "end": 1.92
+    },
+    {
+     "text": "nuées",
+     "start": 2.0,
+     "end": 2.32
+    },
+    {
+     "text": "m'appelèrent,",
+     "start": 2.4,
+     "end": 3.28
+    },
+    {
+     "text": "et",
+     "start": 3.32,
+     "end": 3.36
+    },
+    {
+     "text": "les",
+     "start": 3.44,
+     "end": 3.6
+    },
+    {
+     "text": "vents",
+     "start": 3.72,
+     "end": 3.84
+    },
+    {
+     "text": "me",
+     "start": 3.92,
+     "end": 4.0
+    },
+    {
+     "text": "soulevèrent.",
+     "start": 4.08,
+     "end": 5.04
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "speaker": "SCRIBE",
+   "text": "Euh… on monte encore beaucoup ?",
+   "file": "ep7/vo/line_02.mp3",
+   "start": 5.24,
+   "duration": 2.64,
+   "words": [
+    {
+     "text": "Euh…",
+     "start": 5.48,
+     "end": 6.12
+    },
+    {
+     "text": "on",
+     "start": 6.36,
+     "end": 6.52
+    },
+    {
+     "text": "monte",
+     "start": 6.6,
+     "end": 6.76
+    },
+    {
+     "text": "encore",
+     "start": 6.84,
+     "end": 7.08
+    },
+    {
+     "text": "beaucoup",
+     "start": 7.12,
+     "end": 7.48
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "speaker": "URIEL",
+   "text": "Encore un peu.",
+   "file": "ep7/vo/line_03.mp3",
+   "start": 8.08,
+   "duration": 1.28,
+   "words": [
+    {
+     "text": "Encore",
+     "start": 8.24,
+     "end": 8.56
+    },
+    {
+     "text": "un",
+     "start": 8.64,
+     "end": 8.72
+    },
+    {
+     "text": "peu.",
+     "start": 8.8,
+     "end": 9.2
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "speaker": "HÉNOCH",
+   "text": "Je vis un mur de cristal, entouré de langues de feu.",
+   "file": "ep7/vo/line_04.mp3",
+   "start": 9.86,
+   "duration": 3.68,
+   "words": [
+    {
+     "text": "Je",
+     "start": 9.86,
+     "end": 10.1
+    },
+    {
+     "text": "vis",
+     "start": 10.18,
+     "end": 10.26
+    },
+    {
+     "text": "un",
+     "start": 10.34,
+     "end": 10.42
+    },
+    {
+     "text": "mur",
+     "start": 10.5,
+     "end": 10.66
+    },
+    {
+     "text": "de",
+     "start": 10.74,
+     "end": 10.82
+    },
+    {
+     "text": "cristal,",
+     "start": 10.86,
+     "end": 11.78
+    },
+    {
+     "text": "entouré",
+     "start": 11.9,
+     "end": 12.26
+    },
+    {
+     "text": "de",
+     "start": 12.34,
+     "end": 12.42
+    },
+    {
+     "text": "langues",
+     "start": 12.5,
+     "end": 12.82
+    },
+    {
+     "text": "de",
+     "start": 12.86,
+     "end": 12.9
+    },
+    {
+     "text": "feu.",
+     "start": 13.06,
+     "end": 13.62
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "speaker": "HÉNOCH",
+   "text": "Puis un trône élevé. De dessous coulaient des fleuves de feu.",
+   "file": "ep7/vo/line_05.mp3",
+   "start": 13.74,
+   "duration": 4.72,
+   "words": [
+    {
+     "text": "Puis",
+     "start": 13.9,
+     "end": 14.14
+    },
+    {
+     "text": "un",
+     "start": 14.22,
+     "end": 14.3
+    },
+    {
+     "text": "trône",
+     "start": 14.38,
+     "end": 14.78
+    },
+    {
+     "text": "élevé.",
+     "start": 14.94,
+     "end": 15.78
+    },
+    {
+     "text": "De",
+     "start": 16.06,
+     "end": 16.22
+    },
+    {
+     "text": "dessous",
+     "start": 16.3,
+     "end": 16.7
+    },
+    {
+     "text": "coulaient",
+     "start": 16.78,
+     "end": 17.1
+    },
+    {
+     "text": "des",
+     "start": 17.22,
+     "end": 17.34
+    },
+    {
+     "text": "fleuves",
+     "start": 17.42,
+     "end": 17.74
+    },
+    {
+     "text": "de",
+     "start": 17.78,
+     "end": 17.82
+    },
+    {
+     "text": "feu.",
+     "start": 17.98,
+     "end": 18.54
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "speaker": "SCRIBE",
+   "text": "Je tremblais. Je suis tombé face contre terre.",
+   "file": "ep7/vo/line_06.mp3",
+   "start": 18.66,
+   "duration": 3.6,
+   "words": [
+    {
+     "text": "Je",
+     "start": 18.82,
+     "end": 18.9
+    },
+    {
+     "text": "tremblais.",
+     "start": 18.98,
+     "end": 19.94
+    },
+    {
+     "text": "Je",
+     "start": 20.26,
+     "end": 20.34
+    },
+    {
+     "text": "suis",
+     "start": 20.42,
+     "end": 20.58
+    },
+    {
+     "text": "tombé",
+     "start": 20.62,
+     "end": 20.9
+    },
+    {
+     "text": "face",
+     "start": 21.06,
+     "end": 21.3
+    },
+    {
+     "text": "contre",
+     "start": 21.46,
+     "end": 21.62
+    },
+    {
+     "text": "terre.",
+     "start": 21.7,
+     "end": 22.34
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "speaker": "HÉNOCH",
+   "text": "Plus loin : sept montagnes de pierres magnifiques.",
+   "file": "ep7/vo/line_07.mp3",
+   "start": 22.76,
+   "duration": 3.76,
+   "words": [
+    {
+     "text": "Plus",
+     "start": 22.76,
+     "end": 22.92
+    },
+    {
+     "text": "loin",
+     "start": 23.0,
+     "end": 23.24
+    },
+    {
+     "text": "sept",
+     "start": 23.96,
+     "end": 24.2
+    },
+    {
+     "text": "montagnes",
+     "start": 24.28,
+     "end": 24.76
+    },
+    {
+     "text": "de",
+     "start": 24.84,
+     "end": 24.92
+    },
+    {
+     "text": "pierres",
+     "start": 25.0,
+     "end": 25.48
+    },
+    {
+     "text": "magnifiques.",
+     "start": 25.56,
+     "end": 26.6
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "speaker": "HÉNOCH",
+   "text": "Et au bout de tout… sept étoiles liées, comme de grandes montagnes en feu.",
+   "file": "ep7/vo/line_08.mp3",
+   "start": 26.72,
+   "duration": 5.92,
+   "words": [
+    {
+     "text": "Et",
+     "start": 26.88,
+     "end": 26.96
+    },
+    {
+     "text": "au",
+     "start": 27.04,
+     "end": 27.2
+    },
+    {
+     "text": "bout",
+     "start": 27.32,
+     "end": 27.44
+    },
+    {
+     "text": "de",
+     "start": 27.52,
+     "end": 27.76
+    },
+    {
+     "text": "tout…",
+     "start": 27.96,
+     "end": 28.48
+    },
+    {
+     "text": "sept",
+     "start": 28.8,
+     "end": 29.04
+    },
+    {
+     "text": "étoiles",
+     "start": 29.12,
+     "end": 29.52
+    },
+    {
+     "text": "liées,",
+     "start": 29.64,
+     "end": 30.28
+    },
+    {
+     "text": "comme",
+     "start": 30.56,
+     "end": 30.72
+    },
+    {
+     "text": "de",
+     "start": 30.8,
+     "end": 30.88
+    },
+    {
+     "text": "grandes",
+     "start": 31.08,
+     "end": 31.36
+    },
+    {
+     "text": "montagnes",
+     "start": 31.44,
+     "end": 31.92
+    },
+    {
+     "text": "en",
+     "start": 32.0,
+     "end": 32.08
+    },
+    {
+     "text": "feu.",
+     "start": 32.16,
+     "end": 32.72
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "speaker": "SCRIBE",
+   "text": "Pourquoi sont-elles enchaînées ?",
+   "file": "ep7/vo/line_09.mp3",
+   "start": 32.84,
+   "duration": 1.52,
+   "words": [
+    {
+     "text": "Pourquoi",
+     "start": 32.84,
+     "end": 33.24
+    },
+    {
+     "text": "sont-elles",
+     "start": 33.28,
+     "end": 33.64
+    },
+    {
+     "text": "enchaînées",
+     "start": 33.72,
+     "end": 34.12
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "speaker": "URIEL",
+   "text": "Elles ont transgressé l'ordre du Seigneur. Voici leur prison.",
+   "file": "ep7/vo/line_10.mp3",
+   "start": 34.56,
+   "duration": 3.68,
+   "words": [
+    {
+     "text": "Elles",
+     "start": 34.56,
+     "end": 34.72
+    },
+    {
+     "text": "ont",
+     "start": 34.8,
+     "end": 34.88
+    },
+    {
+     "text": "transgressé",
+     "start": 34.96,
+     "end": 35.6
+    },
+    {
+     "text": "l'ordre",
+     "start": 35.64,
+     "end": 36.0
+    },
+    {
+     "text": "du",
+     "start": 36.08,
+     "end": 36.16
+    },
+    {
+     "text": "Seigneur.",
+     "start": 36.24,
+     "end": 37.04
+    },
+    {
+     "text": "Voici",
+     "start": 37.12,
+     "end": 37.44
+    },
+    {
+     "text": "leur",
+     "start": 37.52,
+     "end": 37.6
+    },
+    {
+     "text": "prison.",
+     "start": 37.68,
+     "end": 38.32
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "speaker": "SCRIBE",
+   "text": "Je range toujours mes affaires, moi.",
+   "file": "ep7/vo/line_11.mp3",
+   "start": 38.44,
+   "duration": 2.32,
+   "words": [
+    {
+     "text": "Je",
+     "start": 38.76,
+     "end": 38.92
+    },
+    {
+     "text": "range",
+     "start": 39.08,
+     "end": 39.24
+    },
+    {
+     "text": "toujours",
+     "start": 39.293,
+     "end": 39.56
+    },
+    {
+     "text": "mes",
+     "start": 39.64,
+     "end": 39.72
+    },
+    {
+     "text": "affaires,",
+     "start": 39.84,
+     "end": 40.16
+    },
+    {
+     "text": "moi.",
+     "start": 40.2,
+     "end": 40.76
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "speaker": "HÉNOCH",
+   "text": "Toi… le trône ou la prison : lequel te fait le plus peur ?",
+   "file": "ep7/vo/line_12.mp3",
+   "start": 41.46,
+   "duration": 4.64,
+   "words": [
+    {
+     "text": "Toi…",
+     "start": 41.46,
+     "end": 42.26
+    },
+    {
+     "text": "le",
+     "start": 42.34,
+     "end": 42.42
+    },
+    {
+     "text": "trône",
+     "start": 42.5,
+     "end": 42.98
+    },
+    {
+     "text": "ou",
+     "start": 43.14,
+     "end": 43.3
+    },
+    {
+     "text": "la",
+     "start": 43.38,
+     "end": 43.46
+    },
+    {
+     "text": "prison",
+     "start": 43.54,
+     "end": 43.94
+    },
+    {
+     "text": "lequel",
+     "start": 44.5,
+     "end": 44.82
+    },
+    {
+     "text": "te",
+     "start": 44.9,
+     "end": 44.98
+    },
+    {
+     "text": "fait",
+     "start": 45.06,
+     "end": 45.14
+    },
+    {
+     "text": "le",
+     "start": 45.18,
+     "end": 45.22
+    },
+    {
+     "text": "plus",
+     "start": 45.34,
+     "end": 45.46
+    },
+    {
+     "text": "peur",
+     "start": 45.54,
+     "end": 45.86
+    }
+   ]
+  }
+ ]
+}

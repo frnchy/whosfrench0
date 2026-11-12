@@ -15,6 +15,12 @@ export const LOOKS: Record<Kind, Look> = {
   max: { H: 1.78, skin: "#c99a74", robe: "#2e3440", robe2: "#c0392b", accent: "#e5e7eb", hair: "#2b1d14", hairStyle: "curly", iris: "#3a2a1a", build: 0.95 },
   giant: { H: 1350, skin: "#a57656", robe: "#4b3a2a", robe2: "#2f241a", accent: "#7a5a3a", hair: "#1a120c", hairStyle: "long", beard: "#1a120c", iris: "#ffb347", glowEyes: true, build: 1.1 },
   raphael: { H: 2.35, skin: "#d2a983", robe: "#f4f6fb", robe2: "#3d6fb6", accent: "#e8c35a", hair: "#c9a15a", hairStyle: "long", iris: "#8fd3ff", glowEyes: true, wings: "#fbfbff", build: 1.05 },
+  michel: { H: 2.4, skin: "#c79872", robe: "#f1ece0", robe2: "#a8322a", accent: "#e2b84c", hair: "#2a1a12", hairStyle: "short", iris: "#ffd27a", glowEyes: true, wings: "#fbf7ec", build: 1.12 },
+  gabriel: { H: 2.3, skin: "#d9b08a", robe: "#eef3ec", robe2: "#2f7a55", accent: "#cfd8c8", hair: "#5a3a20", hairStyle: "long", iris: "#9ff0c0", glowEyes: true, wings: "#f7fbf5", build: 1 },
+  uriel: { H: 2.35, skin: "#9a6a48", robe: "#f6efdc", robe2: "#c9861f", accent: "#f0c860", hair: "#efe9dc", hairStyle: "short", iris: "#ffb84d", glowEyes: true, wings: "#fff6dc", build: 1.05 },
+  henoch: { H: 1.72, skin: "#b98a66", robe: "#cdb893", robe2: "#6b5236", accent: "#a88a55", hair: "#b9b4aa", hairStyle: "long", beard: "#c4bfb5", iris: "#3a2a1a", build: 0.95 },
+  noe: { H: 1.76, skin: "#a87a55", robe: "#7d8456", robe2: "#4a4f33", accent: "#c9b07a", hair: "#3a2a1c", hairStyle: "short", beard: "#3a2a1c", iris: "#2a1a10", build: 1.05 },
+  child: { H: 1.1, skin: "#b08058", robe: "#c98f5a", robe2: "#8a5a34", accent: "#e3c88c", hair: "#1a1210", hairStyle: "curly", iris: "#2a1a10", build: 0.95 },
   smith: { H: 1.8, skin: "#8f6342", robe: "#5b4634", robe2: "#3a2b1f", accent: "#b38450", hair: "#140d09", hairStyle: "short", beard: "#140d09", iris: "#2a1a10", build: 1.15 },
 };
 
@@ -68,6 +74,7 @@ const Arm: React.FC<{ side: 1 | -1; a: [number, number, number]; skin: THREE.Mat
       {hold === "sword" && <group position={[0, -0.17, 0]}><mesh material={mat("#d4d7de", { metal: 0.95, rough: 0.2 })} position={[0, -0.28, 0]}><boxGeometry args={[0.022, 0.5, 0.006]} /></mesh><mesh material={mat("#b08a3c", { metal: 0.7, rough: 0.35 })} position={[0, -0.03, 0]}><boxGeometry args={[0.1, 0.014, 0.02]} /></mesh></group>}
       {hold === "phone" && <group position={[0, -0.19, 0.012]} rotation={[0.2, 0, 0]}><mesh material={mat("#111")}><boxGeometry args={[0.04, 0.075, 0.005]} /></mesh><mesh material={mat("#000", { emissive: "#9fd8ff", ei: 1.4 })} position={[0, 0, 0.0028]}><planeGeometry args={[0.035, 0.068]} /></mesh></group>}
       {hold === "chains" && [0, 1, 2, 3, 4, 5].map((i) => <mesh key={i} material={mat("#c9ccd2", { metal: 0.9, rough: 0.3 })} position={[0, -0.19 - i * 0.028, 0.01]} rotation={[0, i % 2 ? Math.PI / 2 : 0, 0]}><torusGeometry args={[0.012, 0.0035, 6, 14]} /></mesh>)}
+      {hold === "scroll" && <mesh material={mat("#e8dcc0", { rough: 0.9 })} position={[0, -0.19, 0.02]} rotation={[0, 0, Math.PI / 2]}><cylinderGeometry args={[0.014, 0.014, 0.11, 12]} /></mesh>}
       {hold === "bracelet" && <mesh material={mat("#e0b34a", { metal: 0.9, rough: 0.25, emissive: "#ffcc55", ei: 0.35 })} position={[0, -0.14, 0]} rotation={[Math.PI / 2, 0, 0]}><torusGeometry args={[0.026, 0.006, 8, 24]} /></mesh>}
       {hold === "gems" && ["#ff3b6b", "#3bd1ff", "#7dff6a", "#ffd23b"].map((c, i) => <mesh key={c} material={mat(c, { emissive: c, ei: 2.2, rough: 0.1 })} position={[Math.cos(i * 1.6) * 0.022, -0.185 - (i % 2) * 0.01, 0.03 + Math.sin(i * 1.6) * 0.012]}><octahedronGeometry args={[0.013]} /></mesh>)}
     </group>
@@ -128,7 +135,7 @@ export const Character: React.FC<{ c: Char }> = ({ c }) => {
         {(c.kind === "shem" || c.kind === "azazel") && [-1, 1].map((sd) => <mesh key={sd} material={gold} position={[sd * 0.095 * b, 0.775, 0]} scale={[1, 0.55, 1]}><sphereGeometry args={[0.038, 16, 10, 0, Math.PI * 2, 0, Math.PI / 2]} /></mesh>)}
         <mesh material={skin} position={[0, 0.83, 0]}><cylinderGeometry args={[0.026, 0.03, 0.05, 14]} /></mesh>
         <Arm side={-1} a={p.lArm} skin={skin} sleeve={cloth} build={b} hold={c.prop === "bracelet" ? "bracelet" : undefined} />
-        <Arm side={1} a={p.rArm} skin={skin} sleeve={cloth} build={b} hold={c.prop === "hammer" || c.prop === "sword" || c.prop === "gems" || c.prop === "phone" || c.prop === "chains" ? c.prop : undefined} />
+        <Arm side={1} a={p.rArm} skin={skin} sleeve={cloth} build={b} hold={c.prop === "hammer" || c.prop === "sword" || c.prop === "gems" || c.prop === "phone" || c.prop === "chains" || c.prop === "scroll" ? c.prop : undefined} />
         <Head L={L} c={c} />
         {L.wings && <mesh material={mat(L.robe2, { rough: 0.8, side: THREE.DoubleSide })} position={[0, 0.42, 0]}><cylinderGeometry args={[0.1 * b, 0.2 * b, 0.76, 40, 1, true, Math.PI * 0.32, Math.PI * 1.36]} /></mesh>}
         {L.wings && <><Wing side={-1} spread={p.wings} color={L.wings} /><Wing side={1} spread={p.wings} color={L.wings} /></>}

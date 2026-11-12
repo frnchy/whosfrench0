@@ -1,0 +1,604 @@
+{
+ "kicker": null,
+ "fps": 30,
+ "duration": 47.5,
+ "frames": 1425,
+ "title": "Hénoch le messager",
+ "ref": "1 Hénoch 12–13",
+ "question": [
+  "Toi…",
+  "tu aurais écrit leur prière ?"
+ ],
+ "lines": [
+  {
+   "id": 1,
+   "speaker": "HÉNOCH",
+   "text": "Avant tout cela, j'avais disparu. Aucun homme ne savait où j'étais caché.",
+   "file": "ep5/vo/line_01.mp3",
+   "start": 0.4,
+   "duration": 4.72,
+   "words": [
+    {
+     "text": "Avant",
+     "start": 0.56,
+     "end": 0.8
+    },
+    {
+     "text": "tout",
+     "start": 0.88,
+     "end": 0.96
+    },
+    {
+     "text": "cela,",
+     "start": 1.04,
+     "end": 1.48
+    },
+    {
+     "text": "j'avais",
+     "start": 1.68,
+     "end": 2.0
+    },
+    {
+     "text": "disparu.",
+     "start": 2.12,
+     "end": 2.84
+    },
+    {
+     "text": "Aucun",
+     "start": 3.12,
+     "end": 3.44
+    },
+    {
+     "text": "homme",
+     "start": 3.52,
+     "end": 3.68
+    },
+    {
+     "text": "ne",
+     "start": 3.76,
+     "end": 3.84
+    },
+    {
+     "text": "savait",
+     "start": 3.92,
+     "end": 4.16
+    },
+    {
+     "text": "où",
+     "start": 4.187,
+     "end": 4.24
+    },
+    {
+     "text": "j'étais",
+     "start": 4.28,
+     "end": 4.56
+    },
+    {
+     "text": "caché.",
+     "start": 4.64,
+     "end": 5.2
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "speaker": "MICHEL",
+   "text": "Hénoch, scribe de justice. Va trouver les Veilleurs déchus.",
+   "file": "ep5/vo/line_02.mp3",
+   "start": 5.32,
+   "duration": 4.32,
+   "words": [
+    {
+     "text": "Hénoch,",
+     "start": 5.32,
+     "end": 6.04
+    },
+    {
+     "text": "scribe",
+     "start": 6.12,
+     "end": 6.52
+    },
+    {
+     "text": "de",
+     "start": 6.56,
+     "end": 6.6
+    },
+    {
+     "text": "justice.",
+     "start": 6.68,
+     "end": 7.32
+    },
+    {
+     "text": "Va",
+     "start": 7.8,
+     "end": 7.96
+    },
+    {
+     "text": "trouver",
+     "start": 8.04,
+     "end": 8.36
+    },
+    {
+     "text": "les",
+     "start": 8.44,
+     "end": 8.52
+    },
+    {
+     "text": "Veilleurs",
+     "start": 8.56,
+     "end": 8.92
+    },
+    {
+     "text": "déchus.",
+     "start": 9.04,
+     "end": 9.72
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "speaker": "SCRIBE",
+   "text": "Moi ? Je… je suis juste scribe.",
+   "file": "ep5/vo/line_03.mp3",
+   "start": 9.84,
+   "duration": 3.44,
+   "words": [
+    {
+     "text": "Moi",
+     "start": 10.16,
+     "end": 10.4
+    },
+    {
+     "text": "Je…",
+     "start": 11.013,
+     "end": 11.44
+    },
+    {
+     "text": "je",
+     "start": 11.76,
+     "end": 11.84
+    },
+    {
+     "text": "suis",
+     "start": 11.92,
+     "end": 12.08
+    },
+    {
+     "text": "juste",
+     "start": 12.2,
+     "end": 12.4
+    },
+    {
+     "text": "scribe.",
+     "start": 12.64,
+     "end": 13.12
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "speaker": "MICHEL",
+   "text": "Justement. Dis-leur : il n'y aura pour vous ni paix, ni pardon.",
+   "file": "ep5/vo/line_04.mp3",
+   "start": 13.78,
+   "duration": 4.4,
+   "words": [
+    {
+     "text": "Justement.",
+     "start": 13.94,
+     "end": 14.7
+    },
+    {
+     "text": "Dis-leur",
+     "start": 14.9,
+     "end": 15.3
+    },
+    {
+     "text": "il",
+     "start": 15.807,
+     "end": 15.86
+    },
+    {
+     "text": "n'y",
+     "start": 15.887,
+     "end": 15.94
+    },
+    {
+     "text": "aura",
+     "start": 16.06,
+     "end": 16.18
+    },
+    {
+     "text": "pour",
+     "start": 16.26,
+     "end": 16.34
+    },
+    {
+     "text": "vous",
+     "start": 16.42,
+     "end": 16.66
+    },
+    {
+     "text": "ni",
+     "start": 16.7,
+     "end": 16.74
+    },
+    {
+     "text": "paix,",
+     "start": 16.9,
+     "end": 17.407
+    },
+    {
+     "text": "ni",
+     "start": 17.433,
+     "end": 17.46
+    },
+    {
+     "text": "pardon.",
+     "start": 17.62,
+     "end": 18.26
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "speaker": "HÉNOCH",
+   "text": "Alors j'allai trouver Azazel.",
+   "file": "ep5/vo/line_05.mp3",
+   "start": 18.38,
+   "duration": 2.24,
+   "words": [
+    {
+     "text": "Alors",
+     "start": 18.38,
+     "end": 18.86
+    },
+    {
+     "text": "j'allai",
+     "start": 19.1,
+     "end": 19.34
+    },
+    {
+     "text": "trouver",
+     "start": 19.42,
+     "end": 19.74
+    },
+    {
+     "text": "Azazel.",
+     "start": 19.82,
+     "end": 20.7
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "speaker": "SCRIBE",
+   "text": "Azazel. Tu n'auras pas de paix. Une lourde sentence est prononcée contre toi.",
+   "file": "ep5/vo/line_06.mp3",
+   "start": 20.82,
+   "duration": 5.68,
+   "words": [
+    {
+     "text": "Azazel.",
+     "start": 20.98,
+     "end": 21.98
+    },
+    {
+     "text": "Tu",
+     "start": 22.26,
+     "end": 22.34
+    },
+    {
+     "text": "n'auras",
+     "start": 22.42,
+     "end": 22.74
+    },
+    {
+     "text": "pas",
+     "start": 22.82,
+     "end": 22.9
+    },
+    {
+     "text": "de",
+     "start": 22.98,
+     "end": 23.06
+    },
+    {
+     "text": "paix.",
+     "start": 23.14,
+     "end": 23.66
+    },
+    {
+     "text": "Une",
+     "start": 23.94,
+     "end": 24.1
+    },
+    {
+     "text": "lourde",
+     "start": 24.14,
+     "end": 24.5
+    },
+    {
+     "text": "sentence",
+     "start": 24.58,
+     "end": 25.06
+    },
+    {
+     "text": "est",
+     "start": 25.1,
+     "end": 25.14
+    },
+    {
+     "text": "prononcée",
+     "start": 25.26,
+     "end": 25.7
+    },
+    {
+     "text": "contre",
+     "start": 25.86,
+     "end": 26.02
+    },
+    {
+     "text": "toi.",
+     "start": 26.14,
+     "end": 26.58
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "speaker": "AZAZEL",
+   "text": "Écris pour nous. Une prière. Porte-la devant le Seigneur.",
+   "file": "ep5/vo/line_07.mp3",
+   "start": 26.7,
+   "duration": 4.72,
+   "words": [
+    {
+     "text": "Écris",
+     "start": 27.02,
+     "end": 27.42
+    },
+    {
+     "text": "pour",
+     "start": 27.5,
+     "end": 27.58
+    },
+    {
+     "text": "nous.",
+     "start": 27.66,
+     "end": 28.22
+    },
+    {
+     "text": "Une",
+     "start": 28.54,
+     "end": 28.7
+    },
+    {
+     "text": "prière.",
+     "start": 28.78,
+     "end": 29.58
+    },
+    {
+     "text": "Porte-la",
+     "start": 29.9,
+     "end": 30.38
+    },
+    {
+     "text": "devant",
+     "start": 30.46,
+     "end": 30.62
+    },
+    {
+     "text": "le",
+     "start": 30.7,
+     "end": 30.78
+    },
+    {
+     "text": "Seigneur.",
+     "start": 30.86,
+     "end": 31.5
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "speaker": "HÉNOCH",
+   "text": "Eux, les puissants, n'osaient plus lever les yeux vers le ciel.",
+   "file": "ep5/vo/line_08.mp3",
+   "start": 31.92,
+   "duration": 3.68,
+   "words": [
+    {
+     "text": "Eux,",
+     "start": 31.92,
+     "end": 32.4
+    },
+    {
+     "text": "les",
+     "start": 32.48,
+     "end": 32.56
+    },
+    {
+     "text": "puissants,",
+     "start": 32.64,
+     "end": 33.44
+    },
+    {
+     "text": "n'osaient",
+     "start": 33.48,
+     "end": 33.84
+    },
+    {
+     "text": "plus",
+     "start": 33.92,
+     "end": 34.0
+    },
+    {
+     "text": "lever",
+     "start": 34.08,
+     "end": 34.32
+    },
+    {
+     "text": "les",
+     "start": 34.4,
+     "end": 34.48
+    },
+    {
+     "text": "yeux",
+     "start": 34.56,
+     "end": 34.64
+    },
+    {
+     "text": "vers",
+     "start": 34.72,
+     "end": 34.8
+    },
+    {
+     "text": "le",
+     "start": 34.88,
+     "end": 34.96
+    },
+    {
+     "text": "ciel.",
+     "start": 35.04,
+     "end": 35.68
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "speaker": "SHEMIHAZA",
+   "text": "Nous ne pouvons plus lui parler. Toi, il t'écoutera.",
+   "file": "ep5/vo/line_09.mp3",
+   "start": 35.8,
+   "duration": 3.52,
+   "words": [
+    {
+     "text": "Nous",
+     "start": 35.96,
+     "end": 36.04
+    },
+    {
+     "text": "ne",
+     "start": 36.12,
+     "end": 36.2
+    },
+    {
+     "text": "pouvons",
+     "start": 36.253,
+     "end": 36.52
+    },
+    {
+     "text": "plus",
+     "start": 36.6,
+     "end": 36.68
+    },
+    {
+     "text": "lui",
+     "start": 36.72,
+     "end": 36.84
+    },
+    {
+     "text": "parler.",
+     "start": 36.92,
+     "end": 37.52
+    },
+    {
+     "text": "Toi,",
+     "start": 37.8,
+     "end": 38.36
+    },
+    {
+     "text": "il",
+     "start": 38.44,
+     "end": 38.52
+    },
+    {
+     "text": "t'écoutera.",
+     "start": 38.6,
+     "end": 39.4
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "speaker": "HÉNOCH",
+   "text": "Mes mains tremblaient. Mais j'ai écrit.",
+   "file": "ep5/vo/line_10.mp3",
+   "start": 39.52,
+   "duration": 2.64,
+   "words": [
+    {
+     "text": "Mes",
+     "start": 39.68,
+     "end": 39.76
+    },
+    {
+     "text": "mains",
+     "start": 39.84,
+     "end": 40.0
+    },
+    {
+     "text": "tremblaient.",
+     "start": 40.04,
+     "end": 40.88
+    },
+    {
+     "text": "Mais",
+     "start": 41.2,
+     "end": 41.36
+    },
+    {
+     "text": "j'ai",
+     "start": 41.4,
+     "end": 41.52
+    },
+    {
+     "text": "écrit.",
+     "start": 41.6,
+     "end": 42.24
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "speaker": "HÉNOCH",
+   "text": "Toi… tu aurais écrit leur prière ?",
+   "file": "ep5/vo/line_11.mp3",
+   "start": 42.66,
+   "duration": 2.64,
+   "words": [
+    {
+     "text": "Toi…",
+     "start": 42.66,
+     "end": 43.54
+    },
+    {
+     "text": "tu",
+     "start": 43.7,
+     "end": 43.86
+    },
+    {
+     "text": "aurais",
+     "start": 43.94,
+     "end": 44.1
+    },
+    {
+     "text": "écrit",
+     "start": 44.18,
+     "end": 44.42
+    },
+    {
+     "text": "leur",
+     "start": 44.5,
+     "end": 44.58
+    },
+    {
+     "text": "prière",
+     "start": 44.66,
+     "end": 45.06
+    }
+   ]
+  }
+ ]
+}

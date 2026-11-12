@@ -88,8 +88,10 @@ export const Heaven: React.FC<{ fx: Fx; t: number }> = ({ fx, t }) => {
           <spriteMaterial map={puff} color="#b9c6e6" transparent depthWrite={false} opacity={0.55} />
         </sprite>
       ))}
-      <points geometry={lamps}><pointsMaterial size={2.4} map={lampTex} transparent depthWrite={false} blending={THREE.AdditiveBlending} sizeAttenuation fog={false} /></points>
+      <points geometry={lamps}><pointsMaterial size={2.4 + 3 * (fx.blood ?? 0)} color={fx.blood ? "#ff2a1a" : "#ffffff"} map={lampTex} transparent depthWrite={false} blending={THREE.AdditiveBlending} sizeAttenuation fog={false} /></points>
       {fx.crowd > 0 && <Crowd t={t} raise={fx.crowdRaise} look={fx.crowdLook} />}
+      {(fx.blood ?? 0) > 0 && <pointLight position={[0, -6, 14]} intensity={160 * (fx.blood ?? 0)} distance={40} color="#ff2a1a" />}
+      {(fx.glory ?? 0) > 0 && <><sprite position={[0, 26, -70]} scale={[90 * (fx.glory ?? 0), 90 * (fx.glory ?? 0), 1]}><spriteMaterial map={lampTex} color="#ffffff" transparent opacity={0.95} depthWrite={false} fog={false} blending={THREE.AdditiveBlending} /></sprite><pointLight position={[0, 14, -30]} intensity={900 * (fx.glory ?? 0)} distance={90} color="#fff4d8" /></>}
       {fx.feathers > 0 && feathers.map(([x, y, z, ph], i) => (
         <mesh key={i} position={[x + Math.sin(t * 0.6 + ph) * 0.8, (y - t * 0.25 + 60) % 6 + 0.2, z]} rotation={[t * 0.7 + ph, ph, Math.sin(t + ph)]}>
           <planeGeometry args={[0.08, 0.32]} /><meshStandardMaterial color="#fffaf0" emissive="#fff4dd" emissiveIntensity={0.6} side={THREE.DoubleSide} />
@@ -231,6 +233,9 @@ export const Village: React.FC<{ fx: Fx; t: number; night: boolean }> = ({ fx, t
       <mesh geometry={mount} position={[20, 0, -260]}><meshStandardMaterial color="#1c2133" roughness={1} emissive="#ffb060" emissiveIntensity={fx.mountainGlow * 0.08} /></mesh>
       {fx.mountainGlow > 0 && <sprite position={[20, 75, -255]} scale={[120, 120, 1]}><spriteMaterial map={glow} transparent opacity={0.75 + 0.2 * Math.sin(t * 3)} depthWrite={false} fog={false} blending={THREE.AdditiveBlending} /></sprite>}
       {[-6, 5, -14, 12].map((x, i) => <pointLight key={i} position={[x, 2.2, -10 - i * 6]} intensity={night ? 40 : 8} distance={14} color="#ff9a40" />)}
+      {(fx.ark ?? 0) > 0 && <Ark k={fx.ark ?? 0} />}
+      {(fx.rain ?? 0) > 0 && <Rain t={t} k={fx.rain ?? 0} />}
+      {(fx.pillar ?? 0) > 0 && <><mesh position={[1.1, 150, -0.4]}><cylinderGeometry args={[0.9, 1.6, 300, 24, 1, true]} /><meshBasicMaterial color="#ffe9b0" transparent opacity={0.5 * fx.pillar} depthWrite={false} blending={THREE.AdditiveBlending} side={THREE.DoubleSide} /></mesh><pointLight position={[1.1, 3, 0.6]} intensity={120 * fx.pillar} distance={18} color="#ffe2a8" /></>}
       {fx.constellation > 0 && <Constellation k={fx.constellation} />}
       {fx.cries > 0 && <Cries t={t} k={fx.cries} />}
       {fx.fight > 0 && <pointLight position={[0.5, 1.2, 1.5]} intensity={(40 + 30 * Math.sin(t * 19) + 20 * Math.sin(t * 31)) * fx.fight} distance={12} color="#ff5a1a" />}
@@ -261,4 +266,24 @@ export const Cries: React.FC<{ t: number; k: number }> = ({ t, k }) => {
   const seeds = useMemo(() => { const r = rng(91); return Array.from({ length: 140 }, () => [(r() - 0.5) * 40, -12 - r() * 30, r() * 60, 3 + r() * 5]); }, []);
   const dot = useMemo(() => radial([[0, "rgba(255,230,200,1)"], [0.3, "rgba(255,170,90,0.6)"], [1, "rgba(0,0,0,0)"]]), []);
   return <>{seeds.map(([x, z, y0, v], i) => <sprite key={i} position={[x + Math.sin(t + i) * 0.6, ((y0 + t * v) % 70) + 1, z]} scale={[1.8, 1.8, 1]}><spriteMaterial map={dot} transparent opacity={k} depthWrite={false} blending={THREE.AdditiveBlending} /></sprite>)}</>;
+};
+
+// Noah's ark going up rib by rib (episode 8) — the boat itself is from Genesis, noted in research.md
+const Ark: React.FC<{ k: number }> = ({ k }) => {
+  const wood = <meshStandardMaterial color="#6b4a2c" roughness={0.9} />;
+  const n = 13, shown = Math.max(1, Math.round(k * n));
+  return (
+    <group position={[9, 0, -3]} rotation={[0, -0.5, 0]}>
+      <mesh position={[0, 0.25, 0]}><boxGeometry args={[18, 0.5, 0.6]} />{wood}</mesh>
+      {Array.from({ length: shown }, (_, i) => {
+        const x = (i - (n - 1) / 2) * 1.35, w = 3.2 * Math.sin(((i + 1) / (n + 1)) * Math.PI) + 0.8;
+        return <mesh key={i} position={[x, 2.2, 0]} rotation={[Math.PI / 2, 0, 0]}><torusGeometry args={[w, 0.14, 6, 20, Math.PI]} />{wood}</mesh>;
+      })}
+      {k > 0.6 && [0.9, 1.9].map((y) => <mesh key={y} position={[0, y, 2.6]}><boxGeometry args={[15 * Math.min(1, (k - 0.6) / 0.4), 0.35, 0.15]} />{wood}</mesh>)}
+    </group>
+  );
+};
+const Rain: React.FC<{ t: number; k: number }> = ({ t, k }) => {
+  const geo = useMemo(() => { const r = rng(71), p: number[] = []; for (let i = 0; i < 700; i++) { const x = (r() - 0.5) * 50, y = r() * 26, z = (r() - 0.5) * 40 - 4; p.push(x, y, z, x - 0.25, y - 1.3, z); } const g = new THREE.BufferGeometry(); g.setAttribute("position", new THREE.Float32BufferAttribute(p, 3)); return g; }, []);
+  return <lineSegments geometry={geo} position={[0, 26 - ((t * 22) % 26), 0]}><lineBasicMaterial color="#b9c8e8" transparent opacity={0.55 * k} /></lineSegments>;
 };

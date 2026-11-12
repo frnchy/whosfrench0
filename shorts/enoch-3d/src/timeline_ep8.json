@@ -1,0 +1,584 @@
+{
+ "kicker": null,
+ "fps": 30,
+ "duration": 43.92,
+ "frames": 1318,
+ "title": "L'annonce du Déluge",
+ "ref": "1 Hénoch 10:1–3",
+ "question": [
+  "Toi…",
+  "tu aurais cru l'ange ?"
+ ],
+ "lines": [
+  {
+   "id": 1,
+   "speaker": "HÉNOCH",
+   "text": "Alors le Très-Haut parla. Il envoya Uriel au fils de Lamech.",
+   "file": "ep8/vo/line_01.mp3",
+   "start": 0.4,
+   "duration": 4.64,
+   "words": [
+    {
+     "text": "Alors",
+     "start": 0.56,
+     "end": 0.96
+    },
+    {
+     "text": "le",
+     "start": 1.04,
+     "end": 1.12
+    },
+    {
+     "text": "Très-Haut",
+     "start": 1.28,
+     "end": 1.68
+    },
+    {
+     "text": "parla.",
+     "start": 1.76,
+     "end": 2.4
+    },
+    {
+     "text": "Il",
+     "start": 2.64,
+     "end": 2.8
+    },
+    {
+     "text": "envoya",
+     "start": 2.88,
+     "end": 3.2
+    },
+    {
+     "text": "Uriel",
+     "start": 3.28,
+     "end": 3.76
+    },
+    {
+     "text": "au",
+     "start": 3.84,
+     "end": 4.0
+    },
+    {
+     "text": "fils",
+     "start": 4.08,
+     "end": 4.24
+    },
+    {
+     "text": "de",
+     "start": 4.32,
+     "end": 4.4
+    },
+    {
+     "text": "Lamech.",
+     "start": 4.48,
+     "end": 5.12
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "speaker": "URIEL",
+   "text": "Noé. Réveille-toi.",
+   "file": "ep8/vo/line_02.mp3",
+   "start": 5.24,
+   "duration": 1.6,
+   "words": [
+    {
+     "text": "Noé.",
+     "start": 5.24,
+     "end": 5.72
+    },
+    {
+     "text": "Réveille-toi.",
+     "start": 6.04,
+     "end": 6.92
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "speaker": "NOÉ",
+   "text": "C'est le milieu de la nuit.",
+   "file": "ep8/vo/line_03.mp3",
+   "start": 7.04,
+   "duration": 2.08,
+   "words": [
+    {
+     "text": "C'est",
+     "start": 7.36,
+     "end": 7.52
+    },
+    {
+     "text": "le",
+     "start": 7.56,
+     "end": 7.6
+    },
+    {
+     "text": "milieu",
+     "start": 7.68,
+     "end": 8.0
+    },
+    {
+     "text": "de",
+     "start": 8.04,
+     "end": 8.08
+    },
+    {
+     "text": "la",
+     "start": 8.16,
+     "end": 8.24
+    },
+    {
+     "text": "nuit.",
+     "start": 8.32,
+     "end": 9.12
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "speaker": "URIEL",
+   "text": "Cache-toi. La fin approche. Un déluge va venir sur toute la Terre.",
+   "file": "ep8/vo/line_04.mp3",
+   "start": 9.62,
+   "duration": 4.56,
+   "words": [
+    {
+     "text": "Cache-toi.",
+     "start": 9.7,
+     "end": 10.5
+    },
+    {
+     "text": "La",
+     "start": 10.74,
+     "end": 10.82
+    },
+    {
+     "text": "fin",
+     "start": 10.9,
+     "end": 11.06
+    },
+    {
+     "text": "approche.",
+     "start": 11.22,
+     "end": 11.82
+    },
+    {
+     "text": "Un",
+     "start": 12.02,
+     "end": 12.1
+    },
+    {
+     "text": "déluge",
+     "start": 12.18,
+     "end": 12.58
+    },
+    {
+     "text": "va",
+     "start": 12.66,
+     "end": 12.74
+    },
+    {
+     "text": "venir",
+     "start": 12.9,
+     "end": 13.06
+    },
+    {
+     "text": "sur",
+     "start": 13.18,
+     "end": 13.3
+    },
+    {
+     "text": "toute",
+     "start": 13.34,
+     "end": 13.54
+    },
+    {
+     "text": "la",
+     "start": 13.58,
+     "end": 13.62
+    },
+    {
+     "text": "Terre.",
+     "start": 13.7,
+     "end": 14.26
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "speaker": "NOÉ",
+   "text": "Un déluge. D'accord. Et… je fais quoi, moi ?",
+   "file": "ep8/vo/line_05.mp3",
+   "start": 14.38,
+   "duration": 4.16,
+   "words": [
+    {
+     "text": "Un",
+     "start": 14.7,
+     "end": 14.86
+    },
+    {
+     "text": "déluge.",
+     "start": 14.9,
+     "end": 15.66
+    },
+    {
+     "text": "D'accord.",
+     "start": 15.98,
+     "end": 16.62
+    },
+    {
+     "text": "Et…",
+     "start": 16.86,
+     "end": 17.46
+    },
+    {
+     "text": "je",
+     "start": 17.66,
+     "end": 17.74
+    },
+    {
+     "text": "fais",
+     "start": 17.78,
+     "end": 17.9
+    },
+    {
+     "text": "quoi,",
+     "start": 17.98,
+     "end": 18.1
+    },
+    {
+     "text": "moi",
+     "start": 18.14,
+     "end": 18.3
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "speaker": "URIEL",
+   "text": "Tu vas apprendre à t'échapper. Ta descendance demeurera pour toutes les générations.",
+   "file": "ep8/vo/line_06.mp3",
+   "start": 18.74,
+   "duration": 4.88,
+   "words": [
+    {
+     "text": "Tu",
+     "start": 18.74,
+     "end": 18.9
+    },
+    {
+     "text": "vas",
+     "start": 18.98,
+     "end": 19.06
+    },
+    {
+     "text": "apprendre",
+     "start": 19.18,
+     "end": 19.62
+    },
+    {
+     "text": "à",
+     "start": 19.7,
+     "end": 19.78
+    },
+    {
+     "text": "t'échapper.",
+     "start": 19.86,
+     "end": 20.74
+    },
+    {
+     "text": "Ta",
+     "start": 20.82,
+     "end": 20.9
+    },
+    {
+     "text": "descendance",
+     "start": 21.02,
+     "end": 21.54
+    },
+    {
+     "text": "demeurera",
+     "start": 21.593,
+     "end": 22.1
+    },
+    {
+     "text": "pour",
+     "start": 22.18,
+     "end": 22.42
+    },
+    {
+     "text": "toutes",
+     "start": 22.46,
+     "end": 22.66
+    },
+    {
+     "text": "les",
+     "start": 22.7,
+     "end": 22.74
+    },
+    {
+     "text": "générations.",
+     "start": 22.82,
+     "end": 23.7
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "speaker": "NOÉ",
+   "text": "Je n'ai jamais construit de bateau.",
+   "file": "ep8/vo/line_07.mp3",
+   "start": 23.82,
+   "duration": 1.84,
+   "words": [
+    {
+     "text": "Je",
+     "start": 23.82,
+     "end": 23.98
+    },
+    {
+     "text": "n'ai",
+     "start": 24.02,
+     "end": 24.22
+    },
+    {
+     "text": "jamais",
+     "start": 24.3,
+     "end": 24.54
+    },
+    {
+     "text": "construit",
+     "start": 24.62,
+     "end": 24.94
+    },
+    {
+     "text": "de",
+     "start": 24.98,
+     "end": 25.02
+    },
+    {
+     "text": "bateau.",
+     "start": 25.14,
+     "end": 25.74
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "speaker": "URIEL",
+   "text": "Tu as jusqu'à la pluie.",
+   "file": "ep8/vo/line_08.mp3",
+   "start": 25.86,
+   "duration": 1.76,
+   "words": [
+    {
+     "text": "Tu",
+     "start": 26.004,
+     "end": 26.02
+    },
+    {
+     "text": "as",
+     "start": 26.1,
+     "end": 26.26
+    },
+    {
+     "text": "jusqu'à",
+     "start": 26.34,
+     "end": 26.74
+    },
+    {
+     "text": "la",
+     "start": 26.78,
+     "end": 26.82
+    },
+    {
+     "text": "pluie.",
+     "start": 26.98,
+     "end": 27.62
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "speaker": "HÉNOCH",
+   "text": "Noé prit une grande inspiration. Et il se mit au travail.",
+   "file": "ep8/vo/line_09.mp3",
+   "start": 28.22,
+   "duration": 4.48,
+   "words": [
+    {
+     "text": "Noé",
+     "start": 28.22,
+     "end": 28.62
+    },
+    {
+     "text": "prit",
+     "start": 28.7,
+     "end": 28.94
+    },
+    {
+     "text": "une",
+     "start": 29.06,
+     "end": 29.18
+    },
+    {
+     "text": "grande",
+     "start": 29.26,
+     "end": 29.5
+    },
+    {
+     "text": "inspiration.",
+     "start": 29.58,
+     "end": 30.54
+    },
+    {
+     "text": "Et",
+     "start": 31.18,
+     "end": 31.26
+    },
+    {
+     "text": "il",
+     "start": 31.34,
+     "end": 31.42
+    },
+    {
+     "text": "se",
+     "start": 31.5,
+     "end": 31.58
+    },
+    {
+     "text": "mit",
+     "start": 31.66,
+     "end": 31.82
+    },
+    {
+     "text": "au",
+     "start": 31.86,
+     "end": 31.9
+    },
+    {
+     "text": "travail.",
+     "start": 31.94,
+     "end": 32.78
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "speaker": "HÉNOCH",
+   "text": "Ainsi s'achève l'histoire des Veilleurs. Mais mon livre n'a pas livré tous ses secrets.",
+   "file": "ep8/vo/line_10.mp3",
+   "start": 32.9,
+   "duration": 6.08,
+   "words": [
+    {
+     "text": "Ainsi",
+     "start": 33.06,
+     "end": 33.54
+    },
+    {
+     "text": "s'achève",
+     "start": 33.62,
+     "end": 34.18
+    },
+    {
+     "text": "l'histoire",
+     "start": 34.207,
+     "end": 34.74
+    },
+    {
+     "text": "des",
+     "start": 34.82,
+     "end": 34.9
+    },
+    {
+     "text": "Veilleurs.",
+     "start": 34.94,
+     "end": 35.98
+    },
+    {
+     "text": "Mais",
+     "start": 36.42,
+     "end": 36.58
+    },
+    {
+     "text": "mon",
+     "start": 36.66,
+     "end": 36.74
+    },
+    {
+     "text": "livre",
+     "start": 36.86,
+     "end": 37.14
+    },
+    {
+     "text": "n'a",
+     "start": 37.22,
+     "end": 37.38
+    },
+    {
+     "text": "pas",
+     "start": 37.46,
+     "end": 37.54
+    },
+    {
+     "text": "livré",
+     "start": 37.66,
+     "end": 37.94
+    },
+    {
+     "text": "tous",
+     "start": 37.98,
+     "end": 38.1
+    },
+    {
+     "text": "ses",
+     "start": 38.18,
+     "end": 38.26
+    },
+    {
+     "text": "secrets.",
+     "start": 38.34,
+     "end": 39.06
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "speaker": "HÉNOCH",
+   "text": "Toi… tu aurais cru l'ange ?",
+   "file": "ep8/vo/line_11.mp3",
+   "start": 39.48,
+   "duration": 2.24,
+   "words": [
+    {
+     "text": "Toi…",
+     "start": 39.48,
+     "end": 40.36
+    },
+    {
+     "text": "tu",
+     "start": 40.44,
+     "end": 40.52
+    },
+    {
+     "text": "aurais",
+     "start": 40.6,
+     "end": 40.84
+    },
+    {
+     "text": "cru",
+     "start": 40.88,
+     "end": 41.0
+    },
+    {
+     "text": "l'ange",
+     "start": 41.08,
+     "end": 41.48
+    }
+   ]
+  }
+ ]
+}

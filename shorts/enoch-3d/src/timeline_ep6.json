@@ -1,0 +1,624 @@
+{
+ "kicker": null,
+ "fps": 30,
+ "duration": 45.74,
+ "frames": 1372,
+ "title": "Azazel enchaîné",
+ "ref": "1 Hénoch 10",
+ "question": [
+  "Justice…",
+  "ou vengeance ?"
+ ],
+ "lines": [
+  {
+   "id": 1,
+   "speaker": "HÉNOCH",
+   "text": "La prière fut refusée. Et le Très-Haut envoya ses archanges.",
+   "file": "ep6/vo/line_01.mp3",
+   "start": 0.4,
+   "duration": 4.4,
+   "words": [
+    {
+     "text": "La",
+     "start": 0.56,
+     "end": 0.64
+    },
+    {
+     "text": "prière",
+     "start": 0.72,
+     "end": 1.2
+    },
+    {
+     "text": "fut",
+     "start": 1.28,
+     "end": 1.44
+    },
+    {
+     "text": "refusée.",
+     "start": 1.52,
+     "end": 2.32
+    },
+    {
+     "text": "Et",
+     "start": 2.56,
+     "end": 2.64
+    },
+    {
+     "text": "le",
+     "start": 2.68,
+     "end": 2.72
+    },
+    {
+     "text": "Très-Haut",
+     "start": 2.8,
+     "end": 3.28
+    },
+    {
+     "text": "envoya",
+     "start": 3.4,
+     "end": 3.76
+    },
+    {
+     "text": "ses",
+     "start": 3.88,
+     "end": 4.0
+    },
+    {
+     "text": "archanges.",
+     "start": 4.12,
+     "end": 4.88
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "speaker": "RAPHAËL",
+   "text": "Azazel. Au nom du Très-Haut : pieds et mains liés.",
+   "file": "ep6/vo/line_02.mp3",
+   "start": 5.0,
+   "duration": 3.6,
+   "words": [
+    {
+     "text": "Azazel.",
+     "start": 5.08,
+     "end": 5.72
+    },
+    {
+     "text": "Au",
+     "start": 6.04,
+     "end": 6.12
+    },
+    {
+     "text": "nom",
+     "start": 6.2,
+     "end": 6.28
+    },
+    {
+     "text": "du",
+     "start": 6.36,
+     "end": 6.44
+    },
+    {
+     "text": "Très-Haut",
+     "start": 6.48,
+     "end": 6.84
+    },
+    {
+     "text": "pieds",
+     "start": 7.293,
+     "end": 7.56
+    },
+    {
+     "text": "et",
+     "start": 7.64,
+     "end": 7.72
+    },
+    {
+     "text": "mains",
+     "start": 7.8,
+     "end": 7.96
+    },
+    {
+     "text": "liés.",
+     "start": 8.04,
+     "end": 8.68
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "speaker": "AZAZEL",
+   "text": "J'ai seulement appris aux hommes à forger !",
+   "file": "ep6/vo/line_03.mp3",
+   "start": 8.8,
+   "duration": 2.32,
+   "words": [
+    {
+     "text": "J'ai",
+     "start": 8.88,
+     "end": 9.12
+    },
+    {
+     "text": "seulement",
+     "start": 9.16,
+     "end": 9.44
+    },
+    {
+     "text": "appris",
+     "start": 9.52,
+     "end": 9.76
+    },
+    {
+     "text": "aux",
+     "start": 9.84,
+     "end": 9.92
+    },
+    {
+     "text": "hommes",
+     "start": 9.96,
+     "end": 10.08
+    },
+    {
+     "text": "à",
+     "start": 10.16,
+     "end": 10.24
+    },
+    {
+     "text": "forger",
+     "start": 10.32,
+     "end": 10.72
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "speaker": "RAPHAËL",
+   "text": "Oui. Notamment des chaînes. Merci pour ça.",
+   "file": "ep6/vo/line_04.mp3",
+   "start": 11.32,
+   "duration": 3.36,
+   "words": [
+    {
+     "text": "Oui.",
+     "start": 11.766,
+     "end": 12.12
+    },
+    {
+     "text": "Notamment",
+     "start": 12.36,
+     "end": 12.76
+    },
+    {
+     "text": "des",
+     "start": 12.88,
+     "end": 13.0
+    },
+    {
+     "text": "chaînes.",
+     "start": 13.08,
+     "end": 13.72
+    },
+    {
+     "text": "Merci",
+     "start": 13.84,
+     "end": 14.04
+    },
+    {
+     "text": "pour",
+     "start": 14.12,
+     "end": 14.28
+    },
+    {
+     "text": "ça.",
+     "start": 14.36,
+     "end": 14.68
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "speaker": "HÉNOCH",
+   "text": "Raphaël ouvrit le désert de Dudaël, et l'y jeta.",
+   "file": "ep6/vo/line_05.mp3",
+   "start": 15.48,
+   "duration": 3.6,
+   "words": [
+    {
+     "text": "Raphaël",
+     "start": 15.48,
+     "end": 16.12
+    },
+    {
+     "text": "ouvrit",
+     "start": 16.2,
+     "end": 16.52
+    },
+    {
+     "text": "le",
+     "start": 16.56,
+     "end": 16.6
+    },
+    {
+     "text": "désert",
+     "start": 16.68,
+     "end": 17.08
+    },
+    {
+     "text": "de",
+     "start": 17.12,
+     "end": 17.16
+    },
+    {
+     "text": "Dudaël,",
+     "start": 17.24,
+     "end": 18.12
+    },
+    {
+     "text": "et",
+     "start": 18.16,
+     "end": 18.2
+    },
+    {
+     "text": "l'y",
+     "start": 18.28,
+     "end": 18.44
+    },
+    {
+     "text": "jeta.",
+     "start": 18.64,
+     "end": 19.16
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "speaker": "HÉNOCH",
+   "text": "Il le couvrit de pierres rudes et de ténèbres. Qu'il ne voie plus la lumière.",
+   "file": "ep6/vo/line_06.mp3",
+   "start": 19.28,
+   "duration": 5.52,
+   "words": [
+    {
+     "text": "Il",
+     "start": 19.44,
+     "end": 19.6
+    },
+    {
+     "text": "le",
+     "start": 19.72,
+     "end": 19.84
+    },
+    {
+     "text": "couvrit",
+     "start": 19.92,
+     "end": 20.24
+    },
+    {
+     "text": "de",
+     "start": 20.32,
+     "end": 20.48
+    },
+    {
+     "text": "pierres",
+     "start": 20.56,
+     "end": 20.88
+    },
+    {
+     "text": "rudes",
+     "start": 20.96,
+     "end": 21.44
+    },
+    {
+     "text": "et",
+     "start": 21.52,
+     "end": 21.6
+    },
+    {
+     "text": "de",
+     "start": 21.68,
+     "end": 21.76
+    },
+    {
+     "text": "ténèbres.",
+     "start": 21.8,
+     "end": 22.76
+    },
+    {
+     "text": "Qu'il",
+     "start": 23.12,
+     "end": 23.28
+    },
+    {
+     "text": "ne",
+     "start": 23.36,
+     "end": 23.44
+    },
+    {
+     "text": "voie",
+     "start": 23.56,
+     "end": 23.68
+    },
+    {
+     "text": "plus",
+     "start": 23.76,
+     "end": 23.92
+    },
+    {
+     "text": "la",
+     "start": 23.96,
+     "end": 24.0
+    },
+    {
+     "text": "lumière.",
+     "start": 24.08,
+     "end": 24.88
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "speaker": "MICHEL",
+   "text": "Shemihaza. Toi et les tiens : liés pour soixante-dix générations, dans les vallées de la Terre.",
+   "file": "ep6/vo/line_07.mp3",
+   "start": 25.4,
+   "duration": 6.16,
+   "words": [
+    {
+     "text": "Shemihaza.",
+     "start": 25.56,
+     "end": 26.44
+    },
+    {
+     "text": "Toi",
+     "start": 26.68,
+     "end": 27.0
+    },
+    {
+     "text": "et",
+     "start": 27.04,
+     "end": 27.08
+    },
+    {
+     "text": "les",
+     "start": 27.16,
+     "end": 27.24
+    },
+    {
+     "text": "tiens",
+     "start": 27.32,
+     "end": 27.56
+    },
+    {
+     "text": "liés",
+     "start": 28.2,
+     "end": 28.44
+    },
+    {
+     "text": "pour",
+     "start": 28.56,
+     "end": 28.68
+    },
+    {
+     "text": "soixante-dix",
+     "start": 28.72,
+     "end": 29.24
+    },
+    {
+     "text": "générations,",
+     "start": 29.28,
+     "end": 30.2
+    },
+    {
+     "text": "dans",
+     "start": 30.227,
+     "end": 30.28
+    },
+    {
+     "text": "les",
+     "start": 30.36,
+     "end": 30.52
+    },
+    {
+     "text": "vallées",
+     "start": 30.56,
+     "end": 30.76
+    },
+    {
+     "text": "de",
+     "start": 30.8,
+     "end": 30.84
+    },
+    {
+     "text": "la",
+     "start": 30.88,
+     "end": 30.92
+    },
+    {
+     "text": "Terre.",
+     "start": 31.08,
+     "end": 31.64
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "speaker": "SHEMIHAZA",
+   "text": "J'avais dit… que je serais le seul à payer.",
+   "file": "ep6/vo/line_08.mp3",
+   "start": 31.76,
+   "duration": 2.88,
+   "words": [
+    {
+     "text": "J'avais",
+     "start": 32.0,
+     "end": 32.32
+    },
+    {
+     "text": "dit…",
+     "start": 32.4,
+     "end": 32.76
+    },
+    {
+     "text": "que",
+     "start": 32.96,
+     "end": 33.04
+    },
+    {
+     "text": "je",
+     "start": 33.12,
+     "end": 33.2
+    },
+    {
+     "text": "serais",
+     "start": 33.28,
+     "end": 33.44
+    },
+    {
+     "text": "le",
+     "start": 33.52,
+     "end": 33.6
+    },
+    {
+     "text": "seul",
+     "start": 33.76,
+     "end": 33.92
+    },
+    {
+     "text": "à",
+     "start": 34.0,
+     "end": 34.08
+    },
+    {
+     "text": "payer.",
+     "start": 34.28,
+     "end": 34.72
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "speaker": "MICHEL",
+   "text": "Tu ne seras pas le seul.",
+   "file": "ep6/vo/line_09.mp3",
+   "start": 34.84,
+   "duration": 1.68,
+   "words": [
+    {
+     "text": "Tu",
+     "start": 34.84,
+     "end": 35.0
+    },
+    {
+     "text": "ne",
+     "start": 35.04,
+     "end": 35.08
+    },
+    {
+     "text": "seras",
+     "start": 35.16,
+     "end": 35.4
+    },
+    {
+     "text": "pas",
+     "start": 35.48,
+     "end": 35.56
+    },
+    {
+     "text": "le",
+     "start": 35.64,
+     "end": 35.72
+    },
+    {
+     "text": "seul.",
+     "start": 35.8,
+     "end": 36.52
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "speaker": "HÉNOCH",
+   "text": "Et il fut dit à Raphaël : guéris la Terre.",
+   "file": "ep6/vo/line_10.mp3",
+   "start": 36.72,
+   "duration": 3.28,
+   "words": [
+    {
+     "text": "Et",
+     "start": 36.96,
+     "end": 37.0
+    },
+    {
+     "text": "il",
+     "start": 37.04,
+     "end": 37.2
+    },
+    {
+     "text": "fut",
+     "start": 37.24,
+     "end": 37.36
+    },
+    {
+     "text": "dit",
+     "start": 37.48,
+     "end": 37.6
+    },
+    {
+     "text": "à",
+     "start": 37.64,
+     "end": 37.68
+    },
+    {
+     "text": "Raphaël",
+     "start": 37.72,
+     "end": 38.32
+    },
+    {
+     "text": "guéris",
+     "start": 38.88,
+     "end": 39.2
+    },
+    {
+     "text": "la",
+     "start": 39.28,
+     "end": 39.36
+    },
+    {
+     "text": "Terre.",
+     "start": 39.44,
+     "end": 40.08
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "speaker": "HÉNOCH",
+   "text": "Justice… ou vengeance ? Dis-le-moi.",
+   "file": "ep6/vo/line_11.mp3",
+   "start": 40.5,
+   "duration": 3.04,
+   "words": [
+    {
+     "text": "Justice…",
+     "start": 40.5,
+     "end": 41.54
+    },
+    {
+     "text": "ou",
+     "start": 41.62,
+     "end": 41.7
+    },
+    {
+     "text": "vengeance",
+     "start": 41.86,
+     "end": 42.42
+    },
+    {
+     "text": "Dis-le-moi.",
+     "start": 42.927,
+     "end": 43.62
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "title": "Le cri de la Terre",
+ "ref": "1 Hénoch 9",
+ "question": [
+  "Toi…",
+  "tu aurais osé parler ?"
+ ],
+ "voices": {
+  "URIEL": "pKlgdyvlCIm3TVoJ5Bqx",
+  "HÉNOCH": "3BZLNrQEzQVYs6kPOW4S",
+  "RAPHAËL": "5hs4q0PzlPQREPpq7uQ9",
+  "GABRIEL": "mQS95w8LbLFsF6QihxDH",
+  "MICHEL": "t2969wgUwHbBoVCZNHRU"
+ },
+ "gaps": {
+  "5": 0.6,
+  "6": 0.9,
+  "10": 0.5
+ },
+ "lines": [
+  [
+   "HÉNOCH",
+   "[dramatic] Le cri des hommes monta jusqu'aux portes du ciel."
+  ],
+  [
+   "HÉNOCH",
+   "Quatre archanges regardèrent en bas : Michel, Uriel, Raphaël et Gabriel."
+  ],
+  [
+   "MICHEL",
+   "[grave] La Terre est remplie de sang."
+  ],
+  [
+   "GABRIEL",
+   "Les âmes des hommes crient. Leur plainte monte jusqu'à nous."
+  ],
+  [
+   "RAPHAËL",
+   "[nervous] Bon… qui lui annonce ?"
+  ],
+  [
+   "HÉNOCH",
+   "[whispers] Trois archanges regardèrent Michel."
+  ],
+  [
+   "MICHEL",
+   "[sighs] Évidemment."
+  ],
+  [
+   "MICHEL",
+   "[solemn] Seigneur des seigneurs, tu vois ce qu'a fait Azazel : il a enseigné toute injustice et révélé les secrets éternels."
+  ],
+  [
+   "URIEL",
+   "Et Shemihaza, à qui tu avais donné l'autorité."
+  ],
+  [
+   "HÉNOCH",
+   "[slowly] Le Très-Haut répondit. Et sa réponse allait tout changer."
+  ],
+  [
+   "HÉNOCH",
+   "Toi… tu aurais osé parler ?"
+  ]
+ ]
+}

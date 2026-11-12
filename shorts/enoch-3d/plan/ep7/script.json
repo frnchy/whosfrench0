@@ -1,0 +1,68 @@
+{
+ "title": "Le voyage d'Hénoch",
+ "ref": "1 Hénoch 14–21",
+ "question": [
+  "Le trône ou la prison :",
+  "lequel te fait peur ?"
+ ],
+ "voices": {
+  "SCRIBE": "3BZLNrQEzQVYs6kPOW4S",
+  "URIEL": "pKlgdyvlCIm3TVoJ5Bqx",
+  "HÉNOCH": "3BZLNrQEzQVYs6kPOW4S"
+ },
+ "gaps": {
+  "3": 0.5,
+  "6": 0.5,
+  "11": 0.7
+ },
+ "lines": [
+  [
+   "HÉNOCH",
+   "[dramatic] Dans ma vision, les nuées m'appelèrent, et les vents me soulevèrent."
+  ],
+  [
+   "SCRIBE",
+   "[nervous] Euh… on monte encore beaucoup ?"
+  ],
+  [
+   "URIEL",
+   "[calm] Encore un peu."
+  ],
+  [
+   "HÉNOCH",
+   "Je vis un mur de cristal, entouré de langues de feu."
+  ],
+  [
+   "HÉNOCH",
+   "[awe] Puis un trône élevé. De dessous coulaient des fleuves de feu."
+  ],
+  [
+   "SCRIBE",
+   "[whispers] Je tremblais. Je suis tombé face contre terre."
+  ],
+  [
+   "HÉNOCH",
+   "Plus loin : sept montagnes de pierres magnifiques."
+  ],
+  [
+   "HÉNOCH",
+   "[slowly] Et au bout de tout… sept étoiles liées, comme de grandes montagnes en feu."
+  ],
+  [
+   "SCRIBE",
+   "Pourquoi sont-elles enchaînées ?"
+  ],
+  [
+   "URIEL",
+   "Elles ont transgressé l'ordre du Seigneur. Voici leur prison."
+  ],
+  [
+   "SCRIBE",
+   "[nervous] Je range toujours mes affaires, moi."
+  ],
+  [
+   "HÉNOCH",
+   "Toi… le trône ou la prison : lequel te fait le plus peur ?"
+  ]
+ ]
+}

@@ -6,14 +6,15 @@ export type Pose = {
   mouth: number; blink: number; brow: number;   // brow: −1 angry … 0 neutral … +1 worried
   gaze: [number, number];                       // eye yaw/pitch inside the head
 };
-export type Kind = "shem" | "azazel" | "ange" | "watcher" | "woman" | "villager" | "kasdeja" | "smith" | "max" | "giant" | "raphael";
+export type Kind = "shem" | "azazel" | "ange" | "watcher" | "woman" | "villager" | "kasdeja" | "smith" | "max" | "giant" | "raphael" | "michel" | "gabriel" | "uriel" | "henoch" | "noe" | "child";
 export type Char = { id: string; kind: Kind; pos: V3; yaw: number; pose: Pose; prop?: string };
 export type Cam = { pos: V3; target: V3; fov: number };
-export type SetName = "heaven" | "mountain" | "village" | "forge" | "city";
+export type SetName = "heaven" | "mountain" | "village" | "forge" | "city" | "desert" | "cosmos";
 export type Fx = {
   streaks: number; lightning: number; shock: number; pillar: number; flash: number; crowdRaise: number; crowdLook: number;
   crowd: number; feathers: number; mountainGlow: number; sparks: number; forgeGlow: number;
   constellation: number; cries: number; fight: number; pillars?: number; storeLights?: number;
+  day?: number; giants?: number; glory?: number; pit?: number; rain?: number; ark?: number; journey?: number; blood?: number;
 };
 export type Frame = { t: number; shot: string; set: SetName; cam: Cam; chars: Char[]; fx: Fx };
 
@@ -84,3 +85,5 @@ export const hermonHeight = (x: number, z: number) => {
   return lerp(SUMMIT_Y, mass, ease(plateau));
 };
 export const groundAt = (set: SetName, x: number, z: number) => (set === "mountain" ? hermonHeight(x, z) : 0);
+
+export const FX0: Fx = { streaks: 0, lightning: 0, shock: 0, pillar: 0, flash: 0, crowdRaise: 0, crowdLook: 0, crowd: 0, feathers: 0, mountainGlow: 0, sparks: 0, forgeGlow: 0, constellation: 0, cries: 0, fight: 0 };

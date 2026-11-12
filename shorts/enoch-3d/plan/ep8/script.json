@@ -1,0 +1,64 @@
+{
+ "title": "L'annonce du Déluge",
+ "ref": "1 Hénoch 10:1–3",
+ "question": [
+  "Toi…",
+  "tu aurais cru l'ange ?"
+ ],
+ "voices": {
+  "URIEL": "pKlgdyvlCIm3TVoJ5Bqx",
+  "NOÉ": "Xy5q4w05TJGcKXPWeWoz",
+  "HÉNOCH": "3BZLNrQEzQVYs6kPOW4S"
+ },
+ "gaps": {
+  "3": 0.5,
+  "8": 0.6,
+  "10": 0.5
+ },
+ "lines": [
+  [
+   "HÉNOCH",
+   "[dramatic] Alors le Très-Haut parla. Il envoya Uriel au fils de Lamech."
+  ],
+  [
+   "URIEL",
+   "Noé. Réveille-toi."
+  ],
+  [
+   "NOÉ",
+   "[sleepy] C'est le milieu de la nuit."
+  ],
+  [
+   "URIEL",
+   "[grave] Cache-toi. La fin approche. Un déluge va venir sur toute la Terre."
+  ],
+  [
+   "NOÉ",
+   "[nervous] Un déluge. D'accord. Et… je fais quoi, moi ?"
+  ],
+  [
+   "URIEL",
+   "Tu vas apprendre à t'échapper. Ta descendance demeurera pour toutes les générations."
+  ],
+  [
+   "NOÉ",
+   "Je n'ai jamais construit de bateau."
+  ],
+  [
+   "URIEL",
+   "[warmly] Tu as jusqu'à la pluie."
+  ],
+  [
+   "HÉNOCH",
+   "Noé prit une grande inspiration. Et il se mit au travail."
+  ],
+  [
+   "HÉNOCH",
+   "[slowly] Ainsi s'achève l'histoire des Veilleurs. Mais mon livre n'a pas livré tous ses secrets."
+  ],
+  [
+   "HÉNOCH",
+   "Toi… tu aurais cru l'ange ?"
+  ]
+ ]
+}

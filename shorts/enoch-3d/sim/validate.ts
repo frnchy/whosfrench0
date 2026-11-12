@@ -3,15 +3,14 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { groundAt, BLINK_FRAMES } from "../src/story/common.ts";
 import type { Cam, Frame, V3 } from "../src/story/common.ts";
-import { makeEp1 } from "../src/story/ep1.ts";
+import { STORIES } from "../src/story/index.ts";
 
 const EP = process.argv[2] ?? "ep1";
 const rd = (p: string) => JSON.parse(readFileSync(new URL(p, import.meta.url), "utf8"));
 const tl = rd(`../src/timeline_${EP}.json`), mouth = rd(`../src/mouth_${EP}.json`), script = rd(`../plan/${EP}/script.json`);
 const research = readFileSync(new URL(`../plan/${EP}/research.md`, import.meta.url), "utf8");
-const story: { frameAt: (f: number) => Frame; shots: [string, string, number, number][]; cuts: number[]; speakerOf: (k: number) => string; offscreen?: number[] } =
-  EP === "ep1" ? makeEp1(tl, mouth) : EP === "ep2" ? (await import("../src/story/ep2.ts")).makeEp2(tl, mouth) : (await import("../src/story/ep3.ts")).makeEp3(tl, mouth);
-const H: Record<string, number> = { max: 1.78, giant: 1350, raphael: 2.35, shem: 2.45, azazel: 2.3, ange: 2.0, watcher: 2.2, woman: 1.62, villager: 1.74, kasdeja: 2.25, smith: 1.8 };
+const story = STORIES[EP](tl as never, mouth as never);
+const H: Record<string, number> = { michel: 2.4, gabriel: 2.3, uriel: 2.35, henoch: 1.72, noe: 1.76, child: 1.1, max: 1.78, giant: 1350, raphael: 2.35, shem: 2.45, azazel: 2.3, ange: 2.0, watcher: 2.2, woman: 1.62, villager: 1.74, kasdeja: 2.25, smith: 1.8 };
 
 const v: { frame: number | string; what: string }[] = [];
 const fail = (frame: number | string, what: string) => v.push({ frame, what });
