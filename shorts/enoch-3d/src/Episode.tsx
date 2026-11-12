@@ -137,6 +137,9 @@ export const Clean: React.FC<{ id: string }> = ({ id }) => {
   );
 };
 
+// sound layer alone: lets render.sh mix the audio without drawing the 3D frames
+export const AudioOnly: React.FC<{ id: string }> = ({ id }) => <Sound ep={EPISODES.find((e) => e.id === id)!} />;
+
 export const Final: React.FC<{ id: string }> = ({ id }) => {
   const ep = EPISODES.find((e) => e.id === id)!;
   return (
