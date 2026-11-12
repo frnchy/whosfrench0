@@ -15,6 +15,6 @@ for i, c in enumerate(cues):
     n = cues[i + 1] if i + 1 < len(cues) else None
     c[1] = n[0] if n and n[0] - c[1] < 0.4 else c[1] + 0.25
 ts = lambda t: f"{int(t // 3600):02d}:{int(t % 3600 // 60):02d}:{int(t % 60):02d},{int(round(t % 1 * 1000)) % 1000:03d}"
-name = {"CHOEUR": "LES 200"}
+name = {"CHOEUR": "LES 200", "SCRIBE": "HÉNOCH"}
 open(f"out/{EP}/captions.srt", "w").write("\n".join(f"{i}\n{ts(a)} --> {ts(b)}\n{name.get(s, s)}: {txt}\n" for i, (a, b, txt, s) in enumerate(cues, 1)))
 print(len(cues), "cues")

@@ -17,12 +17,12 @@ void Promise.all([
 ]);
 
 type Word = { text: string; start: number; end: number };
-export type TL = { kicker?: string; fps: number; duration: number; frames: number; title: string; ref: string; question: string[]; lines: { id: number; speaker: string; text: string; file: string; start: number; duration: number; words: Word[] }[] };
+export type TL = { kicker?: string | null; fps: number; duration: number; frames: number; title: string; ref: string; question: string[]; lines: { id: number; speaker: string; text: string; file: string; start: number; duration: number; words: Word[] }[] };
 export type Sfx = [string, number, number];  // file, start s, volume
 export type EpisodeDef = { id: string; n: number; tl: TL; frameAt: (f: number) => Frame; score: string; scoreVol: number; sfx: Sfx[]; beds: [string, number, number, number][]; keywords: Record<string, string>; overlay?: React.FC };
 
-const SPK_COL: Record<string, string> = { MAX: "#7EE08A", KOKABIEL: "#C9A6FF", "HÉNOCH": "#E9C46A", SHEMIHAZA: "#E8E4DA", AZAZEL: "#FF6B5B", ANGE: "#9FD8FF", CHOEUR: "#FFD60A", KASDEJA: "#C9A6FF", FORGERON: "#F2A65A", "FEMME": "#F5B7C5", "ENFANT": "#8EE08A" };
-const SPK_NAME: Record<string, string> = { CHOEUR: "LES 200" };
+const SPK_COL: Record<string, string> = { MAX: "#7EE08A", KOKABIEL: "#C9A6FF", "HÉNOCH": "#E9C46A", SHEMIHAZA: "#E8E4DA", AZAZEL: "#FF6B5B", ANGE: "#9FD8FF", CHOEUR: "#FFD60A", KASDEJA: "#C9A6FF", FORGERON: "#F2A65A", "FEMME": "#F5B7C5", "ENFANT": "#8EE08A", VILLAGEOIS: "#F2A65A", MICHEL: "#FF8A6B", GABRIEL: "#9FF0C0", "RAPHAËL": "#8FD3FF", URIEL: "#FFB84D", "NOÉ": "#C9E07E", SCRIBE: "#E9C46A" };
+const SPK_NAME: Record<string, string> = { CHOEUR: "LES 200", SCRIBE: "HÉNOCH" };
 const s = (t: number) => Math.round(t * 30);
 const clampI = (f: number, a: number, b: number, from: number, to: number) => interpolate(f, [a, b], [from, to], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.bezier(0.33, 0, 0.2, 1) });
 

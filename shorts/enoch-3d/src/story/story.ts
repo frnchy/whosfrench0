@@ -15,7 +15,7 @@ export const makeStory = (tl: Timeline, mouth: Record<string, number[]>, SPEAKER
   const h = helpers(tl, mouth, SPEAKER), d = build(h);
   const cuts = d.shots.slice(1).map((x) => Math.ceil(x[2] * tl.fps - 1e-9));
   const frameAt = (f: number): Frame => {
-    const t = f / tl.fps, [shot, set] = d.shots.find((x) => t >= x[2] && t < x[3])!, c = d.cams[shot];
+    const t = f / tl.fps, [shot, set] = d.shots[cuts.filter((c) => f >= c).length], c = d.cams[shot];   // shot by frame, same rounding as the cuts
     const chars = d.chars(t, f, shot).map((ch) => ({ ...ch, pos: [ch.pos[0], groundAt(set, ch.pos[0], ch.pos[2]), ch.pos[2]] as V3 }));
     return { t, shot, set, cam: camPath(t, c.keys, c.shake ?? 0), chars, fx: { ...FX0, ...d.fx(t, shot) } };
   };
@@ -38,7 +38,7 @@ const helpers = (tl: Timeline, mouth: Record<string, number[]>, SPEAKER: Record<
     head: (p: V3, H: number, set: SetName = "heaven"): V3 => [p[0], groundAt(set, p[0], p[2]) + H * 0.93, p[2]],
     g: (set: SetName, x: number, z: number) => groundAt(set, x, z),
     // a character: idles, blinks, lip-syncs on its own lines
-    ch: (id: string, kind: Char["kind"], pos: V3, yaw: number, t: number, f: number, keys: PoseKey[] = [], extra: Partial<Char> & { pose?: Partial<Pose> } = {}): Char => {
+    ch: (id: string, kind: Char["kind"], pos: V3, yaw: number, t: number, f: number, keys: PoseKey[] = [], extra: Omit<Partial<Char>, "pose"> & { pose?: Partial<Pose> } = {}): Char => {
       const p = { ...idle(id, t, posePath(t, NEUTRAL, keys.length ? keys : [[0, {}]])), mouth: say(id, t), blink: blinkAt(id, f) };
       return { id, kind, pos, yaw, prop: extra.prop, pose: { ...p, ...(extra.pose ?? {}) } };
     },

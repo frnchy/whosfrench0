@@ -202,7 +202,8 @@ export const Mountain: React.FC<{ fx: Fx; t: number }> = ({ fx, t }) => {
 // ---------- VILLAGE by the river at dusk/night ----------
 export const Village: React.FC<{ fx: Fx; t: number; night: boolean }> = ({ fx, t, night }) => {
   const scene = useThree((s) => s.scene);
-  useLayoutEffect(() => { scene.fog = new THREE.Fog(night ? "#0b1020" : "#6a4a50", 40, night ? 520 : 260); }, [scene, night]);
+  const far = fx.giants ? 3000 : night ? 520 : 260;   // the 1 350 m giants of ep3 stand far beyond the day fog
+  useLayoutEffect(() => { scene.fog = new THREE.Fog(night ? "#0b1020" : "#6a4a50", 40, far); }, [scene, night, far]);
   const houses = useMemo(() => { const r = rng(8), out: number[][] = []; for (let i = 0; i < 26; i++) { const x = (r() - 0.5) * 50, z = -12 - r() * 40; if (Math.abs(x) < 4) continue; out.push([x, z, 3 + r() * 3, 2.4 + r() * 1.6, 3 + r() * 3, r()]); } for (let i = 0; i < 10; i++) out.push([(r() - 0.5) * 40, 10 + r() * 20, 3 + r() * 2.5, 2.4 + r(), 3 + r() * 2, r()]); return out; }, []);
   const palms = useMemo(() => { const r = rng(12); return Array.from({ length: 16 }, () => [(r() - 0.5) * 60, -6 - r() * 30, 5 + r() * 3, r() * 6]); }, []);
   const mount = useMemo(() => { const g = new THREE.ConeGeometry(110, 70, 9, 1); g.translate(0, 35, 0); return g; }, []);
@@ -270,15 +271,16 @@ export const Cries: React.FC<{ t: number; k: number }> = ({ t, k }) => {
 
 // Noah's ark going up rib by rib (episode 8) — the boat itself is from Genesis, noted in research.md
 const Ark: React.FC<{ k: number }> = ({ k }) => {
-  const wood = <meshStandardMaterial color="#6b4a2c" roughness={0.9} />;
+  const wood = <meshStandardMaterial color="#9a6a3c" roughness={0.9} />;
   const n = 13, shown = Math.max(1, Math.round(k * n));
   return (
     <group position={[9, 0, -3]} rotation={[0, -0.5, 0]}>
       <mesh position={[0, 0.25, 0]}><boxGeometry args={[18, 0.5, 0.6]} />{wood}</mesh>
       {Array.from({ length: shown }, (_, i) => {
         const x = (i - (n - 1) / 2) * 1.35, w = 3.2 * Math.sin(((i + 1) / (n + 1)) * Math.PI) + 0.8;
-        return <mesh key={i} position={[x, 2.2, 0]} rotation={[Math.PI / 2, 0, 0]}><torusGeometry args={[w, 0.14, 6, 20, Math.PI]} />{wood}</mesh>;
+        return <mesh key={i} position={[x, w + 0.45, 0]} rotation={[0, Math.PI / 2, Math.PI]}>   {/* a U-shaped rib across the keel */}<torusGeometry args={[w, 0.14, 6, 20, Math.PI]} />{wood}</mesh>;
       })}
+      <pointLight position={[-4, 3.5, 4]} intensity={70} distance={26} color="#ffb060" />   {/* Noé's work lantern */}
       {k > 0.6 && [0.9, 1.9].map((y) => <mesh key={y} position={[0, y, 2.6]}><boxGeometry args={[15 * Math.min(1, (k - 0.6) / 0.4), 0.35, 0.15]} />{wood}</mesh>)}
     </group>
   );

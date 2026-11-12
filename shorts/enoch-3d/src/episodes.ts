@@ -8,6 +8,24 @@ import mouth2 from "./mouth_ep2.json";
 import { makeWhatif } from "./story/whatif.ts";
 import tlW from "./timeline_whatif.json";
 import mouthW from "./mouth_whatif.json";
+import { makeEp3 } from "./story/ep3.ts";
+import tl3 from "./timeline_ep3.json";
+import mouth3 from "./mouth_ep3.json";
+import { makeEp4 } from "./story/ep4.ts";
+import tl4 from "./timeline_ep4.json";
+import mouth4 from "./mouth_ep4.json";
+import { makeEp5 } from "./story/ep5.ts";
+import tl5 from "./timeline_ep5.json";
+import mouth5 from "./mouth_ep5.json";
+import { makeEp6 } from "./story/ep6.ts";
+import tl6 from "./timeline_ep6.json";
+import mouth6 from "./mouth_ep6.json";
+import { makeEp7 } from "./story/ep7.ts";
+import tl7 from "./timeline_ep7.json";
+import mouth7 from "./mouth_ep7.json";
+import { makeEp8 } from "./story/ep8.ts";
+import tl8 from "./timeline_ep8.json";
+import mouth8 from "./mouth_ep8.json";
 import { WhatifOverlay } from "./overlays/WhatifOverlay";
 
 const T1 = tl1 as TL;
@@ -51,4 +69,14 @@ export const WHATIF: EpisodeDef = {
   ],
   keywords: { météores: "#FFD60A", "deux": "#FFD60A", cents: "#FFD60A", hermon: "#E9C46A", "ce": "#fff", soir: "#FF6B5B", quarante: "#FFD60A", millions: "#FFD60A", ailes: "#9FD8FF", "abonnez-vous": "#7EE08A", azazel: "#FF6B5B", "d'azazel": "#FF6B5B", épées: "#FF6B5B", sécurité: "#7EE08A", kokabiel: "#C9A6FF", premium: "#C9A6FF", géants: "#FF6B5B", trois: "#FFD60A", mille: "#FFD60A", cinquante: "#FFD60A", mètres: "#FFD60A", supermarché: "#7EE08A", livraison: "#FF6B5B", crier: "#FF6B5B", archanges: "#9FD8FF", "raphaël": "#9FD8FF", uber: "#7EE08A" },
 };
-export const EPISODES: EpisodeDef[] = [EP1, EP2, WHATIF];
+// episodes built with makeStory carry their own audio and keywords
+const fromStory = (id: string, n: number, tl: TL, st: { frameAt: EpisodeDef["frameAt"]; audio: { score: string; scoreVol: number; beds: EpisodeDef["beds"]; sfx: EpisodeDef["sfx"] }; keywords: Record<string, string> }): EpisodeDef =>
+  ({ id, n, tl, frameAt: st.frameAt, ...st.audio, keywords: st.keywords });
+const M = (m: unknown) => m as Record<string, number[]>;
+export const EP3 = fromStory("ep3", 3, tl3 as TL, makeEp3(tl3 as TL, M(mouth3)));
+export const EP4 = fromStory("ep4", 4, tl4 as TL, makeEp4(tl4 as TL, M(mouth4)));
+export const EP5 = fromStory("ep5", 5, tl5 as TL, makeEp5(tl5 as TL, M(mouth5)));
+export const EP6 = fromStory("ep6", 6, tl6 as TL, makeEp6(tl6 as TL, M(mouth6)));
+export const EP7 = fromStory("ep7", 7, tl7 as TL, makeEp7(tl7 as TL, M(mouth7)));
+export const EP8 = fromStory("ep8", 8, tl8 as TL, makeEp8(tl8 as TL, M(mouth8)));
+export const EPISODES: EpisodeDef[] = [EP1, EP2, WHATIF, EP3, EP4, EP5, EP6, EP7, EP8];
