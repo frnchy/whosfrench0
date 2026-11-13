@@ -1,0 +1,30 @@
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020688.48 MB
+Memory reported by /proc/meminfo MemAvailable: 15115.52 MB
+You might have inadvertently set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Bundling 8%
+Bundling 69%
+Bundling 75%
+Bundling 81%
+Bundling 87%
+Bundling 93%
+Bundling 100%
+Getting composition
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020333.96 MB
+Memory reported by /proc/meminfo MemAvailable: 14827.87 MB
+You might have inadvertently set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Composition          ep5-Final
+Format               png
+Output               out/ep5/thumbnail.png
+Rendered 0/1
+Rendered 0/1
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093020329.11 MB
+Memory reported by /proc/meminfo MemAvailable: 14797.79 MB
+You might have inadvertently set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Rendered 1/1
++                    out/ep5/thumbnail.png
