@@ -35,6 +35,6 @@ Cartoon parody, 48 s, cut to the user-supplied track (`public/bibi_song.mp3`, be
 ## House style for new videos
 
 - Frame 0 must grab the eye: the hook caption and the main character are already on screen.
-- Cuts and gags land on beats of the supplied track.
+- Cuts and gags land on beats of the supplied track. Every snare gets a small white flash and a shake, without a scene change (`snareFx` in `src/episodes.ts`).
 - Jokey captions, not factual narration. A seamless loop is not required.
 - (Dropped on request: "bright colours only" and "something new every 0.5 s". `bright: true` in `src/episodes.ts` still exists if wanted.)

@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import {execFileSync} from 'node:child_process';
 const LEN = 45, START = 119.335 - 95; // file time of the beat the video opens on
 const beats = fs.readFileSync('plan/bibi_beat_map.csv', 'utf8').trim().split('\n').slice(1).map((l) => l.split(','))
-  .map((c) => ({t: +(+c[2] - 95 - START).toFixed(3), s: +c[3]})).filter((b) => b.t >= 0 && b.t < LEN);
+  .map((c) => ({t: +(+c[2] - 95 - START).toFixed(3), s: +c[3], snare: c[4] === 'SNARE/CLAP'})).filter((b) => b.t >= 0 && b.t < LEN);
 fs.writeFileSync('plan/homegirl.json', JSON.stringify({length: LEN, beats}));
 execFileSync('ffmpeg', ['-v', 'error', '-y', '-ss', String(START), '-i', 'public/bibi_song.mp3', '-t', String(LEN), '-af', `afade=t=out:st=${LEN - 0.6}:d=0.6`, '-ar', '48000', 'public/homegirl_music.wav']);
 console.log(beats.length, 'beats');

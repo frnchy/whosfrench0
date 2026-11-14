@@ -15,10 +15,11 @@ const stroke = (px: number): React.CSSProperties => ({ WebkitTextStroke: `${px}p
 function shake(t: number, ep: Ep) {
   let x = 0, y = 0, s = 1;
   const g = ep.shake(t);
+  const hit = (snare?: boolean) => (!ep.snareFx ? 1 : snare ? 1.7 : 0.25); // snares punch, other beats barely move
   for (const b of ep.beats) {
     const dt = t - b.t;
     if (dt < 0 || dt > 0.22) continue;
-    const k = Math.pow(1 - dt / 0.22, 2) * b.s * g;
+    const k = Math.pow(1 - dt / 0.22, 2) * b.s * g * hit(b.snare);
     const a = rnd(b.t * 100) * Math.PI * 2;
     x += Math.cos(a) * 7 * k; y += Math.sin(a) * 7 * k; s += 0.012 * k;
   }
@@ -98,7 +99,9 @@ export const WhatIfVideo: React.FC<{ clean?: boolean; still?: number; title?: bo
   const warm = w.warm;
   const grade = ep.bright ? 'saturate(1.35) brightness(1.06)' : `saturate(${lerp(0.5, 1.2, warm)}) contrast(${lerp(0.95, 1.06, warm)}) brightness(${lerp(0.92, 1.04, warm)})`;
   const flip = onBeat(ev(7, 'attention'));
-  const flash = epId !== 'class' ? w.flash ?? 0 : t >= flip && t < flip + 0.1 ? 1 - (t - flip) / 0.1 : 0;
+  // a small white flash on every snare (well under 3 per second, low opacity)
+  const snareFlash = ep.snareFx ? Math.max(0, ...ep.beats.filter((b) => b.snare && t >= b.t && t < b.t + 0.1).map((b) => 0.22 * (1 - (t - b.t) / 0.1))) : 0;
+  const flash = epId !== 'class' ? Math.max(w.flash ?? 0, snareFlash) : t >= flip && t < flip + 0.1 ? 1 - (t - flip) / 0.1 : 0;
   return (
     <AbsoluteFill style={{ backgroundColor: '#000', overflow: 'hidden' }}>
       <AbsoluteFill style={{ transform: `translate(${sk.x}px, ${sk.y}px) scale(${sk.s})`, filter: grade }}>

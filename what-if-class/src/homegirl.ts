@@ -5,7 +5,7 @@ import { shell, bedroom } from './bibi';
 import { Builder, buildChar, LOOKS, rnd, clamp, easeOut, lerp, type Char, type World, type V3, type Cam, type Pose, type Look, type Expr } from './world';
 
 export const LEN = plan.length;
-export const BEATS: { t: number; s: number }[] = plan.beats;
+export const BEATS: { t: number; s: number; snare: boolean }[] = plan.beats;
 
 // ---------- cast (the homeboy keeps hoodie, jeans, shoes and skin: same person) ----------
 const HB: Look = { skin: '#8a5a3c', top: '#ffd60a', pants: '#3d7bd9', shoe: '#ffffff', hair: '#1a1a1a', style: 'spiky' };
