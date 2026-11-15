@@ -1,8 +1,8 @@
 # Validator report
 
-Frames checked: 870 (29s @ 30fps)  
-Box pairs tested for interpenetration: 1619  
-Hand–phone frames: 0 · thumb taps detected: 0 · foot checks: 2448 · seat checks: 0 · rest checks: 0
+Frames checked: 840 (28s @ 30fps)  
+Box pairs tested for interpenetration: 1568  
+Hand–phone frames: 0 · thumb taps detected: 0 · foot checks: 2416 · seat checks: 0 · rest checks: 0
 
 | Rule | Threshold | Violations |
 |---|---|---|

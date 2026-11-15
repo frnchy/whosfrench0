@@ -30,7 +30,7 @@ Cartoon parody, 48 s, cut to the user-supplied track (`public/bibi_song.mp3`, be
 
 ## Episode 3: "What if your homeboy turned into a girl?" (captions only)
 
-29 s, `src/homegirl.ts`, same track from the first fast beat after the drop. Build: `node scripts/build-homegirl.mjs`, check: `EP=homegirl npx -y tsx sim/validate.ts`, render: `npx remotion render Homegirl out/homegirl_raw.mp4`.
+28 s, `src/homegirl.ts`, same track from the first fast beat after the drop. Build: `node scripts/build-homegirl.mjs`, check: `EP=homegirl npx -y tsx sim/validate.ts`, render: `npx remotion render Homegirl out/homegirl_raw.mp4`.
 
 ## House style for new videos
 
