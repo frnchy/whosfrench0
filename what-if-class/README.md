@@ -30,11 +30,11 @@ Cartoon parody, 48 s, cut to the user-supplied track (`public/bibi_song.mp3`, be
 
 ## Episode 3: "What if your homeboy turned into a girl?" (captions only)
 
-45 s, `src/homegirl.ts`, same track from the first fast beat after the drop. Build: `node scripts/build-homegirl.mjs`, check: `EP=homegirl npx -y tsx sim/validate.ts`, render: `npx remotion render Homegirl out/homegirl_raw.mp4`.
+29 s, `src/homegirl.ts`, same track from the first fast beat after the drop. Build: `node scripts/build-homegirl.mjs`, check: `EP=homegirl npx -y tsx sim/validate.ts`, render: `npx remotion render Homegirl out/homegirl_raw.mp4`.
 
 ## House style for new videos
 
 - Frame 0 must grab the eye: the hook caption and the main character are already on screen.
-- Cuts and gags land on beats of the supplied track. Every snare gets a small white flash and a shake, without a scene change (`snareFx` in `src/episodes.ts`).
+- Cuts, captions and gags land on SNARES only (never kicks), about one event per snare interval closest to 0.8 s. Every snare gets a small white flash and a shake, without a scene change (`snareFx` in `src/episodes.ts`).
 - Jokey captions, not factual narration. A seamless loop is not required.
 - (Dropped on request: "bright colours only" and "something new every 0.5 s". `bright: true` in `src/episodes.ts` still exists if wanted.)

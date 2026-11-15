@@ -1,7 +1,7 @@
 // Episode 3: starts on the first fast beat after the drop of the same track, so frame 0 lands on a beat.
 import fs from 'node:fs';
 import {execFileSync} from 'node:child_process';
-const LEN = 45, START = 119.335 - 95; // file time of the beat the video opens on
+const LEN = 29, START = 119.335 - 95; // file time of the beat the video opens on
 const beats = fs.readFileSync('plan/bibi_beat_map.csv', 'utf8').trim().split('\n').slice(1).map((l) => l.split(','))
   .map((c) => ({t: +(+c[2] - 95 - START).toFixed(3), s: +c[3], snare: c[4] === 'SNARE/CLAP'})).filter((b) => b.t >= 0 && b.t < LEN);
 fs.writeFileSync('plan/homegirl.json', JSON.stringify({length: LEN, beats}));

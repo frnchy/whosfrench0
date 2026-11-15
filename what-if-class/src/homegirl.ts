@@ -59,7 +59,7 @@ function confetti(b: Builder, t: number) {
   for (let i = 0; i < 60; i++) b.part(null, `conf${i}`, 'box', [0.07, 0.012, 0.1], [(rnd(i + 11) - 0.5) * 3.2, 3.2 - ((t * (0.9 + rnd(i) * 0.6) + rnd(i + 3) * 3.2) % 3.2), -0.6 + rnd(i + 21) * 1.6], ['#ff4fa3', '#19c8ff', '#ffd60a', '#ffffff'][i % 4], { solid: false, flat: true }, [t * 3 + i, i, t * 2]);
 }
 
-// ---------- the script: [seconds, caption, set, shot] — each start is snapped to a beat ----------
+// ---------- the script: [unused seconds, caption, set, shot] — starts come from the snare grid below ----------
 const E: [number, string, string, (c: Ctx) => Shot][] = [
   [1.9, 'THIS IS YOUR HOMEBOY.', 'room', (c) => ({ chars: [boy(0, 'joy', dance(c))], cam: SOLO })],
   [1.2, 'ONE MORNING…', 'room', () => face(boy(0, 'side'))],
@@ -72,16 +72,16 @@ const E: [number, string, string, (c: Ctx) => Shot][] = [
   [1.4, 'HER: "BRO."', 'room', () => face(girl(0, 'side'))],
   [1.5, 'SAME HOODIE.', 'den', (c) => ({ chars: [girl(0, 'happy', { mode: 'stand', armL: [0, -1.2], armR: [0, 1.2] })], cam: SOLO, props: (b) => sym(b, 's', 'SAME', [0.4, 1.5, 0.3], 0.5, c) })],
   [1.7, 'SAME $20 SHE OWES YOU.', 'den', (c) => ({ chars: [you(-0.42, 'side', still, { gaze: [0.42, 1.1, 0] }), girl(0.42, 'happy')], cam: DUO, props: (b) => sym(b, 's', '$20', [0, 1.75, 0], 0.8, c) })],
-  [2.0, 'STILL COOKS YOU AT VIDEO GAMES.', 'den', (c) => ({ chars: [you(-0.42, 'sad'), girl(0.42, 'joy', dance(c))], cam: DUO, props: (b) => sym(b, 's', `${Math.min(c.n + 3, 7)}-0`, [0, 1.85, 0], 0.9, c) })],
+  [2.0, 'STILL COOKS YOU AT VIDEO GAMES.', 'den', (c) => ({ chars: [you(-0.42, 'sad'), girl(0.42, 'joy', dance(c))], cam: DUO, props: (b) => sym(b, 's', `${Math.min(c.n + 6, 7)}-0`, [0, 1.85, 0], 0.9, c) })],
   [1.2, '7–0.', 'den', () => face(you(0, 'cry'))],
   [1.9, 'STILL STEALS YOUR FRIES.', 'den', (c) => ({ chars: [you(-0.42, 'shock', still, { gaze: [0.42, 1.3, 0] }), girl(0.42, 'joy')], cam: DUO, props: (b) => fries(b, [lerp(-0.42, 0.42, easeOut(c.lt / 0.9)), 1.62, 0.1]) })],
   [1.2, 'BUT NOW…', 'den', () => face(girl(0, 'happy'))],
   [1.9, 'YOUR MOM LIKES HER MORE.', 'home', (c) => ({ chars: [you(-0.66, 'sad'), mk('mom', MOM, 0, 'joy', { mode: 'stand', armL: [-1.4, -0.9] }, { gaze: [0.66, 1.1, 0] }), girl(0.66, 'joy')], cam: TRIO, props: (b) => sym(b, 's', 'FAVE', [0.66, 1.8, 0], 0.7, c) })],
   [1.9, 'SHE GETS FREE FOOD.', 'shop', (c) => ({ chars: [mk('clerk', CLERK, -0.42, 'happy', still, { gaze: [0.42, 1.1, 0] }), girl(0.42, 'joy')], cam: DUO, props: (b) => { burger(b, [lerp(-0.3, 0.3, easeOut(c.lt / 0.9)), 1.45, 0.15], c.t * 2); sym(b, 's', 'FREE', [0, 1.9, 0], 0.7, c); } })],
-  [1.9, 'YOU GET CHARGED EXTRA.', 'shop', (c) => ({ chars: [mk('clerk', CLERK, -0.42, 'side'), you(0.42, 'shock')], cam: DUO, props: (b) => sym(b, 's', `$${9 + Math.min(c.n, 4) * 5}.99`, [0, 1.85, 0], 0.9, c) })],
+  [1.9, 'YOU GET CHARGED EXTRA.', 'shop', (c) => ({ chars: [mk('clerk', CLERK, -0.42, 'side'), you(0.42, 'shock')], cam: DUO, props: (b) => sym(b, 's', `$${19 + Math.min(c.n, 1) * 10}.99`, [0, 1.85, 0], 0.9, c) })],
   [1.9, 'YOUR CRUSH TEXTS HER.', 'out', (c) => ({ chars: [mk('crush', CRUSH, -0.42, 'joy', dance(c, 1)), girl(0.42, 'joy', dance(c))], cam: DUO, props: (b) => sym(b, 's', 'BFF', [0, 1.85, 0], 0.8, c) })],
   [1.2, 'NOT YOU.', 'out', () => face(you(0, 'cry'))],
-  [1.9, 'THE BOYS ARE CONFUSED.', 'out', (c) => ({ chars: BOYS.map((l, i) => mk(`boy${i}`, l, (i - 1) * 0.66, i === 1 ? 'shock' : 'side')), cam: TRIO, props: (b) => { for (let i = 0; i <= Math.min(c.n, 2); i++) sym(b, `q${i}`, '?', [(i - 1) * 0.66, 1.75, 0], 0.5, { ...c, lt: c.since + (c.n > i ? 1 : 0) }); } })],
+  [1.9, 'THE BOYS ARE CONFUSED.', 'out', (c) => ({ chars: BOYS.map((l, i) => mk(`boy${i}`, l, (i - 1) * 0.66, i === 1 ? 'shock' : 'side')), cam: TRIO, props: (b) => { for (let i = 0; i < 3; i++) sym(b, `q${i}`, '?', [(i - 1) * 0.66, 1.75, 0], 0.5, c); } })],
   [1.9, 'SHE STILL BURPS THE LOUDEST.', 'out', (c) => ({ chars: [girl(0, 'shock', { mode: 'stand', lean: -0.15, armL: [0, -0.8], armR: [0, 0.8] })], cam: SOLO, props: (b) => sym(b, 's', 'BUURP', [0.12, 1.55, 0.4], 0.5 + 0.3 * easeOut(c.lt / 1.2), c) })],
   [1.4, 'RESPECT.', 'out', (c) => ({ chars: BOYS.map((l, i) => mk(`boy${i}`, l, (i - 1) * 0.66, 'joy', dance(c, i))), cam: TRIO })],
   [1.5, 'YOU: "TURN BACK?"', 'den', () => face(you(0, 'sad'))],
@@ -92,15 +92,17 @@ const E: [number, string, string, (c: Ctx) => Shot][] = [
   [2.4, '…STILL OWES YOU $20.', 'room', () => face(you(0, 'side'))],
   [9, 'SEND THIS TO YOUR HOMEBOY.', 'out', (c) => ({ chars: [you(-0.42, 'joy', dance(c, 1)), girl(0.42, 'joy', dance(c))], cam: DUO, props: (b) => confetti(b, c.t) })],
 ];
-const near = (t: number) => BEATS.reduce((a, b) => (Math.abs(b.t - t) < Math.abs(a.t - t) ? b : a)).t;
-const STARTS = E.reduce<number[]>((acc, _, k) => [...acc, k ? near(acc[k - 1] + E[k - 1][0]) : 0], []);
+// Everything is timed to SNARES only (never kicks): each entry starts on the snare closest to STEP seconds after the last one.
+const SN = BEATS.filter((b) => b.snare), STEP = 0.8;
+const next = (prev: number) => SN.filter((b) => b.t > prev + 0.1).reduce((a, b) => (Math.abs(b.t - prev - STEP) < Math.abs(a.t - prev - STEP) ? b : a)).t;
+const STARTS = E.reduce<number[]>((acc, _, k) => [...acc, k ? next(acc[k - 1]) : 0], []);
 if (STARTS.some((s, k) => k && s <= STARTS[k - 1])) throw new Error('script entries collapsed onto one beat');
 if (STARTS[STARTS.length - 1] > LEN - 1.5) throw new Error('script overruns the video');
 
 export const caps = E.map(([, text], k) => ({ text, start: STARTS[k], end: STARTS[k + 1] ?? LEN }));
 // "bro" count jumps with each new joke
 const TICKS = E.reduce<number[]>((acc, _, k) => [...acc, k < 2 ? 0 : (acc[k - 1] ?? 0) + 1 + Math.floor(rnd(k) * 12)], []);
-const beatIdx = (t: number) => { let i = 0; while (i + 1 < BEATS.length && BEATS[i + 1].t <= t + 1e-6) i++; return i; };
+const beatIdx = (t: number) => { let i = 0; while (i + 1 < SN.length && SN[i + 1].t <= t + 1e-6) i++; return i; };
 const entryAt = (t: number) => { let k = 0; while (k + 1 < E.length && t >= STARTS[k + 1]) k++; return k; };
 export const counterAt = (t: number) => { const k = entryAt(t); return { value: TICKS[k], from: TICKS[k - 1] ?? 0, since: t - STARTS[k] }; };
 export const titleAt = (t: number) => t < STARTS[2];
@@ -108,7 +110,7 @@ export const THUMB_T = STARTS[3] + 0.6;
 
 export function world(t: number): World {
   const k = entryAt(t), bi = beatIdx(t);
-  const c: Ctx = { t, lt: t - STARTS[k], since: t - BEATS[bi].t, bi, n: bi - beatIdx(STARTS[k]) };
+  const c: Ctx = { t, lt: t - STARTS[k], since: t - SN[bi].t, bi, n: bi - beatIdx(STARTS[k]) };
   const shot = E[k][3](c), set = SETS[E[k][2]];
   const b = new Builder('env');
   set.build(b);

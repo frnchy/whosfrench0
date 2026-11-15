@@ -15,7 +15,7 @@ const stroke = (px: number): React.CSSProperties => ({ WebkitTextStroke: `${px}p
 function shake(t: number, ep: Ep) {
   let x = 0, y = 0, s = 1;
   const g = ep.shake(t);
-  const hit = (snare?: boolean) => (!ep.snareFx ? 1 : snare ? 1.7 : 0.25); // snares punch, other beats barely move
+  const hit = (snare?: boolean) => (!ep.snareFx ? 1 : snare ? 1.7 : 0); // only snares shake, never kicks
   for (const b of ep.beats) {
     const dt = t - b.t;
     if (dt < 0 || dt > 0.22) continue;
