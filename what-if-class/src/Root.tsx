@@ -3,6 +3,7 @@ import { WhatIfVideo } from './Video';
 import { FPS, TL } from './world';
 import { LEN, THUMB_T } from './bibi';
 import * as H from './homegirl';
+import * as Q from './iq';
 
 const D = Math.round(TL.length * FPS);
 export const RemotionRoot: React.FC = () => (
@@ -15,5 +16,7 @@ export const RemotionRoot: React.FC = () => (
     <Still id="BibiThumbnail" component={WhatIfVideo} width={1080} height={1920} defaultProps={{ ep: 'bibi' as const, still: THUMB_T, title: true }} />
     <Composition id="Homegirl" component={WhatIfVideo} durationInFrames={H.LEN * FPS} fps={FPS} width={1080} height={1920} defaultProps={{ ep: 'homegirl' as const }} />
     <Still id="HomegirlThumbnail" component={WhatIfVideo} width={1080} height={1920} defaultProps={{ ep: 'homegirl' as const, still: H.THUMB_T, title: true }} />
+    <Composition id="IQ" component={WhatIfVideo} durationInFrames={Q.LEN * FPS} fps={FPS} width={1080} height={1920} defaultProps={{ ep: 'iq' as const }} />
+    <Still id="IQThumbnail" component={WhatIfVideo} width={1080} height={1920} defaultProps={{ ep: 'iq' as const, still: Q.THUMB_T, title: true }} />
   </>
 );

@@ -16,7 +16,7 @@ export type Look = { skin: string; top: string; pants: string; shoe: string; hai
 export type Pose = { mode: 'stand' | 'sit' | 'air' | 'fly'; lift?: number; crouch?: number; lean?: number; head?: V3; armL?: [number, number]; armR?: [number, number]; sway?: number };
 export type Thumb = { u: number; v: number; lift: number };
 export type Hold = { item: 'phone' | 'paper' | 'chalk'; screen?: string; thumb?: Thumb };
-export type Char = { id: string; look: Look; pos: V3; rotY: number; pose: Pose; expr: Expr; gaze: V3; fg?: boolean; hold?: Hold; halo?: boolean; blush?: boolean; acc?: { tie?: string; pirate?: boolean; patch?: boolean; sash?: string; bow?: string } };
+export type Char = { id: string; look: Look; pos: V3; rotY: number; pose: Pose; expr: Expr; gaze: V3; fg?: boolean; hold?: Hold; halo?: boolean; blush?: boolean; headScale?: number; acc?: { tie?: string; pirate?: boolean; patch?: boolean; sash?: string; bow?: string } };
 export type Cam = { pos: V3; look: V3; fov: number; up?: V3 };
 export type World = {
   scene: string; t: number; flash?: number; cam: Cam; warm: number; blur: number; bg: string; heaven?: boolean;
@@ -121,6 +121,7 @@ export function buildChar(c: Char, t: number) {
   // head
   const h = p.head ?? [0, 0, 0];
   const neck = b.node(spine, [0, DIM.torso[1], 0], h, 'YXZ');
+  neck.scale.setScalar(c.headScale ?? 1); // grows upward from the neck, so it never sinks into the torso
   const head = b.node(neck, [0, DIM.head / 2, 0]);
   b.part(head, 'head', 'box', [DIM.head, DIM.head, DIM.head], [0, 0, 0], L.skin);
   // gaze -> pupil offset in head space

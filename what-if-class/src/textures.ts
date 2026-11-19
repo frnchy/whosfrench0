@@ -162,7 +162,9 @@ function paper() {
 
 function sym(s: string) {
   const [c, g] = mk(256, 256);
-  g.font = `bold ${s.length > 3 ? 70 : 150}px serif`; g.textAlign = 'center'; g.textBaseline = 'middle';
+  g.font = 'bold 150px serif';
+  const size = Math.min(s.length > 3 ? 70 : 150, Math.floor((150 * 226) / g.measureText(s).width)); // old sizes, but never wider than the canvas
+  g.font = `bold ${size}px serif`; g.textAlign = 'center'; g.textBaseline = 'middle';
   g.lineWidth = 10; g.strokeStyle = '#8a4b00'; g.strokeText(s, 128, 132);
   g.fillStyle = '#fff7d6'; g.fillText(s, 128, 132);
   return c;

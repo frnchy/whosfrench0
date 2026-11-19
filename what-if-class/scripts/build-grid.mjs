@@ -1,8 +1,13 @@
-// Episode 3: beat plan + music bed. Events are timed to the BACKBEAT (the snare on every 2nd beat), not to the
+// Beat plan + music bed for a snare-grid episode.
+// Usage: node scripts/build-grid.mjs <name> <song time to start from, s> <length, s>
+//   homegirl: node scripts/build-grid.mjs homegirl 119.335 28
+//   iq:       node scripts/build-grid.mjs iq 165.403 28 Events are timed to the BACKBEAT (the snare on every 2nd beat), not to the
 // detector's SNARE/KICK labels: those labels are noisy, which made the event spacing uneven.
 import fs from 'node:fs';
 import {execFileSync} from 'node:child_process';
-const LEN = 28, FROM = 119.335 - 95; // earliest file time the video may open on
+const [NAME, SONG_T, LEN_S] = process.argv.slice(2);
+if (!NAME || !SONG_T || !LEN_S) throw new Error('usage: build-grid.mjs <name> <song time> <length>');
+const LEN = +LEN_S, FROM = +SONG_T - 95; // the mp3 starts at song time 1:35; FROM = earliest file time the video may open on
 const hits = fs.readFileSync('plan/bibi_beat_map.csv', 'utf8').trim().split('\n').slice(1).map((l) => l.split(','))
   .map((c) => ({t: +c[2] - 95, s: +c[3], label: c[4]})).filter((h) => h.t >= FROM - 0.01 && h.t < FROM + LEN + 2);
 
@@ -32,6 +37,6 @@ for (let i = first.i; ; i += 4) {
 const out = beats.map((b) => ({...b, t: +(b.t - START).toFixed(3)})).filter((b) => b.t < LEN).sort((a, b) => a.t - b.t);
 const sn = out.filter((b) => b.snare).map((b) => b.t), steps = sn.slice(1).map((t, i) => t - sn[i]);
 if (Math.max(...steps) - Math.min(...steps) > 0.04) throw new Error('snare grid is not even: ' + Math.min(...steps) + '..' + Math.max(...steps));
-fs.writeFileSync('plan/homegirl.json', JSON.stringify({length: LEN, beats: out}));
-execFileSync('ffmpeg', ['-v', 'error', '-y', '-ss', String(START), '-i', 'public/bibi_song.mp3', '-t', String(LEN), '-af', `afade=t=out:st=${LEN - 0.6}:d=0.6`, '-ar', '48000', 'public/homegirl_music.wav']);
+fs.writeFileSync(`plan/${NAME}.json`, JSON.stringify({length: LEN, beats: out}));
+execFileSync('ffmpeg', ['-v', 'error', '-y', '-ss', String(START), '-i', 'public/bibi_song.mp3', '-t', String(LEN), '-af', `afade=t=out:st=${LEN - 0.6}:d=0.6`, '-ar', '48000', `public/${NAME}_music.wav`]);
 console.log(sn.length, 'snares, step', Math.min(...steps).toFixed(3), '..', Math.max(...steps).toFixed(3), 's, video opens at file time', START.toFixed(3));

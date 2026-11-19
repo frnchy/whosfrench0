@@ -30,7 +30,11 @@ Cartoon parody, 48 s, cut to the user-supplied track (`public/bibi_song.mp3`, be
 
 ## Episode 3: "What if your homeboy turned into a girl?" (captions only)
 
-28 s, `src/homegirl.ts`, same track from the first fast beat after the drop. Build: `node scripts/build-homegirl.mjs`, check: `EP=homegirl npx -y tsx sim/validate.ts`, render: `npx remotion render Homegirl out/homegirl_raw.mp4`.
+28 s, `src/homegirl.ts`, same track from the first fast beat after the drop. Build: `node scripts/build-grid.mjs homegirl 119.335 28`, check: `EP=homegirl npx -y tsx sim/validate.ts`, render: `npx remotion render Homegirl out/homegirl_raw.mp4`.
+
+## Episode 4: "What if your IQ kept increasing?" (captions only)
+
+28 s, `src/iq.ts` on the shared snare-grid engine `src/grid.ts`, track from song time 2:45. Build: `node scripts/build-grid.mjs iq 165.403 28`, check: `EP=iq npx -y tsx sim/validate.ts`, render: `npx remotion render IQ out/iq_raw.mp4`.
 
 ## House style for new videos
 
