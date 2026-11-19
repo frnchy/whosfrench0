@@ -55,4 +55,6 @@ const E: Entry[] = [
 ];
 // IQ per entry (-1 = ∞): slow at first, then silly
 const IQ = [100, 100, 101, 104, 140, 160, 210, 230, 300, 340, 450, 520, 700, 777, 1000, 1400, 2000, 3141, 5000, 6000, 9000, 50000, -1, -1, -1, 100, 100];
-export const { LEN, BEATS, caps, counterAt, titleAt, THUMB_T, world } = makeEpisode(plan, E, IQ);
+export const { LEN, BEATS, caps, counterAt, titleAt, world } = makeEpisode(plan, E, IQ);
+// thumbnail: the giant-head ∞ moment, not the default early frame
+export const THUMB_T = caps.find((c) => c.text === 'YOU UNDERSTAND EVERYTHING.')!.start + 0.45;
